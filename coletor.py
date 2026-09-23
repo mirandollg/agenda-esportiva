@@ -49,13 +49,12 @@ DEBUG_DIR = "debug"
 # A PARTIR DE QUANDO COLETAR
 #   0 = normal, de hoje em diante
 #   1 = so de amanha em diante
-#  -7 = MODO DE TESTE: aceita a ultima semana, para conferir o resultado
-#       com imagens ja publicadas. VOLTAR PARA 0 depois de conferir.
-PRIMEIRO_DIA = -7
+#  -7 = modo de teste: aceita a ultima semana, util para conferir a
+#       leitura de imagens ja publicadas
+PRIMEIRO_DIA = 0
 
 # Quantos dias manter no JSON final
-# (no modo de teste vale subir, para caber a semana toda)
-DIAS_A_MANTER = 10
+DIAS_A_MANTER = 3
 
 # Filtro de escopo. Lista vazia = manter tudo.
 # Exemplo: ESCOPO = ["brasileirao", "wnba", "moto gp", "nascar"]
