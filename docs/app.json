@@ -1,28 +1,28 @@
 {
-  "gerado_em": "2026-09-22T22:57:28-03:00",
+  "gerado_em": "2026-09-22T23:03:14-03:00",
   "primeiro_dia": "2026-09-22",
   "fontes": [
     "Esportes na TV (Bluesky)",
     "Doentes por Futebol",
     "Tomada de Tempo"
   ],
-  "total": 12,
+  "total": 29,
   "dias": [
     {
       "data": "2026-09-22",
       "eventos": [
         {
           "hora": "09:00",
-          "competicao": "gos Sul-Americanos",
-          "evento": "anta Fe 2026 - dia 10",
-          "canais": "outube ODESUR",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Santa Fe 2026 - dia 10",
+          "canais": "youtube ODESUR",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "13:45",
-          "competicao": "Champ. League (Fem.) Bay",
-          "evento": "ern Fx Manchester City F",
+          "competicao": "Champ. League (Fem.)",
+          "evento": "Bayern Fx Manchester City F",
           "canais": "ESPN4",
           "fonte": "esportesnatv",
           "confianca": "ocr"
@@ -30,7 +30,7 @@
         {
           "hora": "16:00",
           "competicao": "Champ. League (Fem.)",
-          "evento": "teal Madrid F x PSG F",
+          "evento": "Real Madrid F x PSG F",
           "canais": "ESPN",
           "fonte": "esportesnatv",
           "confianca": "ocr"
@@ -38,72 +38,213 @@
         {
           "hora": "18:00",
           "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - finais f",
-          "canais": "SPNA4, youtube",
+          "evento": "Atletismo - finais",
+          "canais": "ESPN4, youtube",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "19:30",
-          "competicao": "Brasileirão - Série B C",
-          "evento": "riciúma x Operário-PR",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Criciúma x Operário-PR",
           "canais": "Disney+",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "20:00",
-          "competicao": "Brasileirão sub-17 São",
-          "evento": "Paulo s17 x Palmeiras s17",
+          "competicao": "Brasileirão sub-17",
+          "evento": "São Paulo s17 x Palmeiras s17",
           "canais": "SPORTV",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "20:00",
-          "competicao": "Paulista de Basquete SF",
-          "evento": "1)- Franca x Paulistano BA",
-          "canais": "NDSPORTS, TV FPB",
+          "competicao": "Paulista de Basquete",
+          "evento": "SF (5.1) - Franca x Paulistano",
+          "canais": "BANDSPORTS, TV FPB",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "21:00",
-          "competicao": "5 WNBA Chic",
-          "evento": "ago Sky x Toronto Tempo y",
-          "canais": "utube NBA Brasil",
+          "competicao": "Copa LNF Futsal",
+          "evento": "SF - Juventude-MS x ACBF",
+          "canais": "XSPORTS, voutube",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "21:00",
-          "competicao": "5 WNBA Indi:",
-          "evento": "na Fever x Minnesota Lynx",
+          "competicao": "WNBA",
+          "evento": "Indiana Fever x Minnesota Lynx",
           "canais": "ESPN2",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "21:00",
-          "competicao": "Copa LNF Futsal SF",
-          "evento": "Juventude-MS x ACBF X:",
-          "canais": "SPORTS, youtube",
+          "competicao": "WNBA",
+          "evento": "Chicago Sky x Toronto Tempo",
+          "canais": "youtube NBA Brasil",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "23:00",
-          "competicao": "6) WNBA La:",
-          "evento": "Vegas Aces x LA Sparks",
+          "competicao": "WNBA",
+          "evento": "Las Vegas Aces x LA Sparks",
           "canais": "ESPN2",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         },
         {
           "hora": "23:10",
-          "competicao": "69 MLB LAD",
-          "evento": "odgers x San Diego Padres",
+          "competicao": "MLB",
+          "evento": "LA Dodgers x San Diego Padres",
           "canais": "ESPN3",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-23",
+      "eventos": [
+        {
+          "hora": "04:45",
+          "competicao": "Boxe",
+          "evento": "Kameda x Hernandez Reyes",
+          "canais": "ESPN2",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "07:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Santa Fe 2026 - dia 11",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "07:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Atletismo - marcha atlética masc",
+          "canais": "ESPN4, youtube",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Atletismo - semifinais e finais",
+          "canais": "ESPN4, youtube",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "10:00",
+          "competicao": "Mundial sub20 Fem",
+          "evento": "SF - Itália s20 F x Espanha s20 F",
+          "canais": "SPORTV2, CazéTV",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "Amistoso",
+          "evento": "Gibraltar x São Tomé e Príncipe",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "13:30",
+          "competicao": "Mundial sub20 Fem",
+          "evento": "SF - Coreia do Norte x Colômbia F",
+          "canais": "SPORTV2, CazéTV",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "13:45",
+          "competicao": "Champ. League (Fem.)",
+          "evento": "Servette-SUI F x Lyon F",
+          "canais": "ESPN4",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Taekwondo - finais",
+          "canais": "youtube ESPN Brasil",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Estrelas Fut. Fem. s20",
+          "evento": "SF - Flamengo s20 F x Paraguai F",
+          "canais": "XSPORTS",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champ. League (Fem.)",
+          "evento": "Barcelona F x Paris FC F",
+          "canais": "ESPN",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Copa Sulde Futsal",
+          "evento": "Campo Mourão x Caçador",
+          "canais": "BANDSPORTS, CBFS TV",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "18:00",
+          "competicao": "Estrelas Fut. Fem. s20",
+          "evento": "SF - São Paulo s20 Fx R. Madrid F",
+          "canais": "XSPORTS",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "18:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Atletismo - finais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Paulista Vôlei Fem",
+          "evento": "Pinheiros x SESI-Bauru",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Paulista de Basquete",
+          "evento": "SF - Corinthians x Mogi (0-1)",
+          "canais": "BANDSPORTS, TV FPB",
+          "fonte": "esportesnatv",
+          "confianca": "ocr"
+        },
+        {
+          "hora": "20:10",
+          "competicao": "MLB",
+          "evento": "Boston Red Sox x Clev. Guardians",
+          "canais": "ESPN2",
           "fonte": "esportesnatv",
           "confianca": "ocr"
         }
