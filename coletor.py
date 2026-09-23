@@ -5,8 +5,7 @@ Coletor de agenda esportiva.
 
 Fontes:
   1. Esportes na TV (Bluesky) -> imagem da agenda do dia, lida por OCR celula a celula
-  2. Doentes por Futebol      -> HTML em texto, usado como fonte e como conferente do OCR
-  3. Tomada de Tempo          -> automobilismo, via API REST do WordPress
+  2. Tomada de Tempo          -> automobilismo, via API REST do WordPress
 
 Saida: docs/app.json  (publicado pelo GitHub Pages)
 """
@@ -36,7 +35,6 @@ DID = "did:plc:lngl4ki52wbunv2xzq74bqbb"
 BSKY_API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
 BSKY_LIMITE = 20  # quantos posts puxar do feed (a agenda eh diaria)
 
-DPF_URL = "https://doentesporfutebol.com.br/guiadejogos/"
 TDT_API = "https://www.tomadadetempo.com.br/wp-json/wp/v2/posts"
 
 SAIDA = "docs/app.json"
@@ -52,11 +50,23 @@ PRIMEIRO_DIA = 0
 DIAS_A_MANTER = 3
 
 # Filtro de escopo. Lista vazia = manter tudo.
-# Exemplo: ESCOPO = ["brasileiro", "libertadores", "copa do brasil", "f1", "motogp"]
+# Exemplo: ESCOPO = ["brasileirao", "libertadores", "wnba", "f1", "motogp"]
 ESCOPO = []
 
 # Proporcoes de largura das 4 colunas, usadas so se a deteccao falhar
 CORTES_PADRAO = [0.0, 0.125, 0.445, 0.805, 1.0]
+
+# Erros recorrentes do OCR nos nomes de canal
+CORRECOES_CANAL = {
+    "voutube": "youtube",
+    "vutube": "youtube",
+    "youtub": "youtube",
+    "sportv2": "SPORTV2",
+    "sportv3": "SPORTV3",
+    "bandsports": "BANDSPORTS",
+    "xsports": "XSPORTS",
+    "espna": "ESPN4",
+}
 
 TZ_BR = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "agenda-esportiva-bot/1.0 (uso pessoal)"}
@@ -98,6 +108,27 @@ def limpar_competicao(txt):
     return txt[m.start():].strip() if m else txt
 
 
+def limpar_confronto(txt):
+    """
+    Conserta o 'x' colado no marcador de time feminino:
+    'Bayern Fx Manchester City F' -> 'Bayern F x Manchester City F'.
+    So age quando antes do x ha UMA letra maiuscula isolada, entao nao
+    estraga nomes que terminam em x, como 'Red Sox x Guardians'.
+    """
+    txt = limpar(txt)
+    return re.sub(r"\b([A-Z])x(?=\s)", r"\1 x", txt)
+
+
+def limpar_canais(txt):
+    txt = limpar(txt)
+    partes = [p.strip() for p in re.split(r"[,;]", txt) if p.strip()]
+    saida = []
+    for parte in partes:
+        chave = normalizar(parte)
+        saida.append(CORRECOES_CANAL.get(chave, parte))
+    return ", ".join(saida)
+
+
 def normalizar_hora(bruto):
     """
     Converte '20h00', '20:00', '2Oh0O' etc para 'HH:MM'.
@@ -118,7 +149,7 @@ def normalizar_hora(bruto):
     return f"{hora:02d}:{minuto:02d}"
 
 
-def parecido(a, b, corte=0.72):
+def parecido(a, b, corte=0.8):
     return SequenceMatcher(None, normalizar(a), normalizar(b)).ratio() >= corte
 
 
@@ -232,15 +263,14 @@ def detectar_colunas(corpo, largura):
 
     for limiar in (215, 200, 185, 170):
         seps = _faixas_claras(perfil_min, limiar, minimo=1)
-        # descarta separadores grudados na borda
         seps = [(a, b) for (a, b) in seps if a > largura * 0.04 and b < largura * 0.97]
         blocos = _blocos_entre(seps, largura, minimo=int(largura * 0.05))
         if len(blocos) == 4:
             return blocos, f"minimo>={limiar}"
 
-    cortes = CORTES_PADRAO
     blocos = [
-        (int(cortes[i] * largura), int(cortes[i + 1] * largura)) for i in range(4)
+        (int(CORTES_PADRAO[i] * largura), int(CORTES_PADRAO[i + 1] * largura))
+        for i in range(4)
     ]
     return blocos, "proporcao padrao"
 
@@ -253,9 +283,10 @@ def detectar_linhas(cinza, altura, largura):
         linhas = _blocos_entre(seps, altura, minimo=14)
         if len(linhas) >= 3:
             return linhas
-    # ultimo recurso: media
     perfil_media = cinza.mean(axis=1)
-    seps = _faixas_claras(perfil_media, max(235.0, float(np.percentile(perfil_media, 90))), 2)
+    seps = _faixas_claras(
+        perfil_media, max(235.0, float(np.percentile(perfil_media, 90))), 2
+    )
     return _blocos_entre(seps, altura, minimo=14)
 
 
@@ -302,7 +333,7 @@ def ler_agenda_imagem(url, data_iso, indice=0):
     colunas, metodo = detectar_colunas(corpo, largura)
     log(
         f"  imagem {indice} ({largura}x{altura}): {len(linhas)} linha(s), "
-        f"colunas por {metodo} -> {[c for c in colunas]}"
+        f"colunas por {metodo}"
     )
 
     eventos = []
@@ -320,10 +351,9 @@ def ler_agenda_imagem(url, data_iso, indice=0):
             {
                 "hora": hora,
                 "competicao": limpar_competicao(ler_celula(celulas[1], psm=7)),
-                "evento": limpar(ler_celula(celulas[2], psm=7)),
-                "canais": limpar(ler_celula(celulas[3], psm=7)),
+                "evento": limpar_confronto(ler_celula(celulas[2], psm=7)),
+                "canais": limpar_canais(ler_celula(celulas[3], psm=7)),
                 "fonte": "esportesnatv",
-                "confianca": "ocr",
             }
         )
 
@@ -346,114 +376,7 @@ def coletar_esportesnatv():
 
 
 # ----------------------------------------------------------------------------
-# FONTE 2 — DOENTES POR FUTEBOL (HTML, so futebol)
-# ----------------------------------------------------------------------------
-
-
-def _quebrar_evento_dpf(linha):
-    """
-    A pagina usa <br> dentro do mesmo bloco, entao a entrada costuma vir
-    numa linha so:
-        '13:45 UEFA Champions League Feminina Bayern x Man City ESPN4'
-    Separa pelos simbolos de relogio e de TV.
-    """
-    linha = linha.replace("🕗", "").strip()
-    partes = [limpar(p) for p in linha.split("📺")]
-    principal = partes[0]
-    canais = limpar(partes[1]) if len(partes) > 1 else ""
-
-    m = re.match(r"^\s*(\d{1,2}[:h]\d{2})\s+(.*)$", principal)
-    if not m:
-        return None
-    hora = normalizar_hora(m.group(1))
-    resto = limpar(m.group(2))
-    return hora, resto, canais
-
-
-def coletar_dpf():
-    """
-    Estrutura da pagina:
-        TERCA-FEIRA - 22/09/2026
-        (relogio) 20:00 Campeonato Brasileiro Serie A Sub-17
-        Sao Paulo x Palmeiras
-        (tv) SPORTV
-    """
-    corte = data_corte()
-    r = requests.get(DPF_URL, headers=UA, timeout=45)
-    r.raise_for_status()
-    sopa = BeautifulSoup(r.text, "html.parser")
-    for tag in sopa(["script", "style", "nav", "footer"]):
-        tag.decompose()
-
-    # <br> nao produz texto: sem isso, hora, jogo e canal grudam numa linha so
-    for br in sopa.find_all("br"):
-        br.replace_with("\n")
-
-    linhas = [limpar(l) for l in sopa.get_text("\n").split("\n")]
-    linhas = [l for l in linhas if l]
-    salvar_debug("dpf_texto.txt", "\n".join(linhas))
-
-    dias = {}
-    data_atual = None
-    i = 0
-    while i < len(linhas):
-        linha = linhas[i]
-
-        m_data = re.search(r"(\d{2})/(\d{2})/(\d{4})", linha)
-        if m_data and re.search(
-            r"(SEGUNDA|TER[CÇ]A|QUARTA|QUINTA|SEXTA|S[ÁA]BADO|DOMINGO)", linha, re.I
-        ):
-            data_atual = f"{m_data.group(3)}-{m_data.group(2)}-{m_data.group(1)}"
-            if data_atual >= corte:
-                dias.setdefault(data_atual, [])
-            i += 1
-            continue
-
-        tem_hora = re.match(r"^[^\d]{0,4}(\d{1,2}[:h]\d{2})\s+", linha)
-        if tem_hora and data_atual and data_atual >= corte:
-            hora, competicao, canais = (None, "", "")
-            quebrado = _quebrar_evento_dpf(linha)
-            if quebrado:
-                hora, competicao, canais = quebrado
-
-            evento = ""
-            if not canais:
-                # caso o <br> tenha virado quebra de verdade: le as proximas
-                for j in range(i + 1, min(i + 4, len(linhas))):
-                    seguinte = linhas[j]
-                    if "📺" in seguinte:
-                        canais = limpar(seguinte.replace("📺", ""))
-                        i = j
-                        break
-                    if not evento:
-                        evento = limpar(seguinte)
-            else:
-                # tudo veio junto: o jogo eh o final do texto, depois da
-                # competicao. Separa no ultimo ' x ' encontrado.
-                m_jogo = re.search(r"^(.*?)\s+([^,;]+\s+x\s+[^,;]+)$", competicao, re.I)
-                if m_jogo:
-                    competicao, evento = limpar(m_jogo.group(1)), limpar(m_jogo.group(2))
-
-            if hora and (evento or competicao):
-                dias.setdefault(data_atual, []).append(
-                    {
-                        "hora": hora,
-                        "competicao": competicao,
-                        "evento": evento or competicao,
-                        "canais": canais,
-                        "fonte": "dpf",
-                        "confianca": "texto",
-                    }
-                )
-        i += 1
-
-    total = sum(len(v) for v in dias.values())
-    log(f"DPF: {total} evento(s) em {len(dias)} dia(s) a partir de {corte}")
-    return dias
-
-
-# ----------------------------------------------------------------------------
-# FONTE 3 — TOMADA DE TEMPO (automobilismo, WordPress REST)
+# FONTE 2 — TOMADA DE TEMPO (automobilismo, WordPress REST)
 # ----------------------------------------------------------------------------
 
 
@@ -478,6 +401,7 @@ def coletar_tomada_de_tempo():
         log(f"Tomada de Tempo: falhou ({e})")
         return {}
 
+    log(f"Tomada de Tempo: {len(posts)} post(s) encontrados")
     dias = {}
     for n, post in enumerate(posts):
         titulo = limpar(
@@ -529,7 +453,6 @@ def coletar_tomada_de_tempo():
                     "evento": descricao,
                     "canais": canais,
                     "fonte": "tomadadetempo",
-                    "confianca": "texto",
                 }
             )
 
@@ -539,51 +462,17 @@ def coletar_tomada_de_tempo():
 
 
 # ----------------------------------------------------------------------------
-# CRUZAMENTO E MONTAGEM
+# MONTAGEM
 # ----------------------------------------------------------------------------
 
 
-def corrigir_ocr_com_texto(eventos_ocr, eventos_texto):
-    """
-    Onde o mesmo jogo aparece nas duas fontes, o texto manda.
-    Compara por hora e por semelhanca do confronto; o OCR erra letras,
-    mas raramente a ponto de derrubar a semelhanca.
-    """
-    corrigidos = 0
-    saida = []
-    for ev in eventos_ocr:
-        melhor = None
-        for ref in eventos_texto:
-            if ref["hora"] != ev["hora"]:
-                continue
-            alvo_ocr = f"{ev['competicao']} {ev['evento']}"
-            alvo_ref = f"{ref['competicao']} {ref['evento']}"
-            if parecido(ref["evento"], ev["evento"]) or parecido(alvo_ref, alvo_ocr, 0.6):
-                melhor = ref
-                break
-        if melhor:
-            novo = dict(melhor)
-            novo["fonte"] = "dpf+esportesnatv"
-            novo["confianca"] = "conferido"
-            saida.append(novo)
-            corrigidos += 1
-        else:
-            saida.append(ev)
-    if corrigidos:
-        log(f"  {corrigidos} evento(s) de OCR conferidos pelo texto")
-    return saida
-
-
 def deduplicar(eventos):
+    """Tira repetido dentro do mesmo dia: mesma hora e confronto parecido."""
     vistos = []
     saida = []
-    ordem = {"conferido": 0, "texto": 1, "ocr": 2}
-    for ev in sorted(eventos, key=lambda e: ordem.get(e["confianca"], 3)):
+    for ev in eventos:
         chave = (ev["hora"], normalizar(ev["evento"])[:40])
-        duplicado = any(
-            k[0] == chave[0] and parecido(k[1], chave[1], 0.8) for k in vistos
-        )
-        if duplicado:
+        if any(k[0] == chave[0] and parecido(k[1], chave[1]) for k in vistos):
             continue
         vistos.append(chave)
         saida.append(ev)
@@ -602,22 +491,9 @@ def montar():
             por_dia.setdefault(data_iso, []).extend(eventos)
 
     try:
-        dpf = coletar_dpf()
-    except Exception as e:
-        log(f"DPF falhou: {e}")
-        dpf = {}
-
-    try:
-        entv = coletar_esportesnatv()
+        juntar(coletar_esportesnatv())
     except Exception as e:
         log(f"Esportes na TV falhou: {e}")
-        entv = {}
-
-    for data_iso in list(entv.keys()):
-        entv[data_iso] = corrigir_ocr_com_texto(entv[data_iso], dpf.get(data_iso, []))
-
-    juntar(dpf)
-    juntar(entv)
 
     try:
         juntar(coletar_tomada_de_tempo())
@@ -638,11 +514,7 @@ def montar():
     return {
         "gerado_em": agora.isoformat(timespec="seconds"),
         "primeiro_dia": corte,
-        "fontes": [
-            "Esportes na TV (Bluesky)",
-            "Doentes por Futebol",
-            "Tomada de Tempo",
-        ],
+        "fontes": ["Esportes na TV (Bluesky)", "Tomada de Tempo"],
         "total": sum(len(d["eventos"]) for d in dias),
         "dias": dias,
     }
