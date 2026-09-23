@@ -1,0 +1,16 @@
+{
+  "name": "Guigo Sports",
+  "short_name": "Guigo Sports",
+  "description": "Agenda esportiva do dia: horários, canais e o que está ao vivo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#16202E",
+  "theme_color": "#16202E",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "icone-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icone-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
