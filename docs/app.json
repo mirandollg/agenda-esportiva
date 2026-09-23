@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-09-23T17:06:04-03:00",
+  "gerado_em": "2026-09-23T18:07:31-03:00",
   "primeiro_dia": "2026-09-23",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 17,
+  "total": 40,
   "dias": [
     {
       "data": "2026-09-23",
@@ -127,6 +127,172 @@
           "competicao": "MLB",
           "evento": "Boston Red Sox x Clev. Guardians",
           "canais": "ESPN2",
+          "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-24",
+      "eventos": [
+        {
+          "hora": "03:00",
+          "competicao": "Fórmula 2",
+          "evento": "GP do Azerbaijão - treino livre",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "05:30",
+          "competicao": "Fórmula 1",
+          "evento": "GP do Azerbaijão - treino livre 1",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "07:00",
+          "competicao": "Fórmula 2",
+          "evento": "GP do Azerbaijão - classificação",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Fórmula 1",
+          "evento": "GP do Azerbaijão - treino livre 2",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Santa Fe 2026 - dia 12",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Atletismo - finais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "Euroliga",
+          "evento": "Dubai x Real Madrid",
+          "canais": "XSPORTS, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "UEFA Nations League D",
+          "evento": "Andorra x Malta",
+          "canais": "ESPN4",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:30",
+          "competicao": "Golfe",
+          "evento": "Presidents Cup - 1º Rodada",
+          "canais": "ESPN3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Taekwondo - finais",
+          "canais": "youtube ESPN Brasil",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Euroliga",
+          "evento": "Baskonia x Olympiakos",
+          "canais": "XSPORTS, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Portugal x País de Gales",
+          "canais": "SPORTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Holanda x Alemanha",
+          "canais": "ESPN",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Sérvia x Grécia",
+          "canais": "ESPN4",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Noruega x Dinamarca",
+          "canais": "Disney+",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League B",
+          "evento": "Áustria x Israel",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League D",
+          "evento": "Liechtenstein x Lituânia",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Copa Sulde Futsal",
+          "evento": "Campo Mourão x AGE Guaporé-RS",
+          "canais": "BANDSPORTS., CBFS TV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Atletismo - finais",
+          "canais": "ESPN4, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Copa SuperVôlei Fem",
+          "evento": "SESC-Flamengo x Fluminense",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:05",
+          "competicao": "MLB",
+          "evento": "NY Yankees x Tampa Bay Rays",
+          "canais": "ESPN3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "NCAA Fut. Americano",
+          "evento": "Coastal Carolina x Liberty",
+          "canais": "ESPN2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:15",
+          "competicao": "NFL",
+          "evento": "GB Packers x Atlanta Falcons",
+          "canais": "SPORTV2, GETV",
           "fonte": "esportesnatv"
         }
       ]
