@@ -3,13 +3,19 @@ name: Coletar agenda esportiva
 on:
   schedule:
     # Horarios em UTC. Brasilia = UTC-3.
-    - cron: "0 9 * * *"    # 06:00 BRT
-    - cron: "0 20 * * *"   # 17:00 BRT
-    - cron: "0 23 * * *"   # 20:00 BRT
-  workflow_dispatch:        # botao para rodar na mao
+    # De meia em meia hora, das 06h as 23h30 de Brasilia.
+    - cron: "*/30 9-23 * * *"    # 06:00 as 20:30 BRT
+    - cron: "*/30 0-2 * * *"     # 21:00 as 23:30 BRT
+  workflow_dispatch:              # botao para rodar na mao
 
 permissions:
   contents: write
+
+# Se uma execucao agendada pegar outra ainda rodando, a nova espera em vez
+# de brigar pelo mesmo commit.
+concurrency:
+  group: coleta
+  cancel-in-progress: false
 
 jobs:
   coletar:
