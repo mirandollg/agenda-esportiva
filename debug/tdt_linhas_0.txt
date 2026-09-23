@@ -1,22 +1,20 @@
 https://cdn1.telesco.pe/file/dYQJk5Yq6Y1UdHsI63LXa01ovQqh7DSdKX4BdYfYXVGQar8dJ4xrE8Qmztk-OaR5aAfep0RWOnpv-nrwR0k6nrIERt3IgqIhRvG70BHDGJ72KzlEK8cgyCWxmrUHNnT857qC3K7NEb_y95IX8vueIdarrCHOTzuaKGaBSEMii4IE07d7okmAf7TnB7lovy8RbfKLABG4ox6CUIQ-lXOntrnLhy6FzjqirYPUNFw-RsTOUJL0U1888an0stGsMAaf0vHUDyu5LLI30ZcTQ40acSlPGwzAPnViRsEMTyJf0wnWygMS_0ypAY-d1dCPo4Jy8XXAcEkSuRT0cR_heMRVsw.jpg
 data: 2026-09-18
-colunas: [(3, 51), (51, 209), (209, 333), (333, 455), (469, 622)]
+colunas: [(5, 35), (42, 188), (213, 330), (337, 419), (476, 594)]
 
 y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=138-150 | 05:50 Ry || ADICAL CUP EUROPE || Barcelona || Classificação || YOUTUBE
-y=154-168 | 08:15 M || 1OTO3 || Áustria || Treino Oficial || ESPN4 | DISNEY + PR
-y=173-187 | 09:05 M || OTO2 || Áustria || Treino Oficial || ESPNA4 | DISNEY + PR
-y=193-203 | 09:35 Rj || ADICAL CUP EUROPE || Barcelona || Corrida 1 || YOUTUBE
-y=210-224 | 10:00 M || 1OTO GP || Áustria || Treino Oficial || ESPN4 | DISNEY + PR
-y=230-241 | 11:05 24 || 4H DE BARCELONA || Barcelona || Classificação || YOUTUBE
-y=249-258 | 13:45 BR) || ADICAL CUP EUROPE || Barcelona || Corrida 2 || YOUTUBE
-y=265-280 | 14:00 M || 1OTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=283-298 | 15:00 M || 1OTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=302-317 | 15:50 M || 1OTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=323-335 | 19:30 Es || 4 JAPONESA || Sugo || Corrida 1 || YOUTUBE
-y=341-352 | 20:15 Al || MG CUP || Cascavel/PR || Corrida 1 || BANDSPORTS
-y=360-372 | 20:30 N || JASCAR O'REILLY SERIES || Bristol || Corrida || PHIZTYV | DISNEY + PR
-y=376-390 | 23:15 M || HOTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=394-409 | 23:59 G || T4 AUSTRÁLIA || Sydney || Classificação || YOUTUBE
-y=755-764 | B - Prova: || s internacionais com pilotos brasil || jeirost || **% = Transm || ão sem confirmação (vale tentor)
-y=780-795 | E LIN || JKS DE TRANSMISSÃO e || PROGRAMAÇÃO €4 || OMPLETA em www || madadetempo.com.br
+y=138-150 | 05:50 || RADICAL CUP EUROPE || Barcelona || Classificação || YOUTUBE
+y=154-168 | 08:15 || MOTO3 || Áustria || Treino Oficial || ESPN4 | DISNEY + PR
+y=173-187 | 09:05 || MOTO2 || Áustria || Treino Oficial || ESPNA4 | DISNEY + PR
+y=193-203 | 09:35 || RADICAL CUP EUROPE || Barcelona || Corrida 1 || YOUTUBE
+y=210-224 | 10:00 || MOTO GP || Áustria || Treino Oficial || ESPN4 | DISNEY + PR
+y=230-241 | 11:05 || 24H DE BARCELONA || Barcelona || Classificação || YOUTUBE
+y=249-258 | 13:45 || RADICAL CUP EUROPE || Barcelona || Corrida 2 || YOUTUBE
+y=265-280 | 14:00 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
+y=283-298 | 15:00 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
+y=302-317 | 15:50 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
+y=323-335 | 19:30 || F4 JAPONESA || Sugo || Corrida 1 || YOUTUBE
+y=341-352 | 20:15 || AMG CUP || Cascavel/PR || Corrida 1 || BANDSPORTS
+y=360-372 | 20:30 || NASCAR O'REILLY SERIES || Bristol || Corrida || PHIZTV | DISNEY + PR
+y=376-390 | 23:15 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
+y=394-409 | 23:59 || GT4 AUSTRÁLIA || Sydney || Classificação || YOUTUBE
