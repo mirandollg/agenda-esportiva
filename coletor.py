@@ -47,14 +47,15 @@ SAIDA = "docs/app.json"
 DEBUG_DIR = "debug"
 
 # A PARTIR DE QUANDO COLETAR
-#   0 = de hoje em diante
+#   0 = normal, de hoje em diante
 #   1 = so de amanha em diante
-#  -7 = MODO DE TESTE: aceita a ultima semana, para conferir a leitura
-#       das imagens ja publicadas. VOLTAR PARA 0 depois do teste.
+#  -7 = MODO DE TESTE: aceita a ultima semana, para conferir o resultado
+#       com imagens ja publicadas. VOLTAR PARA 0 depois de conferir.
 PRIMEIRO_DIA = -7
 
 # Quantos dias manter no JSON final
-DIAS_A_MANTER = 3
+# (no modo de teste vale subir, para caber a semana toda)
+DIAS_A_MANTER = 10
 
 # Filtro de escopo. Lista vazia = manter tudo.
 # Exemplo: ESCOPO = ["brasileirao", "wnba", "moto gp", "nascar"]
@@ -563,7 +564,7 @@ def ler_agenda_tdt(url, indice=0):
             }
         )
 
-    if indice < 3:
+    if indice == 0:
         salvar_debug(f"tdt_linhas_{indice}.txt", "\n".join(dump))
 
     log(f"  [tdt {indice}] {data_iso}: {len(eventos)} evento(s)")
