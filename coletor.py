@@ -34,7 +34,7 @@ import pytesseract
 # o handle pode mudar se eles registrarem dominio proprio, o DID nunca muda.
 DID = "did:plc:lngl4ki52wbunv2xzq74bqbb"
 BSKY_API = "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
-BSKY_LIMITE = 30  # quantos posts puxar do feed
+BSKY_LIMITE = 20  # quantos posts puxar do feed (a agenda eh diaria)
 
 DPF_URL = "https://doentesporfutebol.com.br/guiadejogos/"
 TDT_API = "https://www.tomadadetempo.com.br/wp-json/wp/v2/posts"
@@ -42,12 +42,19 @@ TDT_API = "https://www.tomadadetempo.com.br/wp-json/wp/v2/posts"
 SAIDA = "docs/app.json"
 DEBUG_DIR = "debug"
 
+# A PARTIR DE QUANDO COLETAR
+#   0 = de hoje em diante
+#   1 = so de amanha em diante
+# O corte eh aplicado ANTES de baixar a imagem, entao dia passado nao
+# custa download nem OCR.
+PRIMEIRO_DIA = 0
+
+# Quantos dias manter no JSON final, contados a partir do primeiro dia
+DIAS_A_MANTER = 3
+
 # Filtro de escopo. Lista vazia = manter tudo.
 # Exemplo: ESCOPO = ["brasileiro", "libertadores", "copa do brasil", "f1", "motogp"]
 ESCOPO = []
-
-# Quantos dias manter no JSON final (hoje + proximos)
-DIAS_A_MANTER = 3
 
 TZ_BR = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "agenda-esportiva-bot/1.0 (uso pessoal)"}
@@ -59,6 +66,11 @@ UA = {"User-Agent": "agenda-esportiva-bot/1.0 (uso pessoal)"}
 
 def log(msg):
     print(f"[{datetime.now(TZ_BR):%H:%M:%S}] {msg}", flush=True)
+
+
+def data_corte():
+    """Primeira data que interessa, em ISO."""
+    return (datetime.now(TZ_BR).date() + timedelta(days=PRIMEIRO_DIA)).isoformat()
 
 
 def normalizar(txt):
@@ -120,15 +132,21 @@ def salvar_debug(nome, conteudo):
 
 def bluesky_posts_de_agenda():
     """
-    Devolve [(data_iso, [url_imagem, ...]), ...] dos posts de agenda diaria.
-    Nos fins de semana o post traz 3 imagens; todas precisam ser lidas.
+    Devolve [(data_iso, [url_imagem, ...]), ...] SO dos dias que interessam.
+
+    O feed vem do mais novo para o mais antigo. Assim que aparece um post de
+    agenda anterior ao corte, para de varrer: o resto eh historico.
+    Nos fins de semana o post traz 3 imagens; todas entram.
     """
+    corte = data_corte()
     url = f"{BSKY_API}?actor={DID}&limit={BSKY_LIMITE}"
     r = requests.get(url, headers=UA, timeout=30)
     r.raise_for_status()
     feed = r.json().get("feed", [])
 
     resultado = []
+    ignorados = 0
+
     for item in feed:
         post = item.get("post", {})
         record = post.get("record", {})
@@ -142,15 +160,23 @@ def bluesky_posts_de_agenda():
             continue
         data_iso = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
 
+        if data_iso < corte:
+            ignorados += 1
+            break  # daqui para tras eh tudo mais antigo
+
+        if any(d == data_iso for d, _ in resultado):
+            continue  # o feed repete o post quando ele tem respostas
+
         imagens = (post.get("embed") or {}).get("images") or []
         urls = [img["fullsize"] for img in imagens if img.get("fullsize")]
-        if not urls:
-            continue
-
-        if not any(d == data_iso for d, _ in resultado):
+        if urls:
             resultado.append((data_iso, urls))
 
-    log(f"Bluesky: {len(resultado)} dia(s) de agenda encontrados")
+    total_imgs = sum(len(u) for _, u in resultado)
+    log(
+        f"Bluesky: {len(resultado)} dia(s) a partir de {corte} "
+        f"({total_imgs} imagem/imagens). Historico ignorado: {'sim' if ignorados else 'nada a ignorar'}"
+    )
     return resultado
 
 
@@ -231,8 +257,7 @@ def ler_agenda_imagem(url, data_iso, indice=0):
         linhas = [(int(i * passo), int((i + 1) * passo)) for i in range(n)]
 
     # a primeira faixa eh o cabecalho escuro ("AGENDA ESPORTIVA - ...")
-    cabecalho = cinza[linhas[0][0]:linhas[0][1]].mean() < 120
-    if cabecalho:
+    if cinza[linhas[0][0]:linhas[0][1]].mean() < 120:
         linhas = linhas[1:]
 
     # --- colunas ------------------------------------------------------------
@@ -314,6 +339,7 @@ def coletar_dpf():
         Sao Paulo x Palmeiras
         (tv) SPORTV
     """
+    corte = data_corte()
     r = requests.get(DPF_URL, headers=UA, timeout=45)
     r.raise_for_status()
     sopa = BeautifulSoup(r.text, "html.parser")
@@ -333,12 +359,13 @@ def coletar_dpf():
         if m_data and re.search(r"(SEGUNDA|TER[CÇ]A|QUARTA|QUINTA|SEXTA|S[ÁA]BADO|DOMINGO)",
                                 linha, re.IGNORECASE):
             data_atual = f"{m_data.group(3)}-{m_data.group(2)}-{m_data.group(1)}"
-            dias.setdefault(data_atual, [])
+            if data_atual >= corte:
+                dias.setdefault(data_atual, [])
             i += 1
             continue
 
         m_hora = re.match(r"^[^\d]{0,4}(\d{1,2}[:h]\d{2})\s+(.*)$", linha)
-        if m_hora and data_atual:
+        if m_hora and data_atual and data_atual >= corte:
             hora = normalizar_hora(m_hora.group(1))
             competicao = limpar(m_hora.group(2))
             evento, canais = "", ""
@@ -364,7 +391,7 @@ def coletar_dpf():
         i += 1
 
     total = sum(len(v) for v in dias.values())
-    log(f"DPF: {total} evento(s) em {len(dias)} dia(s)")
+    log(f"DPF: {total} evento(s) em {len(dias)} dia(s) a partir de {corte}")
     return dias
 
 
@@ -380,6 +407,7 @@ def coletar_tomada_de_tempo():
     linhas com horario. O formato interno do post ainda nao foi
     conferido: o primeiro post vira debug/tdt_exemplo.txt para ajuste.
     """
+    corte = data_corte()
     params = {
         "per_page": 15,
         "search": "Programação, horários e transmissão",
@@ -407,13 +435,15 @@ def coletar_tomada_de_tempo():
 
         # categoria = primeira parte do titulo, antes do travessao
         categoria = limpar(re.split(r"[–-]", titulo)[0]) or "Automobilismo"
-        data_post = post["date"][:10]
-        data_atual = data_post
+        data_atual = post["date"][:10]
 
         for linha in linhas:
             m_data = re.search(r"(\d{2})/(\d{2})/(\d{4})", linha)
             if m_data and len(linha) < 80:
                 data_atual = f"{m_data.group(3)}-{m_data.group(2)}-{m_data.group(1)}"
+
+            if data_atual < corte:
+                continue
 
             m = re.match(r"^(\d{1,2}[h:]\d{2})\s*[-–—:]?\s*(.+)$", linha)
             if not m:
@@ -442,7 +472,7 @@ def coletar_tomada_de_tempo():
             )
 
     total = sum(len(v) for v in dias.values())
-    log(f"Tomada de Tempo: {total} evento(s) em {len(dias)} dia(s)")
+    log(f"Tomada de Tempo: {total} evento(s) em {len(dias)} dia(s) a partir de {corte}")
     return dias
 
 
@@ -498,7 +528,8 @@ def deduplicar(eventos):
 
 def montar():
     agora = datetime.now(TZ_BR)
-    hoje = agora.date().isoformat()
+    corte = data_corte()
+    log(f"Coletando a partir de {corte} (PRIMEIRO_DIA={PRIMEIRO_DIA})")
 
     por_dia = {}
 
@@ -532,7 +563,7 @@ def montar():
 
     dias = []
     for data_iso in sorted(por_dia):
-        if data_iso < hoje:
+        if data_iso < corte:
             continue
         eventos = [e for e in deduplicar(por_dia[data_iso]) if dentro_do_escopo(e)]
         eventos.sort(key=lambda e: (e["hora"], normalizar(e["competicao"])))
@@ -543,6 +574,7 @@ def montar():
 
     return {
         "gerado_em": agora.isoformat(timespec="seconds"),
+        "primeiro_dia": corte,
         "fontes": [
             "Esportes na TV (Bluesky)",
             "Doentes por Futebol",
