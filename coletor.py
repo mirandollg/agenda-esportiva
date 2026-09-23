@@ -66,8 +66,8 @@ CORTES_ENTV = [(0.000, 0.125), (0.125, 0.445), (0.445, 0.805), (0.805, 1.000)]
 # Tomada de Tempo: hora | categoria | etapa | sessao | transmissao
 # (a coluna estreita do "B" de piloto brasileiro fica fora de proposito)
 CORTES_TDT = [
-    (0.005, 0.082),
-    (0.082, 0.335),
+    (0.004, 0.069),
+    (0.069, 0.335),
     (0.335, 0.532),
     (0.532, 0.727),
     (0.750, 0.995),
@@ -80,8 +80,13 @@ CORRECOES_CANAL = {
     "youtub": "YOUTUBE",
     "youtube": "YOUTUBE",
     "espna": "ESPN4",
+    "espna4": "ESPN4",
     "disnev+": "DISNEY+",
     "disnev+ pr": "DISNEY+ PR",
+    "disney + pr": "DISNEY+ PR",
+    "disney +": "DISNEY+",
+    "phiztyv": "PHIZTV",
+    "phizty": "PHIZTV",
     "bandsports": "BANDSPORTS",
     "xsports": "XSPORTS",
 }
@@ -249,6 +254,24 @@ def _agrupar(contagem, gap_min, tam_min):
 
 def mascara_de_tinta(cinza, limiar=140):
     return (cinza < limiar).astype(np.int32)
+
+
+def _primeiro_bloco(linhas):
+    """
+    Mantem so as linhas coladas umas nas outras, cortando no primeiro
+    intervalo muito maior que o normal. Serve para separar a tabela do
+    rodape, que fica isolado la embaixo depois de uma area branca.
+    """
+    if len(linhas) < 3:
+        return linhas
+    alturas = sorted(b - a for a, b in linhas)
+    tipica = alturas[len(alturas) // 2]
+    saida = [linhas[0]]
+    for anterior, atual in zip(linhas, linhas[1:]):
+        if atual[0] - anterior[1] > tipica * 3:
+            break
+        saida.append(atual)
+    return saida
 
 
 def faixas_por_proporcao(largura, cortes):
@@ -480,13 +503,22 @@ def ler_agenda_tdt(url, indice=0):
         log(f"  [tdt {indice}] nenhuma linha de dados")
         return data_iso, []
 
-    corpo = tinta[linhas[0][0]: linhas[-1][1], :]
-    gap = max(8, int(largura * 0.012))
-    blocos = _agrupar(corpo.sum(axis=0), gap_min=gap, tam_min=int(largura * 0.03))
-    # a coluna do "B" (piloto brasileiro) eh estreita e quase sempre vazia
-    blocos = [b for b in blocos if (b[1] - b[0]) >= largura * 0.04]
+    # Fica so com o primeiro bloco continuo de linhas. Entre a tabela e o
+    # rodape ha uma area branca enorme; cortar ali tira o rodape, que
+    # atravessa a largura toda e taparia os corredores entre as colunas.
+    linhas = _primeiro_bloco(linhas)
 
-    if len(blocos) == 5:
+    corpo = tinta[linhas[0][0]: linhas[-1][1], :]
+    gap = max(4, int(largura * 0.008))
+    blocos = _agrupar(corpo.sum(axis=0), gap_min=gap, tam_min=int(largura * 0.025))
+    # a coluna do "B" (piloto brasileiro) eh estreita e quase sempre vazia
+    blocos = [b for b in blocos if (b[1] - b[0]) >= largura * 0.035]
+
+    # a primeira coluna tem so o horario: se vier larga, a deteccao colou
+    # o horario na categoria e nao da para confiar
+    primeira_ok = bool(blocos) and (blocos[0][1] - blocos[0][0]) <= largura * 0.12
+
+    if len(blocos) == 5 and primeira_ok:
         colunas, metodo = blocos, "tinta"
     else:
         colunas = faixas_por_proporcao(largura, CORTES_TDT)
