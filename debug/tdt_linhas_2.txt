@@ -1,0 +1,35 @@
+https://cdn1.telesco.pe/file/gyJ7xXQxO2WxrmmHDMXRWcvgIMK13P2duA3tldflTNY_XiFNQsrz3p-STojNu9SMaH9K8GeSzqb_wT6O8ZXyoUB58NUfPQwycpmOTKhYmOEse63718grp9hj7N8Cr2bTodHzYtkQinUoMFF20MSMhRQgdA2NhYbIaGeyaaC0O3w1gzEanXs2bVBVPE3ETv_62sQfoJ2P76ek2kwywBHgrgLCmqk8DgYWEckt37k5ntsdlvnE7KKO2PxMxq_rZ5Ho9EnBX9CFs1H3MIcYzHuFz1o-8KH7DcInRKFqQeyKrkIGSh-S1SLfO0OZTfu3pCbX4VZk9I314BZL1My-r2ExuQ.jpg
+data: 2026-09-19
+colunas: [(3, 51), (51, 209), (209, 333), (333, 455), (469, 622)]
+
+y=118-129 | 2) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
+y=136-147 | 12:10 EC || ÓRMULA 1600 || Cascavel/PR || Corrida 1 || YOUTUBE
+y=156-166 | 12410 G || T4 EUROPEAN SERIES || Zandvoort || Corrida 1 || YOUTUBE
+y=175-187 | 12:20 € || OPA TRUCK || Curvelo/MG || Classificação || YOUTUBE
+y=193-204 | 12:55 O || LD STOCK || Cascavel/PR || Corrida 1 || YOUTUBE
+y=212-221 | 13:30 Ri || OAD TO 1000 MILHAS || Cascavel/PR || Treino Livre 3 || YOUTUBE
+y=228-243 | 13:30 M || 1OTO GP || Áustria || Algum VT || ESPN3
+y=249-261 | 13:30 P( || ORSCHE CUP NA || Inclianapolis || Corrida 1 || YOUTUBE
+y=267-280 | 13:55 LE || EGENDS RACE E-SPORTS BAR || Nurburgring || Corrida || YOUTUBE
+y=286-295 | 14:05 TÍ || URISMO 1.4 BR || Curvelo/MG || Corrida 1 || YOUTUBE
+y=302-317 | 14:15 M || 1OTO GP || Áustria || Algum VT || ESPN3
+y=323-332 | 14:45 Cl || OPA FUSCA || Cascavel/PR || Corrida 1 || YOUTUBE
+y=341-352 | 15:15 N || JASCAR BRASIL || Curvelo/MG || Classificação || YOUTUBE
+y=360-372 | 15:15 U || ILTIMATE DRIFT || Velopark || TOP76 (9º et) || YOUTUBE
+y=378-390 | 15:25 PJ || ILOT CHALLENGE || Indianapolis || Corrida || YOUTUBE
+y=397-409 | 15:35 Al || MG CUP || Cascavel/PR || Corrida 3 || YOUTUBE | BANDSPORTS
+y=415-426 | 16:30 Cí || OPA HB20 || Curvelo/MG || Corrida 1 || YOUTUBE
+y=434-445 | 17:00 2: || 4H DE BARCELONA || Barcelona || Corrida (PARTE 2) || YOUTUBE
+y=452-463 | 17:10 O || LD STOCK || Cascavel/PR || Corrida 2 || YOUTUBE
+y=471-483 | 17:55 Ri || OAD TO 1000 MILHAS || Cascavel/PR || Classificação || YOUTUBE
+y=489-501 | 18:00 IN || VISA || Indianapolis || Classificação || É YOUTUBE
+y=508-518 | 18:30 P) || ARANAENSE DE MARCAS || Cascavel/PR || Corrida 1 || YOUTUBE
+y=524-537 | 18:45 M || 1OTO GP || Austria || Corrida Sprint (REPRISE) || E ESPN4
+y=544-557 | 19:15 Al || MG CUP || Cascavel/PR || Corrida 4 || YOUTUBE | BANDSPORTS
+y=563-575 | 19:30 Fo || 4 JAPONESA || Sugo || Corrida 2 || YOUTUBE
+y=581-594 | 19:40 L/ || AMBORGHINI S. TROFEO || Indianapolis || Corrida 1 || YOUTUBE
+y=600-609 | 20:30 N || IASCAR CUP SERIES || Bristol || Corrida || ESPN | PHIZTV | DISNEY + PR
+y=618-629 | 20:45 Ri || QOAD TO 1000 MILHAS || Cascavel/PR || Corrida || YOUTUBE
+y=634-649 | 22:43 G || T4 AUSTRÁLIA || Sydney || Corrida 2 || YOUTUBE
+y=755-764 | B - Prova: || s internacionais com pilotos brasil || jeirost || **% = Transm || ão sem confirmação (vale tentor)
+y=780-795 | E LIN || JKS DE TRANSMISSÃO e || PROGRAMAÇÃO €4 || OMPLETA em www || madadetempo.com.br

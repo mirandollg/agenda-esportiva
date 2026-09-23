@@ -1,221 +1,646 @@
 {
-  "gerado_em": "2026-09-22T23:22:33-03:00",
-  "primeiro_dia": "2026-09-22",
+  "gerado_em": "2026-09-22T23:27:35-03:00",
+  "primeiro_dia": "2026-09-15",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 29,
+  "total": 89,
   "dias": [
     {
-      "data": "2026-09-22",
+      "data": "2026-09-15",
       "eventos": [
         {
           "hora": "09:00",
           "competicao": "Jogos Sul-Americanos",
-          "evento": "Santa Fe 2026 - dia 10",
+          "evento": "Santa Fe 2026 - Dia 3",
           "canais": "youtube ODESUR",
           "fonte": "esportesnatv"
         },
         {
-          "hora": "13:45",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Bayern F x Manchester City F",
-          "canais": "ESPN4",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Real Madrid F x PSG F",
-          "canais": "ESPN",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - finais",
-          "canais": "ESPN4, YOUTUBE",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Criciúma x Operário-PR",
-          "canais": "Disney+",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "Brasileirão sub-17",
-          "evento": "São Paulo s17 x Palmeiras s17",
-          "canais": "SPORTV",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "Paulista de Basquete",
-          "evento": "SF (5.1) - Franca x Paulistano",
-          "canais": "BANDSPORTS, TV FPB",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Copa LNF Futsal",
-          "evento": "SF - Juventude-MS x ACBF",
-          "canais": "XSPORTS, YOUTUBE",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "WNBA",
-          "evento": "Indiana Fever x Minnesota Lynx",
-          "canais": "ESPN2",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "WNBA",
-          "evento": "Chicago Sky x Toronto Tempo",
-          "canais": "youtube NBA Brasil",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "23:00",
-          "competicao": "WNBA",
-          "evento": "Las Vegas Aces x LA Sparks",
-          "canais": "ESPN2",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "23:10",
-          "competicao": "MLB",
-          "evento": "LA Dodgers x San Diego Padres",
-          "canais": "ESPN3",
-          "fonte": "esportesnatv"
-        }
-      ]
-    },
-    {
-      "data": "2026-09-23",
-      "eventos": [
-        {
-          "hora": "04:45",
-          "competicao": "Boxe",
-          "evento": "Kameda x Hernandez Reyes",
-          "canais": "ESPN2",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Santa Fe 2026 - dia 11",
-          "canais": "youtube ODESUR",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - marcha atlética masc",
-          "canais": "ESPN4, YOUTUBE",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "09:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - semifinais e finais",
-          "canais": "ESPN4, YOUTUBE",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "10:00",
-          "competicao": "Mundial sub20 Fem",
-          "evento": "SF - Itália s20 F x Espanha s20 F",
-          "canais": "SPORTV2, CazéTV",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "Amistoso",
-          "evento": "Gibraltar x São Tomé e Príncipe",
+          "hora": "10:30",
+          "competicao": "WTA250 São Paulo",
+          "evento": "1R- Kostovic x Victoria Barros",
           "canais": "SPORTV3",
           "fonte": "esportesnatv"
         },
         {
-          "hora": "13:30",
-          "competicao": "Mundial sub20 Fem",
-          "evento": "SF - Coreia do Norte x Colômbia F",
-          "canais": "SPORTV2, CazéTV",
+          "hora": "12:00",
+          "competicao": "World Surf League",
+          "evento": "Etapa de Trestles",
+          "canais": "SPORTVA4, YOUTUBE",
           "fonte": "esportesnatv"
         },
         {
-          "hora": "13:45",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Servette-SUI F x Lyon F",
+          "hora": "13:00",
+          "competicao": "AFC Champ. League",
+          "evento": "AL Ain-EAU x Al Nassr",
           "canais": "ESPN4",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "Copa Itália",
+          "evento": "Genoa x Sudtirol",
+          "canais": "SportyNet, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "GJogos Sul-Americanos",
+          "evento": "a Sa",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "WTA250 São Paulo",
+          "evento": "hdi sd si a",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Liga",
+          "evento": "Rayo Vallecano x Espanyol",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Argentina x Venezuela",
+          "canais": "SPORTV2",
           "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
           "competicao": "Jogos Sul-Americanos",
-          "evento": "Taekwondo - finais",
-          "canais": "youtube ESPN Brasil",
+          "evento": "Boxe - quartas de Final",
+          "canais": "youtube ODESUR",
           "fonte": "esportesnatv"
         },
         {
-          "hora": "15:30",
-          "competicao": "Estrelas Fut. Fem. s20",
-          "evento": "SF - Flamengo s20 F x Paraguai F",
-          "canais": "XSPORTS",
+          "hora": "15:00",
+          "competicao": "Liga",
+          "evento": "Alavés x Valencia",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:15",
+          "competicao": "AFC Champ. League",
+          "evento": "AlHilalx AlGharafa-QAT",
+          "canais": "ESPN2",
           "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Barcelona F x Paris FC F",
+          "competicao": "Copa da Liga Inglesa",
+          "evento": "Liverpool x Tottenham",
           "canais": "ESPN",
           "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
-          "competicao": "Copa Sulde Futsal",
-          "evento": "Campo Mourão x Caçador",
-          "canais": "BANDSPORTS, CBFS TV",
+          "competicao": "Copa da Liga Inglesa",
+          "evento": "lpswich x Arsenal",
+          "canais": "ESPN4",
           "fonte": "esportesnatv"
         },
         {
-          "hora": "18:00",
-          "competicao": "Estrelas Fut. Fem. s20",
-          "evento": "SF - São Paulo s20 F x R. Madrid F",
-          "canais": "XSPORTS",
+          "hora": "16:00",
+          "competicao": "Copa Itália",
+          "evento": "Fiorentina x Pisa",
+          "canais": "SportyNet, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Ginástica Artística - finais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Liga",
+          "evento": "Elche x Real Madrid",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Colômbia x Bolívia",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:30",
+          "competicao": "WTA250 São Paulo",
+          "evento": "pe",
+          "canais": "SPORTV3",
           "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
           "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - finais",
+          "evento": "Natação - finais",
           "canais": "youtube ODESUR",
           "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
-          "competicao": "Paulista Vôlei Fem",
-          "evento": "Pinheiros x SESI-Bauru",
-          "canais": "SPORTV2",
+          "competicao": "Libertadores",
+          "evento": "QF - Platense x Fluminense (0x2)",
+          "canais": "ESPN",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Sul-Americana",
+          "evento": "QF - Vasco x Santa Fe (0x0)",
+          "canais": "Paramount+",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Náutico x Opeário-PR",
+          "canais": "PREMIERE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Londrina x Ponte Preta",
+          "canais": "Disney+",
           "fonte": "esportesnatv"
         },
         {
           "hora": "20:00",
-          "competicao": "Paulista de Basquete",
-          "evento": "SF - Corinthians x Mogi (0-1)",
-          "canais": "BANDSPORTS, TV FPB",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Brasil x Chile",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Brasileirão - Série B",
+          "evento": "CRBxSport",
+          "canais": "Rd a ER",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "MLB",
+          "evento": "Texas Rangers x Boston Red Sox",
+          "canais": "ESPN2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Brasileirão Feminino",
+          "evento": "SF (ida) - Bahia F x Corinthians F",
+          "canais": "E ps",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Sul-Americana",
+          "evento": "QF -São Paulo x Boca Juniors (0x1)",
+          "canais": "SBT, YOUTUBE, ESPN",
+          "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-16",
+      "eventos": [
+        {
+          "hora": "09:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Santa Fe 2026 - Dia 4",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Remo - finais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "10:00",
+          "competicao": "Mundial sub20 Fem",
+          "evento": "OF - Brasil s20 F x EUA s20 F",
+          "canais": "SPORTV2, CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "11:00",
+          "competicao": "WTA250 São Paulo",
+          "evento": "re ny ohms",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "12:00",
+          "competicao": "World Surf League",
+          "evento": "Etapa de Trestles",
+          "canais": "SPORTVA4, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:30",
+          "competicao": "Mundial sub20 Fem",
+          "evento": "OF - Espanha F x Portugal F",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Liga",
+          "evento": "Atlético de Madrid x Osasuna",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Liga",
+          "evento": "Deportivo da Corunha x Sevilla",
+          "canais": "SportyNet, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Argentina x Colômbia",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:45",
+          "competicao": "Campeonato Russo",
+          "evento": "Baltika x Zenit",
+          "canais": "E",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Brasileirão sub-17",
+          "evento": "Corinthians s17 x Atlético-MG s17",
+          "canais": "SPORTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "GJogos Sul-Americanos",
+          "evento": "ERR RR ae",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Boxe - semifinais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:20",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Ginástica Artística - finais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:30",
+          "competicao": "WTA250 São Paulo",
+          "evento": "A pç",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "Copa da Liga Inglesa",
+          "evento": "Everton x Wolverhampton",
+          "canais": "ESPN2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Copa da Liga Inglesa",
+          "evento": "Manchester United x Brighton",
+          "canais": "ESPN",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Copa da Liga Inglesa",
+          "evento": "Coventry x Aston Villa",
+          "canais": "ESPN4",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Europa League",
+          "evento": "Milan x Benfica",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Europa League",
+          "evento": "Sunderland x AZ Alkmaar",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Liga",
+          "evento": "Barcelona x Racing Santander",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Liga",
+          "evento": "Levante x Athletic Bilbao",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "CONMEBOL s20 Fem",
+          "evento": "Brasils20 F x Eguador s20 F",
+          "canais": "SPORTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Venezuela x Chile",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Natação - finais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Copa Argentina",
+          "evento": "QF - Ind. Rivadavia x Atl. Tucumán",
+          "canais": "XSPORTS, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Libertadores",
+          "evento": "QF - LDU x Palmeiras (0x1)",
+          "canais": "Paramount+",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Sul-Americana",
+          "evento": "QF - Atlético-MG x Santos (0x2)",
+          "canais": "ESPN",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Botafogo x Grêmio",
+          "canais": "PREMIERE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Brasil x Bolívia",
+          "canais": "SPORTV2",
           "fonte": "esportesnatv"
         },
         {
           "hora": "20:10",
           "competicao": "MLB",
-          "evento": "Boston Red Sox x Clev. Guardians",
+          "evento": "NY Mets x Baltimore Orioles",
           "canais": "ESPN2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Libertadores",
+          "evento": "QF -Corinthians x Estudiantes (1x1)",
+          "canais": "E a",
+          "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-17",
+      "eventos": [
+        {
+          "hora": "08:00",
+          "competicao": "Golfe",
+          "evento": "BMW PGA Championship - 1R",
+          "canais": "ESPN3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Santa Fe 2026 - Dia 5",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "10:00",
+          "competicao": "Mundial sub20 Fem",
+          "evento": "OF - França F x Canadá F",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "10:15",
+          "competicao": "Campeonato Russo",
+          "evento": "Orenburg x Krasnodar",
+          "canais": "XSPORTS",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "12:00",
+          "competicao": "World Surf League",
+          "evento": "Etapa de Trestles",
+          "canais": "SPORTVA4, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "WTA250 São Paulo",
+          "evento": "OF - Nauhany Silva x Quevedo",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:45",
+          "competicao": "Europa League",
+          "evento": "OFI x Hoffenheim, Levski x RB Salzburg",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Liga",
+          "evento": "Betis x Getafe",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Argentina x Chile",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:45",
+          "competicao": "Campeonato Russo",
+          "evento": "Dynamo Makhachkala x CSKA",
+          "canais": "pda",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Jogos Sul-Americanos",
+          "evento": "Boxe - semifinais",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "WTA250 São Paulo",
+          "evento": "Oitavas de Final",
+          "canais": "SPORTV3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Copa da Liga Inglesa",
+          "evento": "Manchester City x Norwich",
+          "canais": "ESPN",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Europa League",
+          "evento": "Juventus x NEC Nijmegen",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Europa League",
+          "evento": "Real Sociedad x Bournemouth",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Europa League",
+          "evento": "Besiktas x Marseille",
+          "canais": "youtube CazéTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "GJogos Sul-Americanos",
+          "evento": "E SA Siad qu",
+          "canais": "youtube ODESUR",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Liga",
+          "evento": "Málaga x Villarreal",
+          "canais": "SporiyNet, YOUTUBE",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Venezuela x Bolívia",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Copa Nações Fut. Areia",
+          "evento": "Brasil x Peru",
+          "canais": "SPORTV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "CONMEBOL s20 Fem",
+          "evento": "Venezuela s20 F x Brasil s20 F",
+          "canais": "SPORTV4",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Sul-Amer. Vôlei Masc",
+          "evento": "Brasilx Colômbia",
+          "canais": "SPORTV2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:15",
+          "competicao": "MLB",
+          "evento": "Houston Astros x KC Royals",
+          "canais": "ESPN3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "NCAA Fut. Americano",
+          "evento": "Pittsburgh x Syracuse",
+          "canais": "ESPN2",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Nascar Truck",
+          "evento": "Etapa de Bristol",
+          "canais": "PhizTV, Disney+",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:15",
+          "competicao": "NFL",
+          "evento": "Buffalo Bills x Detroit Lions",
+          "canais": "SPORTV, GETV",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Libertadores",
+          "evento": "QF - Flamengo x Ind. del Valle (2x0)",
+          "canais": "ESPN",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Sul-Americana",
+          "evento": "QF - Montevideo City x Cienciano (0x2)",
+          "canais": "Paramount+",
           "fonte": "esportesnatv"
         }
       ]
