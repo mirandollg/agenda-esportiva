@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Agenda esportiva</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --papel:#E7EAEF;
+    --papel-alto:#F4F6F9;
+    --tinta:#16202E;
+    --tinta-fraca:#5B6878;
+    --linha:#C3CAD4;
+    --agora:#C8102E;
+    --dia:#0F4C3A;
+    box-sizing:border-box;
+    padding-top:env(safe-area-inset-top,0px);
+    padding-bottom:env(safe-area-inset-bottom,0px);
+  }
+  :root:not([data-tema="claro"]){
+    @media (prefers-color-scheme: dark){
+      --papel:#131A24;
+      --papel-alto:#1C2532;
+      --tinta:#E7EAEF;
+      --tinta-fraca:#93A0B0;
+      --linha:#2E3A4A;
+      --agora:#FF5A6E;
+      --dia:#6FD3AE;
+    }
+  }
+  *,*::before,*::after{box-sizing:inherit}
+  html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 96px)}
+  body{
+    margin:0;background:var(--papel);color:var(--tinta);
+    font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+    font-size:16px;line-height:1.45;-webkit-text-size-adjust:100%;
+  }
+  .envelope{max-width:640px;margin:0 auto;padding:0 16px 64px}
+
+  header{padding:22px 0 12px}
+  h1{
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;
+    font-size:clamp(28px,8vw,38px);letter-spacing:-.01em;margin:0;
+  }
+  .atualizado{color:var(--tinta-fraca);font-size:13px;margin-top:2px}
+
+  .dias{
+    position:sticky;top:env(safe-area-inset-top,0px);z-index:5;
+    display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;
+    padding:10px 0;margin:0 -16px;padding-left:16px;padding-right:16px;
+    background:var(--papel);border-bottom:1px solid var(--linha);
+  }
+  .dias::-webkit-scrollbar{display:none}
+  .dia{
+    flex:0 0 auto;border:1px solid var(--linha);background:transparent;
+    color:var(--tinta-fraca);border-radius:2px;padding:7px 12px;
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:15px;
+    letter-spacing:.01em;cursor:pointer;white-space:nowrap;
+  }
+  .dia[aria-selected="true"]{
+    background:var(--tinta);color:var(--papel);border-color:var(--tinta);
+  }
+  .dia small{display:block;font-weight:500;font-size:11px;opacity:.72}
+
+  .filtros{display:flex;align-items:center;gap:10px;padding:14px 0 4px;
+    color:var(--tinta-fraca);font-size:13px}
+  .filtros label{display:flex;align-items:center;gap:7px;cursor:pointer}
+  .filtros input{accent-color:var(--dia);width:16px;height:16px}
+  .contagem{margin-left:auto;font-variant-numeric:tabular-nums}
+
+  ol{list-style:none;margin:0;padding:0}
+  .item{
+    display:grid;grid-template-columns:58px 1fr;gap:14px;
+    padding:14px 0;border-bottom:1px solid var(--linha);
+  }
+  .hora{
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;
+    font-size:20px;font-variant-numeric:tabular-nums;
+    padding-top:1px;letter-spacing:.01em;
+  }
+  .passou .hora,.passou .titulo,.passou .liga{opacity:.42}
+  .passou .canais{opacity:.42}
+  .liga{
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:14px;
+    color:var(--tinta-fraca);letter-spacing:.015em;
+  }
+  .titulo{font-weight:500;font-size:16px;margin-top:1px}
+  .canais{
+    margin-top:6px;display:flex;flex-wrap:wrap;gap:5px;
+  }
+  .canal{
+    font-size:11.5px;font-weight:700;letter-spacing:.02em;
+    background:var(--papel-alto);border:1px solid var(--linha);
+    border-radius:2px;padding:2px 7px;color:var(--tinta-fraca);
+  }
+  .item.corrida .liga{color:var(--dia)}
+
+  .marcador{
+    display:grid;grid-template-columns:58px 1fr;gap:14px;align-items:center;
+    padding:6px 0;color:var(--agora);
+  }
+  .marcador span{
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:13px;
+    font-variant-numeric:tabular-nums;
+  }
+  .marcador i{display:block;height:2px;background:var(--agora)}
+
+  .aviso{
+    border:1px solid var(--linha);border-left:3px solid var(--agora);
+    background:var(--papel-alto);padding:12px 14px;margin:16px 0;
+    font-size:14px;color:var(--tinta-fraca);
+  }
+  .vazio{padding:48px 0;text-align:center;color:var(--tinta-fraca)}
+  footer{margin-top:28px;font-size:12.5px;color:var(--tinta-fraca)}
+  @media (prefers-reduced-motion:no-preference){
+    .item{transition:opacity .2s}
+  }
+</style>
+</head>
+<body>
+<div class="envelope">
+  <header>
+    <h1>Agenda esportiva</h1>
+    <p class="atualizado" id="atualizado">Carregando…</p>
+  </header>
+
+  <nav class="dias" id="dias" role="tablist" aria-label="Dias"></nav>
+  <div id="aviso"></div>
+
+  <div class="filtros">
+    <label><input type="checkbox" id="soFuturo"> Esconder o que já começou</label>
+    <span class="contagem" id="contagem"></span>
+  </div>
+
+  <ol id="lista"></ol>
+
+  <footer id="rodape"></footer>
+</div>
+
+<script>
+// Instantâneo usado só quando o app.json não está ao alcance — por exemplo
+// numa prévia fora do GitHub Pages. No ar, os dados vêm sempre do arquivo.
+const DEMO = {
+  "gerado_em":"2026-09-22T23:03:14-03:00",
+  "fontes":["Esportes na TV","Tomada de Tempo"],
+  "dias":[
+    {"data":"2026-09-18","eventos":[
+      {"hora":"05:50","competicao":"RADICAL CUP EUROPE","evento":"Barcelona - Classificação","canais":"YOUTUBE","fonte":"tomadadetempo"},
+      {"hora":"08:15","competicao":"MOTO3","evento":"Áustria - Treino Oficial","canais":"ESPN4, DISNEY+ PR","fonte":"tomadadetempo"},
+      {"hora":"10:00","competicao":"MOTO GP","evento":"Áustria - Treino Oficial","canais":"ESPN4, DISNEY+ PR","fonte":"tomadadetempo"},
+      {"hora":"11:05","competicao":"24H DE BARCELONA","evento":"Barcelona - Classificação","canais":"YOUTUBE","fonte":"tomadadetempo"},
+      {"hora":"19:30","competicao":"F4 JAPONESA","evento":"Sugo - Corrida 1","canais":"YOUTUBE","fonte":"tomadadetempo"},
+      {"hora":"20:15","competicao":"AMG CUP","evento":"Cascavel/PR - Corrida 1","canais":"BANDSPORTS","fonte":"tomadadetempo"},
+      {"hora":"20:30","competicao":"NASCAR O'REILLY SERIES","evento":"Bristol - Corrida","canais":"PHIZTV, DISNEY+ PR","fonte":"tomadadetempo"},
+      {"hora":"23:59","competicao":"GT4 AUSTRÁLIA","evento":"Sydney - Classificação","canais":"YOUTUBE","fonte":"tomadadetempo"}
+    ]},
+    {"data":"2026-09-22","eventos":[
+      {"hora":"09:00","competicao":"Jogos Sul-Americanos","evento":"Santa Fe 2026 - dia 10","canais":"YOUTUBE ODESUR","fonte":"esportesnatv"},
+      {"hora":"13:45","competicao":"Champ. League (Fem.)","evento":"Bayern F x Manchester City F","canais":"ESPN4","fonte":"esportesnatv"},
+      {"hora":"16:00","competicao":"Champ. League (Fem.)","evento":"Real Madrid F x PSG F","canais":"ESPN","fonte":"esportesnatv"},
+      {"hora":"19:30","competicao":"Brasileirão - Série B","evento":"Criciúma x Operário-PR","canais":"Disney+","fonte":"esportesnatv"},
+      {"hora":"20:00","competicao":"Brasileirão sub-17","evento":"São Paulo s17 x Palmeiras s17","canais":"SPORTV","fonte":"esportesnatv"},
+      {"hora":"20:00","competicao":"Paulista de Basquete","evento":"SF - Franca x Paulistano","canais":"BANDSPORTS, TV FPB","fonte":"esportesnatv"},
+      {"hora":"21:00","competicao":"Copa LNF Futsal","evento":"SF - Juventude-MS x ACBF","canais":"XSPORTS, YOUTUBE","fonte":"esportesnatv"},
+      {"hora":"21:00","competicao":"WNBA","evento":"Indiana Fever x Minnesota Lynx","canais":"ESPN2","fonte":"esportesnatv"},
+      {"hora":"23:10","competicao":"MLB","evento":"LA Dodgers x San Diego Padres","canais":"ESPN3","fonte":"esportesnatv"}
+    ]},
+    {"data":"2026-09-23","eventos":[
+      {"hora":"07:00","competicao":"Jogos Sul-Americanos","evento":"Atletismo - marcha atlética masc","canais":"ESPN4, YOUTUBE","fonte":"esportesnatv"},
+      {"hora":"10:00","competicao":"Mundial sub20 Fem","evento":"SF - Itália s20 F x Espanha s20 F","canais":"SPORTV2, CazéTV","fonte":"esportesnatv"},
+      {"hora":"13:45","competicao":"Champ. League (Fem.)","evento":"Servette-SUI F x Lyon F","canais":"ESPN4","fonte":"esportesnatv"},
+      {"hora":"15:30","competicao":"Estrelas Fut. Fem. s20","evento":"SF - Flamengo s20 F x Paraguai F","canais":"XSPORTS","fonte":"esportesnatv"},
+      {"hora":"16:00","competicao":"Champ. League (Fem.)","evento":"Barcelona F x Paris FC F","canais":"ESPN","fonte":"esportesnatv"},
+      {"hora":"19:00","competicao":"Paulista Vôlei Fem","evento":"Pinheiros x SESI-Bauru","canais":"SPORTV2","fonte":"esportesnatv"},
+      {"hora":"20:00","competicao":"Paulista de Basquete","evento":"SF - Corinthians x Mogi (0-1)","canais":"BANDSPORTS, TV FPB","fonte":"esportesnatv"},
+      {"hora":"20:10","competicao":"MLB","evento":"Boston Red Sox x Clev. Guardians","canais":"ESPN2","fonte":"esportesnatv"}
+    ]}
+  ]
+};
+
+const SEMANA = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
+const MES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
+
+let dados = null, diaAtivo = 0;
+
+const $ = (id) => document.getElementById(id);
+
+function hojeISO(){
+  const agora = new Date();
+  return new Date(agora.getTime() - agora.getTimezoneOffset()*60000)
+    .toISOString().slice(0,10);
+}
+
+function rotuloDia(iso){
+  const [a,m,d] = iso.split("-").map(Number);
+  const data = new Date(a, m-1, d);
+  if (iso === hojeISO()) return {forte:"hoje", fraco:`${d} ${MES[m-1]}`};
+  return {forte:SEMANA[data.getDay()], fraco:`${d} ${MES[m-1]}`};
+}
+
+function minutos(hhmm){
+  const [h,m] = hhmm.split(":").map(Number);
+  return h*60 + m;
+}
+
+function agoraEmMinutos(){
+  const d = new Date();
+  return d.getHours()*60 + d.getMinutes();
+}
+
+function montarDias(){
+  const nav = $("dias");
+  nav.innerHTML = "";
+  dados.dias.forEach((dia, i) => {
+    const r = rotuloDia(dia.data);
+    const b = document.createElement("button");
+    b.className = "dia";
+    b.setAttribute("role","tab");
+    b.setAttribute("aria-selected", i === diaAtivo ? "true" : "false");
+    b.innerHTML = `${r.forte}<small>${r.fraco}</small>`;
+    b.onclick = () => { diaAtivo = i; montarDias(); montarLista(); };
+    nav.appendChild(b);
+  });
+}
+
+function montarLista(){
+  const dia = dados.dias[diaAtivo];
+  const lista = $("lista");
+  const eDeHoje = dia.data === hojeISO();
+  const corte = agoraEmMinutos();
+  const esconder = $("soFuturo").checked;
+
+  let eventos = dia.eventos.slice().sort((a,b) => minutos(a.hora) - minutos(b.hora));
+  if (esconder && eDeHoje) eventos = eventos.filter(e => minutos(e.hora) >= corte);
+
+  lista.innerHTML = "";
+  $("contagem").textContent =
+    eventos.length + (eventos.length === 1 ? " evento" : " eventos");
+
+  if (!eventos.length){
+    lista.innerHTML = `<li class="vazio">Nada programado para este dia.</li>`;
+    return;
+  }
+
+  let marcou = false;
+  eventos.forEach(ev => {
+    const inicio = minutos(ev.hora);
+    const passou = eDeHoje && inicio < corte;
+
+    if (eDeHoje && !marcou && !passou){
+      const agora = document.createElement("li");
+      agora.className = "marcador";
+      const h = String(Math.floor(corte/60)).padStart(2,"0");
+      const m = String(corte%60).padStart(2,"0");
+      agora.innerHTML = `<span>${h}:${m}</span><i></i>`;
+      lista.appendChild(agora);
+      marcou = true;
+    }
+
+    const li = document.createElement("li");
+    li.className = "item" + (passou ? " passou" : "") +
+      (ev.fonte === "tomadadetempo" ? " corrida" : "");
+    const canais = (ev.canais || "")
+      .split(/[,;|]/).map(c => c.trim()).filter(Boolean)
+      .map(c => `<span class="canal">${c}</span>`).join("");
+    li.innerHTML = `
+      <div class="hora">${ev.hora}</div>
+      <div>
+        <div class="liga">${ev.competicao || ""}</div>
+        <div class="titulo">${ev.evento || ""}</div>
+        <div class="canais">${canais}</div>
+      </div>`;
+    lista.appendChild(li);
+  });
+}
+
+function montarTudo(deDemo){
+  if (!dados || !dados.dias || !dados.dias.length){
+    $("atualizado").textContent = "Sem dados para mostrar.";
+    return;
+  }
+  const hoje = hojeISO();
+  const i = dados.dias.findIndex(d => d.data >= hoje);
+  diaAtivo = i >= 0 ? i : 0;
+
+  const quando = new Date(dados.gerado_em);
+  $("atualizado").textContent = isNaN(quando)
+    ? "Grade carregada."
+    : `Atualizado às ${String(quando.getHours()).padStart(2,"0")}:${String(quando.getMinutes()).padStart(2,"0")} de ${quando.getDate()} de ${MES[quando.getMonth()]}.`;
+
+  if (deDemo){
+    $("aviso").innerHTML =
+      `<div class="aviso">Prévia com um instantâneo dos dados. No ar, a grade vem do
+       arquivo publicado pelo robô e se atualiza sozinha três vezes por dia.</div>`;
+  }
+
+  $("rodape").textContent = "Fontes: " + (dados.fontes || []).join(" e ") + ".";
+  montarDias();
+  montarLista();
+}
+
+$("soFuturo").addEventListener("change", montarLista);
+
+fetch("./app.json", {cache:"no-store"})
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(j => { dados = j; montarTudo(false); })
+  .catch(() => { dados = DEMO; montarTudo(true); });
+</script>
+</body>
+</html>
