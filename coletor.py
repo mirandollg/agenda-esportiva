@@ -49,7 +49,9 @@ DEBUG_DIR = "debug"
 # A PARTIR DE QUANDO COLETAR
 #   0 = de hoje em diante
 #   1 = so de amanha em diante
-PRIMEIRO_DIA = 0
+#  -7 = MODO DE TESTE: aceita a ultima semana, para conferir a leitura
+#       das imagens ja publicadas. VOLTAR PARA 0 depois do teste.
+PRIMEIRO_DIA = -7
 
 # Quantos dias manter no JSON final
 DIAS_A_MANTER = 3
@@ -496,20 +498,25 @@ def ler_agenda_tdt(url, indice=0):
     )
 
     eventos = []
+    dump = [f"{url}", f"data: {data_iso}", f"colunas: {colunas}", ""]
+
     for y0, y1 in linhas:
         folga = 2
         cel = [
             img.crop((max(0, x0 - folga), y0 - 1, min(largura, x1 + folga), y1 + 1))
             for x0, x1 in colunas[:5]
         ]
-        hora = normalizar_hora(ler_celula(cel[0]))
+        brutos = [ler_celula(c) for c in cel]
+        dump.append(f"y={y0}-{y1} | " + " || ".join(brutos))
+
+        hora = normalizar_hora(brutos[0])
         if not hora:
             continue  # cabecalho da tabela e rodape caem aqui
 
-        categoria = limpar(ler_celula(cel[1]))
-        etapa = limpar(ler_celula(cel[2]))
-        sessao = limpar(ler_celula(cel[3]))
-        canais = limpar_canais(ler_celula(cel[4]))
+        categoria = limpar(brutos[1])
+        etapa = limpar(brutos[2])
+        sessao = limpar(brutos[3])
+        canais = limpar_canais(brutos[4])
 
         descricao = " - ".join([p for p in (etapa, sessao) if p])
         eventos.append(
@@ -523,6 +530,9 @@ def ler_agenda_tdt(url, indice=0):
                 "fonte": "tomadadetempo",
             }
         )
+
+    if indice < 3:
+        salvar_debug(f"tdt_linhas_{indice}.txt", "\n".join(dump))
 
     log(f"  [tdt {indice}] {data_iso}: {len(eventos)} evento(s)")
     return data_iso, eventos
