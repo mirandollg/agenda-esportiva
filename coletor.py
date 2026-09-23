@@ -45,8 +45,7 @@ DEBUG_DIR = "debug"
 # A PARTIR DE QUANDO COLETAR
 #   0 = de hoje em diante
 #   1 = so de amanha em diante
-# O corte eh aplicado ANTES de baixar a imagem, entao dia passado nao
-# custa download nem OCR.
+# O corte eh aplicado ANTES de baixar a imagem.
 PRIMEIRO_DIA = 0
 
 # Quantos dias manter no JSON final, contados a partir do primeiro dia
@@ -55,6 +54,9 @@ DIAS_A_MANTER = 3
 # Filtro de escopo. Lista vazia = manter tudo.
 # Exemplo: ESCOPO = ["brasileiro", "libertadores", "copa do brasil", "f1", "motogp"]
 ESCOPO = []
+
+# Proporcoes de largura das 4 colunas, usadas so se a deteccao falhar
+CORTES_PADRAO = [0.0, 0.125, 0.445, 0.805, 1.0]
 
 TZ_BR = timezone(timedelta(hours=-3))
 UA = {"User-Agent": "agenda-esportiva-bot/1.0 (uso pessoal)"}
@@ -84,6 +86,16 @@ def limpar(txt):
     """Limpeza leve para texto que vai aparecer no app."""
     txt = re.sub(r"\s+", " ", txt or "").strip()
     return txt.strip(" -|.,;")
+
+
+def limpar_competicao(txt):
+    """
+    A coluna 2 traz um icone antes do nome. O OCR le o desenho como lixo
+    ('5', '6)', '69'). Corta tudo antes da primeira palavra de verdade.
+    """
+    txt = limpar(txt)
+    m = re.search(r"[A-Za-zÀ-ÿ]{3,}", txt)
+    return txt[m.start():].strip() if m else txt
 
 
 def normalizar_hora(bruto):
@@ -145,8 +157,6 @@ def bluesky_posts_de_agenda():
     feed = r.json().get("feed", [])
 
     resultado = []
-    ignorados = 0
-
     for item in feed:
         post = item.get("post", {})
         record = post.get("record", {})
@@ -161,7 +171,6 @@ def bluesky_posts_de_agenda():
         data_iso = f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
 
         if data_iso < corte:
-            ignorados += 1
             break  # daqui para tras eh tudo mais antigo
 
         if any(d == data_iso for d, _ in resultado):
@@ -173,18 +182,14 @@ def bluesky_posts_de_agenda():
             resultado.append((data_iso, urls))
 
     total_imgs = sum(len(u) for _, u in resultado)
-    log(
-        f"Bluesky: {len(resultado)} dia(s) a partir de {corte} "
-        f"({total_imgs} imagem/imagens). Historico ignorado: {'sim' if ignorados else 'nada a ignorar'}"
-    )
+    log(f"Bluesky: {len(resultado)} dia(s) a partir de {corte}, {total_imgs} imagem(ns)")
     return resultado
 
 
-def _faixas_claras(perfil, limiar, minimo=2):
+def _faixas_claras(perfil, limiar, minimo=1):
     """
-    Recebe um perfil de brilho (media por linha ou por coluna) e devolve
-    as faixas continuas mais claras que o limiar — os separadores brancos
-    da tabela. Ignora faixas com menos de `minimo` pixels.
+    Recebe um perfil de brilho e devolve as faixas continuas acima do
+    limiar — os separadores brancos da tabela.
     """
     faixas = []
     inicio = None
@@ -214,6 +219,46 @@ def _blocos_entre(faixas, tamanho, minimo=12):
     return blocos
 
 
+def detectar_colunas(corpo, largura):
+    """
+    Acha as 4 colunas pelo brilho MINIMO de cada coluna de pixels.
+
+    Um separador branco eh branco em TODAS as linhas, entao seu minimo
+    fica alto. Qualquer coluna que cruze texto tem minimo baixo, mesmo
+    que a media seja clara. Por isso o minimo separa muito melhor que a
+    media — a media se dilui entre as celulas coloridas.
+    """
+    perfil_min = corpo.min(axis=0)
+
+    for limiar in (215, 200, 185, 170):
+        seps = _faixas_claras(perfil_min, limiar, minimo=1)
+        # descarta separadores grudados na borda
+        seps = [(a, b) for (a, b) in seps if a > largura * 0.04 and b < largura * 0.97]
+        blocos = _blocos_entre(seps, largura, minimo=int(largura * 0.05))
+        if len(blocos) == 4:
+            return blocos, f"minimo>={limiar}"
+
+    cortes = CORTES_PADRAO
+    blocos = [
+        (int(cortes[i] * largura), int(cortes[i + 1] * largura)) for i in range(4)
+    ]
+    return blocos, "proporcao padrao"
+
+
+def detectar_linhas(cinza, altura, largura):
+    """Mesma ideia das colunas, aplicada na horizontal."""
+    perfil_min = cinza.min(axis=1)
+    for limiar in (215, 200, 185):
+        seps = _faixas_claras(perfil_min, limiar, minimo=1)
+        linhas = _blocos_entre(seps, altura, minimo=14)
+        if len(linhas) >= 3:
+            return linhas
+    # ultimo recurso: media
+    perfil_media = cinza.mean(axis=1)
+    seps = _faixas_claras(perfil_media, max(235.0, float(np.percentile(perfil_media, 90))), 2)
+    return _blocos_entre(seps, altura, minimo=14)
+
+
 def ler_celula(img, psm=7):
     """
     OCR de uma celula isolada. Amplia 3x antes de ler — texto pequeno
@@ -233,9 +278,8 @@ def ler_celula(img, psm=7):
 def ler_agenda_imagem(url, data_iso, indice=0):
     """
     Baixa a imagem da agenda e le celula a celula.
-    A tabela tem separadores brancos entre linhas e entre colunas; achamos
-    esses separadores pelo brilho e recortamos o que sobra. Assim o OCR
-    nunca embaralha colunas, que eh o erro classico em tabela.
+    Achamos os separadores brancos e recortamos o que sobra entre eles.
+    Assim o OCR nunca embaralha colunas, que eh o erro classico em tabela.
     """
     r = requests.get(url, headers=UA, timeout=60)
     r.raise_for_status()
@@ -243,66 +287,41 @@ def ler_agenda_imagem(url, data_iso, indice=0):
     cinza = np.array(img.convert("L"), dtype=np.float32)
     altura, largura = cinza.shape
 
-    # --- linhas -------------------------------------------------------------
-    perfil_linhas = cinza.mean(axis=1)
-    limiar_linha = max(235.0, float(np.percentile(perfil_linhas, 90)))
-    seps_linha = _faixas_claras(perfil_linhas, limiar_linha, minimo=2)
-    linhas = _blocos_entre(seps_linha, altura, minimo=14)
-
-    if len(linhas) < 2:
-        # sem separador detectavel: divide em faixas de altura constante
-        estimativa = 26
-        n = max(1, altura // estimativa)
-        passo = altura / n
-        linhas = [(int(i * passo), int((i + 1) * passo)) for i in range(n)]
+    linhas = detectar_linhas(cinza, altura, largura)
+    if not linhas:
+        log(f"  imagem {indice}: nenhuma linha detectada")
+        return []
 
     # a primeira faixa eh o cabecalho escuro ("AGENDA ESPORTIVA - ...")
     if cinza[linhas[0][0]:linhas[0][1]].mean() < 120:
         linhas = linhas[1:]
+    if not linhas:
+        return []
 
-    # --- colunas ------------------------------------------------------------
-    corpo_ini = linhas[0][0] if linhas else 0
-    corpo = cinza[corpo_ini:, :]
-    perfil_colunas = corpo.mean(axis=0)
-    limiar_coluna = max(235.0, float(np.percentile(perfil_colunas, 88)))
-    seps_coluna = _faixas_claras(perfil_colunas, limiar_coluna, minimo=2)
-    colunas = _blocos_entre(seps_coluna, largura, minimo=40)
-
-    if len(colunas) != 4:
-        # proporcoes medidas nas imagens do perfil; a largura varia
-        # (615, 635, 655 px), por isso o corte eh proporcional
-        cortes = [0.0, 0.155, 0.470, 0.815, 1.0]
-        colunas = [
-            (int(cortes[i] * largura), int(cortes[i + 1] * largura))
-            for i in range(4)
-        ]
-        log(f"  imagem {indice}: colunas por proporcao (detectadas: {len(seps_coluna)+1})")
+    corpo = cinza[linhas[0][0]:, :]
+    colunas, metodo = detectar_colunas(corpo, largura)
+    log(
+        f"  imagem {indice} ({largura}x{altura}): {len(linhas)} linha(s), "
+        f"colunas por {metodo} -> {[c for c in colunas]}"
+    )
 
     eventos = []
     for (y0, y1) in linhas:
-        margem = 1
         celulas = []
         for (x0, x1) in colunas[:4]:
-            recorte = img.crop((x0 + margem, y0 + margem, x1 - margem, y1 - margem))
-            celulas.append(recorte)
+            # 1px de folga para nao encostar no separador
+            celulas.append(img.crop((x0 + 1, y0 + 1, x1 - 1, y1 - 1)))
 
         hora = normalizar_hora(ler_celula(celulas[0], psm=7))
         if not hora:
             continue  # linha sem hora valida nao eh linha de evento
 
-        competicao = limpar(ler_celula(celulas[1], psm=7))
-        evento = limpar(ler_celula(celulas[2], psm=7))
-        canais = limpar(ler_celula(celulas[3], psm=7))
-
-        # a coluna 2 traz um icone antes do nome; sobra sujeira no inicio
-        competicao = re.sub(r"^[^A-Za-z0-9ÀÁÂÃÉÊÍÓÔÕÚÇ]+", "", competicao)
-
         eventos.append(
             {
                 "hora": hora,
-                "competicao": competicao,
-                "evento": evento,
-                "canais": canais,
+                "competicao": limpar_competicao(ler_celula(celulas[1], psm=7)),
+                "evento": limpar(ler_celula(celulas[2], psm=7)),
+                "canais": limpar(ler_celula(celulas[3], psm=7)),
                 "fonte": "esportesnatv",
                 "confianca": "ocr",
             }
@@ -331,6 +350,26 @@ def coletar_esportesnatv():
 # ----------------------------------------------------------------------------
 
 
+def _quebrar_evento_dpf(linha):
+    """
+    A pagina usa <br> dentro do mesmo bloco, entao a entrada costuma vir
+    numa linha so:
+        '13:45 UEFA Champions League Feminina Bayern x Man City ESPN4'
+    Separa pelos simbolos de relogio e de TV.
+    """
+    linha = linha.replace("🕗", "").strip()
+    partes = [limpar(p) for p in linha.split("📺")]
+    principal = partes[0]
+    canais = limpar(partes[1]) if len(partes) > 1 else ""
+
+    m = re.match(r"^\s*(\d{1,2}[:h]\d{2})\s+(.*)$", principal)
+    if not m:
+        return None
+    hora = normalizar_hora(m.group(1))
+    resto = limpar(m.group(2))
+    return hora, resto, canais
+
+
 def coletar_dpf():
     """
     Estrutura da pagina:
@@ -346,8 +385,13 @@ def coletar_dpf():
     for tag in sopa(["script", "style", "nav", "footer"]):
         tag.decompose()
 
+    # <br> nao produz texto: sem isso, hora, jogo e canal grudam numa linha so
+    for br in sopa.find_all("br"):
+        br.replace_with("\n")
+
     linhas = [limpar(l) for l in sopa.get_text("\n").split("\n")]
     linhas = [l for l in linhas if l]
+    salvar_debug("dpf_texto.txt", "\n".join(linhas))
 
     dias = {}
     data_atual = None
@@ -356,33 +400,46 @@ def coletar_dpf():
         linha = linhas[i]
 
         m_data = re.search(r"(\d{2})/(\d{2})/(\d{4})", linha)
-        if m_data and re.search(r"(SEGUNDA|TER[CÇ]A|QUARTA|QUINTA|SEXTA|S[ÁA]BADO|DOMINGO)",
-                                linha, re.IGNORECASE):
+        if m_data and re.search(
+            r"(SEGUNDA|TER[CÇ]A|QUARTA|QUINTA|SEXTA|S[ÁA]BADO|DOMINGO)", linha, re.I
+        ):
             data_atual = f"{m_data.group(3)}-{m_data.group(2)}-{m_data.group(1)}"
             if data_atual >= corte:
                 dias.setdefault(data_atual, [])
             i += 1
             continue
 
-        m_hora = re.match(r"^[^\d]{0,4}(\d{1,2}[:h]\d{2})\s+(.*)$", linha)
-        if m_hora and data_atual and data_atual >= corte:
-            hora = normalizar_hora(m_hora.group(1))
-            competicao = limpar(m_hora.group(2))
-            evento, canais = "", ""
-            for j in range(i + 1, min(i + 4, len(linhas))):
-                seguinte = linhas[j]
-                if "📺" in seguinte or normalizar(seguinte).startswith("tv"):
-                    canais = limpar(seguinte.replace("📺", ""))
-                    i = j
-                    break
-                if not evento:
-                    evento = limpar(seguinte)
-            if hora and evento:
-                dias[data_atual].append(
+        tem_hora = re.match(r"^[^\d]{0,4}(\d{1,2}[:h]\d{2})\s+", linha)
+        if tem_hora and data_atual and data_atual >= corte:
+            hora, competicao, canais = (None, "", "")
+            quebrado = _quebrar_evento_dpf(linha)
+            if quebrado:
+                hora, competicao, canais = quebrado
+
+            evento = ""
+            if not canais:
+                # caso o <br> tenha virado quebra de verdade: le as proximas
+                for j in range(i + 1, min(i + 4, len(linhas))):
+                    seguinte = linhas[j]
+                    if "📺" in seguinte:
+                        canais = limpar(seguinte.replace("📺", ""))
+                        i = j
+                        break
+                    if not evento:
+                        evento = limpar(seguinte)
+            else:
+                # tudo veio junto: o jogo eh o final do texto, depois da
+                # competicao. Separa no ultimo ' x ' encontrado.
+                m_jogo = re.search(r"^(.*?)\s+([^,;]+\s+x\s+[^,;]+)$", competicao, re.I)
+                if m_jogo:
+                    competicao, evento = limpar(m_jogo.group(1)), limpar(m_jogo.group(2))
+
+            if hora and (evento or competicao):
+                dias.setdefault(data_atual, []).append(
                     {
                         "hora": hora,
                         "competicao": competicao,
-                        "evento": evento,
+                        "evento": evento or competicao,
                         "canais": canais,
                         "fonte": "dpf",
                         "confianca": "texto",
@@ -403,9 +460,8 @@ def coletar_dpf():
 def coletar_tomada_de_tempo():
     """
     O portal eh WordPress, entao a API REST responde sem chave.
-    Pegamos os posts de programacao e varremos o texto atras de
-    linhas com horario. O formato interno do post ainda nao foi
-    conferido: o primeiro post vira debug/tdt_exemplo.txt para ajuste.
+    O formato interno do post ainda nao foi conferido: o primeiro post
+    vira debug/tdt_exemplo.txt para ajuste.
     """
     corte = data_corte()
     params = {
@@ -424,10 +480,13 @@ def coletar_tomada_de_tempo():
 
     dias = {}
     for n, post in enumerate(posts):
-        titulo = limpar(BeautifulSoup(post["title"]["rendered"], "html.parser").get_text())
-        html = post["content"]["rendered"]
-        texto = BeautifulSoup(html, "html.parser").get_text("\n")
-        linhas = [limpar(l) for l in texto.split("\n")]
+        titulo = limpar(
+            BeautifulSoup(post["title"]["rendered"], "html.parser").get_text()
+        )
+        sopa = BeautifulSoup(post["content"]["rendered"], "html.parser")
+        for br in sopa.find_all("br"):
+            br.replace_with("\n")
+        linhas = [limpar(l) for l in sopa.get_text("\n").split("\n")]
         linhas = [l for l in linhas if l]
 
         if n == 0:
@@ -454,8 +513,11 @@ def coletar_tomada_de_tempo():
                 continue
 
             canais = ""
-            m_canal = re.search(r"\(([^)]*(?:tv|sportv|band|espn|youtube|globo)[^)]*)\)",
-                                descricao, re.IGNORECASE)
+            m_canal = re.search(
+                r"\(([^)]*(?:tv|sportv|band|espn|youtube|globo)[^)]*)\)",
+                descricao,
+                re.IGNORECASE,
+            )
             if m_canal:
                 canais = limpar(m_canal.group(1))
                 descricao = limpar(descricao.replace(m_canal.group(0), ""))
@@ -484,8 +546,8 @@ def coletar_tomada_de_tempo():
 def corrigir_ocr_com_texto(eventos_ocr, eventos_texto):
     """
     Onde o mesmo jogo aparece nas duas fontes, o texto manda.
-    Se o OCR leu 'S4O PAULO' as 20:00 e o DPF diz 'Sao Paulo' as 20:00,
-    o registro corrigido entra no lugar do lido por OCR.
+    Compara por hora e por semelhanca do confronto; o OCR erra letras,
+    mas raramente a ponto de derrubar a semelhanca.
     """
     corrigidos = 0
     saida = []
@@ -494,7 +556,9 @@ def corrigir_ocr_com_texto(eventos_ocr, eventos_texto):
         for ref in eventos_texto:
             if ref["hora"] != ev["hora"]:
                 continue
-            if parecido(ref["evento"], ev["evento"]):
+            alvo_ocr = f"{ev['competicao']} {ev['evento']}"
+            alvo_ref = f"{ref['competicao']} {ref['evento']}"
+            if parecido(ref["evento"], ev["evento"]) or parecido(alvo_ref, alvo_ocr, 0.6):
                 melhor = ref
                 break
         if melhor:
@@ -549,7 +613,6 @@ def montar():
         log(f"Esportes na TV falhou: {e}")
         entv = {}
 
-    # cruzamento antes de juntar
     for data_iso in list(entv.keys()):
         entv[data_iso] = corrigir_ocr_com_texto(entv[data_iso], dpf.get(data_iso, []))
 
