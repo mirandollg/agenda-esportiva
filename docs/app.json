@@ -1,8 +1,8 @@
 {
-  "gerado_em": "2026-09-22T23:11:14-03:00",
+  "gerado_em": "2026-09-22T23:22:33-03:00",
   "primeiro_dia": "2026-09-22",
   "fontes": [
-    "Esportes na TV (Bluesky)",
+    "Esportes na TV",
     "Tomada de Tempo"
   ],
   "total": 29,
@@ -35,7 +35,7 @@
           "hora": "18:00",
           "competicao": "Jogos Sul-Americanos",
           "evento": "Atletismo - finais",
-          "canais": "ESPN4, youtube",
+          "canais": "ESPN4, YOUTUBE",
           "fonte": "esportesnatv"
         },
         {
@@ -63,7 +63,7 @@
           "hora": "21:00",
           "competicao": "Copa LNF Futsal",
           "evento": "SF - Juventude-MS x ACBF",
-          "canais": "XSPORTS, youtube",
+          "canais": "XSPORTS, YOUTUBE",
           "fonte": "esportesnatv"
         },
         {
@@ -117,14 +117,14 @@
           "hora": "07:00",
           "competicao": "Jogos Sul-Americanos",
           "evento": "Atletismo - marcha atlética masc",
-          "canais": "ESPN4, youtube",
+          "canais": "ESPN4, YOUTUBE",
           "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
           "competicao": "Jogos Sul-Americanos",
           "evento": "Atletismo - semifinais e finais",
-          "canais": "ESPN4, youtube",
+          "canais": "ESPN4, YOUTUBE",
           "fonte": "esportesnatv"
         },
         {
