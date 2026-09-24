@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-09-24T19:10:50-03:00",
+  "gerado_em": "2026-09-24T19:16:36-03:00",
   "primeiro_dia": "2026-09-24",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 103,
+  "total": 141,
   "dias": [
     {
       "data": "2026-09-24",
@@ -160,7 +160,8 @@
           "evento": "Atletismo - finais",
           "canais": "ESPN4, YOUTUBE",
           "icone": "678abccccbcbcccccc467888bbbccbbbb999456888aaacccba9566777bbbccccccba9667aaa888556bbccaa56755588833389acba567",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "19:00",
@@ -168,7 +169,8 @@
           "evento": "SESC-Flamengo x Fluminense",
           "canais": "SPORTV2",
           "icone": "ff7ff7fe7773995bb6ff7ff8aa4784dd7bb6ff7ff8984bb5aa49a4ff7ff8a94bc6bb5ab7ff7ff8cb5774bb6bc6ff7ff7ff8a95662773",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "20:05",
@@ -176,7 +178,8 @@
           "evento": "NY Yankees x Tampa Bay Rays",
           "canais": "ESPN3",
           "icone": "89a89a89a89a89a89a89a89a89a89a89a89a89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89a89b89b89b",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 175
         },
         {
           "hora": "20:30",
@@ -184,7 +187,8 @@
           "evento": "Coastal Carolina x Liberty",
           "canais": "ESPN2",
           "icone": "ddc222556222abbeee998000344777899999543111444344abb565777566100122ccc887544776000778cccaa9322443444cddcccbbb",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "21:15",
@@ -192,7 +196,8 @@
           "evento": "GB Packers x Atlanta Falcons",
           "canais": "SPORTV2, GETV",
           "icone": "eed655455011abceeea9800055655599abbb332000445566bbb655443444222001ccc999666666000445ddd99a111776111aabddd999",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 195
         }
       ]
     },
@@ -205,7 +210,8 @@
           "evento": "GP do Azerbaijão - sprint race",
           "canais": "SPORTV3",
           "icone": "aaaaaaaaaaaa7779aaaaaaaaaaabaa7779ab454566787877666667666666666777666899788777677877666677777778666666665666",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 90
         },
         {
           "hora": "01:15",
@@ -214,7 +220,8 @@
           "canais": "SPORTV3, FITV, CLOBOPLAY PR",
           "etapa": "Azerbaijão",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 90
         },
         {
           "hora": "05:30",
@@ -222,7 +229,8 @@
           "evento": "GP do Azerbaijão - treino livre 3",
           "canais": "SPORTV3",
           "icone": "",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 50
         },
         {
           "hora": "06:00",
@@ -230,7 +238,8 @@
           "evento": "SF - Espanha x Rep. Tcheca",
           "canais": "ESPN3",
           "icone": "abc7899acabcbcdbbc889445678bbd8999ab677555678abc566678567556abcabc667678566abcbcd9ab778678789bcdabcabc77889a",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 60
         },
         {
           "hora": "07:00",
@@ -246,7 +255,8 @@
           "evento": "GP do Azerbaijão - corrida 1",
           "canais": "SPORTV3",
           "icone": "",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 75
         },
         {
           "hora": "07:15",
@@ -255,7 +265,8 @@
           "canais": "SPORTV3, FITV, CLOBOPLAY PR",
           "etapa": "Azerbaijão",
           "sessao": "Corrida Principal 7",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 75
         },
         {
           "hora": "09:00",
@@ -263,7 +274,8 @@
           "evento": "GP do Azerbaijão - classificação",
           "canais": "SPORTV3",
           "icone": "aaaaaaaaaaaaaa9666aaaaaaaaaaaaaa9666555555777888777666565777555887666666777888565888766666777878565766656666",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 40
         },
         {
           "hora": "09:00",
@@ -279,7 +291,8 @@
           "evento": "Atletismo - finais",
           "canais": "ESPN4, YOUTUBE",
           "icone": "889999bcbccbbbb999888777bbbcccba9566889aabbcccccba9577889bbbbbbcccba9667898665344bccba96675558873229bbba9667",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "09:00",
@@ -287,7 +300,8 @@
           "evento": "e mi",
           "canais": "ESPN2",
           "icone": "bbc566799bcdabcabcabc5567889ababcbcd77845589a89a9ab99a789567abc89a9ab66789989abcd8897896678899acacc99a88989a",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 30
         },
         {
           "hora": "13:00",
@@ -295,7 +309,8 @@
           "evento": "Geórgia x Irlanda do Norte",
           "canais": "ESPN4",
           "icone": "ac9ac9ad9ac8ad9ad9ac9bd98965755649c8ad8ac85645658a7796ad9ac86869a7454686ac8bd96855646758b8ac9ac8ad99b7ac8ad9",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "13:00",
@@ -303,7 +318,8 @@
           "evento": "Armênia x Letônia",
           "canais": "SPORTV2",
           "icone": "ac8ad8ad9ac8bd9ad8ac8bd9785575575ad9ad9ac74536867968a7bd99b76868a74437a7ac8ad8564574685ac9ac8ad8ad89b8ac9ad8",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 150
         },
         {
           "hora": "14:00",
@@ -345,7 +361,8 @@
           "evento": "Presidents Cup - 2º Rodada",
           "canais": "ESPN3",
           "icone": "cdbcdbcebcebcdbcdbcdbcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebcebceb",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 60
         },
         {
           "hora": "15:00",
@@ -361,7 +378,8 @@
           "evento": "Jodar x Bublik",
           "canais": "ESPN2",
           "icone": "9ab555567abcbbcabc899656556abc8899bb577555566bcd7789ab6774559abbcd7889ac67789bbcdbbd7789ab566abcabcbbd889567",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 60
         },
         {
           "hora": "15:00",
@@ -393,7 +411,8 @@
           "evento": "Turquia x França",
           "canais": "SPORTV",
           "icone": "ac9ac8ad99b89b8bd9ac8ad99a7564564575ad8ad87853439a7676ad8ad87858a8785243ac8ad99a6343785686ac9ac9bd9ac89b8bd9",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "15:45",
@@ -401,7 +420,8 @@
           "evento": "Suécia x Romênia",
           "canais": "ESPN",
           "icone": "ad8ac9ad9ac8ad9ad8ac8ad98965755649b8ad9ac85634648a6696ad9ac87859b7454586ac8bd97855646859b8ad8ad8ad99b89c8ad9",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "16:00",
@@ -425,7 +445,8 @@
           "evento": "Alcaraz/Mensik x Bublik/Fritz",
           "canais": "ESPN2",
           "icone": "abc99a444789bccabcbcd778555677abc88966756744579aabc6789ab566789bcdabb788aaa667bcdabcabc66799a99aabcabcabc9ab",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 150
         },
         {
           "hora": "17:30",
@@ -483,7 +504,8 @@
           "evento": "Fluminense x Praia Clube",
           "canais": "SPORTV2",
           "icone": "ff7ff7ff8994774cb6ff7ff7ed6764cc6cb6ff7ff8ba5aa5aa5ba5ff7ff7bb5aa6cc6aa4ff7ff7ee6774ab6cc6ff7ff7ff8cc6562884",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "20:30",
@@ -548,7 +570,8 @@
           "canais": "SPORTV3, FITV, CLOSOPLAY PR",
           "etapa": "Azerbaijão",
           "sessao": "Corrida Principal 2",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 150
         },
         {
           "hora": "05:30",
@@ -584,7 +607,8 @@
           "canais": "SPORTV3, FITV, CLOBOPLAY PR",
           "etapa": "GP do Azerbaijão",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 90
         },
         {
           "hora": "08:05",
@@ -890,6 +914,354 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Fuji",
           "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-27",
+      "eventos": [
+        {
+          "hora": "03:55",
+          "competicao": "TCR EUROPEAN ENDURANCE",
+          "evento": "Valência/ESP - Estágio 2",
+          "canais": "YOUTUBE",
+          "etapa": "Valência/ESP",
+          "sessao": "Estágio 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:35",
+          "competicao": "KART ALEMÃO",
+          "evento": "Wackersdorf - Provas Domingo",
+          "canais": "YOUTUBE",
+          "etapa": "Wackersdorf",
+          "sessao": "Provas Domingo",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:50",
+          "competicao": "ADAC MX MASTERS",
+          "evento": "Drehna - Provas Domingo (21)",
+          "canais": "YOUTUBE",
+          "etapa": "Drehna",
+          "sessao": "Provas Domingo (21)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:55",
+          "competicao": "EUROFORMULA OPEN",
+          "evento": "Monza - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:48",
+          "competicao": "F4 INGLESA",
+          "evento": "Silverstone - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Silverstone",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:50",
+          "competicao": "TCR EUROPE",
+          "evento": "Monza - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:00",
+          "competicao": "BRITISH GT",
+          "evento": "Brands Hatch - WarmUp",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "WarmUp",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:45",
+          "competicao": "F4 BRASIL",
+          "evento": "Brasília/DF - Corrida 2 (VT)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 2 (VT)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:45",
+          "competicao": "GB3",
+          "evento": "Brands Hatch - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:10",
+          "competicao": "INTERNATIONAL GT OPEN",
+          "evento": "Monza - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:30",
+          "competicao": "F4 ESPANHA",
+          "evento": "Jerez - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Jerez",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:40",
+          "competicao": "ADAC MX MASTERS",
+          "evento": "Drehna - Provas Domingo (P2)",
+          "canais": "YOUTUBE",
+          "etapa": "Drehna",
+          "sessao": "Provas Domingo (P2)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:00",
+          "competicao": "GB4",
+          "evento": "Brands Hatdh - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatdh",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:15",
+          "competicao": "EUROCUP-3",
+          "evento": "Jerez - Corrida 7",
+          "canais": "YOUTUBE",
+          "etapa": "Jerez",
+          "sessao": "Corrida 7",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:20",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasilia/DF - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Brasilia/DF",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:30",
+          "competicao": "BRITISH GT",
+          "evento": "Brands Hatch - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:00",
+          "competicao": "MOTOS LATIN CUP",
+          "evento": "Santa Cruz do Sul/RS - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:20",
+          "competicao": "KART CROSS BRASIL",
+          "evento": "Tapurah/MT - Prova 1 (Estágio 2)",
+          "canais": "YOUTUBE",
+          "etapa": "Tapurah/MT",
+          "sessao": "Prova 1 (Estágio 2)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:25",
+          "competicao": "GT WORLD CHL AMÉRICA",
+          "evento": "Barber - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Barber",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:10",
+          "competicao": "R3 FEMININO LA",
+          "evento": "Santa Cruz do Sul/RS - Corrida 3",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:12",
+          "competicao": "F4 INGLESA",
+          "evento": "Silverstone - Corrica 3",
+          "canais": "YOUTUBE",
+          "etapa": "Silverstone",
+          "sessao": "Corrica 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:15",
+          "competicao": "AUTO CROSS BRASIL",
+          "evento": "Tapurah/MT - Classificatório 2",
+          "canais": "YOUTUBE",
+          "etapa": "Tapurah/MT",
+          "sessao": "Classificatório 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:25",
+          "competicao": "GB3",
+          "evento": "Brands Hatch - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:05",
+          "competicao": "GT CUP OPEN EUROPE",
+          "evento": "Monza - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:10",
+          "competicao": "KART CROSS BRASIL",
+          "evento": "TapuralyMT - Prova 2",
+          "canais": "YOUTUBE",
+          "etapa": "TapuralyMT",
+          "sessao": "Prova 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:15",
+          "competicao": "STOCK CAR",
+          "evento": "Brasília/DF - Corrida Endurance",
+          "canais": "YOUTUBE, BAND, BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida Endurance",
+          "fonte": "tomadadetempo",
+          "dura": 135
+        },
+        {
+          "hora": "12:40",
+          "competicao": "GB4",
+          "evento": "Brands Hatch - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "MOTO1000GP",
+          "evento": "Santa Cruz do Sul/RS - Corrida Principal (GP1000)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida Principal (GP1000)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:35",
+          "competicao": "AUTO CROSS BRASIL",
+          "evento": "Tapurah/MT - Prova 2",
+          "canais": "YOUTUBE",
+          "etapa": "Tapurah/MT",
+          "sessao": "Prova 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "GT WORLD CHL AMÉRICA",
+          "evento": "Barber - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Barber",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "MOTO 1000GP",
+          "evento": "Santa Cruz do Sul/RS - Corrida (660CUP)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida (660CUP)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:10",
+          "competicao": "MOTO 1000GP",
+          "evento": "Santa Cruz do Sul/RS - Corrida (GP LIGHT)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida (GP LIGHT)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:05",
+          "competicao": "F4 BRASIL",
+          "evento": "Brasília/DF - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:05",
+          "competicao": "MOTO1000GP",
+          "evento": "Santa Cruz do Sul/RS - Corrida (GP600)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida (GP600)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "NASCAR CUP SERIES",
+          "evento": "Kansas - Corrida",
+          "canais": "PHIZTV, DISNEY+ PR",
+          "etapa": "Kansas",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "16:20",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 4",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 4",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "18:00",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 3 (VT)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 3 (VT)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 4 (VT)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 4 (VT)",
           "fonte": "tomadadetempo"
         }
       ]
