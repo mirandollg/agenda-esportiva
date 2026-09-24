@@ -1,20 +1,15 @@
-https://cdn1.telesco.pe/file/dYQJk5Yq6Y1UdHsI63LXa01ovQqh7DSdKX4BdYfYXVGQar8dJ4xrE8Qmztk-OaR5aAfep0RWOnpv-nrwR0k6nrIERt3IgqIhRvG70BHDGJ72KzlEK8cgyCWxmrUHNnT857qC3K7NEb_y95IX8vueIdarrCHOTzuaKGaBSEMii4IE07d7okmAf7TnB7lovy8RbfKLABG4ox6CUIQ-lXOntrnLhy6FzjqirYPUNFw-RsTOUJL0U1888an0stGsMAaf0vHUDyu5LLI30ZcTQ40acSlPGwzAPnViRsEMTyJf0wnWygMS_0ypAY-d1dCPo4Jy8XXAcEkSuRT0cR_heMRVsw.jpg
-data: 2026-09-18
-colunas: [(5, 35), (42, 188), (213, 330), (337, 419), (476, 594)]
+https://cdn1.telesco.pe/file/l-L6jhzXMVCwAr5gFKOEa7n5nYEcc-Js4DWp37YAtBfKLvZsBZ5h6dQ-6yZkSIpgeeCt6C4YXkKkLxezKigol6nGoCNgl-Rq_vhGs29ygvSmTEVnUlklFvsr3TUjOjYu8q4v7fWBT2eRMsQ4U-Bh5bLtKYI-iRBLkmtSMwBXfqNbRQAD0tSntrXiuqtyCCsu2xnrOxyEyELOm9PqacQkZktwj5O9Ec8iK80zUVzsZThOawj4Ww6BKXR22NV3zslFh0bDRpY0nu-YMkQo1HXuFFFOzeUm8ZwwTOGOv_bvyHEaqeWKTrEJEBKefObI4GS7x6mK5FJ9IBpCLrLN_nlWSw.jpg
+data: 2026-09-25
+colunas: [(5, 35), (43, 160), (213, 330), (337, 436), (476, 611)]
 
 y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=138-150 | 05:50 || RADICAL CUP EUROPE || Barcelona || Classificação || YOUTUBE
-y=154-168 | 08:15 || MOTO3 || Áustria || Treino Oficial || ESPN4 | DISNEY + PR
-y=173-187 | 09:05 || MOTO2 || Áustria || Treino Oficial || ESPNA4 | DISNEY + PR
-y=193-203 | 09:35 || RADICAL CUP EUROPE || Barcelona || Corrida 1 || YOUTUBE
-y=210-224 | 10:00 || MOTO GP || Áustria || Treino Oficial || ESPN4 | DISNEY + PR
-y=230-241 | 11:05 || 24H DE BARCELONA || Barcelona || Classificação || YOUTUBE
-y=249-258 | 13:45 || RADICAL CUP EUROPE || Barcelona || Corrida 2 || YOUTUBE
-y=265-280 | 14:00 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=283-298 | 15:00 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=302-317 | 15:50 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=323-335 | 19:30 || F4 JAPONESA || Sugo || Corrida 1 || YOUTUBE
-y=341-352 | 20:15 || AMG CUP || Cascavel/PR || Corrida 1 || BANDSPORTS
-y=360-372 | 20:30 || NASCAR O'REILLY SERIES || Bristol || Corrida || PHIZTV | DISNEY + PR
-y=376-390 | 23:15 || MOTO GP/2/3 || Áustria || Algum VT || ESPN3
-y=394-409 | 23:59 || GT4 AUSTRÁLIA || Sydney || Classificação || YOUTUBE
+y=136-150 | 01:15 || FÓRMULA 2 || Azerbaijão || Corrida Sprint || SPORTV3 | FITV | CLOBOPLAY PR
+y=154-169 | 05:30 || FÓRMULA 1 || GP do Azerbaijão || Treino Livre 3 || SPORTVS | FITV | CLOSOPLAY PR
+y=173-187 | 07:15 || FÓRMULA 2 || Azerbaijão || Corrida Principal 7 || SPORTV3 | FITV | CLOBOPLAY PR
+y=191-205 | 09:00 || FÓRMULA 1 || GP do Azerbaijão || Classificação || SPOSTVS | FITV | CLOBOPLAY PR
+y=212-224 | 14:15 || GOLD TURISMO || Cascavel/PR || Corrida 1 (Etapa 5) || YOUTUBE
+y=230-242 | 15:00 || GOLD CLASSIC || Cascavel/PR || Corrida 2 (Etapa 5) || YOUTUBE
+y=249-261 | 17:30 || GOLD TURISMO || Cascavel/PR || Corrida 2 (Etapa 5) || YOUTUBE
+y=265-280 | 18:00 || FÓRMULA DRIFT || Las Vegas || Top32 (PROSPEC) || YOUTUBE
+y=286-298 | 21:30 || WEC || Fuji || Treino Livre 3 || YOUTUBE
+y=302-317 | 23:00 || FÓRMULA DRIFT || Las Vegas || Top16 (PROSPEC) || YOUTUBE

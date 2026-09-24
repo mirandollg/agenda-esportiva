@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-09-24T18:51:42-03:00",
+  "gerado_em": "2026-09-24T19:00:42-03:00",
   "primeiro_dia": "2026-09-24",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 23,
+  "total": 73,
   "dias": [
     {
       "data": "2026-09-24",
@@ -193,6 +193,466 @@
           "canais": "SPORTV2, GETV",
           "icone": "eed655455011abceeea9800055655599abbb332000445566bbb655443444222001ccc999666666000445ddd99a111776111aabddd999",
           "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-25",
+      "eventos": [
+        {
+          "hora": "01:15",
+          "competicao": "FÓRMULA 2",
+          "evento": "Azerbaijão - Corrida Sprint",
+          "canais": "SPORTV3, FITV, CLOBOPLAY PR",
+          "etapa": "Azerbaijão",
+          "sessao": "Corrida Sprint",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:30",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Azerbaijão - Treino Livre 3",
+          "canais": "SPORTVS, FITV, CLOSOPLAY PR",
+          "etapa": "GP do Azerbaijão",
+          "sessao": "Treino Livre 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:15",
+          "competicao": "FÓRMULA 2",
+          "evento": "Azerbaijão - Corrida Principal 7",
+          "canais": "SPORTV3, FITV, CLOBOPLAY PR",
+          "etapa": "Azerbaijão",
+          "sessao": "Corrida Principal 7",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Azerbaijão - Classificação",
+          "canais": "SPOSTVS, FITV, CLOBOPLAY PR",
+          "etapa": "GP do Azerbaijão",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:15",
+          "competicao": "GOLD TURISMO",
+          "evento": "Cascavel/PR - Corrida 1 (Etapa 5)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 1 (Etapa 5)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "GOLD CLASSIC",
+          "evento": "Cascavel/PR - Corrida 2 (Etapa 5)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 2 (Etapa 5)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "17:30",
+          "competicao": "GOLD TURISMO",
+          "evento": "Cascavel/PR - Corrida 2 (Etapa 5)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 2 (Etapa 5)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "18:00",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Las Vegas - Top32 (PROSPEC)",
+          "canais": "YOUTUBE",
+          "etapa": "Las Vegas",
+          "sessao": "Top32 (PROSPEC)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "21:30",
+          "competicao": "WEC",
+          "evento": "Fuji - Treino Livre 3",
+          "canais": "YOUTUBE",
+          "etapa": "Fuji",
+          "sessao": "Treino Livre 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "23:00",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Las Vegas - Top16 (PROSPEC)",
+          "canais": "YOUTUBE",
+          "etapa": "Las Vegas",
+          "sessao": "Top16 (PROSPEC)",
+          "fonte": "tomadadetempo"
+        }
+      ]
+    },
+    {
+      "data": "2026-09-26",
+      "eventos": [
+        {
+          "hora": "02:00",
+          "competicao": "WEC",
+          "evento": "Fuji - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Fuji",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:00",
+          "competicao": "FÓRMULA 2",
+          "evento": "Azerbaijão - Corrida Principal 2",
+          "canais": "SPORTV3, FITV, CLOSOPLAY PR",
+          "etapa": "Azerbaijão",
+          "sessao": "Corrida Principal 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:30",
+          "competicao": "F4 ESPANHA",
+          "evento": "Jerez - Corrida 1",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Jerez",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:30",
+          "competicao": "EUROCUP-3",
+          "evento": "Jerez - Corrida 1",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Jerez",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:55",
+          "competicao": "EUROFORMULA OPEN",
+          "evento": "Monza - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:00",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Azerbaijão - Corrida",
+          "canais": "SPORTV3, FITV, CLOBOPLAY PR",
+          "etapa": "GP do Azerbaijão",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:05",
+          "competicao": "KART ALEMÃO",
+          "evento": "Wackersdorf - Provas Sábado",
+          "canais": "YOUTUBE",
+          "etapa": "Wackersdorf",
+          "sessao": "Provas Sábado",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:10",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 1",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:30",
+          "competicao": "F4 ESPANHA",
+          "evento": "Jerez - Corrida 2",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Jerez",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:15",
+          "competicao": "GOLD TURISMO",
+          "evento": "Cascavel/PR - Corrida 3 (Etapa 5)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 3 (Etapa 5)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:30",
+          "competicao": "EUROCUP-3",
+          "evento": "Jerez - Sprint Race",
+          "canais": "YOUTUBE",
+          "etapa": "Jerez",
+          "sessao": "Sprint Race",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:30",
+          "competicao": "STOCK LIGHT",
+          "evento": "Brasília/DF - Corrida Endurance",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida Endurance",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:54",
+          "competicao": "TCR EUROPEAN ENDURANCE",
+          "evento": "Valencia/ESP - Estagio 1",
+          "canais": "YOUTUBE",
+          "etapa": "Valencia/ESP",
+          "sessao": "Estagio 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:00",
+          "competicao": "ADAC MX MASTERS",
+          "evento": "Drehna - Provas Sábado",
+          "canais": "YOUTUBE",
+          "etapa": "Drehna",
+          "sessao": "Provas Sábado",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:15",
+          "competicao": "GOLD CLASSIC",
+          "evento": "Cascavel/PR - Corrida 1 (Etapa 6)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 1 (Etapa 6)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:20",
+          "competicao": "GT CUP OPEN EUROPE",
+          "evento": "Monza - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:45",
+          "competicao": "GB3",
+          "evento": "Brands Hatch - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:32",
+          "competicao": "F4 INGLESA",
+          "evento": "Silverstone - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Silverstone",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:40",
+          "competicao": "TCR EUROPE",
+          "evento": "Monza - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:10",
+          "competicao": "F4 BRASIL",
+          "evento": "Brasília/DF - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:15",
+          "competicao": "BRITISH GT",
+          "evento": "Brands Hatch - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:15",
+          "competicao": "GOLD TURISMO",
+          "evento": "Cascavel/PR - Corrida 4 (Etapa 5)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 4 (Etapa 5)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:15",
+          "competicao": "MOTO 1000GP",
+          "evento": "Santa Cruz do Sul/RS - SuperPole (Geral)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "SuperPole (Geral)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:40",
+          "competicao": "EUROFORMULA OPEN",
+          "evento": "Monza - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "GB4",
+          "evento": "Brands Hatch - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Brands Hatch",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:45",
+          "competicao": "GOLD CLASSIC",
+          "evento": "Cascavel/PR - Corrida 2 (Etapa 6)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 2 (Etapa 6)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:45",
+          "competicao": "R3 FEMININO LA",
+          "evento": "Santa Cruz do Sul/RS - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:50",
+          "competicao": "AUTO CROSS BRASIL",
+          "evento": "Tapurah/MT - Classificatório 1",
+          "canais": "YOUTUBE",
+          "etapa": "Tapurah/MT",
+          "sessao": "Classificatório 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "NASCAR TRUCK SERIES",
+          "evento": "Kansas - Corrida",
+          "canais": "PHIZTV, DISNEY+ PR",
+          "etapa": "Kansas",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:05",
+          "competicao": "AUTO CROSS BRASIL",
+          "evento": "Tapurah/MT - Prova 1",
+          "canais": "YOUTUBE",
+          "etapa": "Tapurah/MT",
+          "sessao": "Prova 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:15",
+          "competicao": "STOCK CAR",
+          "evento": "Brasília/DF - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:50",
+          "competicao": "KART CROSS BRASIL",
+          "evento": "Tapurah/MT - Prova 1 (Estágio 1)",
+          "canais": "YOUTUBE",
+          "etapa": "Tapurah/MT",
+          "sessao": "Prova 1 (Estágio 1)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:50",
+          "competicao": "MOTOS LATIN CUP",
+          "evento": "Santa Cruz do Sul/RS - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "MOTO 1000GP",
+          "evento": "Santa Cruz do Sul/RS - Corrida Sprint (GP1000)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida Sprint (GP1000)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:50",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "PERDIDOS NA NOITE SPEED FEST",
+          "evento": "Cascavel/PR - Corrida (6 Horas)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida (6 Horas)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "16:35",
+          "competicao": "R3 FEMININO LA",
+          "evento": "Santa Cruz do Sul/RS - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "17:05",
+          "competicao": "F4 BRASIL",
+          "evento": "Brasília/DF - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Las Vegas - Top32 (PRO)",
+          "canais": "YOUTUBE",
+          "etapa": "Las Vegas",
+          "sessao": "Top32 (PRO)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "23:00",
+          "competicao": "WEC",
+          "evento": "Fuji - Corrida",
+          "canais": "BANDSPORTS, YOUTUBE",
+          "etapa": "Fuji",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
         }
       ]
     }
