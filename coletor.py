@@ -346,6 +346,41 @@ def _blocos_entre(faixas, tamanho, minimo=12):
     return blocos
 
 
+def assinatura_icone(celula):
+    """
+    Devolve uma assinatura do desenho da modalidade, ou "" se nao achar.
+
+    O icone eh a unica coisa colorida da celula — o nome da competicao eh
+    texto preto. Entao filtramos por saturacao, pegamos o bloco mais a
+    esquerda (o desenho vem antes do nome), reduzimos a 6x6 e gravamos
+    cada canal em um digito hexadecimal. Icones iguais geram assinaturas
+    iguais, e eh isso que permite agrupar modalidades sem saber o nome.
+    """
+    arr = np.asarray(celula.convert("RGB"), dtype=np.int16)
+    if arr.size == 0:
+        return ""
+    maximo = arr.max(axis=2)
+    minimo = arr.min(axis=2)
+    colorido = ((maximo - minimo) > 38) & (maximo > 55)
+    if colorido.sum() < 10:
+        return ""
+
+    ys, xs = np.nonzero(colorido)
+    lado = celula.height
+    # o icone eh quadrado e fica na esquerda; ignora cor que apareca depois
+    limite = xs.min() + lado + 2
+    dentro = xs <= limite
+    ys, xs = ys[dentro], xs[dentro]
+    if len(xs) < 10:
+        return ""
+
+    recorte = celula.crop((int(xs.min()), int(ys.min()),
+                           int(xs.max()) + 1, int(ys.max()) + 1))
+    mini = recorte.resize((6, 6), Image.LANCZOS).convert("RGB")
+    dados = np.asarray(mini, dtype=np.int16) // 16  # 16 niveis por canal
+    return "".join(f"{v:x}" for v in dados.flatten())
+
+
 def ler_agenda_entv(url, data_iso, indice=0):
     """
     Grade do Esportes na TV: separadores BRANCOS entre celulas.
@@ -388,21 +423,30 @@ def ler_agenda_entv(url, data_iso, indice=0):
     log(f"  [entv {indice}] {largura}x{altura}, {len(linhas)} linha(s), colunas por {metodo}")
 
     eventos = []
+    marcas = []
     for y0, y1 in linhas:
         cel = [img.crop((x0 + 1, y0 + 1, x1 - 1, y1 - 1)) for x0, x1 in colunas[:4]]
         hora = normalizar_hora(ler_celula(cel[0]))
         if not hora:
             continue
+        competicao = limpar_competicao(ler_celula(cel[1]))
+        marca = assinatura_icone(cel[1])
+        if marca:
+            marcas.append(f"{marca}  {competicao}")
         eventos.append(
             {
                 "hora": hora,
-                "competicao": limpar_competicao(ler_celula(cel[1])),
+                "competicao": competicao,
                 "evento": limpar_confronto(ler_celula(cel[2])),
                 "canais": limpar_canais(ler_celula(cel[3])),
+                "icone": marca,
                 "fonte": "esportesnatv",
             }
         )
-    log(f"  [entv {indice}] {data_iso}: {len(eventos)} evento(s)")
+    if indice == 0 and marcas:
+        salvar_debug("icones.txt", "\n".join(marcas))
+    log(f"  [entv {indice}] {data_iso}: {len(eventos)} evento(s), "
+        f"{sum(1 for e in eventos if e['icone'])} com icone")
     return eventos
 
 
