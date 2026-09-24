@@ -100,6 +100,11 @@
   .liga{
     font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:14px;
     color:var(--tinta-fraca);letter-spacing:.015em;
+    display:flex;align-items:baseline;gap:6px;
+  }
+  .icone{
+    font-size:15px;line-height:1;flex:0 0 auto;
+    font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
   }
   .titulo{font-weight:500;font-size:16px;margin-top:1px}
   .canais{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
@@ -412,6 +417,50 @@ function escapar(t){
     ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
 }
 
+// Icone da modalidade. A grade original traz um desenho na coluna da
+// competicao, mas desenho nao se le por OCR — entao a modalidade sai do
+// proprio nome. Lido de cima para baixo: o primeiro que casar vence, por
+// isso as modalidades especificas vem antes dos guarda-chuvas (o
+// atletismo dentro dos Jogos Sul-Americanos deve virar corredor, nao
+// medalha). Tudo que vem do Tomada de Tempo eh corrida, sem consulta.
+const ICONES = [
+  [/moto ?gp|moto ?[23]|f[oó]rmula ?[1e]?|\bf1\b|nascar|stock|indy|rally|wrc|gt ?[34]|porsche|amg cup|radical cup|copa truck|\bf[234]\b|24 ?h|le mans|turismo|tcr|drag/i, "🏎️"],
+  [/nfl|futebol americano/i,                    "🏈"],
+  [/mlb|beisebol/i,                             "⚾"],
+  [/nhl|h[oó]quei/i,                            "🏒"],
+  [/nba|wnba|basquete|nbb/i,                    "🏀"],
+  [/v[oô]lei|volleyball/i,                      "🏐"],
+  [/futsal/i,                                   "🥅"],
+  [/t[eê]nis|wta|atp|roland|wimbledon|us open/i, "🎾"],
+  [/boxe|mma|ufc|\bluta\b/i,                    "🥊"],
+  [/jud[oô]|taekwondo|karat|jiu|wrestling/i,    "🥋"],
+  [/nata[çc]|polo aqu[áa]tico|saltos ornament/i, "🏊"],
+  [/gin[áa]stica/i,                             "🤸"],
+  [/atletismo|marcha atl|maratona|revezamento/i, "🏃"],
+  [/surf|wsl/i,                                 "🏄"],
+  [/skate|skt/i,                                "🛹"],
+  [/golfe|\bpga\b/i,                            "⛳"],
+  [/ciclismo|\bbmx\b|mountain bike/i,           "🚴"],
+  [/rugby|r[úu]gbi/i,                           "🏉"],
+  [/handebol/i,                                 "🤾"],
+  [/hipismo|equestre/i,                         "🏇"],
+  [/vela|remo|canoa/i,                          "🚣"],
+  [/tiro com arco|arco e flecha/i,              "🏹"],
+  [/xadrez/i,                                   "♟️"],
+  [/e-?sports|valorant|counter|league of legends|\blol\b|\bcs2\b/i, "🎮"],
+  [/jogos sul-?americanos|olimp|pan-?americanos|jogos mundiais/i, "🏅"],
+  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b/i, "⚽"]
+];
+
+const ICONE_PADRAO = "📺";
+
+function iconeDe(ev){
+  if (ev.fonte === "tomadadetempo") return "🏎️";
+  const alvo = `${ev.competicao || ""} ${ev.evento || ""}`;
+  for (const [padrao, icone] of ICONES) if (padrao.test(alvo)) return icone;
+  return ICONE_PADRAO;
+}
+
 function cartao(ev, extra){
   const canais = (ev.canais || "").split(/[,;|]/).map(c => c.trim()).filter(Boolean)
     .map(c => `<span class="canal">${escapar(c)}</span>`).join("");
@@ -426,7 +475,7 @@ function cartao(ev, extra){
   return `<li class="item${ev.fonte === "tomadadetempo" ? " corrida" : ""}">
     <div class="hora">${escapar(ev.hora)}</div>
     <div>
-      <div class="liga">${escapar(ev.competicao)}</div>
+      <div class="liga"><span class="icone">${iconeDe(ev)}</span>${escapar(ev.competicao)}</div>
       <div class="titulo">${escapar(ev.evento)}</div>
       ${placar}
       <div class="canais">${canais}</div>
