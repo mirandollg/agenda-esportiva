@@ -43,6 +43,12 @@ TDT_CANAL = "https://t.me/s/tomadadetempo"
 TDT_DIAS_DE_FEED = 8     # so olha mensagens desta janela
 TDT_MAX_IMAGENS = 15     # teto de seguranca por execucao
 
+# Grade das emissoras. Serve para saber quanto tempo o canal reservou para
+# cada evento, em vez de estimar pela modalidade.
+MEUGUIA = "https://meuguia.tv"
+MEUGUIA_CATEGORIAS = ["Esportes", "Aberta"]
+MEUGUIA_MAX_CANAIS = 14
+
 SAIDA = "docs/app.json"
 DEBUG_DIR = "debug"
 
@@ -53,8 +59,8 @@ DEBUG_DIR = "debug"
 #       leitura de imagens ja publicadas
 PRIMEIRO_DIA = 0
 
-# Quantos dias manter no JSON final
-DIAS_A_MANTER = 3
+# Nao existe teto de dias para a frente: tudo que as fontes anunciarem
+# entra no JSON. O unico corte eh para tras, pelo PRIMEIRO_DIA acima.
 
 # Filtro de escopo. Lista vazia = manter tudo.
 # Exemplo: ESCOPO = ["brasileirao", "wnba", "moto gp", "nascar"]
@@ -637,6 +643,180 @@ def coletar_tomada_de_tempo():
 
 
 # ----------------------------------------------------------------------------
+# DURACAO REAL — GRADE DAS EMISSORAS (meuguia.tv)
+# ----------------------------------------------------------------------------
+
+
+def chave_canal(nome):
+    """'SporTV 2', 'SPORTV2' e 'sportv  2' viram todos 'sportv2'."""
+    return re.sub(r"[^a-z0-9]", "", normalizar(nome))
+
+
+def meuguia_canais():
+    """
+    Descobre o codigo de cada canal a partir das paginas de categoria.
+    O link de cada canal termina no codigo (.../canal/SP2) e o texto da
+    linha comeca com o nome do canal, antes do primeiro horario. Descobrir
+    em vez de chumbar evita uma tabela que envelhece sozinha.
+    """
+    canais = {}
+    for categoria in MEUGUIA_CATEGORIAS:
+        try:
+            r = requests.get(f"{MEUGUIA}/programacao/categoria/{categoria}",
+                             headers=UA, timeout=45)
+            r.raise_for_status()
+        except Exception as e:
+            log(f"meuguia: categoria {categoria} falhou ({e})")
+            continue
+        sopa = BeautifulSoup(r.text, "html.parser")
+        for a in sopa.select("a[href*='/programacao/canal/']"):
+            codigo = a["href"].rstrip("/").split("/")[-1]
+            texto = limpar(a.get_text(" "))
+            nome = re.split(r"\d{1,2}:\d{2}", texto)[0]
+            if nome and codigo:
+                canais.setdefault(chave_canal(nome), codigo)
+    log(f"meuguia: {len(canais)} canal(is) mapeado(s)")
+    return canais
+
+
+def meuguia_grade(codigo):
+    """
+    Devolve [(datahora, titulo), ...] do canal, em ordem.
+    A pagina alterna cabecalho de dia ('sexta-feira, 21/8'), horario e
+    titulo. O ano nao aparece, entao eh deduzido — com cuidado na virada
+    de dezembro para janeiro.
+    """
+    try:
+        r = requests.get(f"{MEUGUIA}/programacao/canal/{codigo}",
+                         headers=UA, timeout=45)
+        r.raise_for_status()
+    except Exception as e:
+        log(f"  meuguia: canal {codigo} falhou ({e})")
+        return []
+
+    sopa = BeautifulSoup(r.text, "html.parser")
+    for br in sopa.find_all("br"):
+        br.replace_with("\n")
+    linhas = [limpar(l) for l in sopa.get_text("\n").split("\n")]
+    linhas = [l for l in linhas if l]
+
+    hoje = datetime.now(TZ_BR).date()
+    grade, dia = [], None
+    i = 0
+    while i < len(linhas):
+        linha = linhas[i]
+
+        m_dia = re.match(r"^[a-zç-]+(-feira)?,\s*(\d{1,2})/(\d{1,2})$",
+                         normalizar(linha))
+        if m_dia:
+            d, mes = int(m_dia.group(2)), int(m_dia.group(3))
+            ano = hoje.year
+            # a grade avanca no tempo: mes menor que o de hoje eh ano que vem
+            if mes < hoje.month - 6:
+                ano += 1
+            elif mes > hoje.month + 6:
+                ano -= 1
+            try:
+                dia = datetime(ano, mes, d).date()
+            except ValueError:
+                dia = None
+            i += 1
+            continue
+
+        m_hora = re.match(r"^(\d{1,2}):(\d{2})$", linha)
+        if m_hora and dia and i + 1 < len(linhas):
+            titulo = linhas[i + 1]
+            grade.append((datetime.combine(dia, datetime.min.time()).replace(
+                hour=int(m_hora.group(1)), minute=int(m_hora.group(2))), titulo))
+            i += 2
+            continue
+        i += 1
+
+    grade.sort(key=lambda x: x[0])
+    return grade
+
+
+def aplicar_duracoes(por_dia):
+    """
+    Carimba cada evento com quanto tempo a emissora reservou para ele.
+
+    Procura na grade do canal o programa que contem o horario do evento e
+    mede ate o proximo programa. O que nao for encontrado fica sem o campo
+    e o app cai na estimativa por modalidade.
+    """
+    try:
+        canais = meuguia_canais()
+    except Exception as e:
+        log(f"meuguia falhou: {e}")
+        return
+    if not canais:
+        return
+
+    # descobre de quais canais precisamos, pelos eventos coletados
+    precisa, sem_grade = {}, set()
+    for eventos in por_dia.values():
+        for ev in eventos:
+            for bruto in re.split(r"[,;|]", ev.get("canais") or ""):
+                chave = chave_canal(bruto)
+                if not chave:
+                    continue
+                if chave in canais:
+                    precisa.setdefault(chave, canais[chave])
+                    break
+                sem_grade.add(limpar(bruto))
+
+    grades = {}
+    for chave, codigo in list(precisa.items())[:MEUGUIA_MAX_CANAIS]:
+        g = meuguia_grade(codigo)
+        if g:
+            grades[chave] = g
+        log(f"  meuguia: {chave} ({codigo}) -> {len(g)} programa(s)")
+
+    if sem_grade:
+        salvar_debug("canais_sem_grade.txt", "\n".join(sorted(sem_grade)))
+
+    achou = 0
+    for data_iso, eventos in por_dia.items():
+        for ev in eventos:
+            grade = None
+            for bruto in re.split(r"[,;|]", ev.get("canais") or ""):
+                grade = grades.get(chave_canal(bruto))
+                if grade:
+                    break
+            if not grade:
+                continue
+
+            try:
+                ano, mes, dia = map(int, data_iso.split("-"))
+                h, m = map(int, ev["hora"].split(":"))
+                quando = datetime(ano, mes, dia, h, m)
+            except Exception:
+                continue
+
+            # ultimo programa que ja comecou quando o evento comeca
+            anterior = None
+            for idx, (inicio, _titulo) in enumerate(grade):
+                if inicio <= quando:
+                    anterior = idx
+                else:
+                    break
+            if anterior is None or anterior + 1 >= len(grade):
+                continue
+
+            comeco = grade[anterior][0]
+            fim = grade[anterior + 1][0]
+            # programa que comecou muito antes provavelmente eh outro
+            if (quando - comeco).total_seconds() > 5400:
+                continue
+            minutos_ = int((fim - quando).total_seconds() // 60)
+            if 10 <= minutos_ <= 720:
+                ev["dura"] = minutos_
+                achou += 1
+
+    log(f"meuguia: duracao real aplicada a {achou} evento(s)")
+
+
+# ----------------------------------------------------------------------------
 # MONTAGEM
 # ----------------------------------------------------------------------------
 
@@ -674,6 +854,11 @@ def montar():
     except Exception as e:
         log(f"Tomada de Tempo falhou: {e}")
 
+    try:
+        aplicar_duracoes(por_dia)
+    except Exception as e:
+        log(f"Duracao pela grade falhou: {e}")
+
     dias = []
     for data_iso in sorted(por_dia):
         if data_iso < corte:
@@ -683,7 +868,7 @@ def montar():
         if eventos:
             dias.append({"data": data_iso, "eventos": eventos})
 
-    dias = dias[:DIAS_A_MANTER]
+    log(f"dias publicados: {', '.join(d['data'] for d in dias) or 'nenhum'}")
 
     return {
         "gerado_em": agora.isoformat(timespec="seconds"),
