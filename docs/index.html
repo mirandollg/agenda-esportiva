@@ -401,6 +401,9 @@ function minutos(hhmm){
   return h*60 + m;
 }
 function duracao(ev){
+  // quando o coletor conseguiu ler a grade da emissora, vale o tempo real
+  // que o canal reservou; a tabela abaixo eh so o plano B
+  if (ev.dura > 0) return ev.dura;
   const alvo = `${ev.competicao || ""} ${ev.evento || ""} ${ev.sessao || ""}`;
   for (const [padrao, mins] of DURACOES) if (padrao.test(alvo)) return mins;
   return DURACAO_PADRAO;
