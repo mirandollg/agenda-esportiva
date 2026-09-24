@@ -3,7 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Agenda esportiva</title>
+<title>Guigo Sports</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#16202E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Guigo Sports">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icone-192.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=Public+Sans:wght@400;500;700&display=swap" rel="stylesheet">
@@ -38,19 +45,19 @@
     font-family:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
     font-size:16px;line-height:1.45;-webkit-text-size-adjust:100%;
   }
-  .envelope{max-width:640px;margin:0 auto;padding:0 16px 64px}
+  .envelope{max-width:640px;margin:0 auto;padding:0 16px 72px}
 
   header{padding:22px 0 12px}
   h1{
     font-family:"Archivo Narrow",sans-serif;font-weight:700;
-    font-size:clamp(28px,8vw,38px);letter-spacing:-.01em;margin:0;
+    font-size:clamp(30px,9vw,42px);letter-spacing:-.012em;margin:0;
   }
   .atualizado{color:var(--tinta-fraca);font-size:13px;margin-top:2px}
 
   .dias{
     position:sticky;top:env(safe-area-inset-top,0px);z-index:5;
     display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;
-    padding:10px 0;margin:0 -16px;padding-left:16px;padding-right:16px;
+    padding:10px 16px;margin:0 -16px;
     background:var(--papel);border-bottom:1px solid var(--linha);
   }
   .dias::-webkit-scrollbar{display:none}
@@ -58,18 +65,28 @@
     flex:0 0 auto;border:1px solid var(--linha);background:transparent;
     color:var(--tinta-fraca);border-radius:2px;padding:7px 12px;
     font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:15px;
-    letter-spacing:.01em;cursor:pointer;white-space:nowrap;
+    cursor:pointer;white-space:nowrap;
   }
   .dia[aria-selected="true"]{
     background:var(--tinta);color:var(--papel);border-color:var(--tinta);
   }
   .dia small{display:block;font-weight:500;font-size:11px;opacity:.72}
 
-  .filtros{display:flex;align-items:center;gap:10px;padding:14px 0 4px;
-    color:var(--tinta-fraca);font-size:13px}
-  .filtros label{display:flex;align-items:center;gap:7px;cursor:pointer}
-  .filtros input{accent-color:var(--dia);width:16px;height:16px}
-  .contagem{margin-left:auto;font-variant-numeric:tabular-nums}
+  .bloco{margin-top:26px}
+  .bloco h2{
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;
+    font-size:17px;margin:0 0 2px;display:flex;align-items:center;gap:8px;
+  }
+  .bloco p.nota{margin:0 0 6px;font-size:13px;color:var(--tinta-fraca)}
+  .bloco.vivo h2{color:var(--agora)}
+  .pulso{
+    width:9px;height:9px;border-radius:50%;background:var(--agora);
+    flex:0 0 auto;
+  }
+  @media (prefers-reduced-motion:no-preference){
+    .pulso{animation:bate 2s ease-in-out infinite}
+    @keyframes bate{0%,100%{opacity:1}50%{opacity:.25}}
+  }
 
   ol{list-style:none;margin:0;padding:0}
   .item{
@@ -78,19 +95,19 @@
   }
   .hora{
     font-family:"Archivo Narrow",sans-serif;font-weight:700;
-    font-size:20px;font-variant-numeric:tabular-nums;
-    padding-top:1px;letter-spacing:.01em;
+    font-size:20px;font-variant-numeric:tabular-nums;padding-top:1px;
   }
-  .passou .hora,.passou .titulo,.passou .liga{opacity:.42}
-  .passou .canais{opacity:.42}
   .liga{
     font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:14px;
     color:var(--tinta-fraca);letter-spacing:.015em;
+    display:flex;align-items:baseline;gap:6px;
+  }
+  .icone{
+    font-size:15px;line-height:1;flex:0 0 auto;
+    font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
   }
   .titulo{font-weight:500;font-size:16px;margin-top:1px}
-  .canais{
-    margin-top:6px;display:flex;flex-wrap:wrap;gap:5px;
-  }
+  .canais{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
   .canal{
     font-size:11.5px;font-weight:700;letter-spacing:.02em;
     background:var(--papel-alto);border:1px solid var(--linha);
@@ -98,51 +115,236 @@
   }
   .item.corrida .liga{color:var(--dia)}
 
-  .marcador{
-    display:grid;grid-template-columns:58px 1fr;gap:14px;align-items:center;
-    padding:6px 0;color:var(--agora);
+  .vivo .item{
+    border-left:3px solid var(--agora);padding-left:11px;
+    background:var(--papel-alto);border-bottom-color:transparent;
+    margin-bottom:2px;
   }
-  .marcador span{
-    font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:13px;
-    font-variant-numeric:tabular-nums;
+  .vivo .hora{color:var(--agora)}
+  .desde{
+    font-size:12px;color:var(--agora);font-weight:700;margin-top:5px;
   }
-  .marcador i{display:block;height:2px;background:var(--agora)}
+  .placar{
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:17px;
+    font-variant-numeric:tabular-nums;margin-top:3px;
+  }
+  .vivo .placar{color:var(--agora)}
+
+  .encerrado .item{opacity:.44}
+  .encerrado h2{color:var(--tinta-fraca)}
+  details>summary{
+    list-style:none;cursor:pointer;
+    font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:17px;
+    color:var(--tinta-fraca);padding:4px 0;
+  }
+  details>summary::-webkit-details-marker{display:none}
+  details>summary::after{content:" ▾";font-size:13px}
+  details[open]>summary::after{content:" ▴"}
 
   .aviso{
     border:1px solid var(--linha);border-left:3px solid var(--agora);
     background:var(--papel-alto);padding:12px 14px;margin:16px 0;
     font-size:14px;color:var(--tinta-fraca);
   }
-  .vazio{padding:48px 0;text-align:center;color:var(--tinta-fraca)}
-  footer{margin-top:28px;font-size:12.5px;color:var(--tinta-fraca)}
-  @media (prefers-reduced-motion:no-preference){
-    .item{transition:opacity .2s}
-  }
+  .vazio{padding:16px 0;color:var(--tinta-fraca);font-size:15px}
+  footer{margin-top:32px;font-size:12.5px;color:var(--tinta-fraca)}
 </style>
 </head>
 <body>
 <div class="envelope">
   <header>
-    <h1>Agenda esportiva</h1>
+    <h1>Guigo Sports</h1>
     <p class="atualizado" id="atualizado">Carregando…</p>
   </header>
 
   <nav class="dias" id="dias" role="tablist" aria-label="Dias"></nav>
   <div id="aviso"></div>
-
-  <div class="filtros">
-    <label><input type="checkbox" id="soFuturo"> Esconder o que já começou</label>
-    <span class="contagem" id="contagem"></span>
-  </div>
-
-  <ol id="lista"></ol>
-
+  <main id="conteudo"></main>
   <footer id="rodape"></footer>
 </div>
 
 <script>
-// Instantâneo usado só quando o app.json não está ao alcance — por exemplo
-// numa prévia fora do GitHub Pages. No ar, os dados vêm sempre do arquivo.
+// Quanto tempo um evento fica marcado como "ao vivo" depois do horario de
+// inicio. A grade so informa a hora de comeco, nunca a de fim, entao a
+// duracao eh estimada. A lista eh lida de cima para baixo: a primeira
+// regra que casar vence, por isso o tipo de sessao vem antes da categoria
+// (um treino de MotoGP dura o que dura um treino, nao o que dura a corrida).
+const DURACAO_PADRAO = 150;           // minutos
+
+const DURACOES = [
+  // --- tipo de sessao, vale para qualquer categoria do automobilismo ---
+  [/shakedown|warm ?up|treino livre/i,            45],
+  [/treino/i,                                     50],
+  [/classifica|qualify|classificat/i,             60],
+  [/sprint/i,                                     50],
+  [/algum vt|vt\b|reapresenta|melhores momentos/i, 60],
+
+  // --- automobilismo, por categoria (corrida) ---
+  [/24 ?h|24 horas|le mans/i,                   1440],
+  [/6 ?h(oras)?\b|wec/i,                         380],
+  [/nascar.*(cup|o.?reilly)|cup series/i,        240],
+  [/indy ?500|500 milhas/i,                      240],
+  [/nascar brasil|nascar\b/i,                    180],
+  [/f[oó]rmula 1|formula1|\bf1\b|gp d[aeo]/i,    120],
+  [/indy|indycar/i,                              150],
+  [/f[oó]rmula e/i,                               75],
+  [/moto ?gp/i,                                   60],
+  [/moto ?[23]\b/i,                               50],
+  [/stock car|stock light|porsche cup|copa truck/i, 60],
+  [/tcr|turismo|gt3|gt4|amg cup|radical cup/i,    60],
+  [/\bf[234]\b|f[oó]rmula [234]|japonesa/i,       45],
+  [/rally|wrc/i,                                  90],
+
+  // --- demais esportes ---
+  [/futebol|brasileir|libertadores|copa do brasil|champions|premier|la liga|s[eé]rie [abcd]\b|paulist[ãa]o|carioc|mundial sub|amistoso|estrelas fut/i, 120],
+  [/futsal/i,                                    100],
+  [/nfl|futebol americano/i,                     210],
+  [/mlb|beisebol/i,                              200],
+  [/nhl|h[oó]quei/i,                             165],
+  [/nba|wnba|basquete|nbb/i,                     140],
+  [/v[oô]lei|volleyball/i,                       130],
+  [/t[eê]nis|wta|atp|roland|wimbledon|us open/i, 180],
+  [/boxe|mma|ufc|luta/i,                         240],
+  [/surf|wsl/i,                                  300],
+  [/golfe|pga/i,                                 300],
+  [/jogos sul-?americanos|olimp|pan-?americanos/i, 300],
+  [/atletismo|nata[çc]|gin[áa]stica|judo|taekwondo/i, 180]
+];
+
+// Competicoes que a ESPN cobre num endereco publico de placar. Quando o
+// confronto eh encontrado la, o estado real (nao comecou / em andamento /
+// encerrado) substitui a estimativa por duracao. O que nao casar continua
+// caindo na tabela acima.
+const LIGAS_ESPN = [
+  [/sub-?\d|s\d{2}\b|fem\.? sub|juvenil/i,        null],  // base: ESPN nao cobre
+  [/s[ée]rie b/i,                    "soccer/bra.2"],
+  [/s[ée]rie a|brasileir/i,          "soccer/bra.1"],
+  [/libertadores/i,                  "soccer/conmebol.libertadores"],
+  [/sul-?americana/i,                "soccer/conmebol.sudamericana"],
+  [/copa do brasil/i,                "soccer/bra.copa_do_brasil"],
+  [/(champ\.? ?league|champions).*fem|fem.*(champ\.? ?league|champions)/i, "soccer/uefa.wchampions"],
+  [/champ\.? ?league|champions/i,    "soccer/uefa.champions"],
+  [/europa league/i,                 "soccer/uefa.europa"],
+  [/premier league|ingl[eê]s/i,      "soccer/eng.1"],
+  [/la ?liga|espanhol/i,             "soccer/esp.1"],
+  [/\bnfl\b/i,                       "football/nfl"],
+  [/\bmlb\b/i,                       "baseball/mlb"],
+  [/\bwnba\b/i,                      "basketball/wnba"],
+  [/\bnba\b/i,                       "basketball/nba"],
+  [/\bnhl\b/i,                       "hockey/nhl"]
+];
+
+const ESPN = "https://site.api.espn.com/apis/site/v2/sports/";
+const VAZIAS = new Set(["fem","masc","sub","clube","futebol","city","united",
+  "real","red","bull","los","angeles","new","san","the"]);
+
+// A grade abrevia e a ESPN escreve por extenso. Sem isso, PSG nunca casa.
+const APELIDOS = [
+  [/\bpsg\b/g,            "paris saint germain"],
+  [/\bman city\b/g,       "manchester city"],
+  [/\bman utd\b|\bman united\b/g, "manchester united"],
+  [/\batletico-?mg\b/g,   "atletico mineiro"],
+  [/\bathletico-?pr\b/g,  "athletico paranaense"],
+  [/\bbragantino\b/g,     "red bull bragantino"],
+  [/\bgremio\b/g,         "gremio"],
+  [/\binter\b/g,          "internacional"],
+  [/\bclev\.?\b/g,        "cleveland"],
+  [/\bla\b/g,             "los angeles"],
+  [/\bny\b/g,             "new york"],
+  [/\bsf\b/g,             "san francisco"]
+];
+
+function normalizar(txt){
+  return String(txt || "").normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/\s+/g," ").trim().toLowerCase();
+}
+
+function apelidar(nome){
+  let t = normalizar(nome).replace(/[^a-z0-9 ]/g," ");
+  APELIDOS.forEach(([de, para]) => { t = t.replace(de, para); });
+  return t.replace(/\s+/g," ").trim();
+}
+
+function ligaDe(ev){
+  const alvo = `${ev.competicao || ""} ${ev.evento || ""}`;
+  for (const [padrao, liga] of LIGAS_ESPN) if (padrao.test(alvo)) return liga;
+  return null;
+}
+
+function pedacos(nome){
+  return apelidar(nome).split(/\s+/)
+    .filter(t => t.length >= 4 && !VAZIAS.has(t));
+}
+
+function mesmoTime(a, b){
+  const na = apelidar(a), nb = apelidar(b);
+  if (!na || !nb) return false;
+  if (na.includes(nb) || nb.includes(na)) return true;
+  const pa = pedacos(a), pb = pedacos(b);
+  return pa.some(t => pb.includes(t));
+}
+
+function ladosDo(texto){
+  const partes = String(texto || "").split(/\s+x\s+/i);
+  return partes.length === 2 ? partes.map(p => p.trim()) : null;
+}
+
+function aaaammdd(d){
+  return d.getFullYear() +
+    String(d.getMonth()+1).padStart(2,"0") +
+    String(d.getDate()).padStart(2,"0");
+}
+
+// Busca o placar das ligas que aparecem na grade de hoje e carimba cada
+// evento com o estado real. Falha em silencio: sem resposta, vale a
+// estimativa por duracao.
+async function conferirAoVivo(eventos){
+  const ligas = new Set();
+  eventos.forEach(ev => { const l = ligaDe(ev); if (l) ligas.add(l); });
+  if (!ligas.size) return;
+
+  const hoje = new Date();
+  const amanha = new Date(hoje.getTime() + 864e5);
+  const faixa = `${aaaammdd(hoje)}-${aaaammdd(amanha)}`;
+
+  const respostas = await Promise.all([...ligas].slice(0, 8).map(liga =>
+    fetch(`${ESPN}${liga}/scoreboard?dates=${faixa}`, {cache:"no-store"})
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null)
+  ));
+
+  const jogos = [];
+  respostas.forEach(r => (r && r.events || []).forEach(e => {
+    const c = (e.competitions || [])[0]; if (!c) return;
+    const times = (c.competitors || []).map(t =>
+      (t.team && (t.team.displayName || t.team.shortDisplayName)) || "");
+    if (times.length !== 2) return;
+    const st = (c.status && c.status.type) || {};
+    jogos.push({
+      times,
+      placar: (c.competitors || []).map(t => t.score),
+      estado: st.state,
+      relogio: (c.status && c.status.displayClock) || st.shortDetail || ""
+    });
+  }));
+
+  eventos.forEach(ev => {
+    if (!ligaDe(ev)) return;
+    const lados = ladosDo(ev.evento);
+    if (!lados) return;
+    const achado = jogos.find(j =>
+      (mesmoTime(lados[0], j.times[0]) && mesmoTime(lados[1], j.times[1])) ||
+      (mesmoTime(lados[0], j.times[1]) && mesmoTime(lados[1], j.times[0]))
+    );
+    if (achado) ev._espn = achado;
+  });
+}
+
+const MINUTO = 60 * 1000;
+const RECARGA = 10 * MINUTO;          // busca o app.json a cada 10 minutos
+
+// Instantâneo usado só quando o app.json não está ao alcance, como numa
+// prévia fora do GitHub Pages. No ar, os dados vêm sempre do arquivo.
 const DEMO = {
   "gerado_em":"2026-09-22T23:03:14-03:00",
   "fontes":["Esportes na TV","Tomada de Tempo"],
@@ -151,7 +353,6 @@ const DEMO = {
       {"hora":"05:50","competicao":"RADICAL CUP EUROPE","evento":"Barcelona - Classificação","canais":"YOUTUBE","fonte":"tomadadetempo"},
       {"hora":"08:15","competicao":"MOTO3","evento":"Áustria - Treino Oficial","canais":"ESPN4, DISNEY+ PR","fonte":"tomadadetempo"},
       {"hora":"10:00","competicao":"MOTO GP","evento":"Áustria - Treino Oficial","canais":"ESPN4, DISNEY+ PR","fonte":"tomadadetempo"},
-      {"hora":"11:05","competicao":"24H DE BARCELONA","evento":"Barcelona - Classificação","canais":"YOUTUBE","fonte":"tomadadetempo"},
       {"hora":"19:30","competicao":"F4 JAPONESA","evento":"Sugo - Corrida 1","canais":"YOUTUBE","fonte":"tomadadetempo"},
       {"hora":"20:15","competicao":"AMG CUP","evento":"Cascavel/PR - Corrida 1","canais":"BANDSPORTS","fonte":"tomadadetempo"},
       {"hora":"20:30","competicao":"NASCAR O'REILLY SERIES","evento":"Bristol - Corrida","canais":"PHIZTV, DISNEY+ PR","fonte":"tomadadetempo"},
@@ -184,130 +385,286 @@ const DEMO = {
 const SEMANA = ["domingo","segunda","terça","quarta","quinta","sexta","sábado"];
 const MES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
 
-let dados = null, diaAtivo = 0;
-
+let dados = null, diaAtivo = 0, usandoDemo = false;
 const $ = (id) => document.getElementById(id);
 
 function hojeISO(){
-  const agora = new Date();
-  return new Date(agora.getTime() - agora.getTimezoneOffset()*60000)
-    .toISOString().slice(0,10);
+  const a = new Date();
+  return new Date(a.getTime() - a.getTimezoneOffset()*60000).toISOString().slice(0,10);
 }
-
-function rotuloDia(iso){
-  const [a,m,d] = iso.split("-").map(Number);
-  const data = new Date(a, m-1, d);
-  if (iso === hojeISO()) return {forte:"hoje", fraco:`${d} ${MES[m-1]}`};
-  return {forte:SEMANA[data.getDay()], fraco:`${d} ${MES[m-1]}`};
-}
-
-function minutos(hhmm){
-  const [h,m] = hhmm.split(":").map(Number);
-  return h*60 + m;
-}
-
 function agoraEmMinutos(){
   const d = new Date();
   return d.getHours()*60 + d.getMinutes();
+}
+function minutos(hhmm){
+  const [h,m] = String(hhmm).split(":").map(Number);
+  return h*60 + m;
+}
+function duracao(ev){
+  const alvo = `${ev.competicao || ""} ${ev.evento || ""} ${ev.sessao || ""}`;
+  for (const [padrao, mins] of DURACOES) if (padrao.test(alvo)) return mins;
+  return DURACAO_PADRAO;
+}
+function rotuloDia(iso){
+  const [a,m,d] = iso.split("-").map(Number);
+  const data = new Date(a, m-1, d);
+  const fraco = `${d} ${MES[m-1]}`;
+  if (iso === hojeISO()) return {forte:"hoje", fraco};
+  return {forte:SEMANA[data.getDay()], fraco};
+}
+function escapar(t){
+  return String(t || "").replace(/[&<>"]/g, c =>
+    ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+}
+
+// Icone da modalidade. A grade original traz um desenho na coluna da
+// competicao, mas desenho nao se le por OCR — entao a modalidade sai do
+// proprio nome. Lido de cima para baixo: o primeiro que casar vence, por
+// isso as modalidades especificas vem antes dos guarda-chuvas (o
+// atletismo dentro dos Jogos Sul-Americanos deve virar corredor, nao
+// medalha). Tudo que vem do Tomada de Tempo eh corrida, sem consulta.
+const ICONES = [
+  [/moto ?gp|moto ?[23]|f[oó]rmula ?[1e]?|\bf1\b|nascar|stock|indy|rally|wrc|gt ?[34]|porsche|amg cup|radical cup|copa truck|\bf[234]\b|24 ?h|le mans|turismo|tcr|drag/i, "🏎️"],
+  [/nfl|futebol americano/i,                    "🏈"],
+  [/mlb|beisebol/i,                             "⚾"],
+  [/nhl|h[oó]quei/i,                            "🏒"],
+  [/nba|wnba|basquete|nbb/i,                    "🏀"],
+  [/v[oô]lei|volleyball/i,                      "🏐"],
+  [/futsal/i,                                   "🥅"],
+  [/t[eê]nis|wta|atp|roland|wimbledon|us open/i, "🎾"],
+  [/boxe|mma|ufc|\bluta\b/i,                    "🥊"],
+  [/jud[oô]|taekwondo|karat|jiu|wrestling/i,    "🥋"],
+  [/nata[çc]|polo aqu[áa]tico|saltos ornament/i, "🏊"],
+  [/gin[áa]stica/i,                             "🤸"],
+  [/atletismo|marcha atl|maratona|revezamento/i, "🏃"],
+  [/surf|wsl/i,                                 "🏄"],
+  [/skate|skt/i,                                "🛹"],
+  [/golfe|\bpga\b/i,                            "⛳"],
+  [/ciclismo|\bbmx\b|mountain bike/i,           "🚴"],
+  [/rugby|r[úu]gbi/i,                           "🏉"],
+  [/handebol/i,                                 "🤾"],
+  [/hipismo|equestre/i,                         "🏇"],
+  [/vela|remo|canoa/i,                          "🚣"],
+  [/tiro com arco|arco e flecha/i,              "🏹"],
+  [/xadrez/i,                                   "♟️"],
+  [/e-?sports|valorant|counter|league of legends|\blol\b|\bcs2\b/i, "🎮"],
+  [/jogos sul-?americanos|olimp|pan-?americanos|jogos mundiais/i, "🏅"],
+  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b/i, "⚽"]
+];
+
+const ICONE_PADRAO = "📺";
+
+function iconeDe(ev){
+  if (ev.fonte === "tomadadetempo") return "🏎️";
+  const alvo = `${ev.competicao || ""} ${ev.evento || ""}`;
+  for (const [padrao, icone] of ICONES) if (padrao.test(alvo)) return icone;
+  return ICONE_PADRAO;
+}
+
+function cartao(ev, extra){
+  const canais = (ev.canais || "").split(/[,;|]/).map(c => c.trim()).filter(Boolean)
+    .map(c => `<span class="canal">${escapar(c)}</span>`).join("");
+  let placar = "";
+  if (ev._espn && ev._espn.placar && ev._espn.estado !== "pre"){
+    const [a,b] = ev._espn.placar;
+    if (a !== undefined && b !== undefined){
+      const relogio = ev._espn.estado === "in" ? ` · ${escapar(ev._espn.relogio)}` : "";
+      placar = `<div class="placar">${escapar(a)} x ${escapar(b)}${relogio}</div>`;
+    }
+  }
+  return `<li class="item${ev.fonte === "tomadadetempo" ? " corrida" : ""}">
+    <div class="hora">${escapar(ev.hora)}</div>
+    <div>
+      <div class="liga"><span class="icone">${iconeDe(ev)}</span>${escapar(ev.competicao)}</div>
+      <div class="titulo">${escapar(ev.evento)}</div>
+      ${placar}
+      <div class="canais">${canais}</div>
+      ${extra || ""}
+    </div>
+  </li>`;
+}
+
+// Dias que ainda interessam. O dia de ontem continua no arquivo ate a
+// primeira coleta da manha, mas nao vira aba.
+function diasVisiveis(){
+  const hoje = hojeISO();
+  return (dados.dias || []).filter(d => d.data >= hoje);
+}
+
+function diaAnterior(){
+  const hoje = hojeISO();
+  const passados = (dados.dias || []).filter(d => d.data < hoje);
+  return passados.length ? passados[passados.length - 1] : null;
+}
+
+// Evento que comecou ontem e atravessou a meia-noite continua no ar, entao
+// ele aparece no "ao vivo" de hoje. O relogio de hoje ja passou da meia
+// noite, por isso o inicio dele conta como negativo: 23:10 de ontem eh
+// -50 minutos em relacao a zero hora de hoje.
+function herdadosDeOntem(){
+  const ontem = diaAnterior();
+  if (!ontem) return [];
+  const agora = agoraEmMinutos();
+  return ontem.eventos.filter(ev => {
+    if (ev._espn) return ev._espn.estado === "in";
+    const corrido = agora + 1440 - minutos(ev.hora);
+    return corrido >= 0 && corrido < duracao(ev);
+  }).map(ev => ({ev, ha: agora + 1440 - minutos(ev.hora), ontem: true}));
 }
 
 function montarDias(){
   const nav = $("dias");
   nav.innerHTML = "";
-  dados.dias.forEach((dia, i) => {
+  diasVisiveis().forEach((dia, i) => {
     const r = rotuloDia(dia.data);
     const b = document.createElement("button");
     b.className = "dia";
     b.setAttribute("role","tab");
     b.setAttribute("aria-selected", i === diaAtivo ? "true" : "false");
     b.innerHTML = `${r.forte}<small>${r.fraco}</small>`;
-    b.onclick = () => { diaAtivo = i; montarDias(); montarLista(); };
+    b.onclick = () => { diaAtivo = i; montarDias(); montarConteudo(); };
     nav.appendChild(b);
   });
 }
 
-function montarLista(){
-  const dia = dados.dias[diaAtivo];
-  const lista = $("lista");
-  const eDeHoje = dia.data === hojeISO();
-  const corte = agoraEmMinutos();
-  const esconder = $("soFuturo").checked;
+function montarConteudo(){
+  const visiveis = diasVisiveis();
+  if (!visiveis.length){ $("conteudo").innerHTML =
+    `<section class="bloco"><p class="vazio">Sem programação carregada.</p></section>`; return; }
+  if (diaAtivo >= visiveis.length) diaAtivo = 0;
 
-  let eventos = dia.eventos.slice().sort((a,b) => minutos(a.hora) - minutos(b.hora));
-  if (esconder && eDeHoje) eventos = eventos.filter(e => minutos(e.hora) >= corte);
+  const dia = visiveis[diaAtivo];
+  const alvo = $("conteudo");
+  const eHoje = dia.data === hojeISO();
+  const agora = agoraEmMinutos();
 
-  lista.innerHTML = "";
-  $("contagem").textContent =
-    eventos.length + (eventos.length === 1 ? " evento" : " eventos");
+  const eventos = dia.eventos.slice().sort((a,b) => minutos(a.hora) - minutos(b.hora));
 
-  if (!eventos.length){
-    lista.innerHTML = `<li class="vazio">Nada programado para este dia.</li>`;
+  if (!eHoje){
+    alvo.innerHTML = eventos.length
+      ? `<section class="bloco"><h2>Programação</h2><ol>${eventos.map(e => cartao(e)).join("")}</ol></section>`
+      : `<section class="bloco"><p class="vazio">Nada programado para este dia.</p></section>`;
     return;
   }
 
-  let marcou = false;
+  const vivo = herdadosDeOntem(), proximos = [], acabaram = [];
   eventos.forEach(ev => {
     const inicio = minutos(ev.hora);
-    const passou = eDeHoje && inicio < corte;
+    const estado = ev._espn && ev._espn.estado;
 
-    if (eDeHoje && !marcou && !passou){
-      const agora = document.createElement("li");
-      agora.className = "marcador";
-      const h = String(Math.floor(corte/60)).padStart(2,"0");
-      const m = String(corte%60).padStart(2,"0");
-      agora.innerHTML = `<span>${h}:${m}</span><i></i>`;
-      lista.appendChild(agora);
-      marcou = true;
-    }
+    if (estado === "in"){ vivo.push({ev, ha: agora - inicio}); return; }
+    if (estado === "post"){ acabaram.push(ev); return; }
+    if (estado === "pre"){ proximos.push(ev); return; }
 
-    const li = document.createElement("li");
-    li.className = "item" + (passou ? " passou" : "") +
-      (ev.fonte === "tomadadetempo" ? " corrida" : "");
-    const canais = (ev.canais || "")
-      .split(/[,;|]/).map(c => c.trim()).filter(Boolean)
-      .map(c => `<span class="canal">${c}</span>`).join("");
-    li.innerHTML = `
-      <div class="hora">${ev.hora}</div>
-      <div>
-        <div class="liga">${ev.competicao || ""}</div>
-        <div class="titulo">${ev.evento || ""}</div>
-        <div class="canais">${canais}</div>
-      </div>`;
-    lista.appendChild(li);
+    const fim = inicio + duracao(ev);
+    if (agora < inicio) proximos.push(ev);
+    else if (agora < fim) vivo.push({ev, ha: agora - inicio});
+    else acabaram.push(ev);
   });
+  vivo.sort((a,b) => b.ha - a.ha);
+
+  let html = "";
+
+  html += `<section class="bloco vivo">
+    <h2><i class="pulso"></i>Ao vivo</h2>`;
+  if (vivo.length){
+    html += `<ol>${vivo.map(v => cartao(v.ev,
+      `<div class="desde">${v.ontem ? "começou ontem, há " + Math.floor(v.ha/60) + "h" + String(v.ha%60).padStart(2,"0")
+        : (v.ha < 1 ? "começou agora" : "começou há " + v.ha + " min")}</div>`
+    )).join("")}</ol>`;
+  } else {
+    html += `<p class="vazio">Nada no ar neste momento.</p>`;
+  }
+  html += `</section>`;
+
+  html += `<section class="bloco">
+    <h2>Próximas atrações</h2>`;
+  if (proximos.length){
+    const falta = minutos(proximos[0].hora) - agora;
+    html += `<p class="nota">A primeira começa em ${falta} min.</p>
+      <ol>${proximos.map(e => cartao(e)).join("")}</ol>`;
+  } else {
+    html += `<p class="vazio">Acabou a programação de hoje. Veja o dia seguinte nas abas acima.</p>`;
+  }
+  html += `</section>`;
+
+  if (acabaram.length){
+    html += `<section class="bloco encerrado">
+      <details>
+        <summary>Já terminou (${acabaram.length})</summary>
+        <ol>${acabaram.map(e => cartao(e)).join("")}</ol>
+      </details>
+    </section>`;
+  }
+
+  alvo.innerHTML = html;
 }
 
-function montarTudo(deDemo){
+function carimbo(){
+  const quando = new Date(dados.gerado_em);
+  const agora = new Date();
+  const hh = String(agora.getHours()).padStart(2,"0");
+  const mm = String(agora.getMinutes()).padStart(2,"0");
+  const grade = isNaN(quando)
+    ? "grade carregada"
+    : `grade de ${String(quando.getHours()).padStart(2,"0")}:${String(quando.getMinutes()).padStart(2,"0")}`;
+  $("atualizado").textContent = `${hh}:${mm} — ${grade}.`;
+}
+
+function montarTudo(){
   if (!dados || !dados.dias || !dados.dias.length){
     $("atualizado").textContent = "Sem dados para mostrar.";
     return;
   }
-  const hoje = hojeISO();
-  const i = dados.dias.findIndex(d => d.data >= hoje);
-  diaAtivo = i >= 0 ? i : 0;
+  diaAtivo = 0;   // diasVisiveis() ja comeca em hoje
 
-  const quando = new Date(dados.gerado_em);
-  $("atualizado").textContent = isNaN(quando)
-    ? "Grade carregada."
-    : `Atualizado às ${String(quando.getHours()).padStart(2,"0")}:${String(quando.getMinutes()).padStart(2,"0")} de ${quando.getDate()} de ${MES[quando.getMonth()]}.`;
+  $("aviso").innerHTML = usandoDemo
+    ? `<div class="aviso">Prévia com um instantâneo dos dados. No ar, a grade vem do
+       arquivo publicado pelo robô.</div>` : "";
+  $("rodape").textContent =
+    "Fontes: " + (dados.fontes || []).join(" e ") + ". Atualiza sozinho a cada 10 minutos.";
 
-  if (deDemo){
-    $("aviso").innerHTML =
-      `<div class="aviso">Prévia com um instantâneo dos dados. No ar, a grade vem do
-       arquivo publicado pelo robô e se atualiza sozinha três vezes por dia.</div>`;
-  }
-
-  $("rodape").textContent = "Fontes: " + (dados.fontes || []).join(" e ") + ".";
+  carimbo();
   montarDias();
-  montarLista();
+  montarConteudo();
 }
 
-$("soFuturo").addEventListener("change", montarLista);
+function eventosDeHoje(){
+  const hoje = hojeISO();
+  const dia = (dados.dias || []).find(d => d.data === hoje);
+  const ontem = diaAnterior();
+  // a vespera entra porque um jogo dela pode estar atravessando a virada
+  return [].concat(dia ? dia.eventos : [], ontem ? ontem.eventos : []);
+}
 
-fetch("./app.json", {cache:"no-store"})
-  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
-  .then(j => { dados = j; montarTudo(false); })
-  .catch(() => { dados = DEMO; montarTudo(true); });
+function buscar(primeira){
+  return fetch("./app.json", {cache:"no-store"})
+    .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(j => {
+      dados = j; usandoDemo = false;
+      if (primeira) montarTudo(); else { carimbo(); montarDias(); montarConteudo(); }
+    })
+    .catch(() => {
+      if (primeira){ dados = DEMO; usandoDemo = true; montarTudo(); }
+    })
+    .then(() => conferirAoVivo(eventosDeHoje()))
+    .then(() => { if (dados) montarConteudo(); })
+    .catch(() => {});
+}
+
+buscar(true);
+
+// Busca a grade a cada 10 minutos.
+setInterval(() => buscar(false), RECARGA);
+
+// Redesenha a cada minuto: eh o que faz um evento sair de "proximas
+// atracoes" para "ao vivo" e depois cair para o fim, sem recarregar nada.
+setInterval(() => { if (dados){ carimbo(); montarConteudo(); } }, MINUTO);
+
+// Ao voltar para o app, atualiza na hora em vez de esperar o intervalo.
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) buscar(false);
+});
 </script>
 </body>
 </html>
