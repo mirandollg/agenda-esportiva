@@ -11,8 +11,7 @@ on:
 permissions:
   contents: write
 
-# Se uma execucao agendada pegar outra ainda rodando, a nova espera em vez
-# de brigar pelo mesmo commit.
+# Se uma execucao agendada pegar outra ainda rodando, a nova espera.
 concurrency:
   group: coleta
   cancel-in-progress: false
@@ -45,13 +44,42 @@ jobs:
       - name: Publicar o JSON e o debug
         if: always()
         run: |
+          set -e
           git config user.name "coletor"
           git config user.email "coletor@users.noreply.github.com"
-          git add -A docs debug
-          if git diff --staged --quiet; then
-            echo "Nada mudou desde a ultima execucao."
-          else
+
+          # docs/app.json e debug/* sao arquivos GERADOS. Nao faz sentido
+          # tentar mesclar: a versao recem-produzida sempre vence. Por isso
+          # guardamos o resultado, alinhamos com o remoto e reaplicamos por
+          # cima, em vez de usar pull --rebase (que trava em conflito).
+          guardado=$(mktemp -d)
+          mkdir -p docs debug
+          cp -a docs "$guardado/docs"
+          cp -a debug "$guardado/debug"
+
+          for tentativa in 1 2 3; do
+            git fetch origin "$GITHUB_REF_NAME"
+            git reset --hard "origin/$GITHUB_REF_NAME"
+
+            mkdir -p docs debug
+            cp -a "$guardado/docs/." docs/
+            cp -a "$guardado/debug/." debug/
+
+            git add -A docs debug
+            if git diff --staged --quiet; then
+              echo "Nada mudou desde a ultima execucao."
+              exit 0
+            fi
+
             git commit -m "agenda atualizada em $(TZ=America/Sao_Paulo date '+%d/%m %H:%M')"
-            git pull --rebase --autostash
-            git push
-          fi
+            if git push; then
+              echo "Publicado na tentativa $tentativa."
+              exit 0
+            fi
+
+            echo "Alguem commitou antes. Realinhando e tentando de novo."
+            sleep 5
+          done
+
+          echo "Nao consegui publicar depois de 3 tentativas."
+          exit 1
