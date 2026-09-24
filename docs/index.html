@@ -454,10 +454,79 @@ const ICONES = [
 
 const ICONE_PADRAO = "📺";
 
-function iconeDe(ev){
-  if (ev.fonte === "tomadadetempo") return "🏎️";
+// Aprendizado por assinatura do desenho.
+//
+// O coletor grava em cada evento uma assinatura do icone que aparece na
+// imagem original. Icones iguais geram assinaturas iguais ou quase. Entao,
+// quando uma competicao que as regras acima reconhecem compartilha a
+// assinatura com outra que elas nao reconhecem, a segunda herda o icone da
+// primeira. As regras por nome viram semente, nao resposta.
+//
+// O que foi aprendido fica guardado no proprio aparelho, entao o
+// vocabulario cresce a cada dia em vez de recomecar do zero.
+const CHAVE_APRENDIZADO = "guigo-icones";
+let aprendidos = {};
+
+try {
+  aprendidos = JSON.parse(localStorage.getItem(CHAVE_APRENDIZADO) || "{}");
+} catch (e) { aprendidos = {}; }
+
+function guardarAprendizado(){
+  try { localStorage.setItem(CHAVE_APRENDIZADO, JSON.stringify(aprendidos)); }
+  catch (e) {}
+}
+
+function porNome(ev){
   const alvo = `${ev.competicao || ""} ${ev.evento || ""}`;
   for (const [padrao, icone] of ICONES) if (padrao.test(alvo)) return icone;
+  return null;
+}
+
+function distancia(a, b){
+  if (!a || !b || a.length !== b.length) return Infinity;
+  let soma = 0;
+  for (let i = 0; i < a.length; i++)
+    soma += Math.abs(parseInt(a[i],16) - parseInt(b[i],16));
+  return soma;
+}
+
+// Percorre a grade inteira: primeiro anota as assinaturas cujo nome as
+// regras reconhecem, depois usa esse vocabulario nas que sobraram.
+function aprenderIcones(eventos){
+  const votos = {};
+  eventos.forEach(ev => {
+    if (!ev.icone) return;
+    const achado = porNome(ev);
+    if (!achado) return;
+    votos[ev.icone] = votos[ev.icone] || {};
+    votos[ev.icone][achado] = (votos[ev.icone][achado] || 0) + 1;
+  });
+  let novos = 0;
+  Object.entries(votos).forEach(([marca, contagem]) => {
+    // vence o icone mais votado para aquela assinatura
+    const melhor = Object.entries(contagem).sort((a,b) => b[1]-a[1])[0][0];
+    if (aprendidos[marca] !== melhor){ aprendidos[marca] = melhor; novos++; }
+  });
+  if (novos) guardarAprendizado();
+}
+
+function iconeDe(ev){
+  if (ev.fonte === "tomadadetempo") return "🏎️";
+
+  const pelasRegras = porNome(ev);
+  if (pelasRegras) return pelasRegras;
+
+  if (ev.icone){
+    if (aprendidos[ev.icone]) return aprendidos[ev.icone];
+    // assinatura parecida serve: recorte e compressao variam um pouco
+    let melhor = null, menor = Infinity;
+    Object.keys(aprendidos).forEach(marca => {
+      const d = distancia(ev.icone, marca);
+      if (d < menor){ menor = d; melhor = marca; }
+    });
+    if (melhor && menor <= 90) return aprendidos[melhor];
+  }
+
   return ICONE_PADRAO;
 }
 
@@ -532,6 +601,10 @@ function montarConteudo(){
   if (!visiveis.length){ $("conteudo").innerHTML =
     `<section class="bloco"><p class="vazio">Sem programação carregada.</p></section>`; return; }
   if (diaAtivo >= visiveis.length) diaAtivo = 0;
+
+  // aprende com a grade toda, nao so com o dia aberto: quanto mais
+  // eventos, mais assinaturas ficam identificadas
+  aprenderIcones((dados.dias || []).flatMap(d => d.eventos));
 
   const dia = visiveis[diaAtivo];
   const alvo = $("conteudo");
