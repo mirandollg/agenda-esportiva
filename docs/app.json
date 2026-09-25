@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T06:11:17-03:00",
+  "gerado_em": "2026-09-25T06:41:45-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -26,8 +26,7 @@
           "canais": "SPORTV3, SPORTV, FITV, CLOSOPLAY PR",
           "etapa": "GP do Azerbaijão",
           "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo",
-          "dura": 55
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "06:00",
