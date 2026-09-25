@@ -81,21 +81,27 @@ CORTES_TDT = [
 ]
 
 # Erros recorrentes do OCR nos nomes de canal
+# Canais que aparecem na agenda. Servem de gabarito: o nome lido eh
+# comparado com esta lista e encaixado no mais parecido. Assim nao eh
+# preciso catalogar cada erro de OCR — 'Cloboplay' e 'Closoplay' caem
+# sozinhos em 'GLOBOPLAY', porque G vira C e b vira l ou s na leitura.
+CANAIS_CONHECIDOS = [
+    "GLOBOPLAY", "GLOBO", "SPORTV", "SPORTV2", "SPORTV3", "SPORTV4",
+    "ESPN", "ESPN2", "ESPN3", "ESPN4", "ESPN5", "ESPN6", "ESPN EXTRA",
+    "DISNEY+", "DISNEY+ PR", "BANDSPORTS", "BAND", "SBT", "RECORD",
+    "RECORD NEWS", "TV BRASIL", "TV CULTURA", "REDETV!", "CAZÉTV",
+    "XSPORTS", "YOUTUBE", "PREMIERE", "COMBATE", "NSPORTS", "TNT",
+    "HBO MAX", "MAX", "PRIME VIDEO", "APPLE TV+", "PARAMOUNT+",
+    "NOSSO FUTEBOL", "DAZN", "UFC FIGHT PASS", "OFF", "PHIZTV",
+    "TV FPB", "CBFS TV", "GE TV", "FIFA+", "NBA LEAGUE PASS",
+]
+
+# Correcoes que a semelhanca sozinha nao pega, por serem curtas demais
 CORRECOES_CANAL = {
-    "voutube": "YOUTUBE",
-    "vutube": "YOUTUBE",
-    "youtub": "YOUTUBE",
-    "youtube": "YOUTUBE",
     "espna": "ESPN4",
     "espna4": "ESPN4",
-    "disnev+": "DISNEY+",
-    "disnev+ pr": "DISNEY+ PR",
-    "disney + pr": "DISNEY+ PR",
     "disney +": "DISNEY+",
-    "phiztyv": "PHIZTV",
-    "phizty": "PHIZTV",
-    "bandsports": "BANDSPORTS",
-    "xsports": "XSPORTS",
+    "disney + pr": "DISNEY+ PR",
 }
 
 TZ_BR = timezone(timedelta(hours=-3))
@@ -149,12 +155,58 @@ def limpar_confronto(txt):
     return re.sub(r"\b([A-Z])x(?=\s)", r"\1 x", txt)
 
 
+# Trocas que o OCR faz o tempo todo. Reduzindo os dois lados a este
+# "esqueleto", 'Closoplay' e 'Globoplay' viram a mesma coisa.
+CONFUSOES = str.maketrans({
+    "c": "g", "s": "b", "i": "l", "1": "l", "0": "o", "5": "b",
+    "v": "y", "8": "b", "j": "l", "!": "l",
+})
+
+
+def esqueleto(texto):
+    return re.sub(r"[^a-z0-9]", "", normalizar(texto)).translate(CONFUSOES)
+
+
 def limpar_canais(txt):
-    txt = limpar(txt)
-    partes = [p.strip() for p in re.split(r"[,;|]", txt) if p.strip()]
+    """
+    Arruma os nomes de canal lidos por OCR.
+
+    Primeiro tenta correspondencia exata; depois separa o prefixo
+    'youtube', porque ali o que vem depois eh o nome do canal e nao pode
+    ser alterado ('youtube ODESUR'); por fim encaixa no canal conhecido
+    mais parecido, se a semelhanca for alta o bastante.
+    """
+    partes = [p.strip() for p in re.split(r"[,;|]", limpar(txt)) if p.strip()]
     saida = []
     for parte in partes:
-        saida.append(CORRECOES_CANAL.get(normalizar(parte), parte))
+        chave = normalizar(parte)
+
+        if chave in CORRECOES_CANAL:
+            saida.append(CORRECOES_CANAL[chave])
+            continue
+
+        # 'voutube ODESUR' -> 'YOUTUBE ODESUR', preservando o resto
+        cabeca, _, resto = parte.partition(" ")
+        if SequenceMatcher(None, normalizar(cabeca), "youtube").ratio() >= 0.75:
+            saida.append(limpar(f"YOUTUBE {resto}"))
+            continue
+
+        osso = esqueleto(parte)
+        melhor, maior, gemeo = None, 0.0, None
+        for conhecido in CANAIS_CONHECIDOS:
+            if esqueleto(conhecido) == osso:
+                gemeo = conhecido
+                break
+            r = SequenceMatcher(None, chave, normalizar(conhecido)).ratio()
+            if r > maior:
+                maior, melhor = r, conhecido
+        if gemeo:
+            saida.append(gemeo)
+        else:
+            # sem esqueleto igual, exige semelhanca alta: melhor manter o
+            # nome lido do que trocar um canal por outro parecido
+            saida.append(melhor if melhor and maior >= 0.78 else parte)
+
     return ", ".join(saida)
 
 
