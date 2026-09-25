@@ -401,6 +401,9 @@ function minutos(hhmm){
   return h*60 + m;
 }
 function duracao(ev){
+  // quando o coletor conseguiu ler a grade da emissora, vale o tempo real
+  // que o canal reservou; a tabela abaixo eh so o plano B
+  if (ev.dura > 0) return ev.dura;
   const alvo = `${ev.competicao || ""} ${ev.evento || ""} ${ev.sessao || ""}`;
   for (const [padrao, mins] of DURACOES) if (padrao.test(alvo)) return mins;
   return DURACAO_PADRAO;
@@ -449,15 +452,96 @@ const ICONES = [
   [/xadrez/i,                                   "♟️"],
   [/e-?sports|valorant|counter|league of legends|\blol\b|\bcs2\b/i, "🎮"],
   [/jogos sul-?americanos|olimp|pan-?americanos|jogos mundiais/i, "🏅"],
-  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b/i, "⚽"]
+  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b|nations league|uefa|conmebol|\bfifa\b|liga dos campe|recopa|supercopa/i, "⚽"]
 ];
 
 const ICONE_PADRAO = "📺";
 
-function iconeDe(ev){
-  if (ev.fonte === "tomadadetempo") return "🏎️";
+// Aprendizado por assinatura do desenho.
+//
+// O coletor grava em cada evento uma assinatura do icone que aparece na
+// imagem original. Icones iguais geram assinaturas iguais ou quase. Entao,
+// quando uma competicao que as regras acima reconhecem compartilha a
+// assinatura com outra que elas nao reconhecem, a segunda herda o icone da
+// primeira. As regras por nome viram semente, nao resposta.
+//
+// O que foi aprendido fica guardado no proprio aparelho, entao o
+// vocabulario cresce a cada dia em vez de recomecar do zero.
+const CHAVE_APRENDIZADO = "guigo-icones";
+let aprendidos = {};
+
+try {
+  aprendidos = JSON.parse(localStorage.getItem(CHAVE_APRENDIZADO) || "{}");
+} catch (e) { aprendidos = {}; }
+
+function guardarAprendizado(){
+  try { localStorage.setItem(CHAVE_APRENDIZADO, JSON.stringify(aprendidos)); }
+  catch (e) {}
+}
+
+function porNome(ev){
   const alvo = `${ev.competicao || ""} ${ev.evento || ""}`;
   for (const [padrao, icone] of ICONES) if (padrao.test(alvo)) return icone;
+  return null;
+}
+
+// A assinatura vem do coletor em duas partes: 4 dígitos de cor e 25 de
+// forma. Cada esporte usa sempre a mesma cor, então a cor é o filtro
+// forte: ela tem de bater exata. Só entre assinaturas da mesma cor é que
+// a forma é comparada, e com tolerância apertada. Sem essa trava, o
+// futebol herdava o ícone do surfe.
+function corDa(marca){ return (marca || "").slice(0, 4); }
+function formaDa(marca){ return (marca || "").slice(4); }
+
+function distancia(a, b){
+  if (!a || !b || a.length !== b.length) return Infinity;
+  let soma = 0;
+  for (let i = 0; i < a.length; i++)
+    soma += Math.abs(parseInt(a[i],16) - parseInt(b[i],16));
+  return soma;
+}
+
+// Percorre a grade inteira: primeiro anota as assinaturas cujo nome as
+// regras reconhecem, depois usa esse vocabulario nas que sobraram.
+function aprenderIcones(eventos){
+  const votos = {};
+  eventos.forEach(ev => {
+    if (!ev.icone) return;
+    const achado = porNome(ev);
+    if (!achado) return;
+    votos[ev.icone] = votos[ev.icone] || {};
+    votos[ev.icone][achado] = (votos[ev.icone][achado] || 0) + 1;
+  });
+  let novos = 0;
+  Object.entries(votos).forEach(([marca, contagem]) => {
+    // vence o icone mais votado para aquela assinatura
+    const melhor = Object.entries(contagem).sort((a,b) => b[1]-a[1])[0][0];
+    if (aprendidos[marca] !== melhor){ aprendidos[marca] = melhor; novos++; }
+  });
+  if (novos) guardarAprendizado();
+}
+
+function iconeDe(ev){
+  if (ev.fonte === "tomadadetempo") return "🏎️";
+
+  const pelasRegras = porNome(ev);
+  if (pelasRegras) return pelasRegras;
+
+  if (ev.icone){
+    if (aprendidos[ev.icone]) return aprendidos[ev.icone];
+
+    // só candidatos com a MESMA cor; entre eles, a forma mais próxima,
+    // e ainda assim só se a diferença for pequena
+    let melhor = null, menor = Infinity;
+    const cor = corDa(ev.icone), forma = formaDa(ev.icone);
+    Object.keys(aprendidos).forEach(marca => {
+      if (corDa(marca) !== cor) return;
+      const d = distancia(forma, formaDa(marca));
+      if (d < menor){ menor = d; melhor = marca; }
+    });
+    if (melhor && menor <= 18) return aprendidos[melhor];
+  }
+
   return ICONE_PADRAO;
 }
 
@@ -532,6 +616,10 @@ function montarConteudo(){
   if (!visiveis.length){ $("conteudo").innerHTML =
     `<section class="bloco"><p class="vazio">Sem programação carregada.</p></section>`; return; }
   if (diaAtivo >= visiveis.length) diaAtivo = 0;
+
+  // aprende com a grade toda, nao so com o dia aberto: quanto mais
+  // eventos, mais assinaturas ficam identificadas
+  aprenderIcones((dados.dias || []).flatMap(d => d.eventos));
 
   const dia = visiveis[diaAtivo];
   const alvo = $("conteudo");
