@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T02:23:08-03:00",
+  "gerado_em": "2026-09-25T02:48:39-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -17,17 +17,17 @@
           "canais": "SPORTV3, FITV, CLOBOPLAY PR",
           "etapa": "Azerbaijão",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 90
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "05:30",
           "competicao": "FÓRMULA 1",
           "evento": "GP do Azerbaijão - Treino Livre 3",
-          "canais": "SPORTV3, SPORTVS, FITV, CLOSOPLAY PR",
+          "canais": "SPORTV3, SPORTV, FITV, CLOSOPLAY PR",
           "etapa": "GP do Azerbaijão",
           "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 55
         },
         {
           "hora": "06:00",
@@ -42,7 +42,7 @@
           "hora": "07:00",
           "competicao": "Amistoso",
           "evento": "Austrália x Brasil",
-          "canais": "GLOBO, SPORTV, youtube GETV",
+          "canais": "GLOBO, SPORTV, YOUTUBE GETV",
           "icone": "0613fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
           "dura": 125
@@ -70,7 +70,7 @@
           "hora": "09:00",
           "competicao": "Jogos Sul-Americanos",
           "evento": "Santa Fe 2026 - dia 13",
-          "canais": "youtube ODESUR",
+          "canais": "YOUTUBE ODESUR",
           "icone": "02020004004003023030000330303",
           "fonte": "esportesnatv"
         },
@@ -131,7 +131,7 @@
           "hora": "14:30",
           "competicao": "Espanhol de Futsal",
           "evento": "Xota Osasuna x Palma",
-          "canais": "youtube Canal Gol BR",
+          "canais": "YOUTUBE Canal Gol BR",
           "icone": "0d030a11527535362482820603272",
           "fonte": "esportesnatv"
         },
@@ -157,7 +157,7 @@
           "hora": "15:00",
           "competicao": "Jogos Sul-Americanos",
           "evento": "Tiro com Àrco - finais",
-          "canais": "youtube ODESUR",
+          "canais": "YOUTUBE ODESUR",
           "icone": "06020000410009900066100800006",
           "fonte": "esportesnatv"
         },
@@ -174,7 +174,7 @@
           "hora": "15:00",
           "competicao": "Paulistão sub-20",
           "evento": "Corinthians x XV de Jaú (3x2)",
-          "canais": "youtube TNT Sports",
+          "canais": "YOUTUBE TNT Sports",
           "icone": "0613ffffeffff7ffff8ffff9fffff",
           "fonte": "esportesnatv"
         },
@@ -182,7 +182,7 @@
           "hora": "15:30",
           "competicao": "Espanhol de Futsal",
           "evento": "Barcelona x Cartagena",
-          "canais": "youtube Canal Gol BR",
+          "canais": "YOUTUBE Canal Gol BR",
           "icone": "0d030315248235085480a2390720b",
           "fonte": "esportesnatv"
         },
@@ -190,7 +190,7 @@
           "hora": "15:45",
           "competicao": "UEFA Nations League",
           "evento": "Itália x Bélgica",
-          "canais": "Disney+",
+          "canais": "DISNEY+",
           "icone": "0613fffcfff684ff7c3ff7a6fffcf",
           "fonte": "esportesnatv"
         },
@@ -259,7 +259,7 @@
           "hora": "18:00",
           "competicao": "Jogos Sul-Americanos",
           "evento": "Atletismo - finais",
-          "canais": "youtube ODESUR",
+          "canais": "YOUTUBE ODESUR",
           "icone": "0d023300011001300530006300043",
           "fonte": "esportesnatv"
         },
@@ -275,7 +275,7 @@
           "hora": "18:30",
           "competicao": "Taça Brasil Vôlei Fem",
           "evento": "Londrina x Brusque",
-          "canais": "youtube CazéTV",
+          "canais": "YOUTUBE CazéTV",
           "icone": "0413ffbdbfdefefcdeffcdfdffcbd",
           "fonte": "esportesnatv"
         },
@@ -283,7 +283,7 @@
           "hora": "19:30",
           "competicao": "Brasileirão - Série B",
           "evento": "Novorizontino x São Bernardo",
-          "canais": "Disney+",
+          "canais": "DISNEY+",
           "icone": "0613fffbaff96affb8bffb68fffdc",
           "fonte": "esportesnatv"
         },
@@ -300,7 +300,7 @@
           "hora": "20:30",
           "competicao": "Brasileirão - Série B",
           "evento": "Vila Nova x Londrina",
-          "canais": "Disney+",
+          "canais": "DISNEY+",
           "icone": "0613fffaaffa58ffaa9ffc88fffdc",
           "fonte": "esportesnatv"
         },
@@ -316,7 +316,7 @@
           "hora": "21:00",
           "competicao": "Taça Brasil Vôlei Fem",
           "evento": "SESI-Bauru x Mackenzie",
-          "canais": "youtube CazéTV",
+          "canais": "YOUTUBE CazéTV",
           "icone": "0313febdbfdefdfcdeffdcfcffcbd",
           "fonte": "esportesnatv"
         },
