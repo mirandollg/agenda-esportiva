@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T11:42:30-03:00",
+  "gerado_em": "2026-09-25T12:12:08-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -34,8 +34,7 @@
           "evento": "SF - Espanha x Rep. Tcheca",
           "canais": "ESPN3",
           "icone": "0e020440000704412131004330000",
-          "fonte": "esportesnatv",
-          "dura": 360
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",
