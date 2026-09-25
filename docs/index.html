@@ -106,6 +106,40 @@
     font-size:15px;line-height:1;flex:0 0 auto;
     font-family:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
   }
+  .icone.ajustavel{
+    cursor:pointer;padding:2px 3px;margin:-2px -3px;border-radius:3px;
+  }
+  .icone.ajustavel:hover,.icone.ajustavel:focus-visible{
+    background:var(--papel-alto);outline:1px solid var(--linha);
+  }
+
+  #seletor{
+    position:fixed;inset:0;z-index:20;display:flex;align-items:flex-end;
+    justify-content:center;background:rgba(10,14,20,.55);
+    padding:0 0 env(safe-area-inset-bottom,0px);
+  }
+  #seletor[hidden]{display:none}
+  #seletor .painel{
+    background:var(--papel);width:100%;max-width:480px;
+    border-top:3px solid var(--agora);padding:18px 16px 22px;
+  }
+  #seletor p{
+    margin:0 0 12px;font-family:"Archivo Narrow",sans-serif;font-weight:700;
+    font-size:17px;
+  }
+  #seletor .grade{
+    display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-bottom:14px;
+  }
+  #seletor .grade button{
+    font-size:24px;line-height:1;padding:10px 0;cursor:pointer;
+    background:var(--papel-alto);border:1px solid var(--linha);border-radius:3px;
+  }
+  #seletor .grade button:active{background:var(--linha)}
+  #seletor .fechar{
+    width:100%;padding:11px;background:transparent;color:var(--tinta-fraca);
+    border:1px solid var(--linha);border-radius:3px;cursor:pointer;
+    font-family:"Public Sans",sans-serif;font-size:15px;
+  }
   .titulo{font-weight:500;font-size:16px;margin-top:1px}
   .canais{margin-top:6px;display:flex;flex-wrap:wrap;gap:5px}
   .canal{
@@ -160,6 +194,7 @@
   <nav class="dias" id="dias" role="tablist" aria-label="Dias"></nav>
   <div id="aviso"></div>
   <main id="conteudo"></main>
+  <div id="seletor" hidden></div>
   <footer id="rodape"></footer>
 </div>
 
@@ -434,13 +469,13 @@ const ICONES = [
   [/nba|wnba|basquete|nbb/i,                    "🏀"],
   [/v[oô]lei|volleyball/i,                      "🏐"],
   [/futsal/i,                                   "🥅"],
-  [/t[eê]nis|wta|atp|roland|wimbledon|us open/i, "🎾"],
+  [/t[eê]nis|\bwta\b|\batp\b|\bitf\b|laver cup|davis cup|copa davis|billie jean|roland|wimbledon|us open|australian open|grand slam|challenger|masters 1000/i, "🎾"],
   [/boxe|mma|ufc|\bluta\b/i,                    "🥊"],
   [/jud[oô]|taekwondo|karat|jiu|wrestling/i,    "🥋"],
   [/nata[çc]|polo aqu[áa]tico|saltos ornament/i, "🏊"],
   [/gin[áa]stica/i,                             "🤸"],
   [/atletismo|marcha atl|maratona|revezamento/i, "🏃"],
-  [/surf|wsl/i,                                 "🏄"],
+  [/surf|\bwsl\b/i,                             "🏄"],
   [/skate|skt/i,                                "🛹"],
   [/golfe|\bpga\b/i,                            "⛳"],
   [/ciclismo|\bbmx\b|mountain bike/i,           "🚴"],
@@ -452,7 +487,7 @@ const ICONES = [
   [/xadrez/i,                                   "♟️"],
   [/e-?sports|valorant|counter|league of legends|\blol\b|\bcs2\b/i, "🎮"],
   [/jogos sul-?americanos|olimp|pan-?americanos|jogos mundiais/i, "🏅"],
-  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b|nations league|uefa|conmebol|\bfifa\b|liga dos campe|recopa|supercopa/i, "⚽"]
+  [/futebol|\bfut\.?\b|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|sul-?americana|eliminat|bundesliga|ligue|\bmls\b|\bnwsl\b|nations league|uefa|conmebol|\bfifa\b|liga dos campe|recopa|supercopa/i, "⚽"]
 ];
 
 const ICONE_PADRAO = "📺";
@@ -467,7 +502,12 @@ const ICONE_PADRAO = "📺";
 //
 // O que foi aprendido fica guardado no proprio aparelho, entao o
 // vocabulario cresce a cada dia em vez de recomecar do zero.
-const CHAVE_APRENDIZADO = "guigo-icones";
+const CHAVE_APRENDIZADO = "guigo-icones-v2";
+
+// Cada assinatura guarda { i: emoji, fixo: 1 }. O "fixo" marca escolha
+// sua, feita tocando no ícone: ela vence tudo e nunca é sobrescrita pelo
+// aprendizado automático. A chave tem versão porque o formato da
+// assinatura mudou — aprendizado velho não vale para assinatura nova.
 let aprendidos = {};
 
 try {
@@ -488,8 +528,7 @@ function porNome(ev){
 // A assinatura vem do coletor em duas partes: 4 dígitos de cor e 25 de
 // forma. Cada esporte usa sempre a mesma cor, então a cor é o filtro
 // forte: ela tem de bater exata. Só entre assinaturas da mesma cor é que
-// a forma é comparada, e com tolerância apertada. Sem essa trava, o
-// futebol herdava o ícone do surfe.
+// a forma é comparada, e com tolerância apertada.
 function corDa(marca){ return (marca || "").slice(0, 4); }
 function formaDa(marca){ return (marca || "").slice(4); }
 
@@ -501,8 +540,21 @@ function distancia(a, b){
   return soma;
 }
 
-// Percorre a grade inteira: primeiro anota as assinaturas cujo nome as
-// regras reconhecem, depois usa esse vocabulario nas que sobraram.
+function parecidaCom(marca){
+  if (aprendidos[marca]) return marca;
+  let melhor = null, menor = Infinity;
+  const cor = corDa(marca), forma = formaDa(marca);
+  Object.keys(aprendidos).forEach(outra => {
+    if (corDa(outra) !== cor) return;
+    const d = distancia(forma, formaDa(outra));
+    if (d < menor){ menor = d; melhor = outra; }
+  });
+  return (melhor && menor <= 18) ? melhor : null;
+}
+
+// Percorre a grade inteira: anota as assinaturas cujo nome as regras
+// reconhecem e usa esse vocabulário nas que sobraram. Nunca mexe no que
+// você fixou à mão.
 function aprenderIcones(eventos){
   const votos = {};
   eventos.forEach(ev => {
@@ -512,35 +564,42 @@ function aprenderIcones(eventos){
     votos[ev.icone] = votos[ev.icone] || {};
     votos[ev.icone][achado] = (votos[ev.icone][achado] || 0) + 1;
   });
-  let novos = 0;
+  let mudou = false;
   Object.entries(votos).forEach(([marca, contagem]) => {
-    // vence o icone mais votado para aquela assinatura
+    if (aprendidos[marca] && aprendidos[marca].fixo) return;
     const melhor = Object.entries(contagem).sort((a,b) => b[1]-a[1])[0][0];
-    if (aprendidos[marca] !== melhor){ aprendidos[marca] = melhor; novos++; }
+    if (!aprendidos[marca] || aprendidos[marca].i !== melhor){
+      aprendidos[marca] = { i: melhor };
+      mudou = true;
+    }
   });
-  if (novos) guardarAprendizado();
+  if (mudou) guardarAprendizado();
+}
+
+function fixarIcone(marca, emoji){
+  if (!marca) return;
+  aprendidos[marca] = { i: emoji, fixo: 1 };
+  guardarAprendizado();
+  montarConteudo();
 }
 
 function iconeDe(ev){
   if (ev.fonte === "tomadadetempo") return "🏎️";
 
+  const igual = ev.icone && parecidaCom(ev.icone);
+
+  // 1. o que você fixou à mão vence tudo
+  if (igual && aprendidos[igual].fixo) return aprendidos[igual].i;
+
+  // 2. o DESENHO decide. Cor e forma do ícone são constantes por
+  //    modalidade, então valem mais que o nome da competição — que muda
+  //    de grafia toda semana e pode casar por acidente com outra regra.
+  if (igual) return aprendidos[igual].i;
+
+  // 3. regras de nome só quando o desenho ainda não foi identificado:
+  //    é o que dá a primeira etiqueta a cada assinatura nova
   const pelasRegras = porNome(ev);
   if (pelasRegras) return pelasRegras;
-
-  if (ev.icone){
-    if (aprendidos[ev.icone]) return aprendidos[ev.icone];
-
-    // só candidatos com a MESMA cor; entre eles, a forma mais próxima,
-    // e ainda assim só se a diferença for pequena
-    let melhor = null, menor = Infinity;
-    const cor = corDa(ev.icone), forma = formaDa(ev.icone);
-    Object.keys(aprendidos).forEach(marca => {
-      if (corDa(marca) !== cor) return;
-      const d = distancia(forma, formaDa(marca));
-      if (d < menor){ menor = d; melhor = marca; }
-    });
-    if (melhor && menor <= 18) return aprendidos[melhor];
-  }
 
   return ICONE_PADRAO;
 }
@@ -559,7 +618,9 @@ function cartao(ev, extra){
   return `<li class="item${ev.fonte === "tomadadetempo" ? " corrida" : ""}">
     <div class="hora">${escapar(ev.hora)}</div>
     <div>
-      <div class="liga"><span class="icone">${iconeDe(ev)}</span>${escapar(ev.competicao)}</div>
+      <div class="liga"><span class="icone${ev.icone ? " ajustavel" : ""}"${
+        ev.icone ? ` data-marca="${escapar(ev.icone)}" role="button" tabindex="0" title="Tocar para corrigir a modalidade"` : ""
+      }>${iconeDe(ev)}</span>${escapar(ev.competicao)}</div>
       <div class="titulo">${escapar(ev.evento)}</div>
       ${placar}
       <div class="canais">${canais}</div>
@@ -739,6 +800,44 @@ function buscar(primeira){
     .then(() => { if (dados) montarConteudo(); })
     .catch(() => {});
 }
+
+// --- corrigir a modalidade no toque ----------------------------------
+// As regras de nome nunca vão cobrir toda grafia de competição que
+// aparecer. Em vez de eu adivinhar, você toca no ícone errado e escolhe:
+// a correção fica gravada naquele desenho e vale para sempre, inclusive
+// para competições futuras que usem o mesmo.
+const PALETA = ["⚽","🏀","🏐","🎾","⚾","🏈","🏒","🏎️","🥊","🥋","🏃",
+                "🏊","🤸","🏄","🛹","⛳","🚴","🏉","🤾","♟️","🎮","🥅","🏅","📺"];
+let marcaEmEdicao = null;
+
+function abrirSeletor(marca){
+  marcaEmEdicao = marca;
+  const caixa = $("seletor");
+  caixa.innerHTML = `<div class="painel" role="dialog" aria-label="Escolher modalidade">
+      <p>Qual é a modalidade deste desenho?</p>
+      <div class="grade">${PALETA.map(e =>
+        `<button data-emoji="${e}">${e}</button>`).join("")}</div>
+      <button class="fechar">Cancelar</button>
+    </div>`;
+  caixa.hidden = false;
+}
+
+function fecharSeletor(){ $("seletor").hidden = true; marcaEmEdicao = null; }
+
+document.addEventListener("click", ev => {
+  const alvo = ev.target.closest("[data-marca]");
+  if (alvo){ abrirSeletor(alvo.dataset.marca); return; }
+
+  const escolha = ev.target.closest("#seletor [data-emoji]");
+  if (escolha){
+    const marca = marcaEmEdicao;
+    fecharSeletor();
+    fixarIcone(marca, escolha.dataset.emoji);
+    return;
+  }
+  if (ev.target.closest("#seletor .fechar") || ev.target.id === "seletor")
+    fecharSeletor();
+});
 
 buscar(true);
 
