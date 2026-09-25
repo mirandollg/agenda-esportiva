@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T15:12:39-03:00",
+  "gerado_em": "2026-09-25T15:42:09-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -100,8 +100,7 @@
           "evento": "Armênia x Letônia",
           "canais": "SPORTV2",
           "icone": "0613ffffffd58fff8dffe78effeef",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
