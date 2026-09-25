@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T17:10:16-03:00",
+  "gerado_em": "2026-09-25T17:41:05-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -210,8 +210,7 @@
           "evento": "Passo Fundo-RS x Criciúma",
           "canais": "BANDSPORTS, CBFS TV",
           "icone": "0d030206a12006640091220910052",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
