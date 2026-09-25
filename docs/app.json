@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T17:41:05-03:00",
+  "gerado_em": "2026-09-25T18:11:00-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -192,8 +192,7 @@
           "evento": "Turquia x França",
           "canais": "SPORTV, SPORTV2",
           "icone": "0613fffafff694ffba0ff6a5fffae",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -201,8 +200,7 @@
           "evento": "Suécia x Romênia",
           "canais": "ESPN, ESPN4",
           "icone": "0613fffffff59bff8dbfe498ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
