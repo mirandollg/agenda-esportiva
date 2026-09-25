@@ -452,7 +452,7 @@ const ICONES = [
   [/xadrez/i,                                   "♟️"],
   [/e-?sports|valorant|counter|league of legends|\blol\b|\bcs2\b/i, "🎮"],
   [/jogos sul-?americanos|olimp|pan-?americanos|jogos mundiais/i, "🏅"],
-  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b/i, "⚽"]
+  [/futebol|brasileir|libertadores|copa|champ|premier|la ?liga|s[ée]rie [abcd]|paulist|carioc|mundial|amistoso|estrelas fut|sul-?americana|eliminat|bundesliga|ligue|\bmls\b|nations league|uefa|conmebol|\bfifa\b|liga dos campe|recopa|supercopa/i, "⚽"]
 ];
 
 const ICONE_PADRAO = "📺";
@@ -484,6 +484,14 @@ function porNome(ev){
   for (const [padrao, icone] of ICONES) if (padrao.test(alvo)) return icone;
   return null;
 }
+
+// A assinatura vem do coletor em duas partes: 4 dígitos de cor e 25 de
+// forma. Cada esporte usa sempre a mesma cor, então a cor é o filtro
+// forte: ela tem de bater exata. Só entre assinaturas da mesma cor é que
+// a forma é comparada, e com tolerância apertada. Sem essa trava, o
+// futebol herdava o ícone do surfe.
+function corDa(marca){ return (marca || "").slice(0, 4); }
+function formaDa(marca){ return (marca || "").slice(4); }
 
 function distancia(a, b){
   if (!a || !b || a.length !== b.length) return Infinity;
@@ -521,13 +529,17 @@ function iconeDe(ev){
 
   if (ev.icone){
     if (aprendidos[ev.icone]) return aprendidos[ev.icone];
-    // assinatura parecida serve: recorte e compressao variam um pouco
+
+    // só candidatos com a MESMA cor; entre eles, a forma mais próxima,
+    // e ainda assim só se a diferença for pequena
     let melhor = null, menor = Infinity;
+    const cor = corDa(ev.icone), forma = formaDa(ev.icone);
     Object.keys(aprendidos).forEach(marca => {
-      const d = distancia(ev.icone, marca);
+      if (corDa(marca) !== cor) return;
+      const d = distancia(forma, formaDa(marca));
       if (d < menor){ menor = d; melhor = marca; }
     });
-    if (melhor && menor <= 90) return aprendidos[melhor];
+    if (melhor && menor <= 18) return aprendidos[melhor];
   }
 
   return ICONE_PADRAO;
