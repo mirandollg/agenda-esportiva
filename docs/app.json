@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-24T22:40:49-03:00",
+  "gerado_em": "2026-09-24T23:13:46-03:00",
   "primeiro_dia": "2026-09-24",
   "fontes": [
     "Esportes na TV",
@@ -176,8 +176,7 @@
           "evento": "NY Yankees x Tampa Bay Rays",
           "canais": "ESPN3",
           "icone": "89a89a89a89a89a89a89a89a89a89a89a89a89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89b89a89b89b89b",
-          "fonte": "esportesnatv",
-          "dura": 175
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
