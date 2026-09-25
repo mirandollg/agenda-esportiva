@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T09:45:10-03:00",
+  "gerado_em": "2026-09-25T10:12:47-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -77,8 +77,7 @@
           "evento": "Atletismo - finais",
           "canais": "ESPN4, YOUTUBE",
           "icone": "0c0250000000520005a0005500850",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
