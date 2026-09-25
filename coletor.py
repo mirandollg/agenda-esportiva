@@ -18,6 +18,7 @@ import json
 import os
 import re
 import sys
+import colorsys
 import unicodedata
 from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
@@ -215,8 +216,15 @@ def baixar_imagem(url):
 # ----------------------------------------------------------------------------
 
 
-def ler_celula(img, psm=7, inverter=False):
-    """Amplia 3x antes de ler: texto pequeno ampliado eh onde o Tesseract ganha."""
+def ler_celula(img, psm=6, inverter=False):
+    """
+    OCR de uma celula isolada, ampliada 3x — texto pequeno ampliado eh
+    onde o Tesseract mais ganha precisao.
+
+    O padrao eh o modo 6 (bloco), nao o 7 (linha unica): muitas celulas
+    trazem duas linhas, como dois canais empilhados ou o nome dos times
+    quebrado, e o modo de linha unica embaralha esse caso.
+    """
     if img.width < 5 or img.height < 5:
         return ""
     if inverter:
@@ -227,7 +235,17 @@ def ler_celula(img, psm=7, inverter=False):
         txt = pytesseract.image_to_string(grande, lang="por", config=cfg)
     except pytesseract.TesseractError:
         txt = pytesseract.image_to_string(grande, config=cfg)
-    return limpar(txt)
+    return txt
+
+
+def linhas_da_celula(img, psm=6):
+    """Cada linha de texto da celula, ja limpa, sem as vazias."""
+    return [limpar(l) for l in ler_celula(img, psm).split("\n") if limpar(l)]
+
+
+def texto_da_celula(img, psm=6, juntar=" "):
+    """A celula inteira num texto so, unindo as linhas."""
+    return limpar(juntar.join(linhas_da_celula(img, psm)))
 
 
 def _agrupar(contagem, gap_min, tam_min):
@@ -354,13 +372,19 @@ def _blocos_entre(faixas, tamanho, minimo=12):
 
 def assinatura_icone(celula):
     """
-    Devolve uma assinatura do desenho da modalidade, ou "" se nao achar.
+    Devolve a assinatura da modalidade pelo desenho, ou "" se nao achar.
 
-    O icone eh a unica coisa colorida da celula — o nome da competicao eh
-    texto preto. Entao filtramos por saturacao, pegamos o bloco mais a
-    esquerda (o desenho vem antes do nome), reduzimos a 6x6 e gravamos
-    cada canal em um digito hexadecimal. Icones iguais geram assinaturas
-    iguais, e eh isso que permite agrupar modalidades sem saber o nome.
+    Duas partes, e a ordem importa:
+
+      COR   — cada esporte usa sempre a mesma cor, entao a cor dominante
+              do icone eh o identificador mais confiavel. Vai em matiz,
+              saturacao e brilho, em 4 digitos.
+      FORMA — a silhueta reduzida a 5x5, para separar dois esportes que
+              porventura usem a mesma cor.
+
+    Na hora de comparar, a cor tem de bater exata; so entao a forma eh
+    comparada com tolerancia. Sem essa trava, desenhos diferentes com
+    miniaturas parecidas se confundiam — era o futebol virando surfe.
     """
     arr = np.asarray(celula.convert("RGB"), dtype=np.int16)
     if arr.size == 0:
@@ -374,17 +398,25 @@ def assinatura_icone(celula):
     ys, xs = np.nonzero(colorido)
     lado = celula.height
     # o icone eh quadrado e fica na esquerda; ignora cor que apareca depois
-    limite = xs.min() + lado + 2
-    dentro = xs <= limite
+    dentro = xs <= xs.min() + lado + 2
     ys, xs = ys[dentro], xs[dentro]
     if len(xs) < 10:
         return ""
 
-    recorte = celula.crop((int(xs.min()), int(ys.min()),
-                           int(xs.max()) + 1, int(ys.max()) + 1))
-    mini = recorte.resize((6, 6), Image.LANCZOS).convert("RGB")
-    dados = np.asarray(mini, dtype=np.int16) // 16  # 16 niveis por canal
-    return "".join(f"{v:x}" for v in dados.flatten())
+    # --- cor dominante -------------------------------------------------
+    pixels = arr[ys, xs].astype(np.float64)
+    r, g, b = (pixels.mean(axis=0) / 255.0)
+    matiz, satur, brilho = colorsys.rgb_to_hsv(r, g, b)
+    cor = f"{int(matiz * 24) % 24:02x}{int(satur * 4):x}{int(brilho * 4):x}"
+
+    # --- forma ---------------------------------------------------------
+    y0, y1 = int(ys.min()), int(ys.max()) + 1
+    x0, x1 = int(xs.min()), int(xs.max()) + 1
+    mascara = np.zeros(arr.shape[:2], dtype=np.uint8)
+    mascara[ys, xs] = 255
+    forma = Image.fromarray(mascara[y0:y1, x0:x1]).resize((5, 5), Image.BOX)
+    celulas = np.asarray(forma, dtype=np.int16) // 16
+    return cor + "".join(f"{v:x}" for v in celulas.flatten())
 
 
 def ler_agenda_entv(url, data_iso, indice=0):
@@ -432,10 +464,10 @@ def ler_agenda_entv(url, data_iso, indice=0):
     marcas = []
     for y0, y1 in linhas:
         cel = [img.crop((x0 + 1, y0 + 1, x1 - 1, y1 - 1)) for x0, x1 in colunas[:4]]
-        hora = normalizar_hora(ler_celula(cel[0]))
+        hora = normalizar_hora(texto_da_celula(cel[0], psm=7))
         if not hora:
             continue
-        competicao = limpar_competicao(ler_celula(cel[1]))
+        competicao = limpar_competicao(texto_da_celula(cel[1]))
         marca = assinatura_icone(cel[1])
         if marca:
             marcas.append(f"{marca}  {competicao}")
@@ -443,8 +475,10 @@ def ler_agenda_entv(url, data_iso, indice=0):
             {
                 "hora": hora,
                 "competicao": competicao,
-                "evento": limpar_confronto(ler_celula(cel[2])),
-                "canais": limpar_canais(ler_celula(cel[3])),
+                # duas linhas de times viram um texto so; dois canais
+                # empilhados viram uma lista separada por virgula
+                "evento": limpar_confronto(texto_da_celula(cel[2])),
+                "canais": limpar_canais(texto_da_celula(cel[3], juntar=", ")),
                 "icone": marca,
                 "fonte": "esportesnatv",
             }
@@ -516,7 +550,7 @@ def _data_do_cabecalho(img):
     """
     faixa = img.crop((0, 0, img.width, int(img.height * 0.18)))
     for inverter in (True, False):
-        texto = ler_celula(faixa, psm=6, inverter=inverter)
+        texto = limpar(ler_celula(faixa, psm=6, inverter=inverter))
         data_iso = data_de_texto(texto)
         if data_iso:
             return data_iso, texto
@@ -588,7 +622,9 @@ def ler_agenda_tdt(url, indice=0):
             img.crop((max(0, x0 - folga), y0 - 1, min(largura, x1 + folga), y1 + 1))
             for x0, x1 in colunas[:5]
         ]
-        brutos = [ler_celula(c) for c in cel]
+        brutos = [texto_da_celula(c) for c in cel]
+        brutos[0] = texto_da_celula(cel[0], psm=7)
+        brutos[4] = texto_da_celula(cel[4], psm=6, juntar=", ")
         dump.append(f"y={y0}-{y1} | " + " || ".join(brutos))
 
         hora = normalizar_hora(brutos[0])
@@ -821,15 +857,109 @@ def aplicar_duracoes(por_dia):
 # ----------------------------------------------------------------------------
 
 
+AUTOMOBILISMO = re.compile(
+    r"moto ?gp|moto ?[23]|f[oó]rmula|\bf1\b|\bf[234]\b|nascar|stock|indy|"
+    r"rally|wrc|gt ?[34]|porsche|amg|radical|truck|le mans|24 ?h|turismo|"
+    r"tcr|dtm|superbike|drag|corrida|treino livre|classificat",
+    re.IGNORECASE)
+
+
+def compacto(texto):
+    """'MOTO GP', 'MotoGP' e 'moto-gp' viram todos 'motogp'."""
+    return re.sub(r"[^a-z0-9]", "", normalizar(texto))
+
+
+def eh_automobilismo(ev):
+    if ev.get("fonte") == "tomadadetempo":
+        return True
+    return bool(AUTOMOBILISMO.search(f"{ev.get('competicao','')} {ev.get('evento','')}"))
+
+
+def mesma_corrida(a, b):
+    """
+    Duas fontes descrevem a mesma prova com palavras diferentes: uma diz
+    'MOTO GP' e a outra 'MotoGP', uma detalha a etapa e a outra nao. Por
+    isso a comparacao eh so pela categoria compactada, no mesmo horario.
+    """
+    ca, cb = compacto(a.get("competicao")), compacto(b.get("competicao"))
+    if not ca or not cb:
+        return False
+    if ca in cb or cb in ca:
+        return True
+    return SequenceMatcher(None, ca, cb).ratio() >= 0.75
+
+
+def juntar_canais(a, b):
+    """Une os canais das duas fontes sem repetir."""
+    vistos, saida = set(), []
+    for bruto in re.split(r"[,;|]", f"{a.get('canais','')},{b.get('canais','')}"):
+        canal = limpar(bruto)
+        chave = compacto(canal)
+        if canal and chave not in vistos:
+            vistos.add(chave)
+            saida.append(canal)
+    return ", ".join(saida)
+
+
+def minutos_do_dia(hora):
+    try:
+        h, m = map(int, str(hora).split(":"))
+        return h * 60 + m
+    except Exception:
+        return None
+
+
 def deduplicar(eventos):
-    """Mesma hora e descricao parecida = repetido (imagem PARTE 1 e PARTE 2)."""
-    vistos, saida = [], []
+    """
+    Tira repetidos dentro do mesmo dia.
+
+    Dois casos diferentes:
+      - a mesma imagem em PARTE 1 e PARTE 2, que repete a linha inteira:
+        pega pela semelhanca do texto no mesmo horario;
+      - a mesma corrida vinda das duas fontes, descrita com outras
+        palavras: pega pela categoria, aceitando ate 10 minutos de
+        diferenca de horario, ja que as fontes arredondam diferente.
+
+    Quando a corrida vem das duas, fica a versao do Tomada de Tempo, que
+    traz etapa e sessao, e os canais das duas sao somados.
+    """
+    saida = []
     for ev in eventos:
-        chave = (ev["hora"], normalizar(f"{ev['competicao']} {ev['evento']}")[:50])
-        if any(k[0] == chave[0] and parecido(k[1], chave[1]) for k in vistos):
+        inicio = minutos_do_dia(ev.get("hora"))
+        texto = normalizar(f"{ev.get('competicao','')} {ev.get('evento','')}")[:50]
+        repetido = None
+
+        for pronto in saida:
+            outro = minutos_do_dia(pronto.get("hora"))
+            if inicio is None or outro is None:
+                continue
+
+            if inicio == outro and parecido(
+                    normalizar(f"{pronto.get('competicao','')} {pronto.get('evento','')}")[:50],
+                    texto):
+                repetido = pronto
+                break
+
+            if (abs(inicio - outro) <= 10
+                    and eh_automobilismo(ev) and eh_automobilismo(pronto)
+                    and mesma_corrida(ev, pronto)):
+                repetido = pronto
+                break
+
+        if repetido is None:
+            saida.append(ev)
             continue
-        vistos.append(chave)
-        saida.append(ev)
+
+        # ficou o mais detalhado; os canais das duas fontes se somam
+        canais = juntar_canais(repetido, ev)
+        preferido = ev if (ev.get("fonte") == "tomadadetempo"
+                           and repetido.get("fonte") != "tomadadetempo") else repetido
+        if preferido is ev:
+            saida[saida.index(repetido)] = ev
+        preferido["canais"] = canais
+        if ev.get("dura") and not preferido.get("dura"):
+            preferido["dura"] = ev["dura"]
+
     return saida
 
 
