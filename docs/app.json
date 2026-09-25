@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T19:39:58-03:00",
+  "gerado_em": "2026-09-25T20:09:50-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -142,8 +142,7 @@
           "evento": "Presidents Cup - 2º Rodada",
           "canais": "ESPN3",
           "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 300
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -257,8 +256,7 @@
           "evento": "SF - Corinthians x Mogi (0-2)",
           "canais": "BANDSPORTS, FPB TV",
           "icone": "0113fffeffefffffffeffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
