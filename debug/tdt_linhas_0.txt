@@ -1,4 +1,4 @@
-https://cdn1.telesco.pe/file/l-L6jhzXMVCwAr5gFKOEa7n5nYEcc-Js4DWp37YAtBfKLvZsBZ5h6dQ-6yZkSIpgeeCt6C4YXkKkLxezKigol6nGoCNgl-Rq_vhGs29ygvSmTEVnUlklFvsr3TUjOjYu8q4v7fWBT2eRMsQ4U-Bh5bLtKYI-iRBLkmtSMwBXfqNbRQAD0tSntrXiuqtyCCsu2xnrOxyEyELOm9PqacQkZktwj5O9Ec8iK80zUVzsZThOawj4Ww6BKXR22NV3zslFh0bDRpY0nu-YMkQo1HXuFFFOzeUm8ZwwTOGOv_bvyHEaqeWKTrEJEBKefObI4GS7x6mK5FJ9IBpCLrLN_nlWSw.jpg
+https://cdn1.telesco.pe/file/NzIgCVYBKDbZ5XMcf3sRhozudgTt_ip2canvXG7x4l5YNC6xaTwa_Di46Y4J8s9wl4itXrhxR2Xj-gCUuWtypc2oqSZcNDib8wDMXXORLc08l5iU07I3GoKg10zh6T2cLp8FwkJGi7lXG7MtEsTv1zMN6ieWX3W2XAfbg-RPx3l7HzQFSLx12y4eOedaH4siB7gw7RQ6w5dB6TXFn1e_v2l38i7WBZ4RmEjiOyjM_OM_-5YV8pDzflgVWZ46dUb4r2XURzDOzL-Poj6l0U6gZ0dFyKDaF7j5f-FphtYiTGWBfzoUQ5wpPDm3KiGnaWz9DnWXx3buTFBVsRsGmG-MFg.jpg
 data: 2026-09-25
 colunas: [(5, 35), (43, 160), (213, 330), (337, 436), (476, 611)]
 
