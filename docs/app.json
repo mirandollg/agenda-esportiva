@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-25T21:47:02-03:00",
+  "gerado_em": "2026-09-25T22:12:30-03:00",
   "primeiro_dia": "2026-09-25",
   "fontes": [
     "Esportes na TV",
@@ -280,8 +280,7 @@
           "evento": "Fluminense x Praia Clube",
           "canais": "SPORTV2",
           "icone": "0313ffebdffbefffbffffacffffba",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
