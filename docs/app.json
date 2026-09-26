@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T09:43:26-03:00",
+  "gerado_em": "2026-09-26T10:09:59-03:00",
   "primeiro_dia": "2026-09-26",
   "fontes": [
     "Esportes na TV",
@@ -102,8 +102,7 @@
           "evento": "Espanha F x Brasil F",
           "canais": "ESPN4",
           "icone": "0a020025000860204666020620002",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
@@ -112,8 +111,7 @@
           "canais": "SPORTV3, FITV, CLOBOPLAY PR",
           "etapa": "GP do Azerbaijão",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 120
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:05",
