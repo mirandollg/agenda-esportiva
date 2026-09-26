@@ -1,331 +1,12 @@
 {
-  "gerado_em": "2026-09-25T23:42:00-03:00",
-  "primeiro_dia": "2026-09-25",
+  "gerado_em": "2026-09-26T06:10:18-03:00",
+  "primeiro_dia": "2026-09-26",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 170,
+  "total": 132,
   "dias": [
-    {
-      "data": "2026-09-25",
-      "eventos": [
-        {
-          "hora": "01:15",
-          "competicao": "FÓRMULA 2",
-          "evento": "Azerbaijão - Corrida Sprint",
-          "canais": "SPORTV3, FITV, CLOBOPLAY PR",
-          "etapa": "Azerbaijão",
-          "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "05:30",
-          "competicao": "FÓRMULA 1",
-          "evento": "GP do Azerbaijão - Treino Livre 3",
-          "canais": "SPORTV3, SPORTV, FITV, CLOSOPLAY PR",
-          "etapa": "GP do Azerbaijão",
-          "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "06:00",
-          "competicao": "Billie Jean King Cup",
-          "evento": "SF - Espanha x Rep. Tcheca",
-          "canais": "ESPN3",
-          "icone": "0e020440000704412131004330000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:00",
-          "competicao": "Amistoso",
-          "evento": "Austrália x Brasil",
-          "canais": "GLOBO, SPORTV, YOUTUBE GETV",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:15",
-          "competicao": "FÓRMULA 2",
-          "evento": "Azerbaijão - Corrida Principal 7",
-          "canais": "SPORTV3, FITV, CLOBOPLAY PR",
-          "etapa": "Azerbaijão",
-          "sessao": "Corrida Principal 7",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "09:00",
-          "competicao": "FÓRMULA 1",
-          "evento": "GP do Azerbaijão - Classificação",
-          "canais": "SPORTV3, SPOSTVS, FITV, CLOBOPLAY PR",
-          "etapa": "GP do Azerbaijão",
-          "sessao": "Classificação",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "09:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Santa Fe 2026 - dia 13",
-          "canais": "YOUTUBE ODESUR",
-          "icone": "02020004004003023030000330303",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "09:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - finais",
-          "canais": "ESPN4, YOUTUBE",
-          "icone": "0c0250000000520005a0005500850",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "09:00",
-          "competicao": "Laver Cup",
-          "evento": "Ruud x Cerundolo, seguido por Mensik x Nakashima",
-          "canais": "ESPN2",
-          "icone": "0d120110000030221512314531003",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "UEFA Nations League B",
-          "evento": "Geórgia x Irlanda do Norte",
-          "canais": "ESPN4",
-          "icone": "0613fffffff38efd7bcfe79affedf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "UEFA Nations League C",
-          "evento": "Armênia x Letônia",
-          "canais": "SPORTV2",
-          "icone": "0613ffffffd58fff8dffe78effeef",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:00",
-          "competicao": "Euroliga",
-          "evento": "Besiktas x Valencia",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:15",
-          "competicao": "GOLD TURISMO",
-          "evento": "Cascavel/PR - Corrida 1 (Etapa 5)",
-          "canais": "YOUTUBE",
-          "etapa": "Cascavel/PR",
-          "sessao": "Corrida 1 (Etapa 5)",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "14:30",
-          "competicao": "Espanhol de Futsal",
-          "evento": "Xota Osasuna x Palma",
-          "canais": "YOUTUBE Canal Gol BR",
-          "icone": "0d030a11527535362482820603272",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "GOLD CLASSIC",
-          "evento": "Cascavel/PR - Corrida 2 (Etapa 5)",
-          "canais": "YOUTUBE",
-          "etapa": "Cascavel/PR",
-          "sessao": "Corrida 2 (Etapa 5)",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Golfe",
-          "evento": "Presidents Cup - 2º Rodada",
-          "canais": "ESPN3",
-          "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Tiro com Àrco - finais",
-          "canais": "YOUTUBE ODESUR",
-          "icone": "06020000410009900066100800006",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Laver Cup",
-          "evento": "Jodar x Bublik",
-          "canais": "ESPN2",
-          "icone": "0d021030000002424061500432503",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Paulistão sub-20",
-          "evento": "Corinthians x XV de Jaú (3x2)",
-          "canais": "YOUTUBE TNT Sports",
-          "icone": "0613ffffeffff7ffff8ffff9fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:30",
-          "competicao": "Espanhol de Futsal",
-          "evento": "Barcelona x Cartagena",
-          "canais": "YOUTUBE Canal Gol BR",
-          "icone": "0d030315248235085480a2390720b",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League",
-          "evento": "Itália x Bélgica",
-          "canais": "DISNEY+",
-          "icone": "0613fffcfff684ff7c3ff7a6fffcf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League",
-          "evento": "Turquia x França",
-          "canais": "SPORTV, SPORTV2",
-          "icone": "0613fffafff694ffba0ff6a5fffae",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League B",
-          "evento": "Suécia x Romênia",
-          "canais": "ESPN, ESPN4",
-          "icone": "0613fffffff59bff8dbfe498ffecf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Copa Sulde Futsal",
-          "evento": "Passo Fundo-RS x Criciúma",
-          "canais": "BANDSPORTS, CBFS TV",
-          "icone": "0d030206a12006640091220910052",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Paulistão sub-20",
-          "evento": "Palmeiras x Ituano (1x1)",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0613fffffffff8ffffbffff8fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:30",
-          "competicao": "Laver Cup",
-          "evento": "Alcaraz/Mensik x Bublik/Fritz",
-          "canais": "ESPN2",
-          "icone": "0d021020030232120050400314000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "17:30",
-          "competicao": "GOLD TURISMO",
-          "evento": "Cascavel/PR - Corrida 2 (Etapa 5)",
-          "canais": "YOUTUBE",
-          "etapa": "Cascavel/PR",
-          "sessao": "Corrida 2 (Etapa 5)",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "FÓRMULA DRIFT",
-          "evento": "Las Vegas - Top32 (PROSPEC)",
-          "canais": "YOUTUBE",
-          "etapa": "Las Vegas",
-          "sessao": "Top32 (PROSPEC)",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "Jogos Sul-Americanos",
-          "evento": "Atletismo - finais",
-          "canais": "YOUTUBE ODESUR",
-          "icone": "0d023300011001300530006300043",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "Paulista de Basquete",
-          "evento": "SF - Corinthians x Mogi (0-2)",
-          "canais": "BANDSPORTS, FPB TV",
-          "icone": "0113fffeffefffffffeffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Taça Brasil Vôlei Fem",
-          "evento": "Londrina x Brusque",
-          "canais": "YOUTUBE CazéTV",
-          "icone": "0413ffbdbfdefefcdeffcdfdffcbd",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Novorizontino x São Bernardo",
-          "canais": "DISNEY+",
-          "icone": "0613fffbaff96affb8bffb68fffdc",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "Copa Supervôlei Fem",
-          "evento": "Fluminense x Praia Clube",
-          "canais": "SPORTV2",
-          "icone": "0313ffebdffbefffbffffacffffba",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:30",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Vila Nova x Londrina",
-          "canais": "DISNEY+",
-          "icone": "0613fffaaffa58ffaa9ffc88fffdc",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "NWSL Fut. Feminino",
-          "evento": "Gotham FC x Chicago Stars",
-          "canais": "XSPORTS, GOAT",
-          "icone": "0613ffd9efe2c5faac2ff3b2fff9f",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Taça Brasil Vôlei Fem",
-          "evento": "SESI-Bauru x Mackenzie",
-          "canais": "YOUTUBE CazéTV",
-          "icone": "0313febdbfdefdfcdeffdcfcffcbd",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:30",
-          "competicao": "WEC",
-          "evento": "Fuji - Treino Livre 3",
-          "canais": "YOUTUBE",
-          "etapa": "Fuji",
-          "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo"
-        },
-        {
-          "hora": "23:00",
-          "competicao": "FÓRMULA DRIFT",
-          "evento": "Las Vegas - Top16 (PROSPEC)",
-          "canais": "YOUTUBE",
-          "etapa": "Las Vegas",
-          "sessao": "Top16 (PROSPEC)",
-          "fonte": "tomadadetempo"
-        }
-      ]
-    },
     {
       "data": "2026-09-26",
       "eventos": [
@@ -353,8 +34,7 @@
           "canais": "SPORTV3, FITV, CLOSOPLAY PR",
           "etapa": "Azerbaijão",
           "sessao": "Corrida Principal 2",
-          "fonte": "tomadadetempo",
-          "dura": 80
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "05:15",
@@ -362,8 +42,7 @@
           "evento": "Etapa da Itália - corrida 1",
           "canais": "BANDSPORTS",
           "icone": "010200f0ff0000f4000f0f00f0f00",
-          "fonte": "esportesnatv",
-          "dura": 35
+          "fonte": "esportesnatv"
         },
         {
           "hora": "05:30",
@@ -372,8 +51,7 @@
           "canais": "YOUTUBE, BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 20
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "06:00",
@@ -768,7 +446,7 @@
           "canais": "COMBATE",
           "icone": "0013fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
-          "dura": 30
+          "dura": 240
         },
         {
           "hora": "14:00",
@@ -1144,7 +822,7 @@
           "etapa": "Fuji",
           "sessao": "Corrida",
           "fonte": "tomadadetempo",
-          "dura": 135
+          "dura": 60
         },
         {
           "hora": "23:00",
@@ -1153,7 +831,7 @@
           "canais": "BANDSPORTS, GPTV",
           "icone": "02022020000200000064500620052",
           "fonte": "esportesnatv",
-          "dura": 135
+          "dura": 60
         },
         {
           "hora": "23:30",
@@ -1239,7 +917,7 @@
           "etapa": "Brasília/DF",
           "sessao": "Corrida 2 (VT)",
           "fonte": "tomadadetempo",
-          "dura": 60
+          "dura": 65
         },
         {
           "hora": "06:45",
@@ -1348,7 +1026,7 @@
           "etapa": "Santa Cruz do Sul/RS",
           "sessao": "Corrida 3",
           "fonte": "tomadadetempo",
-          "dura": 65
+          "dura": 55
         },
         {
           "hora": "11:12",

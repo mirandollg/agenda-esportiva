@@ -1,15 +1,24 @@
-0c020004300063001134010160011  Fórmula 2
-0e020440000704412131004330000  Billie Jean King Cup
-0613fffffffffffffffffffffffff  Amistoso
-08020000a0000b0002a60032a0010  Fórmula 1
-02020004004003023030000330303  Jogos Sul-Americanos
-0c0250000000520005a0005500850  Jogos Sul-Americanos
-0d120110000030221512314531003  Laver Cup
-0613fffffff38efd7bcfe79affedf  UEFA Nations League B
-0613ffffffd58fff8dffe78effeef  UEFA Nations League C
-0113fffffffffffffffffffffffff  Euroliga
-0d030a11527535362482820603272  Espanhol de Futsal
-0613ffffeffff7ffff8ffff9fffff  Paulistão sub-20
-06020000410009900066100800006  Jogos Sul-Americanos
-0d021030000002424061500432503  Laver Cup
+010200f0ff0000f4000f0f00f0f00  World Cup
+02024000030006600046000640003  Fórmula 4 Espanha
+0e120150000003543050800156003  Billie Jean King Cup
+070280000b0000b00048000440000  EUrocup-3
+0a020025000860204666020620002  Challenger Rugby Fem
+0702000080000b000086003280010  Fórmula 1
+0b0288000880488804888048c4000  Turismo Nacional
+0d020030010114120030300114000  Laver Cup
+02023000030001301363013610003  Fórmula 4 Espanha
+0613fffe8fff59ffcacfff6afffec  Camp. Inglês Fem
+0613fffffff39dfd9c9fe598ffecf  UEFA Nations League B
+0613ffffffd59ffe6befc77dffddf  UEFA Nations League C
+0613ffefffd46ffe8cffe88dffeef  UEFA Nations League C
+0613ffebcff887ffab8ff7a3fffce  Mundial sub20 Fem
+0613fffebfff5cffcaefff6cfffe9  Camp. Inglês Fem
 0603fffffffffffffffffffffffff  Golfe
+0013fffffffffffffffffffffffff  MMA
+0d030008602017640081500901050  Copa Sulde Futsal
+0313ffbdbfeffefcddffccfcffcad  Taça Brasil Vôlei Fem
+0d020100000001244334400130003  Laver Cup
+0013fffffffffffffffffffffffff  Boxe
+0613ffceff968ffd85cfa85effcef  Copa do Nordeste s20
+0613ffdaffc39afe9b6fd398ffebf  Estrelas Fut. Fem. s20
+0d030317406524074364855500012  Espanholde Futsal
