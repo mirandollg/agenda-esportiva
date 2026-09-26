@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T11:40:00-03:00",
+  "gerado_em": "2026-09-26T12:10:13-03:00",
   "primeiro_dia": "2026-09-26",
   "fontes": [
     "Esportes na TV",
@@ -59,8 +59,7 @@
           "evento": "SF- Itália x Ucrânia",
           "canais": "ESPN3",
           "icone": "0e120150000003543050800156003",
-          "fonte": "esportesnatv",
-          "dura": 360
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:00",
@@ -198,8 +197,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Brasília/DF",
           "sessao": "Corrida Endurance",
-          "fonte": "tomadadetempo",
-          "dura": 135
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:54",
@@ -225,8 +223,7 @@
           "evento": "Eslovênia x Escócia",
           "canais": "SPORTV",
           "icone": "0613fffffff39dfd9c9fe598ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:15",
@@ -252,8 +249,7 @@
           "evento": "Etapa da Itália - corrida 1",
           "canais": "BANDSPORTS",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 75
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:45",
