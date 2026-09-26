@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T08:39:15-03:00",
+  "gerado_em": "2026-09-26T09:12:53-03:00",
   "primeiro_dia": "2026-09-26",
   "fontes": [
     "Esportes na TV",
@@ -131,8 +131,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Brasília/DF",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:30",
@@ -141,8 +140,7 @@
           "canais": "YOUTUBE, BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo",
-          "dura": 25
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:30",
