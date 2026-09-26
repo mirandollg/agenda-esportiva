@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T14:40:15-03:00",
+  "gerado_em": "2026-09-26T15:12:17-03:00",
   "primeiro_dia": "2026-09-26",
   "fontes": [
     "Esportes na TV",
@@ -353,8 +353,7 @@
           "evento": "3º Lugar - Itália F x Colômbia F",
           "canais": "SPORTV2",
           "icone": "0613ffebcff887ffab8ff7a3fffce",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -370,8 +369,7 @@
           "evento": "Bulgária x Luxemburgo",
           "canais": "ESPN",
           "icone": "0613ffffffd59ffe6befc77dffddf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -379,8 +377,7 @@
           "evento": "Islândia x Estônia",
           "canais": "SPORTV",
           "icone": "0613ffefffd46ffe8cffe88dffeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
