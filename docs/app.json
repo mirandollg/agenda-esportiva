@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-26T18:10:39-03:00",
+  "gerado_em": "2026-09-26T18:38:58-03:00",
   "primeiro_dia": "2026-09-26",
   "fontes": [
     "Esportes na TV",
@@ -591,8 +591,7 @@
           "evento": "Operário-PRx Ceará",
           "canais": "REDETV!, DISNEY+, YOUTUBE Canal GOAT",
           "icone": "0613fffffff8cefcb8bfeabefffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -600,8 +599,7 @@
           "evento": "Final (ida) Corinthians F x São Paulo F",
           "canais": "GLOBO, TV BRASIL, SPORTV, YOUTUBE, GE TV, UOL, NSPORTS",
           "icone": "0613ffffffdfffd99bcfdffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
