@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T08:40:01-03:00",
+  "gerado_em": "2026-09-27T09:13:39-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -105,8 +105,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV2",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:45",
@@ -177,8 +176,7 @@
           "evento": "Etapa da Itália - corrida 2",
           "canais": "BANDSPORTS",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:15",
