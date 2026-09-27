@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T13:40:56-03:00",
+  "gerado_em": "2026-09-27T14:09:41-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -375,8 +375,7 @@
           "evento": "Final - Espanha x Coreia do Norte",
           "canais": "SPORTV, CAZÉTV",
           "icone": "0613fff9cff598ffac7ff8b3fffcf",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
