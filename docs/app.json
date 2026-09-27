@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T11:40:09-03:00",
+  "gerado_em": "2026-09-27T12:10:21-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -86,8 +86,7 @@
           "evento": "Final - Ucrânia x Rep. Tcheca",
           "canais": "ESPN3",
           "icone": "0e020040000600407021000132002",
-          "fonte": "esportesnatv",
-          "dura": 360
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:00",
@@ -235,8 +234,7 @@
           "evento": "Lituânia x Azerbaijão",
           "canais": "SPORTV2",
           "icone": "0613ffffffd56ffe4defd88cffeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:20",
@@ -280,8 +278,7 @@
           "canais": "YOUTUBE, BANDSPORTS",
           "etapa": "Santa Cruz do Sul/RS",
           "sessao": "Corrida 3",
-          "fonte": "tomadadetempo",
-          "dura": 55
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:12",
