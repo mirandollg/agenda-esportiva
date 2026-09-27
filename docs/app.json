@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T18:39:55-03:00",
+  "gerado_em": "2026-09-27T19:10:09-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -355,8 +355,7 @@
           "evento": "Presidents Cup - Rodada Final",
           "canais": "ESPN3",
           "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 360
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
