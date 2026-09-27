@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T20:09:52-03:00",
+  "gerado_em": "2026-09-27T20:38:55-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -563,8 +563,7 @@
           "evento": "Dallas Cowboys x Balt. Ravens",
           "canais": "SPORTV, GE TV",
           "icone": "04024003430019000340003300003",
-          "fonte": "esportesnatv",
-          "dura": 185
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:30",
@@ -572,8 +571,7 @@
           "evento": "Circuito Brasil - Barueri - finais",
           "canais": "SPORTV, YOUTUBE",
           "icone": "060200500d0800000000000000045",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
@@ -590,8 +588,7 @@
           "evento": "Fortaleza x Athletic",
           "canais": "XSPORTS, ESPN, SportyNet, YOUTUBE",
           "icone": "0613ffffffe8cdfcb8afeabcfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
