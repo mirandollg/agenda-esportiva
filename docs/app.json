@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T14:09:41-03:00",
+  "gerado_em": "2026-09-27T14:39:27-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -199,8 +199,7 @@
           "evento": "Copa do Mundo - etapa de Paris",
           "canais": "SPORTV3",
           "icone": "02023000360003600033000330000",
-          "fonte": "esportesnatv",
-          "dura": 360
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:30",
@@ -331,8 +330,7 @@
           "canais": "BANDSPORTS, YOUTUBE Stock Car, YOUTUBE, BAND",
           "etapa": "Brasília/DF",
           "sessao": "Corrida Endurance",
-          "fonte": "tomadadetempo",
-          "dura": 135
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:30",
