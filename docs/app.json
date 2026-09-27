@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T14:39:27-03:00",
+  "gerado_em": "2026-09-27T15:12:30-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -381,8 +381,7 @@
           "evento": "Sérvia x Holanda",
           "canais": "SPORTV2, GE TV",
           "icone": "0613ffecfff687ffbd4ff796ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -390,8 +389,7 @@
           "evento": "Dinamarca x País de Gales",
           "canais": "ESPN",
           "icone": "0613fffcfff765ffbc1ff7c3fffcf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:35",
