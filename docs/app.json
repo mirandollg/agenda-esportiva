@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T16:38:24-03:00",
+  "gerado_em": "2026-09-27T17:10:21-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -441,8 +441,7 @@
           "evento": "Pittsb. Steelers x Cinc. Bengals",
           "canais": "SPORTV",
           "icone": "0d020006110186000630013700127",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
