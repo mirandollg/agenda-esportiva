@@ -1,24 +1,17 @@
-010200f0ff0000f4000f0f00f0f00  World Cup
-02024000030006600046000640003  Fórmula 4 Espanha
-0e120150000003543050800156003  Billie Jean King Cup
-070280000b0000b00048000440000  EUrocup-3
-0a020025000860204666020620002  Challenger Rugby Fem
-0702000080000b000086003280010  Fórmula 1
-0b0288000880488804888048c4000  Turismo Nacional
-0d020030010114120030300114000  Laver Cup
-02023000030001301363013610003  Fórmula 4 Espanha
-0613fffe8fff59ffcacfff6afffec  Camp. Inglês Fem
-0613fffffff39dfd9c9fe598ffecf  UEFA Nations League B
-0613ffffffd59ffe6befc77dffddf  UEFA Nations League C
-0613ffefffd46ffe8cffe88dffeef  UEFA Nations League C
-0613ffebcff887ffab8ff7a3fffce  Mundial sub20 Fem
-0613fffebfff5cffcaefff6cfffe9  Camp. Inglês Fem
-0603fffffffffffffffffffffffff  Golfe
-0013fffffffffffffffffffffffff  MMA
-0d030008602017640081500901050  Copa Sulde Futsal
-0313ffbdbfeffefcddffccfcffcad  Taça Brasil Vôlei Fem
-0d020100000001244334400130003  Laver Cup
+0e022000000000000600000200020  Atletismo
 0013fffffffffffffffffffffffff  Boxe
-0613ffceff968ffd85cfa85effcef  Copa do Nordeste s20
-0613ffdaffc39afe9b6fd398ffebf  Estrelas Fut. Fem. s20
-0d030317406524074364855500012  Espanholde Futsal
+0e020040000600407021000132002  Billie Jean King Cup
+0d020030000001126032700305000  Laver Cup
+02023000360003600033000330000  Ginástica Artística
+0613ffffffd56ffe4defd88cffeef  UEFA Nations League D
+0613fffffffffffffffffffffffff  Copa Paulista
+0613fffacffb4affbabffa58fffdc  Brasileirão - Série B
+04022000320006000020000000002  cus Stock Car
+0613fffe9fff5affdacfff69ffffd  Camp. Inglês Fem
+0613fff9cff598ffac7ff8b3fffcf  Mundial sub20 Fem
+0613ffecfff687ffbd4ff796ffecf  UEFA Nations League
+0613fffcfff765ffbc1ff7c3fffcf  UEFA Nations League
+0603fffffffffffffffffffffffff  Golfe
+0c020005020054100270000910008  NFL
+0d020005000153200161004810008  NFL
+0d020006110186000630013700127  NFL
