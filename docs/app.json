@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-09-27T18:10:21-03:00",
+  "gerado_em": "2026-09-27T18:39:55-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 68,
+  "total": 74,
   "dias": [
     {
       "data": "2026-09-27",
@@ -402,6 +402,15 @@
         },
         {
           "hora": "14:00",
+          "competicao": "GT WORLD CHL AMÉRICA",
+          "evento": "Barber - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Barber",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:00",
           "competicao": "MOTO 1000GP",
           "evento": "Santa Cruz do Sul/RS - Corrida (660CUP)",
           "canais": "YOUTUBE",
@@ -458,6 +467,24 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "15:05",
+          "competicao": "F4 BRASIL",
+          "evento": "Brasília/DF - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:05",
+          "competicao": "MOTO1000GP",
+          "evento": "Santa Cruz do Sul/RS - Corrida (GP600)",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida (GP600)",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "15:45",
           "competicao": "UEFA Nations League",
           "evento": "Noruega x Portugal",
@@ -491,11 +518,21 @@
         },
         {
           "hora": "16:00",
-          "competicao": "Nascar Cup",
-          "evento": "Etapa de Kansas",
-          "canais": "DISNEY+, PHIZTV",
-          "icone": "01024205082050870128502005000",
-          "fonte": "esportesnatv"
+          "competicao": "NASCAR CUP SERIES",
+          "evento": "Kansas - Corrida",
+          "canais": "DISNEY+, PHIZTV, DISNEY+ PR",
+          "etapa": "Kansas",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "16:20",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 4",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 4",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "16:30",
@@ -541,6 +578,16 @@
           "dura": 180
         },
         {
+          "hora": "18:00",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 3 (VT)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 3 (VT)",
+          "fonte": "tomadadetempo",
+          "dura": 120
+        },
+        {
           "hora": "18:30",
           "competicao": "Brasileirão - Série B",
           "evento": "Fortaleza x Athletic",
@@ -556,6 +603,16 @@
           "canais": "SporiyNet+, YOUTUBE Benja",
           "icone": "0613ffffffe9ddfbb78fdacbfffff",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Brasília/DF - Corrida 4 (VT)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida 4 (VT)",
+          "fonte": "tomadadetempo",
+          "dura": 60
         },
         {
           "hora": "20:00",
