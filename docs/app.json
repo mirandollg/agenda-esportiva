@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-28T14:41:46-03:00",
+  "gerado_em": "2026-09-28T15:13:33-03:00",
   "primeiro_dia": "2026-09-28",
   "fontes": [
     "Esportes na TV",
@@ -41,8 +41,7 @@
           "evento": "Armênia x Montenegro",
           "canais": "ESPN4",
           "icone": "0613ffffffd57fff8bffe55effeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
