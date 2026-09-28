@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-27T21:22:15-03:00",
+  "gerado_em": "2026-09-27T21:48:51-03:00",
   "primeiro_dia": "2026-09-27",
   "fontes": [
     "Esportes na TV",
@@ -637,8 +637,7 @@
           "evento": "Denver Broncos x LA Rams",
           "canais": "SPORTV",
           "icone": "0c020215000053300560002430004",
-          "fonte": "esportesnatv",
-          "dura": 10
+          "fonte": "esportesnatv"
         }
       ]
     },
