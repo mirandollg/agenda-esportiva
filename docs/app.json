@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-09-28T18:40:53-03:00",
+  "gerado_em": "2026-09-28T19:11:17-03:00",
   "primeiro_dia": "2026-09-28",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 13,
+  "total": 33,
   "dias": [
     {
       "data": "2026-09-28",
@@ -113,6 +113,188 @@
           "evento": "Chicago Bears x Philad. Eagles",
           "canais": "ESPN2",
           "icone": "0c020201000053000380000910008",
+          "fonte": "esportesnatv",
+          "dura": 180
+        }
+      ]
+    },
+    {
+      "data": "2026-09-29",
+      "eventos": [
+        {
+          "hora": "07:00",
+          "competicao": "Amistoso",
+          "evento": "Austrália x Brasil",
+          "canais": "GLOBO, SPORTV, YOUTUBE GETV",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 125
+        },
+        {
+          "hora": "07:30",
+          "competicao": "WSL Challenger Series",
+          "evento": "Etapa de Maresias",
+          "canais": "SPORTV2, YOUTUBE",
+          "icone": "0e13ffbffff9feffd8ffa61efcadf",
+          "fonte": "esportesnatv",
+          "dura": 480
+        },
+        {
+          "hora": "13:00",
+          "competicao": "UEFA Nations League C",
+          "evento": "Finlândia x Belarus",
+          "canais": "ESPN4",
+          "icone": "0613ffefffd48fff9cefc76effeef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Euroliga",
+          "evento": "Anadolu Efes x Real Madrid",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "MLB - Wild Card",
+          "evento": "Atlanta Braves x Philad. Phillies",
+          "canais": "ESPN2",
+          "icone": "0e12ffffeffff5ffff0ffff2bccfd",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Espanholde Futsal",
+          "evento": "Zaragoza x El Pozo Murcia",
+          "canais": "YOUTUBE Canal GolBR",
+          "icone": "0d031120004624115485251601514",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Rep. Tcheca x Inglaterra",
+          "canais": "ESPN",
+          "icone": "0613ffebfff558ffbd4ff687ffecf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Espanha x Croácia",
+          "canais": "SPORTV",
+          "icone": "0613fffafff693ffbc1ff7c3fffbe",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League B",
+          "evento": "Eslovênia x Macedônia do Norte",
+          "canais": "SPORTV2",
+          "icone": "0613fffffff48bfe7bbff68affedf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League C",
+          "evento": "Luxemburgo x Islândia",
+          "canais": "SPORTV3",
+          "icone": "0613ffffffd66fff5dffe78effeef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "18:00",
+          "competicao": "MLB - Wild Card",
+          "evento": "Houston Astros x Chicago Whit. Sox",
+          "canais": "ESPN4",
+          "icone": "0e12a9cceffff3ffff1ffff5ffffa",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Botafogo-SP x Ponte Preta",
+          "canais": "DISNEY+",
+          "icone": "0613fffbaffa6aff98affb57fffbc",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Paulista Vôlei Masc",
+          "evento": "Vôlei Renata x Itaquá",
+          "canais": "SPORTV2",
+          "icone": "0313fffcbfffeffffecfffbdfffda",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Paulista de Basquete",
+          "evento": "SF - Paulistano x Franca (0-2)",
+          "canais": "BANDSPORTS, FPB TV",
+          "icone": "0113fffeffffffffffeffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Amistoso",
+          "evento": "EUA x Chile",
+          "canais": "ESPN",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:00",
+          "competicao": "MLB - Wild Card",
+          "evento": "NY Yankees x Boston Red Sox",
+          "canais": "ESPN4",
+          "icone": "0e12ffffcffff5fffe0ffff3ffffc",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "21:00",
+          "competicao": "NHL",
+          "evento": "Boston Bruins x NY Rangers",
+          "canais": "ESPN3",
+          "icone": "02020001400045000040000140000",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "22:30",
+          "competicao": "NHL",
+          "evento": "Vegas G. Knights x Chicago B'hawks",
+          "canais": "ESPN3",
+          "icone": "01020000600054000441000140000",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "23:00",
+          "competicao": "ATP500 Tóquio",
+          "evento": "1R - jogos a confirmar",
+          "canais": "ESPN2",
+          "icone": "0e120070000604003000a00224100",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "23:00",
+          "competicao": "MLB - Wild Card",
+          "evento": "San Diego Padres x Chicago Cubs",
+          "canais": "ESPN4",
+          "icone": "0e12ffffbffff5ffff0ffff4ffffc",
           "fonte": "esportesnatv",
           "dura": 180
         }
