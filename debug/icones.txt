@@ -1,17 +1,13 @@
-0e022000000000000600000200020  Atletismo
-0013fffffffffffffffffffffffff  Boxe
-0e020040000600407021000132002  Billie Jean King Cup
-0d020030000001126032700305000  Laver Cup
-02023000360003600033000330000  Ginástica Artística
-0613ffffffd56ffe4defd88cffeef  UEFA Nations League D
-0613fffffffffffffffffffffffff  Copa Paulista
-0613fffacffb4affbabffa58fffdc  Brasileirão - Série B
-04022000320006000020000000002  cus Stock Car
-0613fffe9fff5affdacfff69ffffd  Camp. Inglês Fem
-0613fff9cff598ffac7ff8b3fffcf  Mundial sub20 Fem
-0613ffecfff687ffbd4ff796ffecf  UEFA Nations League
-0613fffcfff765ffbc1ff7c3fffcf  UEFA Nations League
-0603fffffffffffffffffffffffff  Golfe
-0c020005020054100270000910008  NFL
-0d020005000153200161004810008  NFL
-0d020006110186000630013700127  NFL
+0d13ffcffffdefffdbffa53efdadf  WSL Challenger Series
+0613fffffffffeffff9ffffffffff  Amistoso sub20
+0613fffffff36dff8b9ff79afffcf  UEFA Nations League B
+0613ffffffd57fff8bffe55effeef  UEFA Nations League C
+0d0300281000840005810055280c2  CONMEBOL Futsal s20
+0613ffecfff686ffbc3ff796ffedf  UEFA Nations League
+0613fffbfff785ffbc2ff7c4fffcf  UEFA Nations League
+0613fffffff57cfd8cbfe88affedf  UEFA Nations League B
+0613fffffff38eff8b8ff599ffedf  UEFA Nations League B
+0613fffaaffc49ffbabffa68fffdd  Brasileirão - Série B
+0613ffffffc48fff7adfba5effcef  Concacaf Nations Leag
+0d120011900109608054001800406  LNF Futsal
+0c020201000053000380000910008  NFL
