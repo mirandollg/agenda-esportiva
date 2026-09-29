@@ -1,122 +1,12 @@
 {
-  "gerado_em": "2026-09-28T23:43:03-03:00",
-  "primeiro_dia": "2026-09-28",
+  "gerado_em": "2026-09-29T06:13:18-03:00",
+  "primeiro_dia": "2026-09-29",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 33,
+  "total": 20,
   "dias": [
-    {
-      "data": "2026-09-28",
-      "eventos": [
-        {
-          "hora": "07:30",
-          "competicao": "WSL Challenger Series",
-          "evento": "Etapa de Maresias",
-          "canais": "SPORTV, YOUTUBE",
-          "icone": "0d13ffcffffdefffdbffa53efdadf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "Amistoso sub20",
-          "evento": "Brasil s20 x Dinamarca s20",
-          "canais": "YOUTUBE CBF TV",
-          "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "UEFA Nations League B",
-          "evento": "Geórgia x Ucrânia",
-          "canais": "SPORTV2",
-          "icone": "0613fffffff36dff8b9ff79afffcf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "UEFA Nations League C",
-          "evento": "Armênia x Montenegro",
-          "canais": "ESPN4",
-          "icone": "0613ffffffd57fff8bffe55effeef",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:30",
-          "competicao": "CONMEBOL Futsal s20",
-          "evento": "Brasils20 x Peru s20",
-          "canais": "SPORTV3",
-          "icone": "0d0300281000840005810055280c2",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League",
-          "evento": "Bélgica x França",
-          "canais": "ESPN",
-          "icone": "0613ffecfff686ffbc3ff796ffedf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League",
-          "evento": "Turquia x Itália",
-          "canais": "SPORTV",
-          "icone": "0613fffbfff785ffbc2ff7c4fffcf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League B",
-          "evento": "Irlanda do Norte x Hungria",
-          "canais": "SPORTV2",
-          "icone": "0613fffffff57cfd8cbfe88affedf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "UEFA Nations League B",
-          "evento": "Suécia x Polônia",
-          "canais": "ESPN4",
-          "icone": "0613fffffff38eff8b8ff599ffedf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "Brasileirão - Série B",
-          "evento": "América-MG x Juventude",
-          "canais": "ESPN",
-          "icone": "0613fffaaffc49ffbabffa68fffdd",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Concacaf Nations Leag",
-          "evento": "Jamaica x Honduras",
-          "canais": "YOUTUBE Canal GOAT",
-          "icone": "0613ffffffc48fff7adfba5effcef",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "LNF Futsal",
-          "evento": "OF (ida) - Corinthians x Pato",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0d120011900109608054001800406",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:15",
-          "competicao": "NFL",
-          "evento": "Chicago Bears x Philad. Eagles",
-          "canais": "ESPN2",
-          "icone": "0c020201000053000380000910008",
-          "fonte": "esportesnatv",
-          "dura": 180
-        }
-      ]
-    },
     {
       "data": "2026-09-29",
       "eventos": [

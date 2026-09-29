@@ -1,13 +1,20 @@
-0d13ffcffffdefffdbffa53efdadf  WSL Challenger Series
-0613fffffffffeffff9ffffffffff  Amistoso sub20
-0613fffffff36dff8b9ff79afffcf  UEFA Nations League B
-0613ffffffd57fff8bffe55effeef  UEFA Nations League C
-0d0300281000840005810055280c2  CONMEBOL Futsal s20
-0613ffecfff686ffbc3ff796ffedf  UEFA Nations League
-0613fffbfff785ffbc2ff7c4fffcf  UEFA Nations League
-0613fffffff57cfd8cbfe88affedf  UEFA Nations League B
-0613fffffff38eff8b8ff599ffedf  UEFA Nations League B
-0613fffaaffc49ffbabffa68fffdd  Brasileirão - Série B
-0613ffffffc48fff7adfba5effcef  Concacaf Nations Leag
-0d120011900109608054001800406  LNF Futsal
-0c020201000053000380000910008  NFL
+0613fffffffffffffffffffffffff  Amistoso
+0e13ffbffff9feffd8ffa61efcadf  WSL Challenger Series
+0613ffefffd48fff9cefc76effeef  UEFA Nations League C
+0113fffffffffffffffffffffffff  Euroliga
+0e12ffffeffff5ffff0ffff2bccfd  MLB - Wild Card
+0d031120004624115485251601514  Espanholde Futsal
+0613ffebfff558ffbd4ff687ffecf  UEFA Nations League
+0613fffafff693ffbc1ff7c3fffbe  UEFA Nations League
+0613fffffff48bfe7bbff68affedf  UEFA Nations League B
+0613ffffffd66fff5dffe78effeef  UEFA Nations League C
+0e12a9cceffff3ffff1ffff5ffffa  MLB - Wild Card
+0613fffbaffa6aff98affb57fffbc  Brasileirão - Série B
+0313fffcbfffeffffecfffbdfffda  Paulista Vôlei Masc
+0113fffeffffffffffeffffffffff  Paulista de Basquete
+0613fffffffffffffffffffffffff  Amistoso
+0e12ffffcffff5fffe0ffff3ffffc  MLB - Wild Card
+02020001400045000040000140000  NHL
+0e120070000604003000a00224100  ATP500 Tóquio
+0e12ffffbffff5ffff0ffff4ffffc  MLB - Wild Card
+01020000600054000441000140000  NHL
