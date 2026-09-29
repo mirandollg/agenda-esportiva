@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-29T08:42:06-03:00",
+  "gerado_em": "2026-09-29T09:14:55-03:00",
   "primeiro_dia": "2026-09-29",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "Austrália x Brasil",
           "canais": "GLOBO, SPORTV, YOUTUBE GETV",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 125
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:30",
