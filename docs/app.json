@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-29T14:42:52-03:00",
+  "gerado_em": "2026-09-29T15:14:23-03:00",
   "primeiro_dia": "2026-09-29",
   "fontes": [
     "Esportes na TV",
@@ -33,8 +33,7 @@
           "evento": "Finlândia x Belarus",
           "canais": "ESPN4",
           "icone": "0613ffefffd48fff9cefc76effeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
