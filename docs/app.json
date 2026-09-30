@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T17:41:48-03:00",
+  "gerado_em": "2026-09-30T18:11:09-03:00",
   "primeiro_dia": "2026-09-30",
   "fontes": [
     "Esportes na TV",
@@ -56,8 +56,7 @@
           "evento": "Atlanta Braves x Philad. Phillies (1-0)",
           "canais": "ESPN3",
           "icone": "0e12ffccaffff6ffff1ffff8fffff",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:15",
@@ -81,8 +80,7 @@
           "evento": "Lyon F x Chelsea F",
           "canais": "ESPN",
           "icone": "0613ffdcffb28efe99afb86cffddf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -90,8 +88,7 @@
           "evento": "Benfica F x Bayern F",
           "canais": "ESPN4",
           "icone": "0613ffedffd19efd9a8fc67effdef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
