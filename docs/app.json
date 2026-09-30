@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T08:11:16-03:00",
+  "gerado_em": "2026-09-30T08:42:34-03:00",
   "primeiro_dia": "2026-09-30",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "Etapa de Maresias",
           "canais": "SPORTV, YOUTUBE",
           "icone": "0d13ffcffffbeeffdaffa53efebcf",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
