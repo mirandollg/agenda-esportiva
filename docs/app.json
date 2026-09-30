@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T09:15:25-03:00",
+  "gerado_em": "2026-09-30T09:50:23-03:00",
   "primeiro_dia": "2026-09-30",
   "fontes": [
     "Esportes na TV",
@@ -60,7 +60,7 @@
           "canais": "ESPN3",
           "icone": "0e12ffccaffff6ffff1ffff8fffff",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 180
         },
         {
           "hora": "15:15",
@@ -103,7 +103,7 @@
           "canais": "ESPN2",
           "icone": "0e12ffff9ffff4ffff0ffff8fffff",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 180
         },
         {
           "hora": "20:00",
@@ -130,7 +130,7 @@
           "canais": "ESPN4",
           "icone": "0e12ffccaffff7ffff4ffff3dcccc",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 180
         },
         {
           "hora": "22:00",
