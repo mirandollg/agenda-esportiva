@@ -1,20 +1,17 @@
-0613fffffffffffffffffffffffff  Amistoso
-0e13ffbffff9feffd8ffa61efcadf  WSL Challenger Series
-0613ffefffd48fff9cefc76effeef  UEFA Nations League C
+0d13ffcffffbeeffdaffa53efebcf  WSL Challenger Series
+0e030104000051034003200210004  ATP500 Pequim
+0d030004000050020001115020052  CONMEBOL Futsal s20
+0613ffdcffd38effab9fc89effcef  Champ. League (Fem.)
+0613ffff8fff7afffabfff88ffffa  Brasileirão sub-17
+0e12ffccaffff6ffff1ffff8fffff  MLB - Wild Card
 0113fffffffffffffffffffffffff  Euroliga
-0e12ffffeffff5ffff0ffff2bccfd  MLB - Wild Card
-0d031120004624115485251601514  Espanholde Futsal
-0613ffebfff558ffbd4ff687ffecf  UEFA Nations League
-0613fffafff693ffbc1ff7c3fffbe  UEFA Nations League
-0613fffffff48bfe7bbff68affedf  UEFA Nations League B
-0613ffffffd66fff5dffe78effeef  UEFA Nations League C
-0e12a9cceffff3ffff1ffff5ffffa  MLB - Wild Card
-0613fffbaffa6aff98affb57fffbc  Brasileirão - Série B
-0313fffcbfffeffffecfffbdfffda  Paulista Vôlei Masc
-0113fffeffffffffffeffffffffff  Paulista de Basquete
+0d03057a02a1132500a5422900014  Espanholde Futsal
+0613ffdcffb28efe99afb86cffddf  Champ. League (Fem.)
+0613ffedffd19efd9a8fc67effdef  Champ. League (Fem.)
+0e12ffff9ffff4ffff0ffff8fffff  MLB - Wild Card
+0113fffffffffffffffffffffffff  WNBA - Playoffs
 0613fffffffffffffffffffffffff  Amistoso
-0e12ffffcffff5fffe0ffff3ffffc  MLB - Wild Card
-02020001400045000040000140000  NHL
-0e120070000604003000a00224100  ATP500 Tóquio
-0e12ffffbffff5ffff0ffff4ffffc  MLB - Wild Card
-01020000600054000441000140000  NHL
+0e12ffccaffff7ffff4ffff3dcccc  MLB - Wild Card
+0113fffffffffffffffffffefffff  WNBA - Playoffs
+0e122010021613018420600130020  ATP500 Tóquio
+0e12fffffffff7ffff4ffff8fffff  MLB - Wild Card
