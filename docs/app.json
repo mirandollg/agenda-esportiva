@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T16:41:19-03:00",
+  "gerado_em": "2026-09-30T17:13:04-03:00",
   "primeiro_dia": "2026-09-30",
   "fontes": [
     "Esportes na TV",
@@ -48,8 +48,7 @@
           "evento": "Palmeiras si7 x Vasco s17",
           "canais": "SPORTV",
           "icone": "0613ffff8fff7afffabfff88ffffa",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
