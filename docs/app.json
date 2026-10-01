@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T17:12:16-03:00",
+  "gerado_em": "2026-10-01T17:43:48-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -114,8 +114,7 @@
           "evento": "Alemanha x Sérvia",
           "canais": "SPORTV3, GE TV",
           "icone": "0613fdcffe4a6ff9c5ee5d7bfebff",
-          "fonte": "esportesnatv",
-          "dura": 105
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
