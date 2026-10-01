@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T06:44:17-03:00",
+  "gerado_em": "2026-10-01T07:13:23-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -49,7 +49,7 @@
           "canais": "SPORTV2",
           "icone": "0d03fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
-          "dura": 60
+          "dura": 135
         },
         {
           "hora": "13:00",
