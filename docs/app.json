@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T17:43:48-03:00",
+  "gerado_em": "2026-10-01T18:11:14-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -88,8 +88,7 @@
           "evento": "Atlanta Braves x Philad Phillies",
           "canais": "ESPN3",
           "icone": "0e12fff92fff5bffc58fff46ccc98",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:30",
@@ -105,8 +104,7 @@
           "evento": "Dinamarca x Portugal",
           "canais": "SPORTV",
           "icone": "0613fecffe389ffbc7fe7a9bfedff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -130,8 +128,7 @@
           "evento": "País de Gales x Noruega",
           "canais": "ESPN",
           "icone": "0613feaffe4b9ffbc6de8b6afebff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -139,8 +136,7 @@
           "evento": "Man. City F x Real Madrid F",
           "canais": "ESPN4",
           "icone": "0613fcfff995faeb78f8a7fafceff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
