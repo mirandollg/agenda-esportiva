@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T15:17:17-03:00",
+  "gerado_em": "2026-10-01T15:46:55-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -80,8 +80,7 @@
           "evento": "Austria Vienna F x Inter F",
           "canais": "ESPN4",
           "icone": "0613faeff785f8dc99f8b3f9fddff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
