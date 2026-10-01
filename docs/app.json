@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T13:42:33-03:00",
+  "gerado_em": "2026-10-01T14:14:59-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -48,8 +48,7 @@
           "evento": "pa do Mundo - etapa de Baku",
           "canais": "SPORTV2",
           "icone": "0d03fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 135
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
