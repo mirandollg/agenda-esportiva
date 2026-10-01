@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-09-30T20:40:27-03:00",
+  "gerado_em": "2026-09-30T21:23:12-03:00",
   "primeiro_dia": "2026-09-30",
   "fontes": [
     "Esportes na TV",
@@ -96,8 +96,7 @@
           "evento": "J2- Houst. Astros x Chicago W. Sox",
           "canais": "ESPN2",
           "icone": "0e12ffff9ffff4ffff0ffff8fffff",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:00",
