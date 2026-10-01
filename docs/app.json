@@ -1,156 +1,12 @@
 {
-  "gerado_em": "2026-09-30T23:45:48-03:00",
-  "primeiro_dia": "2026-09-30",
+  "gerado_em": "2026-10-01T06:13:31-03:00",
+  "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 45,
+  "total": 28,
   "dias": [
-    {
-      "data": "2026-09-30",
-      "eventos": [
-        {
-          "hora": "07:30",
-          "competicao": "WSL Challenger Series",
-          "evento": "Etapa de Maresias",
-          "canais": "SPORTV, YOUTUBE",
-          "icone": "0d13ffcffffbeeffdaffa53efebcf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "08:00",
-          "competicao": "ATP500 Pequim",
-          "evento": "1R - Nuno Borges x Djokovic",
-          "canais": "DISNEY+",
-          "icone": "0e030104000051034003200210004",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "12:00",
-          "competicao": "CONMEBOL Futsal s20",
-          "evento": "Brasil s20 x Chile s20",
-          "canais": "SPORTV2",
-          "icone": "0d030004000050020001115020052",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:45",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Roma F x Barcelona F",
-          "canais": "ESPN4",
-          "icone": "0613ffdcffd38effab9fc89effcef",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Brasileirão sub-17",
-          "evento": "Palmeiras si7 x Vasco s17",
-          "canais": "SPORTV",
-          "icone": "0613ffff8fff7afffabfff88ffffa",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "MLB - Wild Card",
-          "evento": "Atlanta Braves x Philad. Phillies (1-0)",
-          "canais": "ESPN3",
-          "icone": "0e12ffccaffff6ffff1ffff8fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:15",
-          "competicao": "Euroliga",
-          "evento": "Panathinaikos x ASVEL Lyon",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "Espanholde Futsal",
-          "evento": "Barcelona x O'Parrulo",
-          "canais": "YOUTUBE Canal GolBR",
-          "icone": "0d03057a02a1132500a5422900014",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Lyon F x Chelsea F",
-          "canais": "ESPN",
-          "icone": "0613ffdcffb28efe99afb86cffddf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champ. League (Fem.)",
-          "evento": "Benfica F x Bayern F",
-          "canais": "ESPN4",
-          "icone": "0613ffedffd19efd9a8fc67effdef",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "MLB - Wild Card",
-          "evento": "J2- Houst. Astros x Chicago W. Sox",
-          "canais": "ESPN2",
-          "icone": "0e12ffff9ffff4ffff0ffff8fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "WNBA - Playoffs",
-          "evento": "Wash. Mystics x Atlanta Dream (0-1)",
-          "canais": "ESPN3",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Amistoso",
-          "evento": "Argentina x Bolívia",
-          "canais": "SPORTV",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "MLB - Wild Card",
-          "evento": "J2 - NY Yankees x Boston Red Sox",
-          "canais": "ESPN4",
-          "icone": "0e12ffccaffff7ffff4ffff3dcccc",
-          "fonte": "esportesnatv",
-          "dura": 180
-        },
-        {
-          "hora": "22:00",
-          "competicao": "WNBA - Playoffs",
-          "evento": "Dallas Wings x GS Valkyries (0-1)",
-          "canais": "ESPN3",
-          "icone": "0113fffffffffffffffffffefffff",
-          "fonte": "esportesnatv",
-          "dura": 120
-        },
-        {
-          "hora": "23:00",
-          "competicao": "ATP500 Tóquio",
-          "evento": "1R - jogos a confirmar",
-          "canais": "ESPN2",
-          "icone": "0e122010021613018420600130020",
-          "fonte": "esportesnatv",
-          "dura": 120
-        },
-        {
-          "hora": "23:00",
-          "competicao": "MLB - Wild Card",
-          "evento": "J2-S Diego Padres x Chicago Cubs",
-          "canais": "DISNEY+",
-          "icone": "0e12fffffffff7ffff4ffff8fffff",
-          "fonte": "esportesnatv"
-        }
-      ]
-    },
     {
       "data": "2026-10-01",
       "eventos": [
@@ -160,8 +16,7 @@
           "evento": "1R - Nishikori x Tiafoe",
           "canais": "ESPN2",
           "icone": "0e120070121626001023501250000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:00",

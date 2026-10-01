@@ -1,17 +1,28 @@
-0d13ffcffffbeeffdaffa53efebcf  WSL Challenger Series
-0e030104000051034003200210004  ATP500 Pequim
-0d030004000050020001115020052  CONMEBOL Futsal s20
-0613ffdcffd38effab9fc89effcef  Champ. League (Fem.)
-0613ffff8fff7afffabfff88ffffa  Brasileirão sub-17
-0e12ffccaffff6ffff1ffff8fffff  MLB - Wild Card
-0113fffffffffffffffffffffffff  Euroliga
-0d03057a02a1132500a5422900014  Espanholde Futsal
-0613ffdcffb28efe99afb86cffddf  Champ. League (Fem.)
-0613ffedffd19efd9a8fc67effdef  Champ. League (Fem.)
-0e12ffff9ffff4ffff0ffff8fffff  MLB - Wild Card
-0113fffffffffffffffffffffffff  WNBA - Playoffs
-0613fffffffffffffffffffffffff  Amistoso
-0e12ffccaffff7ffff4ffff3dcccc  MLB - Wild Card
-0113fffffffffffffffffffefffff  WNBA - Playoffs
-0e122010021613018420600130020  ATP500 Tóquio
-0e12fffffffff7ffff4ffff8fffff  MLB - Wild Card
+0e120070121626001023501250000  ATP500 Tóquio
+0e120230000604271079005480000  ATP500 Tóquio
+0e120008000090004010510116000  ATP500 Pequim
+0d13feffffafecdaba6c33bbcceff  WSL Challenger Series
+0d03fffffffffffffffffffffffff  Natação Cc
+0613fffdbfff1bfff8bfff6efffec  Amistoso sub-20
+0613fefffa45ffd8cef8a3fafcfff  UEFA Nations League D
+0113fffffffffffffffffffffffff  Euroliga H
+0613faeff785f8dc99f8b3f9fddff  Champ. League (Fem.)
+0e12fff92fff5bffc58fff46ccc98  CIMLB-WildCard J3
+0113fffffffffffffffffffffffff  Euroliga N
+0613fecffe389ffbc7fe7a9bfedff  UEFA Nations League
+0613fdcffe4a6ff9c5ee5d7bfebff  UEFA Nations League
+0613fddffe39affbd6fe5aaafddff  UEFA Nations League
+0613feaffe4b9ffbc6de8b6afebff  UEFA Nations League
+0613fcfff995faeb78f8a7fafceff  Champ. League (Fem.)
+0e12fffa8fff63fff38fff45fffb7  CIMLB-WildCard J3
+0613fdfffa76eabb0afb75dafcfff  Concacaf Nations Leag. «
+0613ff8bff789ef9a8af684fffaef  Brasileirão - Série B
+0613ffffff9befc98b8fabdbfffff  Brasileirão - Série B
+0613fefffb87eaea2afba4d9fcfff  Concacaf Nations Leag
+0613ffffefffe3fffabffff5fffff  Copa Argentina
+0e020050050a0550a0050a00a0a00  Moto3/Moto2/MotoGP
+0e12fff94fff7affb4bfff44fff57  CIMLB-WildCard 33
+0c020225020174100180002920128  NFL ci
+0113ffffffffffffffffffeffffff  WNBA-Playoffs 13
+0e12ccc62fff5affd5cfff46fe753  MLB - Wild Card J:
+0e122000000611206010600106000  ATP500 Tóquio
