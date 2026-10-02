@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T20:41:03-03:00",
+  "gerado_em": "2026-10-01T21:21:58-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -144,8 +144,7 @@
           "evento": "Houst. Astros x Chicago W.Sox",
           "canais": "ESPN3",
           "icone": "0e12fffa8fff63fff38fff45fffb7",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
