@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-01T22:44:43-03:00",
+  "gerado_em": "2026-10-01T23:15:01-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
@@ -168,8 +168,7 @@
           "evento": "Novorizontino x Goiás",
           "canais": "XSPORTS, ESPN, SportyNet, YOUTUBE",
           "icone": "0613ffffff9befc98b8fabdbfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
@@ -219,8 +218,7 @@
           "evento": "L.Vegas Aces x Indiana Fever",
           "canais": "ESPN2",
           "icone": "0113ffffffffffffffffffeffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "23:00",
