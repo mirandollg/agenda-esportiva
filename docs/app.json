@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-02T06:12:53-03:00",
+  "gerado_em": "2026-10-02T06:43:44-03:00",
   "primeiro_dia": "2026-10-02",
   "fontes": [
     "Esportes na TV",
@@ -347,7 +347,8 @@
           "evento": "One Fight Night 48",
           "canais": "COMBATE",
           "icone": "0013fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 240
         },
         {
           "hora": "22:00",
@@ -402,7 +403,7 @@
           "canais": "ESPN2",
           "icone": "0e020005111084000000510045000",
           "fonte": "esportesnatv",
-          "dura": 240
+          "dura": 60
         }
       ]
     },
@@ -795,7 +796,7 @@
           "etapa": "GP do Bahrein",
           "sessao": "Corrida",
           "fonte": "tomadadetempo",
-          "dura": 55
+          "dura": 185
         },
         {
           "hora": "04:10",
@@ -850,7 +851,7 @@
           "etapa": "Japão",
           "sessao": "Comida Principal (REPRISE)",
           "fonte": "tomadadetempo",
-          "dura": 120
+          "dura": 90
         },
         {
           "hora": "10:00",
