@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-02T17:43:17-03:00",
+  "gerado_em": "2026-10-02T18:10:51-03:00",
   "primeiro_dia": "2026-10-02",
   "fontes": [
     "Esportes na TV",
@@ -178,8 +178,7 @@
           "evento": "França x Itália",
           "canais": "ESPN",
           "icone": "0613fffcfff686ffbc4ff7a5fffcf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -187,8 +186,7 @@
           "evento": "Bélgica x Turquia",
           "canais": "SPORTV",
           "icone": "0613fffbeff672ffbb1ff4c3fffaf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -196,8 +194,7 @@
           "evento": "Hungria x Geórgia",
           "canais": "SPORTV2, DISNEY+",
           "icone": "0613ffeffff57cffbb9ff88affedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -213,8 +210,7 @@
           "evento": "Polônia x Romênia",
           "canais": "ESPN4",
           "icone": "0613fffffff57aff888ff77affedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:50",
