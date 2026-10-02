@@ -1,28 +1,16 @@
-0e120070121626001023501250000  ATP500 Tóquio
-0e120230000604271079005480000  ATP500 Tóquio
-0e120008000090004010510116000  ATP500 Pequim
-0d13feffffafecdaba6c33bbcceff  WSL Challenger Series
-0d03fffffffffffffffffffffffff  Natação Cc
-0613fffdbfff1bfff8bfff6efffec  Amistoso sub-20
-0613fefffa45ffd8cef8a3fafcfff  UEFA Nations League D
-0113fffffffffffffffffffffffff  Euroliga H
-0613faeff785f8dc99f8b3f9fddff  Champ. League (Fem.)
-0e12fff92fff5bffc58fff46ccc98  CIMLB-WildCard J3
-0113fffffffffffffffffffffffff  Euroliga N
-0613fecffe389ffbc7fe7a9bfedff  UEFA Nations League
-0613fdcffe4a6ff9c5ee5d7bfebff  UEFA Nations League
-0613fddffe39affbd6fe5aaafddff  UEFA Nations League
-0613feaffe4b9ffbc6de8b6afebff  UEFA Nations League
-0613fcfff995faeb78f8a7fafceff  Champ. League (Fem.)
-0e12fffa8fff63fff38fff45fffb7  CIMLB-WildCard J3
-0613fdfffa76eabb0afb75dafcfff  Concacaf Nations Leag. «
-0613ff8bff789ef9a8af684fffaef  Brasileirão - Série B
-0613ffffff9befc98b8fabdbfffff  Brasileirão - Série B
-0613fefffb87eaea2afba4d9fcfff  Concacaf Nations Leag
-0613ffffefffe3fffabffff5fffff  Copa Argentina
-0e020050050a0550a0050a00a0a00  Moto3/Moto2/MotoGP
-0e12fff94fff7affb4bfff44fff57  CIMLB-WildCard 33
-0c020225020174100180002920128  NFL ci
-0113ffffffffffffffffffeffffff  WNBA-Playoffs 13
-0e12ccc62fff5affd5cfff46fe753  MLB - Wild Card J:
-0e122000000611206010600106000  ATP500 Tóquio
+0e120064031634020000800132000  ATP500 Tóquio
+0a023000330006000060000600003  Fórmula 1
+0d13ffeffff9fefdc8cfc60efdcdf  WSL Challenger Series
+0e120006004060040023600032400  ATP500 Pequim
+0613ffefffd57efe8bdfd88effeef  UEFA Nations League C
+0d03fffffffffffffffffffffffff  Natação
+0613ffffffd56efe4ddfd88cffdef  UEFA Nations League C
+0613ffffffc76eff5cffd78effeef  UEFA Nations League C
+0113fffffffffffffffffffffffff  Euroliga
+0d030715229514172564642903171  Espanhol de Futsal
+0613fffcfff686ffbc4ff7a5fffcf  UEFA Nations League
+0613fffbeff672ffbb1ff4c3fffaf  UEFA Nations League
+0613ffeffff57cffbb9ff88affedf  UEFA Nations League B
+0613fffffff38bff8a6ff899ffedf  UEFA Nations League B
+0613fffffff57aff888ff77affedf  UEFA Nations League B
+0613ffeffff38aff8b6ff89afffdf  UEFA Nations League B
