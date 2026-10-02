@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-01T21:21:58-03:00",
+  "gerado_em": "2026-10-01T21:49:30-03:00",
   "primeiro_dia": "2026-10-01",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 60,
+  "total": 129,
   "dias": [
     {
       "data": "2026-10-01",
@@ -194,8 +194,7 @@
           "evento": "GP do Japão - treino livre 1",
           "canais": "ESPN4",
           "icone": "0e020050050a0550a0050a00a0a00",
-          "fonte": "esportesnatv",
-          "dura": 40
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:15",
@@ -254,21 +253,52 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "01:15",
+          "competicao": "MOTO3",
+          "evento": "Japão - Treino Oficial",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Treino Oficial",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "01:30",
-          "competicao": "Fórmula 1",
-          "evento": "GP do Bahrein - treino livre 1",
-          "canais": "SPORTV3",
-          "icone": "",
-          "fonte": "esportesnatv",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Bahrein - Treino Livre 1",
+          "canais": "SPORTV3, GLOBOPLAY",
+          "etapa": "GP do Bahrein",
+          "sessao": "Treino Livre 1",
+          "fonte": "tomadadetempo",
           "dura": 60
         },
         {
+          "hora": "02:05",
+          "competicao": "MOTO2",
+          "evento": "Japão - Treino Oficial",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Treino Oficial",
+          "fonte": "tomadadetempo",
+          "dura": 85
+        },
+        {
+          "hora": "03:00",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Treino Oficial",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Treino Oficial",
+          "fonte": "tomadadetempo",
+          "dura": 30
+        },
+        {
           "hora": "05:00",
-          "competicao": "Fórmula 1",
-          "evento": "GP do Bahrein - treino livre 2",
-          "canais": "SPORTV3",
-          "icone": "0a023000330006000060000600003",
-          "fonte": "esportesnatv",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Bahrein - Treino Livre 2",
+          "canais": "SPORTV3, GLOBOPLAY",
+          "etapa": "GP do Bahrein",
+          "sessao": "Treino Livre 2",
+          "fonte": "tomadadetempo",
           "dura": 60
         },
         {
@@ -281,12 +311,30 @@
           "dura": 390
         },
         {
+          "hora": "09:25",
+          "competicao": "IMSA VP RACING",
+          "evento": "Road Atlanta - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Road Atlanta",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "09:30",
           "competicao": "ATP500 Pequim",
           "evento": "OF - Bux Djokovic",
           "canais": "DISNEY+",
           "icone": "0e120006004060040023600032400",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "10:30",
+          "competicao": "MAZDA MX-5 CUP",
+          "evento": "Road Atlanta - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Road Atlanta",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:00",
@@ -305,6 +353,15 @@
           "icone": "0613ffefffd57efe8bdfd88effeef",
           "fonte": "esportesnatv",
           "dura": 115
+        },
+        {
+          "hora": "12:35",
+          "competicao": "IMSA FOX FACTORY 120",
+          "evento": "Road Atlanta - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Road Atlanta",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "13:00",
@@ -339,6 +396,24 @@
           "canais": "YOUTUBE Canal Gol BR",
           "icone": "0d030715229514172564642903171",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "PORSCHE CUP BRASIL",
+          "evento": "Brasília/DF - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:10",
+          "competicao": "IMSA (PETIT LE MANS)",
+          "evento": "Road Atlanta - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Road Atlanta",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "15:45",
@@ -384,6 +459,15 @@
           "icone": "0613fffffff57aff888ff77affedf",
           "fonte": "esportesnatv",
           "dura": 120
+        },
+        {
+          "hora": "16:50",
+          "competicao": "PORSCHE CUP NA",
+          "evento": "Road Atlanta - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Road Atlanta",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "18:30",
@@ -469,6 +553,15 @@
           "dura": 120
         },
         {
+          "hora": "21:03",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Okayama - Classificação (FDJ)",
+          "canais": "YOUTUBE",
+          "etapa": "Okayama",
+          "sessao": "Classificação (FDJ)",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "21:30",
           "competicao": "Camp. Argentino",
           "evento": "Boca Juniors x Unión Santa Fe",
@@ -503,13 +596,42 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "22:05",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "Coreia do Sul - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Coreia do Sul",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "22:10",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Treino Livre 2",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Treino Livre 2",
+          "fonte": "tomadadetempo",
+          "dura": 35
+        },
+        {
           "hora": "22:50",
-          "competicao": "MotoGP",
-          "evento": "GP do Japão - classificação",
-          "canais": "ESPN4",
-          "icone": "01020000410006000030000400006",
-          "fonte": "esportesnatv",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Classificação",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo",
           "dura": 40
+        },
+        {
+          "hora": "22:50",
+          "competicao": "SRO GT CUP",
+          "evento": "Beijing - Classificação 1",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Classificação 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "23:00",
@@ -519,6 +641,541 @@
           "icone": "0e020005111084000000510045000",
           "fonte": "esportesnatv",
           "dura": 240
+        }
+      ]
+    },
+    {
+      "data": "2026-10-03",
+      "eventos": [
+        {
+          "hora": "00:45",
+          "competicao": "GT WORLD CHL ASIA",
+          "evento": "Beijing - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "00:45",
+          "competicao": "MOTO3",
+          "evento": "Japão - Classificação",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo",
+          "dura": 50
+        },
+        {
+          "hora": "01:30",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Bahrein - Treino Livre 3",
+          "canais": "SPORTV3, GLOBOPLAY",
+          "etapa": "GP do Bahrein",
+          "sessao": "Treino Livre 3",
+          "fonte": "tomadadetempo",
+          "dura": 25
+        },
+        {
+          "hora": "01:40",
+          "competicao": "MOTO2",
+          "evento": "Japão - Classificação",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo",
+          "dura": 50
+        },
+        {
+          "hora": "01:50",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Okayama - Top16 (FDJ2)",
+          "canais": "YOUTUBE",
+          "etapa": "Okayama",
+          "sessao": "Top16 (FDJ2)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "02:00",
+          "competicao": "SRO GT CUP",
+          "evento": "Beijing - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "03:00",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Corrida Sprint",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Corrida Sprint",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "03:10",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "Coreia do Sul - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Coreia do Sul",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:20",
+          "competicao": "GT WORLD CHL ASIA",
+          "evento": "Beijing - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:40",
+          "competicao": "GT WORLD CHL EUROPE",
+          "evento": "Barcelona - Classificação 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Classificação 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:00",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Bahrein - Classificação",
+          "canais": "SPORTV3, GLOBOPLAY",
+          "etapa": "GP do Bahrein",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo",
+          "dura": 110
+        },
+        {
+          "hora": "05:50",
+          "competicao": "F4 ESPANHA",
+          "evento": "Navarra - Corrica 1",
+          "canais": "YOUTUBE",
+          "etapa": "Navarra",
+          "sessao": "Corrica 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:10",
+          "competicao": "SRO GT CUP",
+          "evento": "Beijing - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:00",
+          "competicao": "GT WORLD CHL EUROPE",
+          "evento": "Barcelona - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:10",
+          "competicao": "ADAC RACING WEEKEND",
+          "evento": "Hockenheimring - Provas Sabado",
+          "canais": "YOUTUBE",
+          "etapa": "Hockenheimring",
+          "sessao": "Provas Sabado",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:30",
+          "competicao": "COPA SP DE KART",
+          "evento": "Granja Viana - 8º etapa",
+          "canais": "YOUTUBE",
+          "etapa": "Granja Viana",
+          "sessao": "8º etapa",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:50",
+          "competicao": "BRITCAR ENDURANCE",
+          "evento": "Silverstone - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Silverstone",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:55",
+          "competicao": "F4 ESPANHA",
+          "evento": "Navarra - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Navarra",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:00",
+          "competicao": "BRASILEIRO DE MINI-MOTO",
+          "evento": "Itajuba/MG - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Itajuba/MG",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:35",
+          "competicao": "LAMBORGHINI S. TROFEO EUROPE",
+          "evento": "Barcelona - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:00",
+          "competicao": "SUL BRAS. DE MOTOVELOCIDADE",
+          "evento": "Santa Cruz do Sul/RS - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Santa Cruz do Sul/RS",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "IMSA (PETIT LE MANS)",
+          "evento": "Road America - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Road America",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:05",
+          "competicao": "PORSCHE CUP BRASIL",
+          "evento": "Brasília/DF - Corrida",
+          "canais": "BANDSPORTS, YOUTUBE",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 175
+        },
+        {
+          "hora": "13:30",
+          "competicao": "GAÚCHO DE ENDURANCE",
+          "evento": "Guaporé/R5 - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Guaporé/R5",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "TCR SOUTH AMERICA",
+          "evento": "Posadas/ARG - Classificação",
+          "canais": "YOUTUBE",
+          "etapa": "Posadas/ARG",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Corrida Sprint (REPRISE)",
+          "canais": "ESPN5",
+          "etapa": "Japão",
+          "sessao": "Corrida Sprint (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 90
+        },
+        {
+          "hora": "19:00",
+          "competicao": "MoToO2",
+          "evento": "Japão - Classificação (REPRISE)",
+          "canais": "ESPN3",
+          "etapa": "Japão",
+          "sessao": "Classificação (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "20:30",
+          "competicao": "NASCAR O REILLY SERIES",
+          "evento": "Las Vegas - Corrida",
+          "canais": "PHIZTV, DISNEY+ PR",
+          "etapa": "Las Vegas",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "20:43",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Okayama - Top32 (FDJ)",
+          "canais": "YOUTUBE",
+          "etapa": "Okayama",
+          "sessao": "Top32 (FDJ)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "21:05",
+          "competicao": "SRO GT CUP",
+          "evento": "Beijing - Classificação 2",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Classificação 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "21:15",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Corrida Spnnt (REPRISE)",
+          "canais": "ESPN4",
+          "etapa": "Japão",
+          "sessao": "Corrida Spnnt (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 90
+        },
+        {
+          "hora": "22:00",
+          "competicao": "PORSCHE CUP BRASIL",
+          "evento": "Brasília/DF - Corrida (REPRISE)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 180
+        },
+        {
+          "hora": "22:20",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "Coreia do Sul - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Coreia do Sul",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "23:00",
+          "competicao": "MoOTOoO3",
+          "evento": "Japão - Corrida",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "23:55",
+          "competicao": "SRO GT CUP",
+          "evento": "Beijing - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-04",
+      "eventos": [
+        {
+          "hora": "00:15",
+          "competicao": "MOTO2",
+          "evento": "Japão - Corrida",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "00:30",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Okayama - Top16 (FD))",
+          "canais": "YOUTUBE",
+          "etapa": "Okayama",
+          "sessao": "Top16 (FD))",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "01:35",
+          "competicao": "GT WORLD CHL ASIA",
+          "evento": "Beijing - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "02:00",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Corrida Principal",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Japão",
+          "sessao": "Corrida Principal",
+          "fonte": "tomadadetempo",
+          "dura": 75
+        },
+        {
+          "hora": "03:25",
+          "competicao": "SRO GT CUP",
+          "evento": "Beijing - Corrida 4",
+          "canais": "YOUTUBE",
+          "etapa": "Beijing",
+          "sessao": "Corrida 4",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:00",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP do Bahrein - Corrida",
+          "canais": "SPORTV3, GLOBOPLAY",
+          "etapa": "GP do Bahrein",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 55
+        },
+        {
+          "hora": "04:10",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "Coreia do Sul - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Coreia do Sul",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:10",
+          "competicao": "ADAC RACING WEEKEND",
+          "evento": "Hockenheimring - Provas Domingo",
+          "canais": "YOUTUBE",
+          "etapa": "Hockenheimring",
+          "sessao": "Provas Domingo",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:10",
+          "competicao": "GT WORLD CHL EUROPE",
+          "evento": "Barcelona - Classificação 2",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Classificação 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:55",
+          "competicao": "LAMBORGHINI S. TROFEO FUROPE",
+          "evento": "Barcelona - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:05",
+          "competicao": "F4 ESPANHA",
+          "evento": "Navarra - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Navarra",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Comida Principal (REPRISE)",
+          "canais": "ESPN4",
+          "etapa": "Japão",
+          "sessao": "Comida Principal (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 120
+        },
+        {
+          "hora": "10:00",
+          "competicao": "TCR SOUTH AMERICA",
+          "evento": "Posadas/ARG - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Posadas/ARG",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:30",
+          "competicao": "GT WORLD CHL EUROPE",
+          "evento": "Barcelona - Corrida 7",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 7",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:00",
+          "competicao": "TCR SOUTH AMERICA",
+          "evento": "Posadas/ARG - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Posadas/ARG",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "MOTO3",
+          "evento": "Japão - Corrida (REPRISE)",
+          "canais": "ESPN5",
+          "etapa": "Japão",
+          "sessao": "Corrida (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 75
+        },
+        {
+          "hora": "16:15",
+          "competicao": "MOTO2",
+          "evento": "Japão - Corrida (REPRISE)",
+          "canais": "ESPN5",
+          "etapa": "Japão",
+          "sessao": "Corrida (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 75
+        },
+        {
+          "hora": "17:15",
+          "competicao": "PORSCHE CUP BRASIL",
+          "evento": "Brasília/DF - Corrida (REPRISE)",
+          "canais": "BANDSPORTS",
+          "etapa": "Brasília/DF",
+          "sessao": "Corrida (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 180
+        },
+        {
+          "hora": "17:30",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Corrida Principal (REPRISE)",
+          "canais": "ESPN5",
+          "etapa": "Japão",
+          "sessao": "Corrida Principal (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 120
+        },
+        {
+          "hora": "18:30",
+          "competicao": "NASCAR CUP SERIES",
+          "evento": "Las Vegas - Corrida",
+          "canais": "ESPN3, PHIZTV, DISNEY+ PR",
+          "etapa": "Las Vegas",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 210
+        },
+        {
+          "hora": "22:30",
+          "competicao": "MOTO GP",
+          "evento": "Japão - Corrida Principal (REPRISE)",
+          "canais": "ESPN4",
+          "etapa": "Japão",
+          "sessao": "Corrida Principal (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 120
         }
       ]
     }

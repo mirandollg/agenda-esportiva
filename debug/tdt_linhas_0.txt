@@ -1,15 +1,21 @@
-https://cdn1.telesco.pe/file/NzIgCVYBKDbZ5XMcf3sRhozudgTt_ip2canvXG7x4l5YNC6xaTwa_Di46Y4J8s9wl4itXrhxR2Xj-gCUuWtypc2oqSZcNDib8wDMXXORLc08l5iU07I3GoKg10zh6T2cLp8FwkJGi7lXG7MtEsTv1zMN6ieWX3W2XAfbg-RPx3l7HzQFSLx12y4eOedaH4siB7gw7RQ6w5dB6TXFn1e_v2l38i7WBZ4RmEjiOyjM_OM_-5YV8pDzflgVWZ46dUb4r2XURzDOzL-Poj6l0U6gZ0dFyKDaF7j5f-FphtYiTGWBfzoUQ5wpPDm3KiGnaWz9DnWXx3buTFBVsRsGmG-MFg.jpg
-data: 2026-09-25
-colunas: [(5, 35), (43, 160), (213, 330), (337, 436), (476, 611)]
+https://cdn1.telesco.pe/file/nB2YWclICf7ZLeq4NWoe9GMSkBO_QuOR-0UaOlbDW8sVJh0g002z1zDxBokQBKd_rJN2rMwsIN189rIM7fdyPjhDuOzs5InYXHBI37mlyRb7WAYEPKkMlNeYL2yX2yP19JEa3aSC_TLdqi_3iM7StOdktNtA0xwiLNF_8B_2_brNHP886VVYnVSB6wCKSO6j9T1RoQRui6Uyb3uQ3gxj79S0KpEzuyVqP5Uwl3LCjPkYwei0d9yXw3b0TQgsCPE3KCpgtWCAzBBXb-YTovQOpAwOj_Q-lVye_Rsxi8DNjiXnlPMM2qgY9MTtZNmXisx0saOV-9MYSyi1hWWq92ai9w.jpg
+data: 2026-10-02
+colunas: [(5, 35), (42, 180), (213, 330), (337, 433), (476, 610)]
 
 y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=136-150 | 01:15 || FÓRMULA 2 || Azerbaijão || Corrida Sprint || SPORTV3 | FITV | CLOBOPLAY PR
-y=154-169 | 05:30 || FÓRMULA 1 || GP do Azerbaijão || Treino Livre 3 || SPORTVS | FITV | CLOSOPLAY PR
-y=173-187 | 07:15 || FÓRMULA 2 || Azerbaijão || Corrida Principal 7 || SPORTV3 | FITV | CLOBOPLAY PR
-y=191-205 | 09:00 || FÓRMULA 1 || GP do Azerbaijão || Classificação || SPOSTVS | FITV | CLOBOPLAY PR
-y=212-224 | 14:15 || GOLD TURISMO || Cascavel/PR || Corrida 1 (Etapa 5) || YOUTUBE
-y=230-242 | 15:00 || GOLD CLASSIC || Cascavel/PR || Corrida 2 (Etapa 5) || YOUTUBE
-y=249-261 | 17:30 || GOLD TURISMO || Cascavel/PR || Corrida 2 (Etapa 5) || YOUTUBE
-y=265-280 | 18:00 || FÓRMULA DRIFT || Las Vegas || Top32 (PROSPEC) || YOUTUBE
-y=286-298 | 21:30 || WEC || Fuji || Treino Livre 3 || YOUTUBE
-y=302-317 | 23:00 || FÓRMULA DRIFT || Las Vegas || Top16 (PROSPEC) || YOUTUBE
+y=138-150 | 01:15 || MOTO3 || Japão || Treino Oficial || ESPN4 | DISNEY + PR
+y=154-168 | 01:30 || FÓRMULA 1 || GP do Bahrein || Treino Livre 1 || SPORTVS3 | GLOBOPLAY PR
+y=175-187 | 02:05 || MOTO2 || Japão || Treino Oficial || ESPN4 | DISNEY + PR
+y=193-205 | 03:00 || MOTO GP || Japão || Treino Oficial || ESPN4 | DISNEY + PR
+y=210-223 | 05:00 || FÓRMULA 1 || GP do Bahrein || Treino Livre 2 || SPORTV3 | GLOBOPLAY PR
+y=230-240 | 09:25 || IMSA VP RACING || Road Atlanta || Corrida 2 || YOUTUBE
+y=249-258 | 10:30 || MAZDA MX-5 CUP || Road Atlanta || Corrida 2 || YOUTUBE
+y=267-277 | 12:35 || IMSA FOX FACTORY 120 || Road Atlanta || Corrida 1 || YOUTUBE
+y=286-298 | 15:00 || PORSCHE CUP BRASIL || Brasília/DF || Classificação || YOUTUBE
+y=304-316 | 15:10 || IMSA (PETIT LE MANS) || Road Atlanta || Classificação || YOUTUBE
+y=323-332 | 16:50 || PORSCHE CUP NA || Road Atlanta || Corrida 2 || YOUTUBE
+y=339-354 | 21:03 || FÓRMULA DRIFT || Okayama || Classificação (FDJ) || YOUTUBE
+y=360-372 | 22:05 || TCR WORLD TOUR || Coreia do Sul || Classificação || YOUTUBE
+y=378-390 | 22:10 || MOTO GP || Japão || Treino Livre 2 || ESPN4 | DISNEY + PR
+y=397-409 | 22:50 || MOTO GP || Japão || Classificação || ESPN4 | DISNEY + PR
+y=415-427 | 22:50 || SRO GT CUP || Beijing || Classificação 1 || YOUTUBE
