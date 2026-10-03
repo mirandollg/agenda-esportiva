@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-03T07:10:33-03:00",
+  "gerado_em": "2026-10-03T07:59:17-03:00",
   "primeiro_dia": "2026-10-03",
   "fontes": [
     "Esportes na TV",
@@ -141,8 +141,7 @@
           "evento": "Etapa de Maresias - finais",
           "canais": "SPORTV, wsl.ty",
           "icone": "0e13ffeffffcddfdc7efa72efdcdf",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
