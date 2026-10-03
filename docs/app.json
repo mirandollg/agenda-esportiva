@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-02T23:15:14-03:00",
+  "gerado_em": "2026-10-02T23:52:35-03:00",
   "primeiro_dia": "2026-10-02",
   "fontes": [
     "Esportes na TV",
@@ -316,8 +316,7 @@
           "evento": "Boca Juniors x Unión Santa Fe",
           "canais": "ESPN3",
           "icone": "0613fffffffff7ffffbffffafffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:35",
@@ -325,8 +324,7 @@
           "evento": "Fortaleza x Náutico",
           "canais": "REDETV!, ESPN, YOUTUBE Canal GOAT",
           "icone": "0613ffffffe9befcb8bfebadfffff",
-          "fonte": "esportesnatv",
-          "dura": 130
+          "fonte": "esportesnatv"
         },
         {
           "hora": "22:00",
@@ -369,8 +367,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Japão",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 40
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "22:50",
