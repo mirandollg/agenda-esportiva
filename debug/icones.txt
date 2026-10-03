@@ -1,16 +1,23 @@
-0e120064031634020000800132000  ATP500 Tóquio
-0a023000330006000060000600003  Fórmula 1
-0d13ffeffff9fefdc8cfc60efdcdf  WSL Challenger Series
-0e120006004060040023600032400  ATP500 Pequim
-0613ffefffd57efe8bdfd88effeef  UEFA Nations League C
-0d03fffffffffffffffffffffffff  Natação
-0613ffffffd56efe4ddfd88cffdef  UEFA Nations League C
-0613ffffffc76eff5cffd78effeef  UEFA Nations League C
-0113fffffffffffffffffffffffff  Euroliga
-0d030715229514172564642903171  Espanhol de Futsal
-0613fffcfff686ffbc4ff7a5fffcf  UEFA Nations League
-0613fffbeff672ffbb1ff4c3fffaf  UEFA Nations League
-0613ffeffff57cffbb9ff88affedf  UEFA Nations League B
-0613fffffff38bff8a6ff899ffedf  UEFA Nations League B
-0613fffffff57aff888ff77affedf  UEFA Nations League B
-0613ffeffff38aff8b6ff89afffdf  UEFA Nations League B
+0e020060010615021000900142000  ATP500 Tóquio
+01024000060001300003000060000  MotoGP
+0602000080000a000085002560002  Fórmula 1
+0e13ffeffffcddfdc7efa72efdcdf  WSL Challenger Series
+0e030022000070001103440334000  ATP500 Pequim
+0613ffffffd56fff7dffe88effeef  UEFA Nations League C
+0613fffffffffffffffffffffffff  Amistoso
+0613fffa9ffa49ffba8ffc98fffdc  Brasileirão - Série B
+0d030518108328052384924803176  Espanholde Futsal
+0113ffffcfffe7fff80fffadfffef  Challenger Curitiba
+0613fffaeff682ff9a2ff5b4fffbf  UEFA Nations League
+0613ffffffd56efe5cefc78effeef  UEFA Nations League C
+02020210002023000610000030000  Skate Street
+0d03045801a2141502a5423900022  Espanholde Futsal
+0e12fffffffffffffffffffffffff  MLB - Playoffs
+0613fffffffffffffffffffffffff  Copa Paulista
+0613fffbeff495ff7b2ff7c3fffcf  UEFA Nations League
+0613fffffff47afbbd8fe57affedf  UEFA Nations League B
+0613fffb9ffa6affa8affc78fffcc  Brasileirão - Série B
+0013fffffffffffffffffffffffff  Boxe
+0d031012611000000410032000061  CONMEBOL s20 Futsal
+0613ffffffdfffd8aacfdffffffff  Brasileirão Feminino
+0613fffbaffa5aff9abffc67fffdd  Brasileirão - Série B
