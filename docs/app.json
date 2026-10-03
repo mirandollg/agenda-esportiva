@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-03T10:27:00-03:00",
+  "gerado_em": "2026-10-03T15:24:55-03:00",
   "primeiro_dia": "2026-10-03",
   "fontes": [
     "Esportes na TV",
@@ -166,8 +166,7 @@
           "evento": "SLS Paris - semifinais",
           "canais": "SPORTV3",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:10",
@@ -211,8 +210,7 @@
           "evento": "Finândia x Albânia",
           "canais": "SPORTV2",
           "icone": "0613ffffffd56fff7dffe88effeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -220,8 +218,7 @@
           "evento": "Índia x Brasil",
           "canais": "GLOBO, SPORTV, GE TV",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -263,8 +260,7 @@
           "evento": "Semifinais",
           "canais": "ESPN3",
           "icone": "0113ffffcfffe7fff80fffadfffef",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -290,8 +286,7 @@
           "evento": "Croácia x Inglaterra",
           "canais": "ESPN",
           "icone": "0613fffaeff682ff9a2ff5b4fffbf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -335,8 +330,7 @@
           "evento": "SLS Paris - finais",
           "canais": "SPORTV3, GE TV",
           "icone": "02020210002023000610000030000",
-          "fonte": "esportesnatv",
-          "dura": 75
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
