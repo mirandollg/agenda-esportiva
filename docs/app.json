@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-02T22:44:09-03:00",
+  "gerado_em": "2026-10-02T23:15:14-03:00",
   "primeiro_dia": "2026-10-02",
   "fontes": [
     "Esportes na TV",
@@ -283,8 +283,7 @@
           "evento": "Colômbia x Paraguai",
           "canais": "SPORTV3",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
@@ -300,8 +299,7 @@
           "evento": "SF (ida) - Pinheiros x Osasco",
           "canais": "SPORTV2",
           "icone": "0313fffdbfffeffffbcfffbdfffdb",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:03",
