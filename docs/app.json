@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-04T19:11:18-03:00",
+  "gerado_em": "2026-10-04T19:41:25-03:00",
   "primeiro_dia": "2026-10-04",
   "fontes": [
     "Esportes na TV",
@@ -413,8 +413,7 @@
           "canais": "ESPN5",
           "etapa": "Japão",
           "sessao": "Corrida Principal (REPRISE)",
-          "fonte": "tomadadetempo",
-          "dura": 120
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "18:30",
@@ -423,8 +422,7 @@
           "canais": "ESPN5, PHIZTV, ESPN3, DISNEY+ PR",
           "etapa": "Las Vegas",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "19:30",
