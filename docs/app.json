@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-04T20:09:02-03:00",
+  "gerado_em": "2026-10-04T20:41:45-03:00",
   "primeiro_dia": "2026-10-04",
   "fontes": [
     "Esportes na TV",
@@ -394,8 +394,7 @@
           "evento": "Seattle Seahawks x LA Chargers",
           "canais": "SPORTV2, GE TV",
           "icone": "0c020225020174100181002910109",
-          "fonte": "esportesnatv",
-          "dura": 175
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:25",
@@ -403,8 +402,7 @@
           "evento": "S Franc. 49ers x Denver Broncos",
           "canais": "ESPN2",
           "icone": "0c020004020054100171000910007",
-          "fonte": "esportesnatv",
-          "dura": 185
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:30",
