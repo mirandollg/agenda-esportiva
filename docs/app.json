@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-04T00:12:52-03:00",
+  "gerado_em": "2026-10-04T12:56:10-03:00",
   "primeiro_dia": "2026-10-04",
   "fontes": [
     "Esportes na TV",
@@ -17,8 +17,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Japão",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "00:30",
@@ -35,8 +34,7 @@
           "evento": "QF- Alcaraz x Shapovalov",
           "canais": "ESPN2",
           "icone": "0e020064010634000000700142000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "01:35",
@@ -54,8 +52,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Japão",
           "sessao": "Corrida Principal",
-          "fonte": "tomadadetempo",
-          "dura": 75
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "03:25",
@@ -73,8 +70,7 @@
           "canais": "SPORTV3, GLOBOPLAY",
           "etapa": "GP do Bahrein",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 120
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "04:10",
@@ -134,8 +130,7 @@
           "evento": "QF - Zverev x Djokovic",
           "canais": "ESPN2",
           "icone": "0e120006000070224000460114102",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
@@ -143,8 +138,7 @@
           "evento": "MXON das Nações",
           "canais": "BANDSPORTS",
           "icone": "0e0200040000510001b4004d40010",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:05",
@@ -161,8 +155,7 @@
           "evento": "1R - Bruna Takahashi x Batra",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "00020010000431103003030200054",
-          "fonte": "esportesnatv",
-          "dura": 10
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
@@ -171,8 +164,7 @@
           "canais": "ESPN4",
           "etapa": "Japão",
           "sessao": "Comida Principal (REPRISE)",
-          "fonte": "tomadadetempo",
-          "dura": 90
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:20",
@@ -180,8 +172,7 @@
           "evento": "1R - Ovtcharov x Hugo Calderano",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0e020003300020000110000620000",
-          "fonte": "esportesnatv",
-          "dura": 55
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -214,8 +205,7 @@
           "evento": "Azerbaijão x Lituânia",
           "canais": "SPORTV",
           "icone": "0613ffffffd16ffe8ccfd68effddf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
@@ -241,8 +231,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -295,7 +284,7 @@
           "canais": "ESPN4",
           "icone": "0c020004000052100462004600005",
           "fonte": "esportesnatv",
-          "dura": 390
+          "dura": 195
         },
         {
           "hora": "14:00",
