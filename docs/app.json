@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-04T12:56:10-03:00",
+  "gerado_em": "2026-10-04T17:58:06-03:00",
   "primeiro_dia": "2026-10-04",
   "fontes": [
     "Esportes na TV",
@@ -222,8 +222,7 @@
           "evento": "W. Commanders x Indianap. Colts",
           "canais": "SPORTV2, GE TV",
           "icone": "02020000500020500025000280000",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -239,8 +238,7 @@
           "evento": "Final - Gustavo Heide x Justo",
           "canais": "ESPN3",
           "icone": "0113ffffefffe8fff73fffaefffef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:30",
@@ -265,8 +263,7 @@
           "evento": "Kosovo x Austria",
           "canais": "ESPN",
           "icone": "0613fffffff57dfd8c9fe78affedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -274,8 +271,7 @@
           "evento": "Malta x Andorra",
           "canais": "SPORTV",
           "icone": "0613ffffffd75eff5dffd78effeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -283,8 +279,7 @@
           "evento": "Canal Redzone",
           "canais": "ESPN4",
           "icone": "0c020004000052100462004600005",
-          "fonte": "esportesnatv",
-          "dura": 195
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -292,8 +287,7 @@
           "evento": "Philadelphia Eagles x LA Rams",
           "canais": "ESPN2",
           "icone": "0d02810116626a642b04645406558",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -301,8 +295,7 @@
           "evento": "Buffalo Bills x N England Patriots",
           "canais": "SPORTV2",
           "icone": "0c020005050057000591000900309",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -310,8 +303,7 @@
           "evento": "Gotham FC x Angel City",
           "canais": "ESPN3",
           "icone": "0613ffd9efe2b5fcbc2ff3b2fff9f",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -320,8 +312,7 @@
           "canais": "ESPN5",
           "etapa": "Japão",
           "sessao": "Corrida (REPRISE)",
-          "fonte": "tomadadetempo",
-          "dura": 75
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "15:45",
@@ -329,8 +320,7 @@
           "evento": "Portugal x Noruega",
           "canais": "SPORTV",
           "icone": "0613ffffffe57efe88bff68dfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -338,8 +328,7 @@
           "evento": "Grécia x Alemanha",
           "canais": "SPORTV3",
           "icone": "0613fffffff76dffaaaff58efffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -347,8 +336,7 @@
           "evento": "Holanda x Sérvia",
           "canais": "ESPN",
           "icone": "0613fffeffe56dfd78aff79dfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -365,8 +353,7 @@
           "canais": "ESPN5",
           "etapa": "Japão",
           "sessao": "Corrida (REPRISE)",
-          "fonte": "tomadadetempo",
-          "dura": 75
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "17:00",
