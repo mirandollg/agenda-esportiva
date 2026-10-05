@@ -1,17 +1,16 @@
-0e020064010634000000700142000  ATP500 Tóquio
 1713fffffffffffffffffffffffff  Judô
-0d030517246348074165544403452  Espanholde Futsal
-0e0200040000510001b4004d40010  Mundial Motocross
-0e120006000070224000460114102  ATP500 Pequim
-00020010000431103003030200054  WTT China Smash
-0e020003300020000110000620000  WTT China Smash
-0613fffe9fff3affcaefff4dffffc  Camp. Inglês Fem
-0613fffeafff5cffd9dfff6afffec  Camp. Inglês Fem
-0613ffffffd16ffe8ccfd68effddf  UEFA Nations League D
-02020000500020500025000280000  NFL em Londres
-1713fffffffffffffffffffffffff  Judô
-0113ffffefffe8fff73fffaefffef  Challenger Curitiba
-0613fffe9fff3cffe8cfff6effffa  Camp. Inglês Fem
-0613fffffff57dfd8c9fe78affedf  UEFA Nations League B
-0613ffffffd75eff5dffd78effeef  UEFA Nations League D
-03028800088000880808808408040  TCR South America
+0e122064000602200000600234001  ATP500 Tóquio
+0e120240012306300096004650000  ATP500 Pequim
+0e123030001904028061341350000  ATP500 Tóquio
+0e120070300505070002940010000  ATP500 Pequim
+0013fffffffffffffffffffffffff  Judô
+0613ffffffe57fff8befd77effeef  UEFA Nations League C
+0613fffcfff586ffdc4ff7a6fffcf  UEFA Nations League
+0613fffafff572ffbb1ff5c3fffaf  UEFA Nations League
+0613ffeffff57affab8ff88bffedf  UEFA Nations League B
+0613fffffff38bff8a6ff899ffedf  UEFA Nations League B
+0613fffffff58afe8a9ff58afffdf  UEFA Nations League B
+0e12ffffffffffffffffffffffffe  MLB - Playoffs
+0613fffffffff8ffffbffffafffff  Camp. Argentino
+0e12fffffffffffffffffffffffff  MLB - Playoffs
+0c021005050057100190000900307  NFL
