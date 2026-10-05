@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-05T15:49:12-03:00",
+  "gerado_em": "2026-10-05T18:47:19-03:00",
   "primeiro_dia": "2026-10-05",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 14,
+  "total": 38,
   "dias": [
     {
       "data": "2026-10-05",
@@ -72,8 +72,7 @@
           "evento": "França x Bélgica",
           "canais": "DISNEY+, SPORTV2",
           "icone": "0613fffcfff586ffdc4ff7a6fffcf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -81,8 +80,7 @@
           "evento": "Itália x Turquia",
           "canais": "SPORTV, GE TV",
           "icone": "0613fffafff572ffbb1ff5c3fffaf",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -90,8 +88,7 @@
           "evento": "Romênia x Suécia",
           "canais": "ESPN, ESPN4",
           "icone": "0613fffffff38bff8a6ff899ffedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
@@ -126,6 +123,221 @@
           "evento": "NO Saints x Atlanta Falcons",
           "canais": "ESPN2",
           "icone": "0c021005050057100190000900307",
+          "fonte": "esportesnatv",
+          "dura": 180
+        }
+      ]
+    },
+    {
+      "data": "2026-10-06",
+      "eventos": [
+        {
+          "hora": "00:35",
+          "competicao": "WTT China Smash",
+          "evento": "2R - Jaehyun An x Hugo Calderano",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0e020005300000000300012610303",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "04:15",
+          "competicao": "Judô",
+          "evento": "Camp. Mundial - eliminatórias (Sarah Souza, Jessica Lima, Guilherme de Oliveira, Daniel Cargnin)",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0013fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "06:00",
+          "competicao": "ATP500 Tóquio",
+          "evento": "Final - Alcaraz x Lehecka",
+          "canais": "ESPN2",
+          "icone": "0e123010021613027320600030020",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "08:00",
+          "competicao": "ATP500 Pequim",
+          "evento": "Final - Djokovic x De Minaur",
+          "canais": "ESPN3",
+          "icone": "",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "09:55",
+          "competicao": "WTT China Smash",
+          "evento": "OF -lonescu/Szocs x Calderano/Takahashi",
+          "canais": "SPORTV3, CAZÉTV",
+          "icone": "0e02630133102b0060c0450c01006",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "11:00",
+          "competicao": "Judô",
+          "evento": "Camp. Mundial - finais",
+          "canais": "SPORTV, CAZÉTV",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 75
+        },
+        {
+          "hora": "11:00",
+          "competicao": "UEFA Nations League C",
+          "evento": "Cazaquistão x Ilhas Faroé",
+          "canais": "SPORTV2",
+          "icone": "0613ffffffe58ffe8bdfd77effddf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "11:30",
+          "competicao": "MTorn. Abertura NBB",
+          "evento": "Flamengo x Botafogo 14h00 Brasília x Fluminense",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffeffffbffffdfffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Croácia x Espanha",
+          "canais": "ESPN, SPORTV3",
+          "icone": "0613fffcfff5a5ffcc1ff6a5fffae",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Inglaterra x Rep. Tcheca",
+          "canais": "SPORTV",
+          "icone": "0613fffbfff768ffac4ff8a5fffcf",
+          "fonte": "esportesnatv",
+          "dura": 115
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League B",
+          "evento": "Escócia x Eslovênia",
+          "canais": "ESPN4",
+          "icone": "0613fffffff58bff8b8fe488ffecf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "UEFA Nations League B",
+          "evento": "Suíça x Macedônia do Norte",
+          "canais": "SPORTV2",
+          "icone": "0613fffefff37cfdbbcff79affedf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Torn. Abertura NBB",
+          "evento": "Minas x Tatuí-SP 19h30 Caxias do Sul x Cruzeiro",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffeffffbffffefffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Paulista Vôlei Fem",
+          "evento": "SF - Osasco x Pinheiros (1-0)",
+          "canais": "SPORTV2",
+          "icone": "0313fffebfffeffffbcfffbdfffdb",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "19:00",
+          "competicao": "MLB - Playoffs",
+          "evento": "Atlanta Braves x LA Dodgers (1-1)",
+          "canais": "ESPN3",
+          "icone": "0e12fffdfffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Sport x São Bernardo",
+          "canais": "DISNEY+",
+          "icone": "0613fffaaffa59ffacaffc69fffdd",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Amistoso (Desp. Messi)",
+          "evento": "Argentina x Benin",
+          "canais": "SPORTV, GE TV",
+          "icone": "0613ffaeff598ffdc7cf8e6effcef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Goiás x Athletic",
+          "canais": "ESPN",
+          "icone": "0613fffbaffc4affbbbffa79fffdc",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "20:30",
+          "competicao": "NHL",
+          "evento": "NY Rangers x NY Islanders",
+          "canais": "ESPN2",
+          "icone": "02020000400025000840001260000",
+          "fonte": "esportesnatv",
+          "dura": 30
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Amistoso",
+          "evento": "EUA x Canadá",
+          "canais": "ESPN4",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 125
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Paulista Vôlei Fem",
+          "evento": "SF - SESI-Bauru x São Caetano (1-0)",
+          "canais": "SPORTV2",
+          "icone": "0313fffdbfffdffffbcfffbdfffdb",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "21:35",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Ponte Preta x Juventude",
+          "canais": "REDETV!, DISNEY+, YOUTUBE Canal GOAT",
+          "icone": "0613ffffffeabefba7afe8bdfffff",
+          "fonte": "esportesnatv",
+          "dura": 115
+        },
+        {
+          "hora": "22:00",
+          "competicao": "NHL",
+          "evento": "LA Kings x Florida Panthers",
+          "canais": "ESPN2",
+          "icone": "0c020000200025000240001160001",
+          "fonte": "esportesnatv",
+          "dura": 90
+        },
+        {
+          "hora": "22:30",
+          "competicao": "MLB - Playoffs",
+          "evento": "SD Padres x Milw. Brewers (2-0)",
+          "canais": "ESPN3",
+          "icone": "0e12ffffffffffffffffffffeffff",
           "fonte": "esportesnatv",
           "dura": 180
         }
