@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-06T17:43:59-03:00",
+  "gerado_em": "2026-10-06T18:10:49-03:00",
   "primeiro_dia": "2026-10-06",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 24,
+  "total": 51,
   "dias": [
     {
       "data": "2026-10-06",
@@ -80,8 +80,7 @@
           "evento": "Croácia x Espanha",
           "canais": "ESPN, SPORTV3",
           "icone": "0613fffcfff5a5ffcc1ff6a5fffae",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -97,8 +96,7 @@
           "evento": "Escócia x Eslovênia",
           "canais": "ESPN4",
           "icone": "0613fffffff58bff8b8fe488ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -106,8 +104,7 @@
           "evento": "Suíça x Macedônia do Norte",
           "canais": "SPORTV2",
           "icone": "0613fffefff37cfdbbcff79affedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -214,6 +211,239 @@
           "icone": "0e12ffffffffffffffffffffeffff",
           "fonte": "esportesnatv",
           "dura": 180
+        }
+      ]
+    },
+    {
+      "data": "2026-10-07",
+      "eventos": [
+        {
+          "hora": "05:00",
+          "competicao": "Judô",
+          "evento": "Camp. Mundial - eliminatórias (Rafaela Silva, David Lima)",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "07:00",
+          "competicao": "Masters1000 Xangai",
+          "evento": "1R-Wux Zheng, Fery x Cilic",
+          "canais": "ESPN2",
+          "icone": "0e031038240094001102700014000",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "11:00",
+          "competicao": "Judô",
+          "evento": "Camp. Mundial - finais",
+          "canais": "SPORTV, CAZÉTV",
+          "icone": "0013fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 75
+        },
+        {
+          "hora": "11:30",
+          "competicao": "Torn. Abertura NBB",
+          "evento": "Tatuí x Flamengo 14h Fluminense x Caxias do Sul",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113ffffffffffffffdffffefffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Brasileirão sub-17",
+          "evento": "QF (ida) - Atlético-MG x Palmeiras",
+          "canais": "SPORTV",
+          "icone": "0613fff9bff977ff8c6ff895fffde",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "Euroliga",
+          "evento": "Paris x ASVEL Lyon",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "MLB - Playoffs",
+          "evento": "Chicago W.Sox x Clev. Guardians (2-0)",
+          "canais": "ESPN2",
+          "icone": "0e12fffffffffcffff9ffffafffff",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Torn. Abertura NBB",
+          "evento": "Botafogo x Minas 19h30 Cruzeiro x Brasília",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113ffffffffffffffeffffefffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:30",
+          "competicao": "Brasileirão sub-17",
+          "evento": "QF (ida) - Flamengo x Corinthians",
+          "canais": "SPORTV",
+          "icone": "0613fffa9ff998ff8c8ff895fffce",
+          "fonte": "esportesnatv",
+          "dura": 115
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Paulista Vôlei Masc",
+          "evento": "SF (ida) - Itaquá x Volêi Renata",
+          "canais": "SPORTV2",
+          "icone": "0313fecebfeeeffbddffddfffebad",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:00",
+          "competicao": "MLB - Playoffs",
+          "evento": "J4 - Atlanta Braves x LA Dodgers",
+          "canais": "ESPN4",
+          "icone": "0e12fffeaffffcffff8ffff8ffcdd",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Internacional x Corinthians",
+          "canais": "RECORD, PREMIERE, YOUTUBE CazéTV",
+          "icone": "0613ffffffffffffffeffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Remo x Grêmio",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Red Bull Bragantino x Mirassol",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Avaí x Londrina",
+          "canais": "DISNEY+",
+          "icone": "0613ffb8ffb7cafc6b6fc598ffdcf",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Operário-PR x Botafogo-SP",
+          "canais": "DISNEY+",
+          "icone": "0613ffc9ffb5bafb8a6fd6aaffcbf",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Brasileirão",
+          "evento": "Vitória xChapecoense",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Paulista de Basquete",
+          "evento": "Final (;.1) - Franca x Mogi",
+          "canais": "BANDSPORTS, TV FPB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão",
+          "evento": "Botafogo x Vasco",
+          "canais": "PRIME VIDEO",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "CRB x Atlético-GO",
+          "canais": "XSPORTS, DISNEY+, SportyNet, YOUTUBE",
+          "icone": "0613ffffffaafde79b9faaebfffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "América-MG x Fortaleza",
+          "canais": "ESPN",
+          "icone": "0613ffbbffb1a8f9ab6fd39cffdef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Vila Nova x Cuiabá",
+          "canais": "DISNEY+",
+          "icone": "0613ffaaffa5b9fbba6fc7acffccf",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "WNBA - Playoffs",
+          "evento": "Atlanta Dream x NY Liberty (1-0)",
+          "canais": "ESPN3",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:00",
+          "competicao": "MLB - Playoffs",
+          "evento": "NY Yankees x Tampa B Rays (0-2)",
+          "canais": "ESPN2",
+          "icone": "0e12ccfebffffeffff9ffff9fffec",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Paulista Vôlei Masc",
+          "evento": "SF (ida) - Suzano x São José-SP",
+          "canais": "SPORTV2",
+          "icone": "0313fecebfdfeffbddffdcfffebad",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Brasileirão",
+          "evento": "Cruzeiro x São Paulo",
+          "canais": "SPORTV-PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "23:00",
+          "competicao": "MLB - Playoffs",
+          "evento": "J4 - SD Padres x Milw. Brewers",
+          "canais": "ESPNA4 (se nec.)",
+          "icone": "0e12fcce5ffff8ffff9ffffbdfff9",
+          "fonte": "esportesnatv"
         }
       ]
     }
