@@ -1,16 +1,24 @@
-1713fffffffffffffffffffffffff  Judô
-0e122064000602200000600234001  ATP500 Tóquio
-0e120240012306300096004650000  ATP500 Pequim
-0e123030001904028061341350000  ATP500 Tóquio
-0e120070300505070002940010000  ATP500 Pequim
+0e020005300000000300012610303  WTT China Smash
 0013fffffffffffffffffffffffff  Judô
-0613ffffffe57fff8befd77effeef  UEFA Nations League C
-0613fffcfff586ffdc4ff7a6fffcf  UEFA Nations League
-0613fffafff572ffbb1ff5c3fffaf  UEFA Nations League
-0613ffeffff57affab8ff88bffedf  UEFA Nations League B
-0613fffffff38bff8a6ff899ffedf  UEFA Nations League B
-0613fffffff58afe8a9ff58afffdf  UEFA Nations League B
-0e12ffffffffffffffffffffffffe  MLB - Playoffs
-0613fffffffff8ffffbffffafffff  Camp. Argentino
-0e12fffffffffffffffffffffffff  MLB - Playoffs
-0c021005050057100190000900307  NFL
+0e123010021613027320600030020  ATP500 Tóquio
+0e02630133102b0060c0450c01006  WTT China Smash
+0613ffffffe58ffe8bdfd77effddf  UEFA Nations League C
+1713fffffffffffffffffffffffff  Judô
+0113fffffffffeffffbffffdfffff  MTorn. Abertura NBB
+0613fffcfff5a5ffcc1ff6a5fffae  UEFA Nations League
+0613fffbfff768ffac4ff8a5fffcf  UEFA Nations League
+0613fffffff58bff8b8fe488ffecf  UEFA Nations League B
+0613fffefff37cfdbbcff79affedf  UEFA Nations League B
+0613fffeffd36fff4ddfc56effddf  UEFA Nations League C
+0113fffffffffeffffbffffefffff  Torn. Abertura NBB
+0313fffebfffeffffbcfffbdfffdb  Paulista Vôlei Fem
+0e12fffdfffffffffffffffffffff  MLB - Playoffs
+0613fffaaffa59ffacaffc69fffdd  Brasileirão - Série B
+0613ffaeff598ffdc7cf8e6effcef  Amistoso (Desp. Messi)
+0613fffbaffc4affbbbffa79fffdc  Brasileirão - Série B
+02020000400025000840001260000  NHL
+0313fffdbfffdffffbcfffbdfffdb  Paulista Vôlei Fem
+0613fffffffffffffffffffffffff  Amistoso
+0613ffffffeabefba7afe8bdfffff  Brasileirão - Série B
+0e12ffffffffffffffffffffeffff  MLB - Playoffs
+0c020000200025000240001160001  NHL
