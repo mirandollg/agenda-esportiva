@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-06T21:24:31-03:00",
+  "gerado_em": "2026-10-06T21:54:28-03:00",
   "primeiro_dia": "2026-10-06",
   "fontes": [
     "Esportes na TV",
@@ -128,8 +128,7 @@
           "evento": "Atlanta Braves x LA Dodgers (1-1)",
           "canais": "ESPN3",
           "icone": "0e12fffdfffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
