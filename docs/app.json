@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-06T23:15:42-03:00",
+  "gerado_em": "2026-10-06T23:46:10-03:00",
   "primeiro_dia": "2026-10-06",
   "fontes": [
     "Esportes na TV",
@@ -176,8 +176,7 @@
           "evento": "SF - SESI-Bauru x São Caetano (1-0)",
           "canais": "SPORTV2",
           "icone": "0313fffdbfffdffffbcfffbdfffdb",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:35",
@@ -185,8 +184,7 @@
           "evento": "Ponte Preta x Juventude",
           "canais": "REDETV!, DISNEY+, YOUTUBE Canal GOAT",
           "icone": "0613ffffffeabefba7afe8bdfffff",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "22:00",
@@ -194,8 +192,7 @@
           "evento": "LA Kings x Florida Panthers",
           "canais": "ESPN2",
           "icone": "0c020000200025000240001160001",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "22:30",
