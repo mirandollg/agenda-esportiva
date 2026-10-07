@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-06T20:41:49-03:00",
+  "gerado_em": "2026-10-06T21:24:31-03:00",
   "primeiro_dia": "2026-10-06",
   "fontes": [
     "Esportes na TV",
@@ -120,8 +120,7 @@
           "evento": "SF - Osasco x Pinheiros (1-0)",
           "canais": "SPORTV2",
           "icone": "0313fffebfffeffffbcfffbdfffdb",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -164,8 +163,7 @@
           "evento": "NY Rangers x NY Islanders",
           "canais": "ESPN2",
           "icone": "02020000400025000840001260000",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
