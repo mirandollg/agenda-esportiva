@@ -1,24 +1,27 @@
-0e020005300000000300012610303  WTT China Smash
-0013fffffffffffffffffffffffff  Judô
-0e123010021613027320600030020  ATP500 Tóquio
-0e02630133102b0060c0450c01006  WTT China Smash
-0613ffffffe58ffe8bdfd77effddf  UEFA Nations League C
 1713fffffffffffffffffffffffff  Judô
-0113fffffffffeffffbffffdfffff  MTorn. Abertura NBB
-0613fffcfff5a5ffcc1ff6a5fffae  UEFA Nations League
-0613fffbfff768ffac4ff8a5fffcf  UEFA Nations League
-0613fffffff58bff8b8fe488ffecf  UEFA Nations League B
-0613fffefff37cfdbbcff79affedf  UEFA Nations League B
-0613fffeffd36fff4ddfc56effddf  UEFA Nations League C
-0113fffffffffeffffbffffefffff  Torn. Abertura NBB
-0313fffebfffeffffbcfffbdfffdb  Paulista Vôlei Fem
-0e12fffdfffffffffffffffffffff  MLB - Playoffs
-0613fffaaffa59ffacaffc69fffdd  Brasileirão - Série B
-0613ffaeff598ffdc7cf8e6effcef  Amistoso (Desp. Messi)
-0613fffbaffc4affbbbffa79fffdc  Brasileirão - Série B
-02020000400025000840001260000  NHL
-0313fffdbfffdffffbcfffbdfffdb  Paulista Vôlei Fem
-0613fffffffffffffffffffffffff  Amistoso
-0613ffffffeabefba7afe8bdfffff  Brasileirão - Série B
-0e12ffffffffffffffffffffeffff  MLB - Playoffs
-0c020000200025000240001160001  NHL
+0e031038240094001102700014000  Masters1000 Xangai
+0013fffffffffffffffffffffffff  Judô
+0113ffffffffffffffdffffefffff  Torn. Abertura NBB
+0613fff9bff977ff8c6ff895fffde  Brasileirão sub-17
+0113fffffffffffffffffffffffff  Euroliga
+0113ffffffffffffffeffffefffff  Torn. Abertura NBB
+0e12fffffffffcffff9ffffafffff  MLB - Playoffs
+0613fffa9ff998ff8c8ff895fffce  Brasileirão sub-17
+0313fecebfeeeffbddffddfffebad  Paulista Vôlei Masc
+0e12fffeaffffcffff8ffff8ffcdd  MLB - Playoffs
+0613ffffffffffffffeffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0613ffb8ffb7cafc6b6fc598ffdcf  Brasileirão - Série B
+0613ffc9ffb5bafb8a6fd6aaffcbf  Brasileirão - Série B
+0113fffffffffffffffffffffffff  Paulista de Basquete
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0613ffffffaafde79b9faaebfffff  Brasileirão - Série B
+0613ffbbffb1a8f9ab6fd39cffdef  Brasileirão - Série B
+0613ffaaffa5b9fbba6fc7acffccf  Brasileirão - Série B
+0113fffffffffffffffffffffffff  WNBA - Playoffs
+0e12ccfebffffeffff9ffff9fffec  MLB - Playoffs
+0313fecebfdfeffbddffdcfffebad  Paulista Vôlei Masc
+0613fffffffffffffffffffffffff  Brasileirão
+0e12fcce5ffff8ffff9ffffbdfff9  MLB - Playoffs
