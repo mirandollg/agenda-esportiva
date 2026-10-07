@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-06T21:54:28-03:00",
+  "gerado_em": "2026-10-06T22:17:19-03:00",
   "primeiro_dia": "2026-10-06",
   "fontes": [
     "Esportes na TV",
@@ -144,8 +144,7 @@
           "evento": "Argentina x Benin",
           "canais": "SPORTV, GE TV",
           "icone": "0613ffaeff598ffdc7cf8e6effcef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
