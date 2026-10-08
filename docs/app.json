@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T06:47:38-03:00",
+  "gerado_em": "2026-10-08T07:13:23-03:00",
   "primeiro_dia": "2026-10-08",
   "fontes": [
     "Esportes na TV",
@@ -136,7 +136,8 @@
           "evento": "UFC BJJ 12",
           "canais": "COMBATE",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "21:00",
