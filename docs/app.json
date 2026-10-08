@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-07T22:18:17-03:00",
+  "gerado_em": "2026-10-07T22:46:50-03:00",
   "primeiro_dia": "2026-10-07",
   "fontes": [
     "Esportes na TV",
@@ -176,8 +176,7 @@
           "evento": "América-MG x Fortaleza",
           "canais": "ESPN",
           "icone": "0613ffbbffb1a8f9ab6fd39cffdef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
@@ -193,8 +192,7 @@
           "evento": "Atlanta Dream x NY Liberty (1-0)",
           "canais": "ESPN3",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
