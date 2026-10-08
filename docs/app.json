@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T08:44:21-03:00",
+  "gerado_em": "2026-10-08T09:15:46-03:00",
   "primeiro_dia": "2026-10-08",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "Van Assche x Bu, Norrie x Svrcina",
           "canais": "ESPN2",
           "icone": "0e020187100423220045002340000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:45",
@@ -33,8 +32,7 @@
           "evento": "F - Franziska x H. Calderano",
           "canais": "SPORTV3, CAZÉTV",
           "icone": "02020002000000000010000630000",
-          "fonte": "esportesnatv",
-          "dura": 15
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:30",
