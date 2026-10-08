@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-07T22:46:50-03:00",
+  "gerado_em": "2026-10-07T23:14:57-03:00",
   "primeiro_dia": "2026-10-07",
   "fontes": [
     "Esportes na TV",
@@ -209,8 +209,7 @@
           "evento": "SF (ida) - Suzano x São José-SP",
           "canais": "SPORTV2",
           "icone": "0313fecebfdfeffbddffdcfffebad",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:30",
