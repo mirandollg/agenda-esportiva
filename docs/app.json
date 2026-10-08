@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-07T15:50:09-03:00",
+  "gerado_em": "2026-10-07T22:14:02-03:00",
   "primeiro_dia": "2026-10-07",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 27,
+  "total": 48,
   "dias": [
     {
       "data": "2026-10-07",
@@ -48,8 +48,7 @@
           "evento": "QF (ida) - Atlético-MG x Palmeiras",
           "canais": "SPORTV",
           "icone": "0613fff9bff977ff8c6ff895fffde",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:45",
@@ -65,8 +64,7 @@
           "evento": "Chicago W.Sox x Clev. Guardians (2-0)",
           "canais": "ESPN2",
           "icone": "0e12fffffffffcffff9ffffafffff",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -82,8 +80,7 @@
           "evento": "QF (ida) - Flamengo x Corinthians",
           "canais": "SPORTV",
           "icone": "0613fffa9ff998ff8c8ff895fffce",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
@@ -91,8 +88,7 @@
           "evento": "SF (ida) - Itaquá x Volêi Renata",
           "canais": "SPORTV2",
           "icone": "0313fecebfeeeffbddffddfffebad",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -100,8 +96,7 @@
           "evento": "J4 - Atlanta Braves x LA Dodgers",
           "canais": "ESPN4",
           "icone": "0e12fffeaffffcffff8ffff8ffcdd",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -157,8 +152,7 @@
           "evento": "Final (;.1) - Franca x Mogi",
           "canais": "BANDSPORTS, TV FPB",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
@@ -235,6 +229,192 @@
           "canais": "ESPNA4 (se nec.)",
           "icone": "0e12fcce5ffff8ffff9ffffbdfff9",
           "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-08",
+      "eventos": [
+        {
+          "hora": "05:00",
+          "competicao": "Cam E Judô =",
+          "evento": "p- Mundial - eliminatórias (Nauana va, Rafael Macedo, Gui Schimidt)",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "07:00",
+          "competicao": "Masters1000 Xangai 1R",
+          "evento": "Van Assche x Bu, Norrie x Svrcina",
+          "canais": "ESPN2",
+          "icone": "0e020187100423220045002340000",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "08:45",
+          "competicao": "WTT China Smash O",
+          "evento": "F - Franziska x H. Calderano",
+          "canais": "SPORTV3, CAZÉTV",
+          "icone": "02020002000000000010000630000",
+          "fonte": "esportesnatv",
+          "dura": 15
+        },
+        {
+          "hora": "09:30",
+          "competicao": "Natação Co",
+          "evento": "a do Mundo - etapa Uzbequistão",
+          "canais": "SPORTV2",
+          "icone": "0d13fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "11:00",
+          "competicao": "Judô",
+          "evento": "Camp. Mundial - finais",
+          "canais": "SPORTV, CAZÉTV",
+          "icone": "0013fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 75
+        },
+        {
+          "hora": "13:00",
+          "competicao": "Euroliga",
+          "evento": "Dubai x Estrela Vermelha",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "Euroliga",
+          "evento": "Real Madrid x Partizan",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Copa do Brasilsub20",
+          "evento": "Flamengo s20 x Vasco s20",
+          "canais": "SPORTV",
+          "icone": "0613e9dff2d3f8bc1dc5c3faf8fff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "18:00",
+          "competicao": "MLB - Playoffs Ja",
+          "evento": "Chicago W. Sox x Clev. Guardians",
+          "canais": "ESPN2",
+          "icone": "0e12ffff7fffe6fffa3fffc3fdcbe",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Vôlei Sentado Fem",
+          "evento": "Camp. Brasileiro - final",
+          "canais": "SPORTV2",
+          "icone": "0313fdbdbfefedfaceffbefdfdabe",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Santos x Flamengo",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Ceará x Criciúma",
+          "canais": "XSPORTS, ESPN, SportyNet, YOUTUBE",
+          "icone": "0613ffffff9cdfba999eaccdfffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Náutico x Novorizontino",
+          "canais": "PREMIERE",
+          "icone": "0613fd9dfe3c7ecbd6df4c8efd9ff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Brasileirão",
+          "evento": "Athletico PR x Atlético-MG",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Jiu-Jitsu",
+          "evento": "UFC BJJ 12",
+          "canais": "COMBATE",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "MLB - Playoffs J4",
+          "evento": "NY Yankees x Tampa B Rays",
+          "canais": "ESPN3",
+          "icone": "0e12ffff8fffe5fffc5fffe4ffffa",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "21:15",
+          "competicao": "NFL Dal",
+          "evento": "las Cowboys x TB Buccaneers",
+          "canais": "SPORTV2, GE TV",
+          "icone": "01020210430002500025000250100",
+          "fonte": "esportesnatv",
+          "dura": 195
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Brasileirão",
+          "evento": "Palmeiras x Bahia",
+          "canais": "GLOBO, PREMIERE, YOUTUBE GETV",
+          "icone": "0613fffffffffdffff9ffffcfffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Brasileirão",
+          "evento": "Fluminense x Coritiba",
+          "canais": "LOBO (RJ, ES, PR. PB, RN). PREMIERE 5",
+          "icone": "0613fffffffffeffff9ffffcfffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "22:00",
+          "competicao": "Moto3/Moto2/MotoGP Gl",
+          "evento": "3 da Indonésia - treino livre 1",
+          "canais": "ESPN4",
+          "icone": "02020001310051100500004100310",
+          "fonte": "esportesnatv",
+          "dura": 40
+        },
+        {
+          "hora": "23:30",
+          "competicao": "NBA-Pré-Temporada Li",
+          "evento": "Lakers x Sacramento Kings",
+          "canais": "ESPN2",
+          "icone": "0113ffffffffdeffffeffffefffff",
+          "fonte": "esportesnatv",
+          "dura": 150
         }
       ]
     }
