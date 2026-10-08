@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T11:46:45-03:00",
+  "gerado_em": "2026-10-08T12:14:12-03:00",
   "primeiro_dia": "2026-10-08",
   "fontes": [
     "Esportes na TV",
@@ -40,8 +40,7 @@
           "evento": "a do Mundo - etapa Uzbequistão",
           "canais": "SPORTV2",
           "icone": "0d13fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
