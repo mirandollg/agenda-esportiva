@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T17:45:01-03:00",
+  "gerado_em": "2026-10-09T18:11:39-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -200,8 +200,7 @@
           "evento": "West Ham x QPR",
           "canais": "ESPN",
           "icone": "0613ffcaefc3d7fc8b3fd1b5ffeaf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
