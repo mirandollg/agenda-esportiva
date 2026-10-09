@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T15:47:31-03:00",
+  "gerado_em": "2026-10-09T16:10:28-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -128,8 +128,7 @@
           "evento": "Galatasaray x Kasimpasa",
           "canais": "ESPN4",
           "icone": "0613fffaaff777ff9c8ff986fffce",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
