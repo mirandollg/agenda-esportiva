@@ -1,21 +1,20 @@
-1713fffffffffffffffffffffffff  Cam E Judô =
-0e020187100423220045002340000  Masters1000 Xangai 1R
-02020002000000000010000630000  WTT China Smash O
-0d13fffffffffffffffffffffffff  Natação Co
 0013fffffffffffffffffffffffff  Judô
-0113fffffffffffffffffffffffff  Euroliga
-0113fffffffffffffffffffffffff  Euroliga
-0613e9dff2d3f8bc1dc5c3faf8fff  Copa do Brasilsub20
-0e12ffff7fffe6fffa3fffc3fdcbe  MLB - Playoffs Ja
-0313fdbdbfefedfaceffbefdfdabe  Vôlei Sentado Fem
-0613fffffffffffffffffffffffff  Brasileirão
-0613ffffff9cdfba999eaccdfffff  Brasileirão - Série B
-0613fd9dfe3c7ecbd6df4c8efd9ff  Brasileirão - Série B
-0613fffffffffffffffffffffffff  Brasileirão
-1713fffffffffffffffffffffffff  Jiu-Jitsu
-0e12ffff8fffe5fffc5fffe4ffffa  MLB - Playoffs J4
-01020210430002500025000250100  NFL Dal
-0613fffffffffdffff9ffffcfffff  Brasileirão
-0613fffffffffeffff9ffffcfffff  Brasileirão
-02020001310051100500004100310  Moto3/Moto2/MotoGP Gl
-0113ffffffffdeffffeffffefffff  NBA-Pré-Temporada Li
+17026000040003600066000660006  Fórmula 1
+0e120026031081004620345404005  Masters1000 Xangai
+0e120006000072306032000503004  Masters1000 Xangai
+0113fffffffffefffffffffffffff  NBA- Pré-Temporada
+0213ff755fd78bffbcbfd8e5ff76d  Mundialito Fut. Areia F
+01024000030000101043000600004  Fórmula 1
+0313fffe5fffa4ffffafffaafffe2  Mundialito Fut. Areia
+0613ffffffffe9fffbbfffd9fffff  Camp. Saudita
+1713fffffffffffffffffffffffff  Judô
+0113ffffeffffffffffffefffffff  Torn. Abertura NBB
+0613fffffffffffffffffffffffff  Camp. Saudita
+1713fffffffffffffffffffffffff  Taekwondo
+0613fffe9fff3effe9cfff6efffea  Bundesliga 22 Div
+0613fffaaff777ff9c8ff986fffce  Campeonato Turco
+0113ffffdffefffffffffefefffff  Torn. Abertura NBB
+0e020005200020061600110040140  Espanhol de Futsal
+0613ffffbfffc1fffaafffe5ffffd  Paulistão sub-20
+0613ffffffffd9fffcbfffd9fffff  Camp. Saudita
+0613fffffffffffffffffffffffff  Bundesliga
