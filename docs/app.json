@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T21:25:25-03:00",
+  "gerado_em": "2026-10-08T21:57:02-03:00",
   "primeiro_dia": "2026-10-08",
   "fontes": [
     "Esportes na TV",
@@ -104,8 +104,7 @@
           "evento": "Ceará x Criciúma",
           "canais": "XSPORTS, ESPN, SportyNet, YOUTUBE",
           "icone": "0613ffffff9cdfba999eaccdfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
