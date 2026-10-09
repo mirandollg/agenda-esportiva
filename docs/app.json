@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T06:45:38-03:00",
+  "gerado_em": "2026-10-09T07:13:10-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "GP de Singapura - treino livre",
           "canais": "SPORTV3",
           "icone": "17026000040003600066000660006",
-          "fonte": "esportesnatv",
-          "dura": 145
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",
@@ -34,7 +33,7 @@
           "canais": "ESPN2",
           "icone": "0e120026031081004620345404005",
           "fonte": "esportesnatv",
-          "dura": 60
+          "dura": 120
         },
         {
           "hora": "08:30",
@@ -43,7 +42,7 @@
           "canais": "ESPN2",
           "icone": "0e120006000072306032000503004",
           "fonte": "esportesnatv",
-          "dura": 150
+          "dura": 30
         },
         {
           "hora": "09:00",
@@ -69,7 +68,7 @@
           "canais": "SPORTV3",
           "icone": "01024000030000101043000600004",
           "fonte": "esportesnatv",
-          "dura": 80
+          "dura": 60
         },
         {
           "hora": "10:30",
@@ -163,7 +162,7 @@
           "canais": "XSPORTS, SPORTV, YOUTUBE Canal GOAT",
           "icone": "0613ffffffffd9fffcbfffd9fffff",
           "fonte": "esportesnatv",
-          "dura": 150
+          "dura": 120
         },
         {
           "hora": "15:00",
@@ -330,7 +329,7 @@
           "canais": "ESPN2",
           "icone": "0113fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
-          "dura": 30
+          "dura": 120
         },
         {
           "hora": "21:00",
