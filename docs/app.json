@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T11:14:04-03:00",
+  "gerado_em": "2026-10-09T11:48:08-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -56,8 +56,7 @@
           "evento": "Dallas Mavs. x Houston Rockets",
           "canais": "ESPN4",
           "icone": "0113fffffffffefffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:30",
