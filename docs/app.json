@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-08T22:20:37-03:00",
+  "gerado_em": "2026-10-08T22:47:55-03:00",
   "primeiro_dia": "2026-10-08",
   "fontes": [
     "Esportes na TV",
@@ -172,8 +172,7 @@
           "evento": "3 da Indonésia - treino livre 1",
           "canais": "ESPN4",
           "icone": "02020001310051100500004100310",
-          "fonte": "esportesnatv",
-          "dura": 40
+          "fonte": "esportesnatv"
         },
         {
           "hora": "23:30",
