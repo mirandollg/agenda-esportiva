@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T12:12:41-03:00",
+  "gerado_em": "2026-10-09T12:48:26-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -80,8 +80,7 @@
           "evento": "Al Kholood x Al Qadisiya",
           "canais": "XSPORTS, SPORTV, YOUTUBE Canal GOAT",
           "icone": "0613ffffffffe9fffbbfffd9fffff",
-          "fonte": "esportesnatv",
-          "dura": 85
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -89,8 +88,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:30",
