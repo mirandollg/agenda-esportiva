@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T10:15:31-03:00",
+  "gerado_em": "2026-10-09T10:45:56-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -65,8 +65,7 @@
           "evento": "GP de Singapura - classif. sprint",
           "canais": "SPORTV3",
           "icone": "01024000030000101043000600004",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
