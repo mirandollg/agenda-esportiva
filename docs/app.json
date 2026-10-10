@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T23:14:59-03:00",
+  "gerado_em": "2026-10-09T23:46:37-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -328,8 +328,7 @@
           "evento": "Final (ida) - Osasco x SESI-Bauru",
           "canais": "SPORTV2",
           "icone": "0313fffbcffdffffcecffeddfffba",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "23:00",
