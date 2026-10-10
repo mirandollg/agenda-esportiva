@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T09:49:01-03:00",
+  "gerado_em": "2026-10-10T10:11:24-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -80,8 +80,7 @@
           "evento": "Etapa de Hockenheim - corrida 1",
           "canais": "ESPN4",
           "icone": "0e022280055800558252285500802",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:30",
