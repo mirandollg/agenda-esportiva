@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T17:42:48-03:00",
+  "gerado_em": "2026-10-10T18:09:50-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -352,8 +352,7 @@
           "evento": "Napoli x Frosinone",
           "canais": "ESPN",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -361,8 +360,7 @@
           "evento": "Ajax x NEC Nijmegen",
           "canais": "ESPN2",
           "icone": "0613ffffcfffe4fffd8fffe5ffffe",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -394,8 +392,7 @@
           "evento": "SF - São José-SP x Suzano (0-1)",
           "canais": "SPORTV2",
           "icone": "0313ffdbdffefeffddeffcdfffe9b",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
