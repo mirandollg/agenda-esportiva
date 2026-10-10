@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T22:17:05-03:00",
+  "gerado_em": "2026-10-09T22:46:29-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -312,8 +312,7 @@
           "evento": "NY Liberty x Atlanta Dream (0-2)",
           "canais": "ESPN2",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
