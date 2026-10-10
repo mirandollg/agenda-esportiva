@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T06:10:49-03:00",
+  "gerado_em": "2026-10-10T06:43:48-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -424,7 +424,7 @@
           "canais": "GLOBO, SPORTV, YOUTUBE GETV",
           "icone": "0613ffffffd9cefbb89fd8affffff",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 125
         },
         {
           "hora": "17:00",
