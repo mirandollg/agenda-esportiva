@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-09T21:54:58-03:00",
+  "gerado_em": "2026-10-09T22:17:05-03:00",
   "primeiro_dia": "2026-10-09",
   "fontes": [
     "Esportes na TV",
@@ -288,8 +288,7 @@
           "evento": "Palmeiras s20 x Santos s20",
           "canais": "SPORTV",
           "icone": "0613ffaeff888ffdd7bf8c4ffebef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
