@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T10:11:24-03:00",
+  "gerado_em": "2026-10-10T10:42:40-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -96,8 +96,7 @@
           "evento": "Arsenalx Leeds",
           "canais": "ESPN",
           "icone": "0613fffffffff7ffffaffffcfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
