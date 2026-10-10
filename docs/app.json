@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T15:46:28-03:00",
+  "gerado_em": "2026-10-10T16:11:03-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -296,8 +296,7 @@
           "evento": "Marítimo x Porto",
           "canais": "ESPN2",
           "icone": "0613ffffbfffb2fffb7fffc5ffffd",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
