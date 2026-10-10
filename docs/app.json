@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T18:09:50-03:00",
+  "gerado_em": "2026-10-10T18:43:06-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -400,8 +400,7 @@
           "evento": "Brasil F x Argentina F",
           "canais": "GLOBO, SPORTV, YOUTUBE GETV",
           "icone": "0613ffffffd9cefbb89fd8affffff",
-          "fonte": "esportesnatv",
-          "dura": 125
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -441,8 +440,7 @@
           "evento": "SF (ida) -Female-SC x Stein Cascavel",
           "canais": "BANDSPORTS, LFF TV",
           "icone": "0d030019126225281195863300081",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
