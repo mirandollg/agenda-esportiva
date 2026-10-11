@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T12:43:31-03:00",
+  "gerado_em": "2026-10-11T13:10:32-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -209,8 +209,7 @@
           "evento": "Etapa de Hockenheim - corrida 2",
           "canais": "ESPN3",
           "icone": "02020400024600538112343004210",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -218,8 +217,7 @@
           "evento": "Camp. Mundial - finalequipes",
           "canais": "SPORTV, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -227,8 +225,7 @@
           "evento": "Final - Minas x Praia Clube",
           "canais": "SPORTV, O Tempo",
           "icone": "0313fffcbfffeffffddfffddfffda",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
