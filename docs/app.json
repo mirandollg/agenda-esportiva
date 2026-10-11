@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T11:44:10-03:00",
+  "gerado_em": "2026-10-11T12:10:25-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -160,8 +160,7 @@
           "evento": "Crystal Palace x Notting. Forest",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -177,8 +176,7 @@
           "evento": "Lazio x Monza",
           "canais": "ESPN4",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
