@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T07:43:10-03:00",
+  "gerado_em": "2026-10-11T08:10:05-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -74,8 +74,7 @@
           "evento": "Final (H. Calderano?)",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0c024350040079406091450600006",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:30",
