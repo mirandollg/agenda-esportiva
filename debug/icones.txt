@@ -1,22 +1,20 @@
-00028000360000300006003060000  Moto3 e Moto2
-02023000110021000000000520000  WIT China Smash
+0e020005300000000100004110009  WTT China Smash
 0013fffffffffffffffffffffffff  Judô
-02028100040001600004003360000  MotoGP
-02020000400000000040000820008  Fórmula 4 Espanha
-0e120104671064313230300301105  Masters1000 Xangai
-0e022280055800558252285500802  DTM
-0e120009101062406030200301303  Masters1000 Xangai
-0613fffffffff7ffffaffffcfffff  Premier League
+02023000060001300003000040000  MotoGP
+0e120270011309311474044620025  WTA1000 Pequim
+0c024350040079406091450600006  WTT China Smash
+0e120007011050514010280014002  Masters1000 Xangai
+0113fffffffffffffffffffffffff  NBA- Pré-Temp. China
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Camp. Escocês
+0613fffabff879ffac8ff987fffce  Camp. Inglês 22 Div
+0613ffffbfffb3fffcafffb4ffffc  Bundesliga 22 Div
+0613ffffafffa2fffc8fffd5ffffe  Bundesliga 22 Div
 0613fffffffffffffffffffffffff  Liga
-0213ffa66fea2efdb9cfeaaaffa2b  Mundialito Fut. Areia F
-0613fffacff788ff9a8ffaa6fffde  Campeonato Turco
-0313fffe2fffa6ffffafffabfffe2  Mundialito Fut. Areia
+0e120021000073100233240464004  Masters1000 Xangai
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Copa Paulista
 0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffff8ffff9ffffcfffff  Premier League
-0613fffffffff9ffff9ffffcfffff  Premier League
-0613fffffffffaffff9ffffcfffff  Premier League
-0613ffd9dfe2c1fabc1ff3c1fffce  Camp. Inglês 22 Div
+0613fffbbffb3affbcbffa66fffee  Campeonato Russo
