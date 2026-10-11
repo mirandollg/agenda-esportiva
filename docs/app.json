@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T14:42:43-03:00",
+  "gerado_em": "2026-10-11T15:12:08-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -321,8 +321,7 @@
           "evento": "Canal Redzone",
           "canais": "ESPN4, GLOBOPLAY",
           "icone": "0d020016030064200480005911305",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
