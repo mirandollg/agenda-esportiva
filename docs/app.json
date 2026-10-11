@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T13:10:32-03:00",
+  "gerado_em": "2026-10-11T13:44:28-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -200,8 +200,7 @@
           "evento": "Jacks. Jaguars x Philad. Eagles",
           "canais": "SPORTV2, GE TV",
           "icone": "00020103040020400105001040020",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
