@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-10T21:54:04-03:00",
+  "gerado_em": "2026-10-10T22:15:58-03:00",
   "primeiro_dia": "2026-10-10",
   "fontes": [
     "Esportes na TV",
@@ -512,8 +512,7 @@
           "evento": "Toronto Raptors x LA Clippers",
           "canais": "ESPN2",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -545,8 +544,7 @@
           "evento": "Floyd Schofield x Lucas Bahdi",
           "canais": "ESPN4",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
