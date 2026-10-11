@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T18:10:40-03:00",
+  "gerado_em": "2026-10-11T18:44:00-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -416,8 +416,7 @@
           "evento": "Atlético-GO x Sport",
           "canais": "REDETV!, ESPN, SportyNet, YOUTUBE",
           "icone": "0613ffffffe9befba6bffabdfffff",
-          "fonte": "esportesnatv",
-          "dura": 125
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
