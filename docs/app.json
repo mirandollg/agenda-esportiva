@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T20:10:15-03:00",
+  "gerado_em": "2026-10-11T20:42:35-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -440,8 +440,7 @@
           "evento": "Seattle Seahawks x San Fr. 49ers",
           "canais": "SPORTV2, GE TV",
           "icone": "0d020006040073100360005910004",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:30",
@@ -481,8 +480,7 @@
           "evento": "Operário-PRx Goiás",
           "canais": "REDETV!, DISNEY+, SportyNet, YOUTUBE",
           "icone": "0613ffffffeacefb97bfe9cefffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
