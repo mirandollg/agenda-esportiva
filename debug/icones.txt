@@ -1,20 +1,25 @@
-0e020005300000000100004110009  WTT China Smash
-0013fffffffffffffffffffffffff  Judô
-02023000060001300003000040000  MotoGP
-0e120270011309311474044620025  WTA1000 Pequim
-0c024350040079406091450600006  WTT China Smash
-0e120007011050514010280014002  Masters1000 Xangai
-0113fffffffffffffffffffffffff  NBA- Pré-Temp. China
+0e120031100314310030300322001  Masters1000 Xangai
+0e030110000000028003210241200  Masters1000 Xangai
+0e030007200001022002020164001  Masters1000 Xangai
+0d020000000040500044204050011  Masters1000 Xangai
+0e03010000000002000030024c000  Masters1000 Xangai
 0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Camp. Escocês
-0613fffabff879ffac8ff987fffce  Camp. Inglês 22 Div
-0613ffffbfffb3fffcafffb4ffffc  Bundesliga 22 Div
-0613ffffafffa2fffc8fffd5ffffe  Bundesliga 22 Div
+0613ffffeffff5fffd9ffff5fffff  Paulistão sub-20
+0613ffc9ffd5a6fc8b4fd4b6ffebf  AFC Champ. League
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffcffffbffffdfffff  Premier League
 0613fffffffffffffffffffffffff  Liga
-0e120021000073100233240464004  Masters1000 Xangai
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Copa Paulista
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffbbffb3affbcbffa66fffee  Campeonato Russo
+0613fffffffffffffffffffffffff  Brasileirão
+0613fff8aff886ff8c6ff9a4fffbb  Brasileirão - Série B
+0613fffffffff6fffdbffff6fffff  Camp. Argentino
+0113fffeffffffffffffeffffffff  Paulista de Basquete
+0613ffffcfffd1fffb8fffe5ffffe  Camp. Português
+0613ffffffbafef9badfbaecfffff  Copa do BrasilFem
+0e12fffffcdffffffffffffdfffff  MLB- Final NL
+0613fffa9ff998ff9c8ff996fffce  Brasileirão - Série B
+0613fffaaff888ff9c8ff884fffdc  Brasileirão - Série B
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0613ffffffd9bdfab79fd8cdfffff  Brasileirão - Série B
+0e12fdcccffffffffffffffffffec  MLB - FinalAL
+01020500440001500026000260100  NFL
