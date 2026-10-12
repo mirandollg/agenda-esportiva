@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-11T21:57:36-03:00",
+  "gerado_em": "2026-10-11T22:22:23-03:00",
   "primeiro_dia": "2026-10-11",
   "fontes": [
     "Esportes na TV",
@@ -512,8 +512,7 @@
           "evento": "Clev. Cavaliers x Orlando Magic",
           "canais": "ESPN3",
           "icone": "0113fffeffeffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
