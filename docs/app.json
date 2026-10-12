@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-10-12T18:11:15-03:00",
+  "gerado_em": "2026-10-12T18:45:30-03:00",
   "primeiro_dia": "2026-10-12",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 25,
+  "total": 54,
   "dias": [
     {
       "data": "2026-10-12",
@@ -214,6 +214,262 @@
           "icone": "01020500440001500026000260100",
           "fonte": "esportesnatv",
           "dura": 180
+        }
+      ]
+    },
+    {
+      "data": "2026-10-13",
+      "eventos": [
+        {
+          "hora": "01:00",
+          "competicao": "Masters1000 Xangai",
+          "evento": "OF - De Minaur x Khachanov",
+          "canais": "ESPN2",
+          "icone": "0e120510005342110337003030064",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "02:30",
+          "competicao": "Masters1000 Xangai",
+          "evento": "OF - Gea x Mensik",
+          "canais": "ESPN2",
+          "icone": "0e120005000052025030630440006",
+          "fonte": "esportesnatv",
+          "dura": 30
+        },
+        {
+          "hora": "07:00",
+          "competicao": "Masters1000 Xangai",
+          "evento": "OF - Zverev x Bublik",
+          "canais": "ESPN2",
+          "icone": "0e120006500063003040600316002",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "08:30",
+          "competicao": "Masters1000 Xangai",
+          "evento": "OF - Hurkacz x Fokina",
+          "canais": "ESPN2",
+          "icone": "0e120106300054011033700647000",
+          "fonte": "esportesnatv",
+          "dura": 30
+        },
+        {
+          "hora": "12:45",
+          "competicao": "Amistoso Feminino",
+          "evento": "Alemanha F x Japão F",
+          "canais": "ESPN3",
+          "icone": "0613fffcaffb4cffacbffe6bfffc9",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "13:00",
+          "competicao": "AFC Champ. League",
+          "evento": "Al Sadd-QAT x Al Hilal",
+          "canais": "ESPN4",
+          "icone": "0613ffdbefe3b7fccd2ff5b5ffedf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "13:45",
+          "competicao": "Champions League",
+          "evento": "Lens x Sporting",
+          "canais": "TNT, HBO MAX",
+          "icone": "0613fffbaffd5cffbacffe6afffdb",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "13:45",
+          "competicao": "Champions League",
+          "evento": "Sabah Baku x Slavia Praga",
+          "canais": "SPACE, HBO MAX",
+          "icone": "0613fffcaffe3dff9acffe4afffde",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Elim. Copa Fem. '27",
+          "evento": "Rep. SF - Suécia F x Lituânia F (5x0)",
+          "canais": "ESPN2",
+          "icone": "0613fffaaff698ff8b6ff995fffde",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Brasileirão sub-17",
+          "evento": "QF - Palmeiras x Atlético-MG (0x3)",
+          "canais": "SPORTV",
+          "icone": "0613fffe9fff86fff8afff98ffffb",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Elim. Copa Fem. '27",
+          "evento": "Rep. SF - Inglaterra F x Grécia F (3x1)",
+          "canais": "ESPN",
+          "icone": "0613fffabff888ff9c6ff894fffdc",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Euroliga",
+          "evento": "Olimpia Milano x Real Madrid",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Camp. Inglês 22 Div",
+          "evento": "Stoke x Middlesbrough",
+          "canais": "YOUTUBE Nsports",
+          "icone": "0613fffb9ff667ff8b4ffa94fffdd",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "Galatasaray x Barcelona",
+          "canais": "SBT, TNT, HBO MAX",
+          "icone": "0613fffb9ffa4cffaabffd4bfffc9",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "Atlético Madrid x Man. United",
+          "canais": "SPACE, HBO MAX",
+          "icone": "0613fffcbffd2cffcacffe5bfffde",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "Arsenalx Lille",
+          "canais": "YOUTUBE TNT Sports",
+          "icone": "0613fffcaffc3dffaacffe5bfffda",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "Vikingx Bayern",
+          "canais": "HBO MAX",
+          "icone": "0613fffb9ffe4cff8bcffe4bfffdd",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "Inter de Milão x Club Brugge",
+          "canais": "HBO MAX",
+          "icone": "0613fffc9ffd4cffc9cffd5bfffdb",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "Villarreal x Napoli",
+          "canais": "HBO MAX",
+          "icone": "0613fffbbffd5cff9acffd49fffde",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Champions League",
+          "evento": "RB Leipzigx PSV",
+          "canais": "HBO MAX",
+          "icone": "0613fffccffc4cffa9bffd4bfffca",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:30",
+          "competicao": "Brasileirão sub-17",
+          "evento": "QF - Corinthians x Flamengo (0x1)",
+          "canais": "SPORTV",
+          "icone": "0613ffff8fff78fffaafff8bffffa",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Carioca Vôlei Fem",
+          "evento": "Final - Fluminense x SESC-Fla",
+          "canais": "SPORTV2",
+          "icone": "0313fffebfffeffffedfffdefffec",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "19:00",
+          "competicao": "NHL",
+          "evento": "Detroit Red Wings x NJ Devils",
+          "canais": "ESPN3",
+          "icone": "01020000400025000440001150000",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Athletic x Londrina",
+          "canais": "ESPN4",
+          "icone": "0613fffa9ffa5affaaaffc69fffdc",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Amistoso Feminino",
+          "evento": "Brasil F x Argentina F",
+          "canais": "SPORTV, GE TV",
+          "icone": "0613fffcaffd5cffcacffd4bfffde",
+          "fonte": "esportesnatv",
+          "dura": 90
+        },
+        {
+          "hora": "21:00",
+          "competicao": "MLB - FinalAL",
+          "evento": "J2-Tampa B Rays x Clev. Guardians",
+          "canais": "ESPN2",
+          "icone": "0e12ccfffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "21:30",
+          "competicao": "NHL",
+          "evento": "Dallas Stars x Colorado Avalanche",
+          "canais": "ESPN3",
+          "icone": "02020000400044000440000210020",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Paulista Vôlei Fem",
+          "evento": "Final - SESI-Bauru x Osasco (0-1)",
+          "canais": "SPORTV2",
+          "icone": "0313fffebfffdffffbcfffbdfffdb",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Sul-Americana",
+          "evento": "SF (ida) - Boca Juniors x Vasco",
+          "canais": "SBT, PARAMOUNT+, YOUTUBE SBT Sports",
+          "icone": "0613ffffffffe9fffcafffeafffff",
+          "fonte": "esportesnatv",
+          "dura": 30
         }
       ]
     }
