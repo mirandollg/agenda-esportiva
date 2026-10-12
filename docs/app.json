@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-12T08:48:43-03:00",
+  "gerado_em": "2026-10-12T09:21:42-03:00",
   "primeiro_dia": "2026-10-12",
   "fontes": [
     "Esportes na TV",
@@ -40,8 +40,7 @@
           "evento": "3R - Bergs x Alcaraz",
           "canais": "ESPN2",
           "icone": "0d020000000040500044204050011",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:30",
@@ -49,8 +48,7 @@
           "evento": "3R - Paulx Vacherot",
           "canais": "ESPN2",
           "icone": "0e03010000000002000030024c000",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
