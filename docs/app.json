@@ -1,219 +1,12 @@
 {
-  "gerado_em": "2026-10-12T23:49:42-03:00",
-  "primeiro_dia": "2026-10-12",
+  "gerado_em": "2026-10-13T06:14:23-03:00",
+  "primeiro_dia": "2026-10-13",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 54,
+  "total": 29,
   "dias": [
-    {
-      "data": "2026-10-12",
-      "eventos": [
-        {
-          "hora": "01:00",
-          "competicao": "Masters1000 Xangai",
-          "evento": "3R -Carreno Busta x Aug.-Aliassime",
-          "canais": "ESPN2",
-          "icone": "0e120031100314310030300322001",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "02:30",
-          "competicao": "Masters1000 Xangai",
-          "evento": "3R - Tsitsipas x Fritz",
-          "canais": "ESPN2",
-          "icone": "0e030110000000028003210241200",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "04:30",
-          "competicao": "Masters1000 Xangai",
-          "evento": "3R - Medvedev x Svrcina",
-          "canais": "ESPN2",
-          "icone": "0e030007200001022002020164001",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:00",
-          "competicao": "Masters1000 Xangai",
-          "evento": "3R - Bergs x Alcaraz",
-          "canais": "ESPN2",
-          "icone": "0d020000000040500044204050011",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "08:30",
-          "competicao": "Masters1000 Xangai",
-          "evento": "3R - Paulx Vacherot",
-          "canais": "ESPN2",
-          "icone": "0e03010000000002000030024c000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:30",
-          "competicao": "Serie A Italiana",
-          "evento": "Atalanta x Venezia",
-          "canais": "YOUTUBE ESPN Brasil",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Paulistão sub-20",
-          "evento": "OF (ida) - Botafogo-SP x Palmeiras",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0613ffffeffff5fffd9ffff5fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:15",
-          "competicao": "AFC Champ. League",
-          "evento": "Al Nassr x Neftchi Fargona-UZB",
-          "canais": "ESPN4",
-          "icone": "0613ffc9ffd5a6fc8b4fd4b6ffebf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "Serie A Italiana",
-          "evento": "Torino x Udinese",
-          "canais": "SporiyNet, YOUTUBE",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Brasileirão",
-          "evento": "Coritiba x Botafogo",
-          "canais": "PRIME VIDEO",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Fortaleza x CRB",
-          "canais": "DISNEY+",
-          "icone": "0613fff8aff886ff8c6ff9a4fffbb",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Camp. Argentino",
-          "evento": "Lanús x Vélez Sarsfield",
-          "canais": "ESPN2",
-          "icone": "0613fffffffff6fffdbffff6fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Liga",
-          "evento": "Levante x Sevilla",
-          "canais": "YOUTUBE CazéTV",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Paulista de Basquete",
-          "evento": "Final - Mogi x Franca (2-0)",
-          "canais": "BANDSPORTS, TV FPB",
-          "icone": "0113fffeffffffffffffeffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Premier League",
-          "evento": "Coventry x Newcastle",
-          "canais": "ESPN",
-          "icone": "0613fffffffffcffffbffffdfffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:15",
-          "competicao": "Camp. Português",
-          "evento": "Famalicão x Alverca",
-          "canais": "YOUTUBE ESPN Brasil",
-          "icone": "0613ffffcfffd1fffb8fffe5ffffe",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "Copa do BrasilFem",
-          "evento": "QF (ida) - Ferroviária F x Red Bull F",
-          "canais": "XSPORTS, SPORTV, YOUTUBE Lance!",
-          "icone": "0613ffffffbafef9badfbaecfffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "MLB- Final NL",
-          "evento": "J2 - Milw. Brewers x LA Dodgers",
-          "canais": "ESPN4",
-          "icone": "0e12fffffcdffffffffffffdfffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:00",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Novorizontino x Ponte Preta",
-          "canais": "DISNEY+",
-          "icone": "0613fffa9ff998ff9c8ff996fffce",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "Brasileirão",
-          "evento": "Chapecoense x Athletico PR",
-          "canais": "PREMIERE",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Criciúma x América-MG",
-          "canais": "DISNEY+",
-          "icone": "0613fffaaff888ff9c8ff884fffdc",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Brasileirão",
-          "evento": "Red Bull Bragantino x Cruzeiro",
-          "canais": "SPORTV-PREMIERE 2",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Botafogo-SP x Ceará",
-          "canais": "XSPORTS, ESPN, YOUTUBE Canal GOAT",
-          "icone": "0613ffffffd9bdfab79fd8cdfffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "MLB - FinalAL",
-          "evento": "Ji-Tampa B Rays x Clev. Guardians",
-          "canais": "ESPN4",
-          "icone": "0e12fdcccffffffffffffffffffec",
-          "fonte": "esportesnatv",
-          "dura": 180
-        },
-        {
-          "hora": "21:15",
-          "competicao": "NFL",
-          "evento": "LA Rams x Buffalo Bills",
-          "canais": "ESPN2",
-          "icone": "01020500440001500026000260100",
-          "fonte": "esportesnatv",
-          "dura": 180
-        }
-      ]
-    },
     {
       "data": "2026-10-13",
       "eventos": [
@@ -223,8 +16,7 @@
           "evento": "OF - De Minaur x Khachanov",
           "canais": "ESPN2",
           "icone": "0e120510005342110337003030064",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "02:30",
@@ -232,8 +24,7 @@
           "evento": "OF - Gea x Mensik",
           "canais": "ESPN2",
           "icone": "0e120005000052025030630440006",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",

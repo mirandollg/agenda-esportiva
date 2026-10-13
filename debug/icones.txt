@@ -1,25 +1,29 @@
-0e120031100314310030300322001  Masters1000 Xangai
-0e030110000000028003210241200  Masters1000 Xangai
-0e030007200001022002020164001  Masters1000 Xangai
-0d020000000040500044204050011  Masters1000 Xangai
-0e03010000000002000030024c000  Masters1000 Xangai
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613ffffeffff5fffd9ffff5fffff  Paulistão sub-20
-0613ffc9ffd5a6fc8b4fd4b6ffebf  AFC Champ. League
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffcffffbffffdfffff  Premier League
-0613fffffffffffffffffffffffff  Liga
-0613fffffffffffffffffffffffff  Brasileirão
-0613fff8aff886ff8c6ff9a4fffbb  Brasileirão - Série B
-0613fffffffff6fffdbffff6fffff  Camp. Argentino
-0113fffeffffffffffffeffffffff  Paulista de Basquete
-0613ffffcfffd1fffb8fffe5ffffe  Camp. Português
-0613ffffffbafef9badfbaecfffff  Copa do BrasilFem
-0e12fffffcdffffffffffffdfffff  MLB- Final NL
-0613fffa9ff998ff9c8ff996fffce  Brasileirão - Série B
-0613fffaaff888ff9c8ff884fffdc  Brasileirão - Série B
-0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-0613ffffffd9bdfab79fd8cdfffff  Brasileirão - Série B
-0e12fdcccffffffffffffffffffec  MLB - FinalAL
-01020500440001500026000260100  NFL
+0e120510005342110337003030064  Masters1000 Xangai
+0e120005000052025030630440006  Masters1000 Xangai
+0e120006500063003040600316002  Masters1000 Xangai
+0e120106300054011033700647000  Masters1000 Xangai
+0613fffcaffb4cffacbffe6bfffc9  Amistoso Feminino
+0613ffdbefe3b7fccd2ff5b5ffedf  AFC Champ. League
+0613fffbaffd5cffbacffe6afffdb  Champions League
+0613fffcaffe3dff9acffe4afffde  Champions League
+0613fffaaff698ff8b6ff995fffde  Elim. Copa Fem. '27
+0613fffe9fff86fff8afff98ffffb  Brasileirão sub-17
+0613fffabff888ff9c6ff894fffdc  Elim. Copa Fem. '27
+0113fffffffffffffffffffffffff  Euroliga
+0613fffb9ffa4cffaabffd4bfffc9  Champions League
+0613fffcbffd2cffcacffe5bfffde  Champions League
+0613fffcaffc3dffaacffe5bfffda  Champions League
+0613fffb9ffe4cff8bcffe4bfffdd  Champions League
+0613fffc9ffd4cffc9cffd5bfffdb  Champions League
+0613fffbbffd5cff9acffd49fffde  Champions League
+0613fffccffc4cffa9bffd4bfffca  Champions League
+0613fffb9ff667ff8b4ffa94fffdd  Camp. Inglês 22 Div
+0613ffff8fff78fffaafff8bffffa  Brasileirão sub-17
+0313fffebfffeffffedfffdefffec  Carioca Vôlei Fem
+01020000400025000440001150000  NHL
+0613fffa9ffa5affaaaffc69fffdc  Brasileirão - Série B
+0613fffcaffd5cffcacffd4bfffde  Amistoso Feminino
+0e12ccfffffffffffffffffffffff  MLB - FinalAL
+0613ffffffffe9fffcafffeafffff  Sul-Americana
+0313fffebfffdffffbcfffbdfffdb  Paulista Vôlei Fem
+02020000400044000440000210020  NHL
