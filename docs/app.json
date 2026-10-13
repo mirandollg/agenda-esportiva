@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-12T22:50:07-03:00",
+  "gerado_em": "2026-10-12T23:16:41-03:00",
   "primeiro_dia": "2026-10-12",
   "fontes": [
     "Esportes na TV",
@@ -192,8 +192,7 @@
           "evento": "Botafogo-SP x Ceará",
           "canais": "XSPORTS, ESPN, YOUTUBE Canal GOAT",
           "icone": "0613ffffffd9bdfab79fd8cdfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
