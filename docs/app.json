@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-13T14:45:51-03:00",
+  "gerado_em": "2026-10-13T15:17:38-03:00",
   "primeiro_dia": "2026-10-13",
   "fontes": [
     "Esportes na TV",
@@ -56,8 +56,7 @@
           "evento": "Al Sadd-QAT x Al Hilal",
           "canais": "ESPN4",
           "icone": "0613ffdbefe3b7fccd2ff5b5ffedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:45",
