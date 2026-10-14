@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-13T20:51:50-03:00",
+  "gerado_em": "2026-10-13T21:32:50-03:00",
   "primeiro_dia": "2026-10-13",
   "fontes": [
     "Esportes na TV",
@@ -184,8 +184,7 @@
           "evento": "Final - Fluminense x SESC-Fla",
           "canais": "SPORTV2",
           "icone": "0313fffebfffeffffedfffdefffec",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -193,8 +192,7 @@
           "evento": "Detroit Red Wings x NJ Devils",
           "canais": "ESPN3",
           "icone": "01020000400025000440001150000",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -202,8 +200,7 @@
           "evento": "Athletic x Londrina",
           "canais": "ESPN4",
           "icone": "0613fffa9ffa5affaaaffc69fffdc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
