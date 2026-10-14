@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-14T17:58:26-03:00",
+  "gerado_em": "2026-10-14T18:29:08-03:00",
   "primeiro_dia": "2026-10-14",
   "fontes": [
     "Esportes na TV",
@@ -88,8 +88,7 @@
           "evento": "Lincoln x West Ham",
           "canais": "ESPN4, NSPORTS",
           "icone": "0613fffacffa67ff9c5ffaa5fffbd",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
