@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-14T08:32:46-03:00",
+  "gerado_em": "2026-10-14T09:28:20-03:00",
   "primeiro_dia": "2026-10-14",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "OF - Medvedev x Tsitsipas",
           "canais": "ESPN2",
           "icone": "0e120005400073004042600466004",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:30",
@@ -41,8 +40,7 @@
           "evento": "OF - Paul x Bergs",
           "canais": "ESPN2",
           "icone": "0e120006400073021033710738000",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:45",
