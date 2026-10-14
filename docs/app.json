@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-14T19:54:47-03:00",
+  "gerado_em": "2026-10-14T20:21:02-03:00",
   "primeiro_dia": "2026-10-14",
   "fontes": [
     "Esportes na TV",
@@ -152,8 +152,7 @@
           "evento": "Japão x Peru",
           "canais": "SPORTV3, GolBrasil",
           "icone": "0d030042621a05b08086140800206",
-          "fonte": "esportesnatv",
-          "dura": 105
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
