@@ -1,233 +1,12 @@
 {
-  "gerado_em": "2026-10-14T23:59:46-03:00",
-  "primeiro_dia": "2026-10-14",
+  "gerado_em": "2026-10-15T06:26:13-03:00",
+  "primeiro_dia": "2026-10-15",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 54,
+  "total": 27,
   "dias": [
-    {
-      "data": "2026-10-14",
-      "eventos": [
-        {
-          "hora": "01:00",
-          "competicao": "Masters1000 Xangai",
-          "evento": "OF - Van de Zandschulp x Jodar",
-          "canais": "ESPN2",
-          "icone": "0e12000090000b001220062010400",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "02:30",
-          "competicao": "Masters1000 Xangai",
-          "evento": "OF - Ruud x Auger-Aliassime",
-          "canais": "ESPN2",
-          "icone": "0e120105000072325040521460004",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:00",
-          "competicao": "Masters1000 Xangai",
-          "evento": "OF - Medvedev x Tsitsipas",
-          "canais": "ESPN2",
-          "icone": "0e120005400073004042600466004",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "08:30",
-          "competicao": "Masters1000 Xangai",
-          "evento": "OF - Paul x Bergs",
-          "canais": "ESPN2",
-          "icone": "0e120006400073021033710738000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:45",
-          "competicao": "Champions League",
-          "evento": "LASK Linz x Liverpool",
-          "canais": "TNT, YOUTUBE TNT",
-          "icone": "0613fffcaffa3dffabbffe6bfffc9",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:45",
-          "competicao": "Champions League",
-          "evento": "Feyenoord x Como",
-          "canais": "SPACE, HBO MAX",
-          "icone": "0613fffb9ffd4cffbacffe6bfffde",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:45",
-          "competicao": "Copa da Rússia",
-          "evento": "CSKA Moscow x Rostov",
-          "canais": "YOUTUBE UOL Esporte",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Taça de Portugal",
-          "evento": "Santarém x Gil Vicente",
-          "canais": "YOUTUBE Nsports",
-          "icone": "0613fffffffff7ffffbffff9fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "Euroliga",
-          "evento": "Paris x Virtus Bologna",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Camp. Inglês 22 Div",
-          "evento": "Lincoln x West Ham",
-          "canais": "ESPN4, NSPORTS",
-          "icone": "0613fffacffa67ff9c5ffaa5fffbd",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Manchester City x PSG",
-          "canais": "HBO MAX",
-          "icone": "0613fffbaffc4cff8acffe69fffdd",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Roma x Real Madrid",
-          "canais": "TNT, HBO MAX",
-          "icone": "0613fffccffc4cffb8bffe4afffde",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Aston Villa x Fenerbahçe",
-          "canais": "SPACE, HBO MAX",
-          "icone": "0613fffb9ffd5dffaacffd6afffdc",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Bodg/Glimt x B. Dortmund",
-          "canais": "HBO MAX",
-          "icone": "0613fffc9ffc4cffaabffe5bfffd9",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Betis x Porto",
-          "canais": "HBO MAX",
-          "icone": "0613fffcaffd1cffcacffe5bfffde",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Shakhtar x AEK Atenas",
-          "canais": "HBO MAX",
-          "icone": "0613fffb9ffc4dffaacffd5cfffdb",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Champions League",
-          "evento": "Slovan Bratislava x Stuttgart",
-          "canais": "HBO MAX",
-          "icone": "0613fffcaffe4cff9bcffe4afffdc",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Copa das Nações Futsal",
-          "evento": "Japão x Peru",
-          "canais": "SPORTV3, GolBrasil",
-          "icone": "0d030042621a05b08086140800206",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:00",
-          "competicao": "Camp. Argentino",
-          "evento": "Sarmiento Junin x River Plate",
-          "canais": "DISNEY+",
-          "icone": "0613fffffffff8ffff9ffffafffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:00",
-          "competicao": "Paulista Vôlei Masc",
-          "evento": "Final (ida) - Suzano x Vôlei Renata",
-          "canais": "SPORTV2",
-          "icone": "0413fffbdffdffffeedffddffffc9",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:00",
-          "competicao": "Sul-Americana",
-          "evento": "SF (ida) - Atlético-MG x Montev. City",
-          "canais": "ESPN",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:30",
-          "competicao": "Copa das Nações Futsal",
-          "evento": "Brasilx Cabo Verde",
-          "canais": "SPORTV3, GolBrasil",
-          "icone": "0d030051850608a16080310801006",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:30",
-          "competicao": "MLS",
-          "evento": "Toronto FC x Orlando City",
-          "canais": "YOUTUBE TNT Sports",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:30",
-          "competicao": "NHL",
-          "evento": "Wash. Capitals x Montr. Canadiens",
-          "canais": "ESPN3",
-          "icone": "03020001400045000040000120000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Copa do Brasil Fem",
-          "evento": "QF (ida) - Inter F x Atlético-MG F",
-          "canais": "YOUTUBE Nsports",
-          "icone": "0613fffacff798ffaa9ff7a3fffce",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "MLB - Final NL",
-          "evento": "LA Dodgers x Milw. Brewers (0-2)",
-          "canais": "ESPN4",
-          "icone": "0e12fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:30",
-          "competicao": "Libertadores",
-          "evento": "SF (ida) - Fluminense x Palmeiras",
-          "canais": "GLOBO, PARAMOUNT+, YOUTUBE GETV",
-          "icone": "0613fffffffffeffffcffffefffff",
-          "fonte": "esportesnatv"
-        }
-      ]
-    },
     {
       "data": "2026-10-15",
       "eventos": [
@@ -237,8 +16,7 @@
           "evento": "QF- GeaxFokina",
           "canais": "ESPN2",
           "icone": "0d12000090010a003101046010700",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",
@@ -256,7 +34,7 @@
           "canais": "SPORTV2",
           "icone": "0e13fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
-          "dura": 80
+          "dura": 135
         },
         {
           "hora": "10:40",
@@ -369,7 +147,8 @@
           "evento": "Brasil x Indonésia",
           "canais": "SPORTV2, GolBrasil",
           "icone": "0d030022821a08a08088350800006",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "19:00",
@@ -440,7 +219,7 @@
           "canais": "SPORTV2, GE TV",
           "icone": "05020005020045000145003720014",
           "fonte": "esportesnatv",
-          "dura": 135
+          "dura": 195
         },
         {
           "hora": "21:30",

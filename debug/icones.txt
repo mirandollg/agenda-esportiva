@@ -1,27 +1,27 @@
-0e12000090000b001220062010400  Masters1000 Xangai
-0e120105000072325040521460004  Masters1000 Xangai
-0e120005400073004042600466004  Masters1000 Xangai
-0e120006400073021033710738000  Masters1000 Xangai
-0613fffcaffa3dffabbffe6bfffc9  Champions League
-0613fffb9ffd4cffbacffe6bfffde  Champions League
-0613fffffffffffffffffffffffff  Copa da Rússia
-0613fffffffff7ffffbffff9fffff  Taça de Portugal
-0113fffffffffffffffffffffffff  Euroliga
-0613fffbaffc4cff8acffe69fffdd  Champions League
-0613fffccffc4cffb8bffe4afffde  Champions League
-0613fffb9ffd5dffaacffd6afffdc  Champions League
-0613fffc9ffc4cffaabffe5bfffd9  Champions League
-0613fffcaffd1cffcacffe5bfffde  Champions League
-0613fffb9ffc4dffaacffd5cfffdb  Champions League
-0613fffcaffe4cff9bcffe4afffdc  Champions League
-0613fffacffa67ff9c5ffaa5fffbd  Camp. Inglês 22 Div
-0d030042621a05b08086140800206  Copa das Nações Futsal
-0413fffbdffdffffeedffddffffc9  Paulista Vôlei Masc
-0613fffffffffffffffffffffffff  Sul-Americana
-0613fffffffff8ffff9ffffafffff  Camp. Argentino
-0d030051850608a16080310801006  Copa das Nações Futsal
-0613fffffffffffffffffffffffff  MLS
-03020001400045000040000120000  NHL
-0e12fffffffffffffffffffffffff  MLB - Final NL
-0613fffacff798ffaa9ff7a3fffce  Copa do Brasil Fem
-0613fffffffffeffffcffffefffff  Libertadores
+0d12000090010a003101046010700  Masters1000 Xangai
+0e120302000061025143310330002  Masters1000 Xangai
+0e13fffffffffffffffffffffffff  Natação
+0613fffffffffffffffffffffffff  Camp. Saudita
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffafffdaffffafffff  Europa League
+0613fffbbffa4bffaa8ff968fffcc  Conference League
+0613ffffffe9befba8bfe9befffff  Conference League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffff9fffcbffffafffff  Europa League
+0613ffffffe9befcb8bfe9aefffff  Conference League
+0613ffffffeefffa9cbfedfffffff  Libertadores Fem
+0613ffff9fff69fffaafff69ffffa  Libertadores Fem
+0613fff8cff7a8ff9c9ff8c5fffce  Copa do BrasilFem
+0e12fffffffffffffffffffffffff  MLB - FinalAL
+0d030022821a08a08088350800006  Copa das Nações Futsal
+0113fffffffffffffffffffffffff  Paulista de Basquete
+06021006040040400013005041000  NCAA Fut. Americano
+0613ffffffeefffa9cbfeefffffff  Libertadores Fem
+0613fffeafff68fffaafff78ffffe  Libertadores Fem
+0d030042c20809b08089350800404  Copa das Nações Futsal
+05020005020045000145003720014  NFL
+0613fffffffffffffffffffffffff  Libertadores
+0e12fffffffffffffffffffffffff  MLB- Final NL
