@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-14T22:28:54-03:00",
+  "gerado_em": "2026-10-14T23:03:25-03:00",
   "primeiro_dia": "2026-10-14",
   "fontes": [
     "Esportes na TV",
@@ -184,8 +184,7 @@
           "evento": "Brasilx Cabo Verde",
           "canais": "SPORTV3, GolBrasil",
           "icone": "0d030051850608a16080310801006",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
@@ -201,8 +200,7 @@
           "evento": "Wash. Capitals x Montr. Canadiens",
           "canais": "ESPN3",
           "icone": "03020001400045000040000120000",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
