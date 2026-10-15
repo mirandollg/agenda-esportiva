@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-14T23:03:25-03:00",
+  "gerado_em": "2026-10-14T23:59:46-03:00",
   "primeiro_dia": "2026-10-14",
   "fontes": [
     "Esportes na TV",
@@ -216,8 +216,7 @@
           "evento": "LA Dodgers x Milw. Brewers (0-2)",
           "canais": "ESPN4",
           "icone": "0e12fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:30",
@@ -225,8 +224,7 @@
           "evento": "SF (ida) - Fluminense x Palmeiras",
           "canais": "GLOBO, PARAMOUNT+, YOUTUBE GETV",
           "icone": "0613fffffffffeffffcffffefffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         }
       ]
     },
