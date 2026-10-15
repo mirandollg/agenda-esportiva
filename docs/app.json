@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-15T11:18:56-03:00",
+  "gerado_em": "2026-10-15T15:30:19-03:00",
   "primeiro_dia": "2026-10-15",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "Copa do Mundo - etapa de Astana",
           "canais": "SPORTV2",
           "icone": "0e13fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 135
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:40",
