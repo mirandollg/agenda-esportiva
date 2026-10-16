@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-16T02:37:51-03:00",
+  "gerado_em": "2026-10-16T10:45:55-03:00",
   "primeiro_dia": "2026-10-16",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "QF - Jodar x Ruud",
           "canais": "ESPN2",
           "icone": "0e120400005322001336103020064",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:00",
@@ -51,8 +50,7 @@
           "evento": "QF - Medvedev x Paul",
           "canais": "ESPN2",
           "icone": "0e030007600082014033600467000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:35",
@@ -250,7 +248,7 @@
           "canais": "ESPN3",
           "icone": "0e12ffffbfffe7fffd7fffe3ffffa",
           "fonte": "esportesnatv",
-          "dura": 60
+          "dura": 180
         },
         {
           "hora": "19:30",
@@ -327,7 +325,7 @@
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613ffffffcfffc8bdafdffffffff",
           "fonte": "esportesnatv",
-          "dura": 150
+          "dura": 120
         },
         {
           "hora": "21:00",
@@ -344,7 +342,7 @@
           "canais": "ESPN4",
           "icone": "0613fffccffc2cff99cffc4afffdc",
           "fonte": "esportesnatv",
-          "dura": 30
+          "dura": 120
         },
         {
           "hora": "22:00",
