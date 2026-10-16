@@ -1,21 +1,35 @@
-https://cdn1.telesco.pe/file/uiZVaWij4uGEDR67ZWueLhWUsNaUTRjFTu5NSe_Mkn77b8IMhTo736ngvzsA4pTKZePkKSZMGnDoXeVprrnVlnNno4DapJrufX4oAvC4G0vZ7eEkA0KhNFM_LjhGAVnKRGBeKlbWNF3FWz0zP2WgSVqEykU_ue1DK5NVxb9ZS1Wtd9LhrBVdRoLalYKg0Pex6a3uUPeIR-hh_ig0E-OTP_GIQG3_hO0DOMH-XZKu8S8nfgedw6RD9VW1zYzgZYZjQE2jqoCUIOto5h_lR_SEThKLwSOpgeyMxqo_KfodtSV9zPRcWtSRBbjGOrQxwH1fHZz6EpRsQ4dRArceGhTewg.jpg
-data: 2026-10-02
-colunas: [(5, 35), (42, 180), (213, 330), (337, 433), (476, 610)]
+https://cdn1.telesco.pe/file/jkhDCTrY8c2pqsiGjOqoZbaadbBEg4F30YPvEgBpMhxEQ4um8MzePcwFTcPrXBNkCNRLvKfVYOA9PLGTGr9TpT-xjxRQQhLeLvo1md8GO0gOfUUci1QBKZose9Afn1oQc56UubPm1gTRddDtzspnxeBlfofx34-hG38CzAtDnYZgXt7zUikWnFYIB8cV6pylt9gNxUcdrAdwUUdoiKKvs9TKhoTMUjtfnq6f33J6pUQix0r8I2LbatEIxZ_aEGFNO9qL6dY6EBEvrASp1fKYbgG3bYaXLoqMEEZTZSFEogt_IVou5KBJlspq4YKQJq3yI_6wqKNpLT4J0CVBbqXK8A.jpg
+data: 2026-10-18
+colunas: [(5, 35), (42, 193), (213, 330), (337, 446), (476, 621)]
 
-y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=138-150 | 01:15 || MOTO3 || Japão || Treino Oficial || ESPN4 | DISNEY + PR
-y=154-168 | 01:30 || FÓRMULA 1 || GP do Bahrein || Treino Livre 1 || SPORTVS3 | GLOBOPLAY PR
-y=175-187 | 02:05 || MOTO2 || Japão || Treino Oficial || ESPN4 | DISNEY + PR
-y=193-205 | 03:00 || MOTO GP || Japão || Treino Oficial || ESPN4 | DISNEY + PR
-y=210-223 | 05:00 || FÓRMULA 1 || GP do Bahrein || Treino Livre 2 || SPORTV3 | GLOBOPLAY PR
-y=230-240 | 09:25 || IMSA VP RACING || Road Atlanta || Corrida 2 || YOUTUBE
-y=249-258 | 10:30 || MAZDA MX-5 CUP || Road Atlanta || Corrida 2 || YOUTUBE
-y=267-277 | 12:35 || IMSA FOX FACTORY 120 || Road Atlanta || Corrida 1 || YOUTUBE
-y=286-298 | 15:00 || PORSCHE CUP BRASIL || Brasília/DF || Classificação || YOUTUBE
-y=304-316 | 15:10 || IMSA (PETIT LE MANS) || Road Atlanta || Classificação || YOUTUBE
-y=323-332 | 16:50 || PORSCHE CUP NA || Road Atlanta || Corrida 2 || YOUTUBE
-y=339-354 | 21:03 || FÓRMULA DRIFT || Okayama || Classificação (FDJ) || YOUTUBE
-y=360-372 | 22:05 || TCR WORLD TOUR || Coreia do Sul || Classificação || YOUTUBE
-y=378-390 | 22:10 || MOTO GP || Japão || Treino Livre 2 || ESPN4 | DISNEY + PR
-y=397-409 | 22:50 || MOTO GP || Japão || Classificação || ESPN4 | DISNEY + PR
-y=415-427 | 22:50 || SRO GT CUP || Beijing || Classificação 1 || YOUTUBE
+y=118-129 | 2) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
+y=138-149 | 00:45 || WSBK (SSP) || Jerez || Corrida 1 (REPRISE) || BANDSPORTS
+y=156-168 | 01:45 || WSBK || Jerez || Corrida 1 (REPRISE) || BANDSPORTS
+y=175-184 | 02:50 || TCR WORLD TOUR || China || Corrida 3 || YOUTUBE
+y=193-206 | 03:45 || ADAC RACING WEEKEND || Nurburgring || Provas Domingo || YOUTUBE
+y=212-223 | 05:10 || NASCAR EURO SERIES || Zolder || Corrida 2 (OPEN) || YOUTUBE
+y=230-240 | 05:15 || GT2 EUROPEAN SERIES || Portimão || Corrida 1 || YOUTUBE
+y=249-258 | 05:30 || ESPANHOL DE MOTOCROSS || tMoron || Provas || YOUTUBE
+y=267-279 | 06:10 || WSBK || Jerez || Superpole Race || BANDSPORTS | SPORT TV PT
+y=286-296 | 06:50 || ULTIMATE DRIFT || Piracicaba/SP || Classificatórias (Final) || YOUTUBE
+y=304-316 | 07:00 || WSBK (WCR) || Jerez || Corrida 2 || YOUTUBE
+y=323-335 | 07:00 || WEC || Barcelona || Corrida || BANDSPORTS | YOUTUBE
+y=341-350 | 07:30 || GTá4 EUROPEAN SERIES || Portimão || Corrica 2 || YOUTUBE
+y=357-370 | 07:40 || FÓRMULA VEE || Cascavel/PR || Corrida 3 || YOUTUBE
+y=378-390 | 08:00 || WSBK (SPB) || Jerez || Corrida 2 || BANDSPORTS | SPORT TV PT
+y=397-408 | 08:25 || NASCAR EURO SERIES || Zolder || Corrida 2 (V8GP) || YOUTUBE
+y=415-427 | 09:00 || WSBK (SSP) || Jerez || Corrida 2 || BANDSPORTS | SPORT TV PT
+y=434-443 | 09:15 || CLIO CUP SERIES || Navarra || Corrida 2 || YOUTUBE
+y=471-483 | 09:50 || ULTIMATE DRIFT || Piracicaba/SP || Top 32 (Final) || YOUTUBE
+y=489-498 | 10:00 || GT2 EUROPEAN SERIES || Portimão || Corrida 2 || YOUTUBE
+y=508-518 | 10:30 || WSBK || Jerez || Corrida 2 || BANDSPORTS | SPORT Tv PT
+y=526-535 | 11:35 || MCLAREN TROPHY EUROPE || Portimão || Corrida 2 || YOUTUBE
+y=544-557 | 12:15 || STOCK CAR || Cascavel/PR || Corrida Principal || YOUTUBE | BAND | BANDPLAY
+y=563-575 | 13:30 || ULTIMATE DRIFT || Piracicaba/SP || Top 16 (Final) || YOUTUBE
+y=579-592 | 13:45 || FÓRMULA DELTA || Cascavel/PR || Corrida 2 || YOUTUBE
+y=597-609 | 14:30 || FÓRMULA EVO || Cascavel/PR || Corrida 2 || YOUTUBE
+y=616-629 | 15:15 || FÓRMULA VEE || Cascavel/PR || Corrida 4 || YOUTUBE
+y=637-647 | 16:00 || MARCAS E PILOTOS || Cascavel/PR || Corrida 2 || YOUTUBE
+y=655-666 | 16:00 || NASCAR CUP SERIES || Phoenix || Corrida || PHIZTV | DISNEY + PR
+y=674-684 | 19:00 || STOCK CAR || Cascavel/PR || Corrida Principal (REPRISE) || BANDSPORTS
+y=692-704 | 23:59 || NASCAR CUP SERIES || Phoenix || Corrida (REPRISE) || ESPN5

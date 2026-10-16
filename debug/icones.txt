@@ -1,27 +1,17 @@
-0d12000090010a003101046010700  Masters1000 Xangai
-0e120302000061025143310330002  Masters1000 Xangai
-0e13fffffffffffffffffffffffff  Natação
+0e120400005322001336103020064  Masters1000 Xangai
+0d13ffffbfffffffffffffd3fffee  World Surf League
+0e030007600082014033600467000  Masters1000 Xangai
+0d03fffffffffffffffffffffffff  Natação
 0613fffffffffffffffffffffffff  Camp. Saudita
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffafffdaffffafffff  Europa League
-0613fffbbffa4bffaa8ff968fffcc  Conference League
-0613ffffffe9befba8bfe9befffff  Conference League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffff9fffcbffffafffff  Europa League
-0613ffffffe9befcb8bfe9aefffff  Conference League
-0613ffffffeefffa9cbfedfffffff  Libertadores Fem
-0613ffff9fff69fffaafff69ffffa  Libertadores Fem
-0613fff8cff7a8ff9c9ff8c5fffce  Copa do BrasilFem
-0e12fffffffffffffffffffffffff  MLB - FinalAL
-0d030022821a08a08088350800006  Copa das Nações Futsal
-0113fffffffffffffffffffffffff  Paulista de Basquete
-06021006040040400013005041000  NCAA Fut. Americano
-0613ffffffeefffa9cbfeefffffff  Libertadores Fem
-0613fffeafff68fffaafff78ffffe  Libertadores Fem
-0d030042c20809b08089350800404  Copa das Nações Futsal
-05020005020045000145003720014  NFL
-0613fffffffffffffffffffffffff  Libertadores
-0e12fffffffffffffffffffffffff  MLB- Final NL
+0613ffffcfffc3fffcbfffd4ffffd  Bundesliga 22 Div
+0613ffffafffc3fffd9fffd5ffffd  Bundesliga 22 Div
+0613fffffffff6ffffbffff8fffff  Paulistão sub-20
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffff5fffe8ffff6fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Liga
+0613fff9aff896ff9c5ff895fffce  Camp. Inglês 22 Div
+0613fffffffbaeff7baffaaefffff  Libertadores Fem
+0d030222601856314682044b40515  LNF Silver Futsal
+0d030021950609a16080540900005  Copa das Nações Futsal
+0d032022824844005520462200415  Desafio Futsal Fem
+0613fff9eff797ff9b9ff8c5fffde  Copa do BrasilFem
