@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-16T10:45:55-03:00",
+  "gerado_em": "2026-10-16T14:49:08-03:00",
   "primeiro_dia": "2026-10-16",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "Etapa de Peniche-POR",
           "canais": "SPORTV3, YOUTUBE",
           "icone": "0d13ffffbfffffffffffffd3fffee",
-          "fonte": "esportesnatv",
-          "dura": 600
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:30",
@@ -76,8 +75,7 @@
           "evento": "Copa do Mundo - etapa de Astana",
           "canais": "SPORTV2",
           "icone": "0d03fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 105
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:15",
