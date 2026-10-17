@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T15:43:18-03:00",
+  "gerado_em": "2026-10-17T18:14:51-03:00",
   "primeiro_dia": "2026-10-17",
   "fontes": [
     "Esportes na TV",
@@ -493,8 +493,7 @@
           "evento": "Oktagon 95",
           "canais": "COMBATE",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 235
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -551,8 +550,7 @@
           "evento": "Brasil F x Japão F",
           "canais": "SPORTV3, Gol Brasil",
           "icone": "0d030190612821028061485410208",
-          "fonte": "esportesnatv",
-          "dura": 105
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -560,8 +558,7 @@
           "evento": "Telstar x Feyenoord",
           "canais": "ESPN4",
           "icone": "0613fffffffff7ffff8ffff9fffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:30",
@@ -578,8 +575,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Cascavel/PR",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 55
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "15:45",
@@ -619,8 +615,7 @@
           "evento": "SF - Brasilx Japão",
           "canais": "SPORTV, GE TV, GolBR",
           "icone": "0d03018165080bb04089120901406",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -636,8 +631,7 @@
           "evento": "Mogi x Corinthians",
           "canais": "SPORTV2, ESPN2, YOUTUBE",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -654,8 +648,7 @@
           "evento": "Tennessee x Alabama",
           "canais": "ESPN3",
           "icone": "02022004020042500013100450000",
-          "fonte": "esportesnatv",
-          "dura": 10
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
