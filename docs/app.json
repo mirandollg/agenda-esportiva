@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T09:42:49-03:00",
+  "gerado_em": "2026-10-17T13:09:14-03:00",
   "primeiro_dia": "2026-10-17",
   "fontes": [
     "Esportes na TV",
@@ -164,8 +164,7 @@
           "evento": "SF - Jodar x Medvedev",
           "canais": "ESPN2",
           "icone": "0e120005500044022034700728000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
@@ -208,8 +207,7 @@
           "evento": "Everton x Chelsea",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffbffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:45",
@@ -234,8 +232,7 @@
           "canais": "BANDSPORTS, SPORTV",
           "etapa": "Jerez",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:15",
@@ -288,8 +285,7 @@
           "evento": "Serie South America - semifinais",
           "canais": "ESPN3",
           "icone": "0e120230104441010374022460000",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -297,8 +293,7 @@
           "evento": "Copa do Mundo - etapa de Astana",
           "canais": "SPORTV2",
           "icone": "0d03fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 140
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -373,8 +368,7 @@
           "canais": "BANDSPORTS, SPORTV",
           "etapa": "Jerez",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:55",
@@ -416,8 +410,7 @@
           "evento": "Brentford x Liverpool",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -425,8 +418,7 @@
           "evento": "Fulham x Hull City",
           "canais": "ESPN4",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:15",
