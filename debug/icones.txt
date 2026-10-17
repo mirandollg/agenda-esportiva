@@ -1,17 +1,25 @@
-0e120400005322001336103020064  Masters1000 Xangai
-0d13ffffbfffffffffffffd3fffee  World Surf League
-0e030007600082014033600467000  Masters1000 Xangai
-0d03fffffffffffffffffffffffff  Natação
-0613fffffffffffffffffffffffff  Camp. Saudita
-0613ffffcfffc3fffcbfffd4ffffd  Bundesliga 22 Div
-0613ffffafffc3fffd9fffd5ffffd  Bundesliga 22 Div
-0613fffffffff6ffffbffff8fffff  Paulistão sub-20
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffff5fffe8ffff6fffff  Ligue 1 Francesa
+0d13ffffeffffffffcffffd7fffea  World Surf League
+0e120104000072034030420310005  Masters1000 Xangai
+0e120005500044022034700728000  Masters1000 Xangai
+0613ffffbfffb3fffc7fffd7ffffe  Bundesliga 22 Div
+0613fffffffffeffffbffffffffff  Premier League
+0613fffaaff797ffbc7ff995fffac  Camp. Inglês 22 Div
+0613fffeafff5dffeaefff6dfffea  Camp. Inglês Fem
 0613fffffffffffffffffffffffff  Liga
-0613fff9aff896ff9c5ff895fffce  Camp. Inglês 22 Div
-0613fffffffbaeff7baffaaefffff  Libertadores Fem
-0d030222601856314682044b40515  LNF Silver Futsal
-0d030021950609a16080540900005  Copa das Nações Futsal
-0d032022824844005520462200415  Desafio Futsal Fem
-0613fff9eff797ff9b9ff8c5fffde  Copa do BrasilFem
+0d03fffffffffffffffffffffffff  Natação
+0e120230104441010374022460000  Australian Open Junior
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffaaff897ff9b6ffab4fffdc  Camp. Inglês 22 Div
+0613fffffffffffffffffffffffff  Liga
+0613ffffeffff7fffd9ffff5fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Serie B Italiana
+0613fffffffffffffffffffffffff  Camp. Saudita
+1713fffffffffffffffffffffffff  MMA
