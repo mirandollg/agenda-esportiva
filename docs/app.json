@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T13:09:14-03:00",
+  "gerado_em": "2026-10-17T15:43:18-03:00",
   "primeiro_dia": "2026-10-17",
   "fontes": [
     "Esportes na TV",
@@ -485,8 +485,7 @@
           "evento": "Fenerbahçe x Alanyaspor",
           "canais": "ESPN2",
           "icone": "0613fffcaffd5cff9acffe49fffde",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -503,8 +502,7 @@
           "evento": "Bologna x Inter de Milão",
           "canais": "ESPN4",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
@@ -512,8 +510,7 @@
           "evento": "Bayern x RB Leipzig",
           "canais": "XSPORTS, SPORTV, YOUTUBE CazéTV",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
@@ -521,8 +518,7 @@
           "evento": "Lokomotiv Moscow x Krasnodar",
           "canais": "BANDSPORTS",
           "icone": "0613fffa9ffc47ffbabffa79fffdc",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
@@ -538,8 +534,7 @@
           "evento": "Newcastle x Aston Villa",
           "canais": "ESPN",
           "icone": "0613fffffffffcffffbffffdfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
