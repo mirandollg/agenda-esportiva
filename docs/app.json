@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T00:44:02-03:00",
+  "gerado_em": "2026-10-17T09:42:49-03:00",
   "primeiro_dia": "2026-10-17",
   "fontes": [
     "Esportes na TV",
@@ -60,8 +60,7 @@
           "evento": "Etapa de Peniche-POR",
           "canais": "SPORTV3, YOUTUBE",
           "icone": "0d13ffffeffffffffcffffd7fffea",
-          "fonte": "esportesnatv",
-          "dura": 570
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:50",
@@ -78,8 +77,7 @@
           "evento": "SF - Zverev x Fokina",
           "canais": "ESPN2",
           "icone": "0e120104000072034030420310005",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:15",
@@ -141,8 +139,7 @@
           "evento": "Etapa da Espanha - corrida 1",
           "canais": "BANDSPORTS",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:52",
@@ -186,8 +183,7 @@
           "canais": "BANDSPORTS, SPORTV",
           "etapa": "Jerez",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:20",
@@ -534,7 +530,7 @@
           "canais": "BANDSPORTS",
           "icone": "0613fffa9ffc47ffbabffa79fffdc",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 115
         },
         {
           "hora": "13:30",
@@ -1088,7 +1084,7 @@
           "etapa": "Barcelona",
           "sessao": "Corrida",
           "fonte": "tomadadetempo",
-          "dura": 45
+          "dura": 50
         },
         {
           "hora": "07:00",
@@ -1264,7 +1260,7 @@
           "etapa": "Cascavel/PR",
           "sessao": "Corrida Principal (REPRISE)",
           "fonte": "tomadadetempo",
-          "dura": 90
+          "dura": 120
         },
         {
           "hora": "23:59",
