@@ -1,25 +1,20 @@
-0d13ffffeffffffffcffffd7fffea  World Surf League
-0e120104000072034030420310005  Masters1000 Xangai
-0e120005500044022034700728000  Masters1000 Xangai
-0613ffffbfffb3fffc7fffd7ffffe  Bundesliga 22 Div
-0613fffffffffeffffbffffffffff  Premier League
-0613fffaaff797ffbc7ff995fffac  Camp. Inglês 22 Div
-0613fffeafff5dffeaefff6dfffea  Camp. Inglês Fem
+0d13ffffeffffffffcffffd8fffeb  World Surf League
+0e120002412307000430503400002  WTA1000 Wuhan
+0e120061010514251325503020013  Masters1000 Xangai
+17020040000206054000020285004  WEC Endurance
+0613fffdafff2affcadfff5efffed  Camp. Inglês Fem
+0613fffaaffb49ffbabffa69fffdc  Campeonato Russo
+0613ffffcfffb3fffcafffb4ffffc  Bundesliga 22 Div
 0613fffffffffffffffffffffffff  Liga
-0d03fffffffffffffffffffffffff  Natação
-0e120230104441010374022460000  Australian Open Junior
+0e1202540034320202770021a0031  Australian Open Junior
+0613fffffffff6fffe8ffff7fffff  Premier League
+0613fffffffffeffffaffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
 0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffff7fffe9ffff7fffff  Ligue 1 Francesa
+0613fffbaffa6affa8bffc68fffcc  Campeonato Russo
 0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffaaff897ff9b6ffab4fffdc  Camp. Inglês 22 Div
-0613fffffffffffffffffffffffff  Liga
-0613ffffeffff7fffd9ffff5fffff  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Serie B Italiana
-0613fffffffffffffffffffffffff  Camp. Saudita
-1713fffffffffffffffffffffffff  MMA
+01020200410010800004000050000  NFL em Londres
+0113fffffffffffffffffffffffff  NBB
+0d030239149312081264631608011  LNF Silver Futsal
+0613fffb9ffb48ffbaaffa79fffdd  Campeonato Grego
