@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-18T15:49:35-03:00",
+  "gerado_em": "2026-10-18T18:16:45-03:00",
   "primeiro_dia": "2026-10-18",
   "fontes": [
     "Esportes na TV",
@@ -488,8 +488,7 @@
           "evento": "Philad. Eagles x Carol. Panthers",
           "canais": "ESPN2",
           "icone": "0d02000401006700018000091000a",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -497,8 +496,7 @@
           "evento": "Clev. Browns x Baltimore Ravens",
           "canais": "SPORTV2",
           "icone": "0d020015030175100590002c00319",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
@@ -523,8 +521,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV3",
           "icone": "02020000304043300403002010000",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:15",
@@ -549,8 +546,7 @@
           "evento": "Juventus x Lazio",
           "canais": "ESPN",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -558,8 +554,7 @@
           "evento": "Fluminense x Santos",
           "canais": "GLOBO, PREMIERE",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 130
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
