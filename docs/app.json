@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-18T09:59:32-03:00",
+  "gerado_em": "2026-10-18T13:27:41-03:00",
   "primeiro_dia": "2026-10-18",
   "fontes": [
     "Esportes na TV",
@@ -250,8 +250,7 @@
           "evento": "Serie South America - finais",
           "canais": "ESPN3",
           "icone": "0e1202540034320202770021a0031",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -292,8 +291,7 @@
           "evento": "Bournemouth x Sunderland",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -301,8 +299,7 @@
           "evento": "Fiorentina x Como",
           "canais": "ESPN2",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:15",
@@ -336,8 +333,7 @@
           "canais": "BANDSPORTS, SPORT Tv PT",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:00",
@@ -421,8 +417,7 @@
           "canais": "BAND, YOUTUBE, BANDPLAY",
           "etapa": "Cascavel/PR",
           "sessao": "Corrida Principal",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:30",
