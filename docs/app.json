@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-17T20:18:50-03:00",
+  "gerado_em": "2026-10-17T22:23:06-03:00",
   "primeiro_dia": "2026-10-17",
   "fontes": [
     "Esportes na TV",
@@ -869,7 +869,8 @@
           "evento": "Sebastian Fundora x E. Hadribeaj",
           "canais": "ESPN4",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "21:00",
@@ -885,7 +886,8 @@
           "evento": "J5 - Clev. Guardians x Tampa B Rays",
           "canais": "ESPN2",
           "icone": "0e12effffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "21:00",
@@ -893,7 +895,8 @@
           "evento": "Final - Vôlei Renata x Suzano (1-0)",
           "canais": "SPORTV2",
           "icone": "0313fffbdffdffffedcffddefffc9",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "21:00",
@@ -935,7 +938,8 @@
           "canais": "BANDSPORTS",
           "etapa": "Cascavel/PR",
           "sessao": "Corrida Sprint (REPRISE)",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 60
         },
         {
           "hora": "23:15",
@@ -952,7 +956,8 @@
           "canais": "BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 1 (REPRISE)",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 60
         }
       ]
     },
@@ -966,7 +971,8 @@
           "canais": "BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 1 (REPRISE)",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 60
         },
         {
           "hora": "01:45",
@@ -975,7 +981,8 @@
           "canais": "BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 1 (REPRISE)",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 60
         },
         {
           "hora": "02:50",
@@ -1001,7 +1008,8 @@
           "evento": "Etapa de Peniche-POR - finais",
           "canais": "SPORTV3, wsl.tv",
           "icone": "0d13ffffeffffffffcffffd8fffeb",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "05:00",
@@ -1044,7 +1052,8 @@
           "evento": "Final - Fokina x Jodar",
           "canais": "ESPN2",
           "icone": "0e120061010514251325503020013",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "06:10",
@@ -1053,7 +1062,8 @@
           "canais": "BANDSPORTS, SPORT TV PT",
           "etapa": "Jerez",
           "sessao": "Superpole Race",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 35
         },
         {
           "hora": "06:50",
@@ -1071,7 +1081,8 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Barcelona",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 50
         },
         {
           "hora": "07:00",
@@ -1079,7 +1090,8 @@
           "evento": "6 horas de Barcelona",
           "canais": "BANDSPORTS, GPTV",
           "icone": "17020040000206054000020285004",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 50
         },
         {
           "hora": "07:00",
@@ -1139,7 +1151,8 @@
           "canais": "BANDSPORTS, SPORT TV PT",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 45
         },
         {
           "hora": "08:25",
@@ -1173,7 +1186,8 @@
           "canais": "BANDSPORTS, SPORT TV PT",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 45
         },
         {
           "hora": "09:15",
@@ -1199,7 +1213,8 @@
           "evento": "Serie South America - finais",
           "canais": "ESPN3",
           "icone": "0e1202540034320202770021a0031",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 60
         },
         {
           "hora": "10:00",
@@ -1240,7 +1255,8 @@
           "evento": "Bournemouth x Sunderland",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "10:00",
@@ -1248,7 +1264,8 @@
           "evento": "Fiorentina x Como",
           "canais": "ESPN2",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "10:15",
@@ -1272,7 +1289,8 @@
           "evento": "Jacks. Jaguars x Houston Texans",
           "canais": "SPORTV2, GE TV",
           "icone": "01020200410010800004000050000",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "10:30",
@@ -1281,7 +1299,8 @@
           "canais": "BANDSPORTS, SPORT Tv PT",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 60
         },
         {
           "hora": "11:00",
@@ -1330,7 +1349,8 @@
           "evento": "Groningen x Ajax",
           "canais": "ESPN4",
           "icone": "0613fffffffff7ffffbffff9fffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "12:00",
@@ -1338,7 +1358,8 @@
           "evento": "Canadá s17FxBrasils17F",
           "canais": "SPORTV3, CAZÉTV",
           "icone": "0613ffe9ffe1c5fabd0ff4c3ffebe",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "12:15",
@@ -1363,7 +1384,8 @@
           "canais": "BAND, YOUTUBE, BANDPLAY",
           "etapa": "Cascavel/PR",
           "sessao": "Corrida Principal",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 60
         },
         {
           "hora": "12:30",
@@ -1379,7 +1401,8 @@
           "evento": "Nottingham Forest x Arsenal",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffbffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "13:00",
@@ -1387,7 +1410,8 @@
           "evento": "Final - Brasilx a definir",
           "canais": "SPORTV, GE TV, GolBR",
           "icone": "0d03004355060aa36080340810106",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "13:00",
@@ -1429,7 +1453,8 @@
           "evento": "Canal Redzone",
           "canais": "ESPN4, GLOBOPLAY",
           "icone": "0c021015040054000491000910118",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 60
         },
         {
           "hora": "14:00",
@@ -1437,7 +1462,8 @@
           "evento": "Philad. Eagles x Carol. Panthers",
           "canais": "ESPN2",
           "icone": "0d02000401006700018000091000a",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "14:00",
@@ -1445,7 +1471,8 @@
           "evento": "Clev. Browns x Baltimore Ravens",
           "canais": "SPORTV2",
           "icone": "0d020015030175100590002c00319",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "14:30",
@@ -1470,7 +1497,8 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV3",
           "icone": "02020000304043300403002010000",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "15:15",
@@ -1495,7 +1523,8 @@
           "evento": "Juventus x Lazio",
           "canais": "ESPN",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "16:00",
@@ -1503,7 +1532,8 @@
           "evento": "Fluminense x Santos",
           "canais": "GLOBO, PREMIERE",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 130
         },
         {
           "hora": "16:00",
@@ -1569,7 +1599,8 @@
           "evento": "Belgrano F x Palmeiras F",
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613ffffffeefffa9ccfeefffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "17:00",
@@ -1585,7 +1616,8 @@
           "evento": "KC Chiefs x LA Chargers",
           "canais": "SPORTV2, GE TV",
           "icone": "0d020215020154100291002910007",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "17:25",
@@ -1593,7 +1625,8 @@
           "evento": "Las Vegas Raiders x Buffalo Bills",
           "canais": "ESPN2",
           "icone": "0c020005020074100490002c00309",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 60
         },
         {
           "hora": "18:00",
@@ -1601,7 +1634,8 @@
           "evento": "Vila Nova x Novorizontino",
           "canais": "REDETV!, ESPN, SportyNet, YOUTUBE",
           "icone": "0613ffffffe9aefca8afeaadfffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "18:00",
@@ -1609,7 +1643,8 @@
           "evento": "J5 - Clev. Guardians x Tampa B Rays",
           "canais": "ESPN5",
           "icone": "0e12dfffffffffffffffffffeefff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 30
         },
         {
           "hora": "18:30",
@@ -1634,7 +1669,8 @@
           "canais": "BANDSPORTS",
           "etapa": "Cascavel/PR",
           "sessao": "Corrida Principal (REPRISE)",
-          "fonte": "tomadadetempo"
+          "fonte": "tomadadetempo",
+          "dura": 120
         },
         {
           "hora": "19:10",
@@ -1658,7 +1694,8 @@
           "evento": "Belgrano x River Plate",
           "canais": "ESPN3",
           "icone": "0613fffffffff8ffffbffffafffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "21:00",
@@ -1666,7 +1703,8 @@
           "evento": "Corinthians F x Caracas F",
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613fffffffdfffa9dbfeeeffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 90
         },
         {
           "hora": "21:00",
@@ -1682,7 +1720,8 @@
           "evento": "GB Packers x Dallas Cowboys",
           "canais": "SPORTV2",
           "icone": "0c020004000066000170000a1000a",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 190
         },
         {
           "hora": "23:59",
