@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-18T00:50:22-03:00",
+  "gerado_em": "2026-10-18T09:59:32-03:00",
   "primeiro_dia": "2026-10-18",
   "fontes": [
     "Esportes na TV",
@@ -17,8 +17,7 @@
           "canais": "BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 1 (REPRISE)",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "01:45",
@@ -27,8 +26,7 @@
           "canais": "BANDSPORTS",
           "etapa": "Jerez",
           "sessao": "Corrida 1 (REPRISE)",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "02:50",
@@ -54,8 +52,7 @@
           "evento": "Etapa de Peniche-POR - finais",
           "canais": "SPORTV3, wsl.tv",
           "icone": "0d13ffffeffffffffcffffd8fffeb",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "05:00",
@@ -98,8 +95,7 @@
           "evento": "Final - Fokina x Jodar",
           "canais": "ESPN2",
           "icone": "0e120061010514251325503020013",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:10",
@@ -108,8 +104,7 @@
           "canais": "BANDSPORTS, SPORT TV PT",
           "etapa": "Jerez",
           "sessao": "Superpole Race",
-          "fonte": "tomadadetempo",
-          "dura": 35
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "06:50",
@@ -127,8 +122,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Barcelona",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 50
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "07:00",
@@ -136,8 +130,7 @@
           "evento": "6 horas de Barcelona",
           "canais": "BANDSPORTS, GPTV",
           "icone": "17020040000206054000020285004",
-          "fonte": "esportesnatv",
-          "dura": 50
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",
@@ -197,8 +190,7 @@
           "canais": "BANDSPORTS, SPORT TV PT",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:25",
@@ -232,8 +224,7 @@
           "canais": "BANDSPORTS, SPORT TV PT",
           "etapa": "Jerez",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:15",
@@ -690,7 +681,7 @@
           "canais": "ESPN5",
           "icone": "0e12dfffffffffffffffffffeefff",
           "fonte": "esportesnatv",
-          "dura": 30
+          "dura": 180
         },
         {
           "hora": "18:30",
