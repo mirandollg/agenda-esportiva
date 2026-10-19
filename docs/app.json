@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-18T20:30:25-03:00",
+  "gerado_em": "2026-10-18T22:35:50-03:00",
   "primeiro_dia": "2026-10-18",
   "fontes": [
     "Esportes na TV",
@@ -733,7 +733,8 @@
           "evento": "GB Packers x Dallas Cowboys",
           "canais": "SPORTV2",
           "icone": "0c020004000066000170000a1000a",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 190
         },
         {
           "hora": "23:59",
@@ -763,7 +764,8 @@
           "evento": "AlFayha x ALAhli",
           "canais": "SPORTV2, GOAT",
           "icone": "0613fffffffffeffffaffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "13:30",
@@ -779,7 +781,8 @@
           "evento": "Trabzonspor x Besiktas",
           "canais": "ESPN4",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "15:00",
@@ -803,7 +806,8 @@
           "evento": "Parma x Torino",
           "canais": "ESPN2",
           "icone": "0613fffffffffeffffcffffffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "16:00",
@@ -819,7 +823,8 @@
           "evento": "Tottenham x Coventry",
           "canais": "ESPN",
           "icone": "0613fffffffff6fffdaffff4ffffe",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "16:15",
@@ -843,7 +848,8 @@
           "evento": "Cruzeiro F x Bolívar F",
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613ffffffdffff99dafeefffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "17:00",
@@ -859,7 +865,8 @@
           "evento": "SESI-Bauru x Mackenzie",
           "canais": "SPORTV2",
           "icone": "0313fecebfefeffbeeffdcfffebac",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "18:30",
@@ -875,7 +882,8 @@
           "evento": "Goiás x Náutico",
           "canais": "ESPN",
           "icone": "0613ffdbefd2cafbbc6fd5a8ffecf",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 150
         },
         {
           "hora": "19:30",
@@ -923,7 +931,8 @@
           "evento": "J6 -Tampa B Rays x Clev. Guardians",
           "canais": "ESPN4",
           "icone": "0e12effe9ffffeffffcffffdffffe",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         },
         {
           "hora": "21:00",
@@ -931,7 +940,8 @@
           "evento": "SESC-Flamengo x Barueri",
           "canais": "SPORTV2",
           "icone": "0313fecebfefeffbddffdcfffebac",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "21:15",
@@ -939,7 +949,8 @@
           "evento": "SF 49ers x Wash. Commanders",
           "canais": "ESPN2",
           "icone": "0d020004020058201090004b10006",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 180
         }
       ]
     }
