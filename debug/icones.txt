@@ -1,20 +1,24 @@
-0d13ffffeffffffffcffffd8fffeb  World Surf League
-0e120002412307000430503400002  WTA1000 Wuhan
-0e120061010514251325503020013  Masters1000 Xangai
-17020040000206054000020285004  WEC Endurance
-0613fffdafff2affcadfff5efffed  Camp. Inglês Fem
-0613fffaaffb49ffbabffa69fffdc  Campeonato Russo
-0613ffffcfffb3fffcafffb4ffffc  Bundesliga 22 Div
+0613fffbffe1a8fd8b7fe6b8fffdf  Mundial sub-17 Fem
+0613fffffffffeffffaffffffffff  Camp. Saudita
+0613fffffffffeffff9ffffefffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Camp. Turco
+0613ffeaffe188ffbc8fe5b8ffeaf  Mundial sub-17 Fem
+0613fffffffffeffffbffffffffff  Camp. Saudita
+0613fffffffffeffffcffffffffff  Serie A Italiana
+0613fffffffff6fffdaffff4ffffe  Premier League
 0613fffffffffffffffffffffffff  Liga
-0e1202540034320202770021a0031  Australian Open Junior
-0613fffffffff6fffe8ffff7fffff  Premier League
-0613fffffffffeffffaffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffff7fffe9ffff7fffff  Ligue 1 Francesa
-0613fffbaffa6affa8bffc68fffcc  Campeonato Russo
-0613fffffffffffffffffffffffff  Bundesliga
-01020200410010800004000050000  NFL em Londres
+0613fffe8fff86fff8bfff99ffffb  Camp. Português
+0613ffffffdffff99dafeefffffff  Libertadores Fem
+0613fffaaffa4affaa8ffa88fffcc  Libertadores Fem
+0603fda55f9191fa181ff2a1fd50a  Kings Cup BR (Fut7)
+0313fecebfefeffbeeffdcfffebac  Superliga Vôlei Fem
+0313febebfefeffbeeffdcfffebac  Superliga Vôlei Fem
 0113fffffffffffffffffffffffff  NBB
-0d030239149312081264631608011  LNF Silver Futsal
-0613fffb9ffb48ffbaaffa79fffdd  Campeonato Grego
+0113fffffffffffffffffffffffff  NBB
+0113fffffffffffffffffffffffff  NBB
+0613ffdbefd2cafbbc6fd5a8ffecf  Brasileirão - Série B
+0613fffffffffffffffffffffffff  Brasileirão
+0313fecebfefeffbddffdcfffebac  Superliga Vôlei Fem
+0613fffaaffa6affb85ffa87fffdc  Libertadores Fem
+0e12effe9ffffeffffcffffdffffe  MLB - FinalAL
+0d020004020058201090004b10006  NFL
