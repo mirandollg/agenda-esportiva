@@ -1,24 +1,27 @@
-0613fffbffe1a8fd8b7fe6b8fffdf  Mundial sub-17 Fem
-0613fffffffffeffffaffffffffff  Camp. Saudita
-0613fffffffffeffff9ffffefffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Camp. Turco
-0613ffeaffe188ffbc8fe5b8ffeaf  Mundial sub-17 Fem
-0613fffffffffeffffbffffffffff  Camp. Saudita
-0613fffffffffeffffcffffffffff  Serie A Italiana
-0613fffffffff6fffdaffff4ffffe  Premier League
+0e13ffffff95cff62a9f87fbfffff  World Surf League
+0113fffffffffffffffffffffffff  Euroliga
+0613ff78ef89b9f6265f885dfc88f  Champions League
+0613fe68ff95d9e6266f885cfd74e  Champions League
+0d022023201200012040013100040  Ginástica Artística
+0613ffc5efac84f8726fb879ffa69  Brasileirão sub-17
+0613ffb49fca86f9a29ff686ffc8d  Mundial sub-17 Fem
 0613fffffffffffffffffffffffff  Liga
-0613fffe8fff86fff8bfff99ffffb  Camp. Português
-0613ffffffdffff99dafeefffffff  Libertadores Fem
-0613fffaaffa4affaa8ffa88fffcc  Libertadores Fem
-0603fda55f9191fa181ff2a1fd50a  Kings Cup BR (Fut7)
-0313fecebfefeffbeeffdcfffebac  Superliga Vôlei Fem
-0313febebfefeffbeeffdcfffebac  Superliga Vôlei Fem
+0613fe68ef66b9e6255e7886fd75e  Champions League
+0613fd78ef6585f5246f8989fc48d  Champions League
+0613fe6aef79b9f6275f997cfc78f  Champions League
+0613ff78ffa5d9f5258f897cfca7e  Champions League
+0613fd67ef56aaf6265f688afc76e  Champions League
+0613fd79ef67b5f724afb889fc46d  Champions League
+0613ff68ff89b7f7146f9b5cfca6f  Champions League
+0613ffffffcfffc7ceafbefffffff  Libertadores Fem
+0613ffffdffff6fffc6fffe7ffffb  Sul-Americana
+0613ffb4bfb597f9a0aff5b5ffc8c  Copa do Brasil Fem
 0113fffffffffffffffffffffffff  NBB
 0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0613ffdbefd2cafbbc6fd5a8ffecf  Brasileirão - Série B
-0613fffffffffffffffffffffffff  Brasileirão
-0313fecebfefeffbddffdcfffebac  Superliga Vôlei Fem
-0613fffaaffa6affb85ffa87fffdc  Libertadores Fem
-0e12effe9ffffeffffcffffdffffe  MLB - FinalAL
-0d020004020058201090004b10006  NFL
+0113fffffffffffffffffffffffff  NBA
+03020140020084450a4000a213030  NHL
+0613ffffffbfffc7ceafadfffffff  Libertadores Fem
+0613ffffffffeafffb8ffff7fffff  Libertadores
+0613fffb4ffba5ff890ffc8afffbb  Camp. Mexicano
+0113fffffffffffffffffffffffff  NBA
+0613fffc4ffc97ff890ffb88fffb8  Camp. Mexicano
