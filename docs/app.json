@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-19T18:11:38-03:00",
+  "gerado_em": "2026-10-19T21:30:46-03:00",
   "primeiro_dia": "2026-10-19",
   "fontes": [
     "Esportes na TV",
@@ -104,8 +104,7 @@
           "evento": "Cruzeiro F x Bolívar F",
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613ffffffdffff99dafeefffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -121,8 +120,7 @@
           "evento": "SESI-Bauru x Mackenzie",
           "canais": "SPORTV2",
           "icone": "0313fecebfefeffbeeffdcfffebac",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
