@@ -1,27 +1,14 @@
-0e13ffffff95cff62a9f87fbfffff  World Surf League
+0e13ffffff99dff54b8f97eafffff  World Surf League
+0612ff88ef7fbbf4215faaa9fc87d  Conference League
+0613ffffeffff7fffc6fffe9ffffb  Camp. Saudita
+0613ffc2cfcc57f9a1aff7b6ffd8d  Mundial sub-17 Fem
+0613ffffcffff4fffc5fffe9ffffb  Europa League
+0613ffffffff98ffb66fff86ffffe  Europa League
+0612fe98df6dc8f4246fbabbfd68b  Conference League
+0613ffffffa8edd53adf87ebfffff  Conference League
+0e020000210210120100000100024  Ginástica Artística
+0613ffffeffff5fffc4fffe9ffffb  Camp. Saudita
 0113fffffffffffffffffffffffff  Euroliga
-0613ff78ef89b9f6265f885dfc88f  Champions League
-0613fe68ff95d9e6266f885cfd74e  Champions League
-0d022023201200012040013100040  Ginástica Artística
-0613ffc5efac84f8726fb879ffa69  Brasileirão sub-17
-0613ffb49fca86f9a29ff686ffc8d  Mundial sub-17 Fem
-0613fffffffffffffffffffffffff  Liga
-0613fe68ef66b9e6255e7886fd75e  Champions League
-0613fd78ef6585f5246f8989fc48d  Champions League
-0613fe6aef79b9f6275f997cfc78f  Champions League
-0613ff78ffa5d9f5258f897cfca7e  Champions League
-0613fd67ef56aaf6265f688afc76e  Champions League
-0613fd79ef67b5f724afb889fc46d  Champions League
-0613ff68ff89b7f7146f9b5cfca6f  Champions League
-0613ffffffcfffc7ceafbefffffff  Libertadores Fem
-0613ffffdffff6fffc6fffe7ffffb  Sul-Americana
-0613ffb4bfb597f9a0aff5b5ffc8c  Copa do Brasil Fem
-0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBA
-03020140020084450a4000a213030  NHL
-0613ffffffbfffc7ceafadfffffff  Libertadores Fem
-0613ffffffffeafffb8ffff7fffff  Libertadores
-0613fffb4ffba5ff890ffc8afffbb  Camp. Mexicano
-0113fffffffffffffffffffffffff  NBA
-0613fffc4ffc97ff890ffb88fffb8  Camp. Mexicano
+0613ffffeffff7fffc5fffe9ffffc  Europa League
+0613ffffeffff5fffc6fffe8ffffb  Europa League
+0613fffffffbeffd6ccffbeefffff  Europa League
