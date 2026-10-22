@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-21T19:07:44-03:00",
+  "gerado_em": "2026-10-21T21:48:20-03:00",
   "primeiro_dia": "2026-10-21",
   "fontes": [
     "Esportes na TV",
@@ -152,8 +152,7 @@
           "evento": "QF - São Paulo F x Bahia F (1x2)",
           "canais": "SPORTV2",
           "icone": "0613ffb4bfb597f9a0aff5b5ffc8c",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -161,8 +160,7 @@
           "evento": "SF- Montev. City x Atlético-MG (0x3)",
           "canais": "ESPN",
           "icone": "0613ffffdffff6fffc6fffe7ffffb",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -186,8 +184,7 @@
           "evento": "Miami Heat x Minn. T'wolves",
           "canais": "ESPN2",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 12
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:30",
