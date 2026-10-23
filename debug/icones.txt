@@ -1,14 +1,15 @@
-0e13ffffff99dff54b8f97eafffff  World Surf League
-0612ff88ef7fbbf4215faaa9fc87d  Conference League
-0613ffffeffff7fffc6fffe9ffffb  Camp. Saudita
-0613ffc2cfcc57f9a1aff7b6ffd8d  Mundial sub-17 Fem
-0613ffffcffff4fffc5fffe9ffffb  Europa League
-0613ffffffff98ffb66fff86ffffe  Europa League
-0612fe98df6dc8f4246fbabbfd68b  Conference League
-0613ffffffa8edd53adf87ebfffff  Conference League
-0e020000210210120100000100024  Ginástica Artística
-0613ffffeffff5fffc4fffe9ffffb  Camp. Saudita
-0113fffffffffffffffffffffffff  Euroliga
-0613ffffeffff7fffc5fffe9ffffc  Europa League
-0613ffffeffff5fffc6fffe8ffffb  Europa League
-0613fffffffbeffd6ccffbeefffff  Europa League
+0d13ffffffffeffffbcffb6dfffff  World Surf League
+0613fffffffffffffffffffffffff  Camp. Saudita
+0603fffffffe6aff834ffd52fffff  Futebol de Cegos
+0613fffffffffffffffffffffffff  Camp. Saudita
+0613ffffbfffa1fffa8fffc5ffffd  Bundesliga 22 Div
+0613ffffafffb1fffb6fffc7ffffb  Bundesliga 22 Div
+0613fffffffffffffffffffffffff  Camp. Saudita
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613ffffdffff4fffd9ffff6fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Liga
+0613fffffffffeffffaffffffffff  Premier League
+0613fff9affa97ff8c8ff987fffce  Camp. Inglês 22 Div
+0613fffffffff5ffffaffff8fffff  Paulistão sub-20
+0d026000060000633006330000303  Nascar Truck
