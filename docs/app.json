@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-23T01:04:47-03:00",
+  "gerado_em": "2026-10-23T11:08:48-03:00",
   "primeiro_dia": "2026-10-23",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "GP da Austrália - sprint race",
           "canais": "ESPN4",
           "icone": "01020000300003000031000330000",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "05:00",
@@ -25,8 +24,7 @@
           "evento": "Etapa de Peniche-POR - finais (Gabriel Medina, Italo Ferreira, Yago Dora)",
           "canais": "SPORTV3, wslLtv",
           "icone": "0d13ffffffffeffffbcffb6dfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
