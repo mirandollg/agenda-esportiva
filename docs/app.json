@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T10:07:54-03:00",
+  "gerado_em": "2026-10-24T13:48:26-03:00",
   "primeiro_dia": "2026-10-24",
   "fontes": [
     "Esportes na TV",
@@ -138,8 +138,7 @@
           "evento": "Charlton x Norwich",
           "canais": "ESPN4",
           "icone": "0613fffaaff857ff9a6ff895fffdd",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:30",
@@ -147,8 +146,7 @@
           "evento": "Aston Villa x Manchester City",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:45",
@@ -199,8 +197,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 240
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
@@ -234,8 +231,7 @@
           "evento": "Como x Sassuolo",
           "canais": "ESPN2",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -308,8 +304,7 @@
           "evento": "Arsenalx Everton",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -317,8 +312,7 @@
           "evento": "Coventry x Fulham",
           "canais": "ESPN4",
           "icone": "0613fffffffffeffffaffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
