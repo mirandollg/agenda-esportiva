@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T13:48:26-03:00",
+  "gerado_em": "2026-10-24T16:15:34-03:00",
   "primeiro_dia": "2026-10-24",
   "fontes": [
     "Esportes na TV",
@@ -371,8 +371,7 @@
           "evento": "Brasil s17 F x Noruega s17 F",
           "canais": "SPORTV, CAZÉTV",
           "icone": "0613ffdbefe2b7fbbd3ff3c3ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -413,8 +412,7 @@
           "evento": "Chelsea x Tottenham",
           "canais": "ESPN",
           "icone": "0613ffffffffe8fffbbfffe7fffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:10",
@@ -432,8 +430,7 @@
           "canais": "SPORTV3, FITY PRO, GLOBORAY FR",
           "etapa": "GP dos EUA",
           "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "15:00",
