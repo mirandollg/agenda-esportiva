@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T16:15:34-03:00",
+  "gerado_em": "2026-10-24T18:44:47-03:00",
   "primeiro_dia": "2026-10-24",
   "fontes": [
     "Esportes na TV",
@@ -447,8 +447,7 @@
           "evento": "SF - Cruzeiro x Atlético-MG (0x0)",
           "canais": "SPORTV",
           "icone": "0613ffffafff58fff8cfff7affffc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -480,8 +479,7 @@
           "evento": "Lazio x Parma",
           "canais": "ESPN2",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -529,8 +527,7 @@
           "evento": "Internacional x Botafogo",
           "canais": "GLOBO, PREMIERE",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 125
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -562,8 +559,7 @@
           "evento": "Atlético-GO x Novorizontino",
           "canais": "REDETV!, ESPN, YOUTUBE Canal GOAT",
           "icone": "0613fffffff9befcb8bfeaadfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -571,8 +567,7 @@
           "evento": "Gil Vicente x Porto",
           "canais": "ESPN4",
           "icone": "0613ffffefffe3fffd9ffff6ffffe",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -589,8 +584,7 @@
           "evento": "Alabama x Texas A&M",
           "canais": "ESPN3",
           "icone": "14022006120071400133104030000",
-          "fonte": "esportesnatv",
-          "dura": 10
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
