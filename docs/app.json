@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-23T18:51:22-03:00",
+  "gerado_em": "2026-10-23T21:17:09-03:00",
   "primeiro_dia": "2026-10-23",
   "fontes": [
     "Esportes na TV",
@@ -160,8 +160,7 @@
           "evento": "GP dos EUA - treino livre 2",
           "canais": "SPORTV3",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
@@ -169,8 +168,7 @@
           "evento": "Minas x Barueri",
           "canais": "SPORTV2",
           "icone": "0313fffbeffefeffbceffcdfffeb9",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
