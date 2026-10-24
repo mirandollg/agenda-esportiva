@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T00:58:25-03:00",
+  "gerado_em": "2026-10-24T10:07:54-03:00",
   "primeiro_dia": "2026-10-24",
   "fontes": [
     "Esportes na TV",
@@ -33,8 +33,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Austrália",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "02:55",
@@ -183,8 +182,7 @@
           "evento": "Etapa da Hungria - corrida 1",
           "canais": "BANDSPORTS",
           "icone": "0202b0000b0000800008000080004",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
@@ -738,7 +736,7 @@
           "canais": "BANDSPORTS, CBFS TV",
           "icone": "0d030158402605146286663600454",
           "fonte": "esportesnatv",
-          "dura": 60
+          "dura": 90
         },
         {
           "hora": "20:00",
