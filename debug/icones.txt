@@ -1,15 +1,24 @@
-0d13ffffffffeffffbcffb6dfffff  World Surf League
-0613fffffffffffffffffffffffff  Camp. Saudita
-0603fffffffe6aff834ffd52fffff  Futebol de Cegos
-0613fffffffffffffffffffffffff  Camp. Saudita
-0613ffffbfffa1fffa8fffc5ffffd  Bundesliga 22 Div
-0613ffffafffb1fffb6fffc7ffffb  Bundesliga 22 Div
-0613fffffffffffffffffffffffff  Camp. Saudita
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613ffffdffff4fffd9ffff6fffff  Ligue 1 Francesa
+0d030115938328084760912603201  Espanhol de Futsal
+0613ffffafffb3fffb9fffc5ffffd  Bundesliga 22 Div
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffaaff857ff9a6ff895fffdd  Camp. Inglês 22 Div
+0613fffe9fff3effc9cfff5cfffea  Camp. Inglês Fem
 0613fffffffffffffffffffffffff  Liga
+0202b0000b0000800008000080004  EUrocup-3
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffeffff9ffffffffff  Premier League
 0613fffffffffeffffaffffffffff  Premier League
-0613fff9affa97ff8c8ff987fffce  Camp. Inglês 22 Div
-0613fffffffff5ffffaffff8fffff  Paulistão sub-20
-0d026000060000633006330000303  Nascar Truck
+0d030118408203182183b22501176  LNF Silver Futsal
+1713fffffffffffffffffffffffff  UFC 333
+0113fffffffffffffffffffffffff  NBB
+0613fffffffffffffffffffffffff  Liga
+0613ffdbefe2b7fbbd3ff3c3ffecf  Mundial sub-17 Fem
+0613fffffffffcffffbffffbfffff  Serie A Italiana
+0613ffffffffe8fffbbfffe7fffff  Premier League
+0613fffffffffffffffffffffffff  Bundesliga

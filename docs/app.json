@@ -1,312 +1,12 @@
 {
-  "gerado_em": "2026-10-23T21:17:09-03:00",
-  "primeiro_dia": "2026-10-23",
+  "gerado_em": "2026-10-24T00:58:25-03:00",
+  "primeiro_dia": "2026-10-24",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 108,
+  "total": 131,
   "dias": [
-    {
-      "data": "2026-10-23",
-      "eventos": [
-        {
-          "hora": "01:00",
-          "competicao": "MotoGP",
-          "evento": "GP da Austrália - sprint race",
-          "canais": "ESPN4",
-          "icone": "01020000300003000031000330000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "05:00",
-          "competicao": "World Surf League",
-          "evento": "Etapa de Peniche-POR - finais (Gabriel Medina, Italo Ferreira, Yago Dora)",
-          "canais": "SPORTV3, wslLtv",
-          "icone": "0d13ffffffffeffffbcffb6dfffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "10:30",
-          "competicao": "Camp. Saudita",
-          "evento": "Al Faysaly x AlNassr",
-          "canais": "XSPORTS, GOAT",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "10:30",
-          "competicao": "Futebol de Cegos",
-          "evento": "Camp. Brasileiro - Final AGAFUC-RS x Corinthians",
-          "canais": "SPORTV2",
-          "icone": "0603fffffffe6aff834ffd52fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "12:30",
-          "competicao": "Camp. Saudita",
-          "evento": "Alittihad x Al Diriyah",
-          "canais": "YOUTUBE Canal GOAT",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:30",
-          "competicao": "Bundesliga 22 Div",
-          "evento": "Bochum x Wolfsburg",
-          "canais": "YOUTUBE Canal GOAT",
-          "icone": "0613ffffbfffa1fffa8fffc5ffffd",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:30",
-          "competicao": "Bundesliga 22 Div",
-          "evento": "Darmstadt x St Pauli",
-          "canais": "YOUTUBE JP Esportes",
-          "icone": "0613ffffafffb1fffb6fffc7ffffb",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:30",
-          "competicao": "Fórmula 1",
-          "evento": "GP dos EUA - treino livre 1",
-          "canais": "SPORTV3",
-          "icone": "",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:30",
-          "competicao": "Ginástica Artística",
-          "evento": "Camp. Mundial - indiv. geral fem",
-          "canais": "SPORTV2, CAZÉTV",
-          "icone": "",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Camp. Saudita",
-          "evento": "Al Qadisiya x Al Hilal",
-          "canais": "XSPORTS, GOAT",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:30",
-          "competicao": "Bundesliga",
-          "evento": "Stuttgart x Mônchengladbach",
-          "canais": "SPORTV, CAZÉTV",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "Ligue 1 Francesa",
-          "evento": "Brest x Nice",
-          "canais": "YOUTUBE CNN Esportes",
-          "icone": "0613ffffdffff4fffd9ffff6fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:45",
-          "competicao": "Serie A Italiana",
-          "evento": "Torino x Monza",
-          "canais": "SportyNet, YOUTUBE",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Camp. Inglês 22 Div",
-          "evento": "Bolton x Middlesbrough",
-          "canais": "ESPN4",
-          "icone": "0613fff9affa97ff8c8ff987fffce",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Liga",
-          "evento": "Alavés x Málaga",
-          "canais": "YOUTUBE CazéTV",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:00",
-          "competicao": "Premier League",
-          "evento": "Ipswich x Nottingham Forest",
-          "canais": "ESPN",
-          "icone": "0613fffffffffeffffaffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "17:00",
-          "competicao": "Nascar Truck",
-          "evento": "Etapa de Talladega",
-          "canais": "DISNEY+, PHIZTV",
-          "icone": "0d026000060000633006330000303",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "17:00",
-          "competicao": "Paulistão sub-20",
-          "evento": "QF (ida) - Guarani x Corinthians s20",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0613fffffffff5ffffaffff8fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:00",
-          "competicao": "Fórmula 1",
-          "evento": "GP dos EUA - treino livre 2",
-          "canais": "SPORTV3",
-          "icone": "",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Superliga Vôlei Fem",
-          "evento": "Minas x Barueri",
-          "canais": "SPORTV2",
-          "icone": "0313fffbeffefeffbceffcdfffeb9",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Superliga Vôlei Fem",
-          "evento": "Brasília x SESC-Flamengo",
-          "canais": "YOUTUBE GETV",
-          "icone": "0313ffebeffefeffbcdffcdfffeba",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:00",
-          "competicao": "LNF Silver Futsal",
-          "evento": "QF - Vasco x Joaçaba (2x3)",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0d03190502841263468040b500260",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Operário-PR x Athletic",
-          "canais": "DISNEY+",
-          "icone": "0613fffbaffa7aff888ffc78fffcc",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "NBB",
-          "evento": "Bauru x Mogi",
-          "canais": "ESPN3",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
-        },
-        {
-          "hora": "20:00",
-          "competicao": "Brasileirão",
-          "evento": "Cruzeiro x Remo",
-          "canais": "SPORTV-PREMIERE",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "NBA",
-          "evento": "Boston Celtics x NY Knicks",
-          "canais": "PRIME VIDEO",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:10",
-          "competicao": "Liga Sul-Americana",
-          "evento": "Flamengo x Paisas-COL",
-          "canais": "YOUTUBE Basquete TV",
-          "icone": "0113fffedffffffffffffefffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:30",
-          "competicao": "LNF Silver Futsal",
-          "evento": "OF - Chopinzinho-PR x Sport (3x2)",
-          "canais": "YOUTUBE LNF TV",
-          "icone": "0d0305054055742a3685a23501178",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:50",
-          "competicao": "MotoGP",
-          "evento": "GP da Austrália - classificação",
-          "canais": "ESPN4",
-          "icone": "02023000340004600006000060000",
-          "fonte": "esportesnatv",
-          "dura": 40
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Brasileirão - Série B",
-          "evento": "Sport x Criciúma",
-          "canais": "XSPORTS, ESPN, SportyNet, YOUTUBE",
-          "icone": "0613ffffffeabefca7affabcfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
-        },
-        {
-          "hora": "21:00",
-          "competicao": "MLB - World Series",
-          "evento": "J1 - Milw. Brewers x Tampa B Rays",
-          "canais": "ESPN2",
-          "icone": "0e12fff35ff793ff660ffa88fdd23",
-          "fonte": "esportesnatv",
-          "dura": 30
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Supercopa Vôlei Masc",
-          "evento": "Sada-Cruzeiro x Vôlei Renata",
-          "canais": "SPORTV2, GE TV",
-          "icone": "0313ffaebfddfffdffffdcffffbbb",
-          "fonte": "esportesnatv",
-          "dura": 120
-        },
-        {
-          "hora": "22:00",
-          "competicao": "MMA",
-          "evento": "LFA 244",
-          "canais": "ESPN3",
-          "icone": "0013fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 180
-        },
-        {
-          "hora": "22:30",
-          "competicao": "NBA",
-          "evento": "S. Ant. Spurs x Houston Rockets",
-          "canais": "PRIME VIDEO",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "22:30",
-          "competicao": "NWSL Fut. Feminino",
-          "evento": "Utah Royals x Seattle Reign",
-          "canais": "YOUTUBE Canal GOAT",
-          "icone": "0613ffc9efe3a5fcac1ff5d3ffebf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "22:45",
-          "competicao": "Moto3 e Moto?",
-          "evento": "GP da Austrália - classificação",
-          "canais": "ESPN4",
-          "icone": "13024000040000400014003330001",
-          "fonte": "esportesnatv",
-          "dura": 50
-        }
-      ]
-    },
     {
       "data": "2026-10-24",
       "eventos": [
@@ -316,8 +16,7 @@
           "evento": "GP da Austrália",
           "canais": "ESPN4",
           "icone": "02020000330004300060000600006",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "00:10",
@@ -328,6 +27,70 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "01:00",
+          "competicao": "MOTO GP",
+          "evento": "Austrália - Corrida Sprint",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Austrália",
+          "sessao": "Corrida Sprint",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "02:55",
+          "competicao": "SWIFT CUP EUROPE",
+          "evento": "Hungaroring - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "03:00",
+          "competicao": "F4 CEZ",
+          "evento": "Hungaroring - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "03:40",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "China - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "China",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:30",
+          "competicao": "GT CUP EUROPE",
+          "evento": "Barcelona - Classificação 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Classificação 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "05:00",
+          "competicao": "CLIO CUP BOHEMIA",
+          "evento": "Hungaroring - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:30",
+          "competicao": "GT CUP SERIES",
+          "evento": "Hungaroring - Corrida Sprint 1",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida Sprint 1",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "07:00",
           "competicao": "Espanhol de Futsal",
           "evento": "El Ejido x Barcelona",
@@ -336,12 +99,39 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "07:25",
+          "competicao": "TCR EASTERN EUROPE",
+          "evento": "Hungaroring - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:45",
+          "competicao": "GT CUP EUROPE",
+          "evento": "Barcelona - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "08:00",
           "competicao": "Bundesliga 22 Div",
           "evento": "Hertha Berlin x Arm. Bielefeld",
           "canais": "YOUTUBE Romário TV",
           "icone": "0613ffffafffb3fffb9fffc5ffffd",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "08:15",
+          "competicao": "GB4 WINTER SFRIES",
+          "evento": "Snetterton - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Snetterton",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:30",
@@ -370,6 +160,24 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "08:45",
+          "competicao": "EUROCUP-3",
+          "evento": "Hungaroring - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "BMW M2 CUP BRASIL",
+          "evento": "Brasilia - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Brasilia",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "09:00",
           "competicao": "EUrocup-3",
           "evento": "Etapa da Hungria - corrida 1",
@@ -377,6 +185,15 @@
           "icone": "0202b0000b0000800008000080004",
           "fonte": "esportesnatv",
           "dura": 45
+        },
+        {
+          "hora": "09:00",
+          "competicao": "EUROFORMULA OPEN",
+          "evento": "Barcelona - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:00",
@@ -394,6 +211,24 @@
           "canais": "YOUTUBE CazéTV",
           "icone": "0613fffffffffffffffffffffffff",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:10",
+          "competicao": "LAMBORGHINI WORLD FINALS",
+          "evento": "Monza - Corrida 1 (AM)",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 1 (AM)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:55",
+          "competicao": "INTERNATIONAL GT OPEN",
+          "evento": "Barcelona - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:00",
@@ -454,6 +289,15 @@
         },
         {
           "hora": "11:00",
+          "competicao": "F4 CEZ",
+          "evento": "Hungarorina - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Hungarorina",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:00",
           "competicao": "LNF Silver Futsal",
           "evento": "QF - América-RN x S.Lourenço (2x3)",
           "canais": "XSPORTS, YOUTUBE",
@@ -488,6 +332,15 @@
         },
         {
           "hora": "11:15",
+          "competicao": "GB4 WINTER SERIES",
+          "evento": "Snetterton - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Snetterton",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:15",
           "competicao": "Liga",
           "evento": "Racing Santander x Espanyol",
           "canais": "YOUTUBE CazéTV",
@@ -503,6 +356,24 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "11:30",
+          "competicao": "ENDURANCE BRASIL",
+          "evento": "Brasília - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:40",
+          "competicao": "LAMBORGHINI WORLD FINALS",
+          "evento": "Monza - Corrida 1 (PRO)",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 1 (PRO)",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "12:00",
           "competicao": "Mundial sub-17 Fem",
           "evento": "Brasil s17 F x Noruega s17 F",
@@ -510,6 +381,15 @@
           "icone": "0613ffdbefe2b7fbbd3ff3c3ffecf",
           "fonte": "esportesnatv",
           "dura": 120
+        },
+        {
+          "hora": "12:00",
+          "competicao": "TCR EUROPE",
+          "evento": "Barcelona - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "13:00",
@@ -545,13 +425,32 @@
           "dura": 120
         },
         {
+          "hora": "14:10",
+          "competicao": "MBR",
+          "evento": "Cascavel/PR - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "14:30",
-          "competicao": "Fórmula 1",
-          "evento": "GP dos EUA - treino livre 3",
-          "canais": "SPORTV3",
-          "icone": "",
-          "fonte": "esportesnatv",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP dos EUA - Treino Livre 3",
+          "canais": "SPORTV3, FITY PRO, GLOBORAY FR",
+          "etapa": "GP dos EUA",
+          "sessao": "Treino Livre 3",
+          "fonte": "tomadadetempo",
           "dura": 60
+        },
+        {
+          "hora": "15:00",
+          "competicao": "BMW M2 CUP BRASIL",
+          "evento": "Brasília - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Brasília",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "15:00",
@@ -688,11 +587,12 @@
         },
         {
           "hora": "16:30",
-          "competicao": "Nascar O'Reilly",
-          "evento": "Etapa de Talladega",
-          "canais": "DISNEY+, PHIZTV",
-          "icone": "010280054a0055000548300a45004",
-          "fonte": "esportesnatv"
+          "competicao": "NASCAR O'REILLY SERIES",
+          "evento": "Talladega - Corrida",
+          "canais": "DISNEY+, PHIZTV, DISNEY+ PR",
+          "etapa": "Talladega",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "16:30",
@@ -702,6 +602,15 @@
           "icone": "14022006120071400133104030000",
           "fonte": "esportesnatv",
           "dura": 10
+        },
+        {
+          "hora": "16:30",
+          "competicao": "PORSCHE CUP NA",
+          "evento": "Austin - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Austin",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "17:00",
@@ -721,12 +630,22 @@
           "dura": 120
         },
         {
+          "hora": "17:30",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Long Beach 2 - Top32",
+          "canais": "YOUTUBE",
+          "etapa": "Long Beach 2",
+          "sessao": "Top32",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "18:00",
-          "competicao": "Fórmula 1",
-          "evento": "GP dos EUA - classificação",
-          "canais": "SPORTV3",
-          "icone": "04020000a0000a0000a4001880000",
-          "fonte": "esportesnatv",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP dos FUA - Classificação",
+          "canais": "SPORTV3, FITY PRO, CLOBOZLAY ER",
+          "etapa": "GP dos FUA",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo",
           "dura": 60
         },
         {
@@ -788,6 +707,15 @@
           "dura": 120
         },
         {
+          "hora": "18:40",
+          "competicao": "MBR",
+          "evento": "Cascavel/PR - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "19:00",
           "competicao": "NBB",
           "evento": "Pato x Botafogo",
@@ -811,6 +739,15 @@
           "icone": "0d030158402605146286663600454",
           "fonte": "esportesnatv",
           "dura": 60
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Fi ACADEMY",
+          "evento": "Estados Unidos - Corrida 2",
+          "canais": "YOUTUBE IL FITV PRO",
+          "etapa": "Estados Unidos",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "20:00",
@@ -863,11 +800,12 @@
         },
         {
           "hora": "21:00",
-          "competicao": "Moto3 e Moto2",
-          "evento": "GP da Austrália",
-          "canais": "ESPN4",
-          "icone": "01020000630003000030000300004",
-          "fonte": "esportesnatv",
+          "competicao": "MOTO3",
+          "evento": "Austrália - Corrida",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Austrália",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
           "dura": 60
         },
         {
@@ -889,6 +827,15 @@
           "dura": 120
         },
         {
+          "hora": "21:10",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "China - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "China",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "22:00",
           "competicao": "Boxe",
           "evento": "Navarrete x Foster",
@@ -905,12 +852,310 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "22:00",
+          "competicao": "FÓRMULA 200",
+          "evento": "Goiânia/GO - Classificação 2",
+          "canais": "YOUTUBE",
+          "etapa": "Goiânia/GO",
+          "sessao": "Classificação 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "22:00",
+          "competicao": "FÓRMULA DRIFT",
+          "evento": "Long Beach 2 - Top16",
+          "canais": "YOUTUBE",
+          "etapa": "Long Beach 2",
+          "sessao": "Top16",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "22:15",
+          "competicao": "MOTO2",
+          "evento": "Austrália - Corrida",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Austrália",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "23:00",
+          "competicao": "FÓRMULA 200",
+          "evento": "Goiânia/GO - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Goiânia/GO",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "23:15",
           "competicao": "NCAA Fut. Americano",
           "evento": "Utah x Houston",
           "canais": "ESPN3",
           "icone": "03024006120041400143102051400",
           "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-10-25",
+      "eventos": [
+        {
+          "hora": "00:00",
+          "competicao": "MOTO GP",
+          "evento": "Austrália - Corrida Principal",
+          "canais": "ESPN4, DISNEY+ PR",
+          "etapa": "Austrália",
+          "sessao": "Corrida Principal",
+          "fonte": "tomadadetempo",
+          "dura": 75
+        },
+        {
+          "hora": "02:20",
+          "competicao": "TCR WORLD TOUR",
+          "evento": "China - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "China",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "03:55",
+          "competicao": "CLIO CUP BOHEMIA",
+          "evento": "Hungaroring - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "04:00",
+          "competicao": "F4 CEZ",
+          "evento": "Hungaroring - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:05",
+          "competicao": "SWIFT CUP EUROPE",
+          "evento": "Hungaroring - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:15",
+          "competicao": "ESPANHOL DE MOTOCROSS",
+          "evento": "Talavera - Provas",
+          "canais": "YOUTUBE",
+          "etapa": "Talavera",
+          "sessao": "Provas",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:20",
+          "competicao": "EUROFORMULA OPEN",
+          "evento": "Barcelona - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "06:55",
+          "competicao": "LAMBORGHINI WORLD FINALS",
+          "evento": "iionza - Corrida 2 (AM)",
+          "canais": "YOUTUBE",
+          "etapa": "iionza",
+          "sessao": "Corrida 2 (AM)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:00",
+          "competicao": "GT CUP SERIES",
+          "evento": "Hungaroring - Corrida Sprint 2",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida Sprint 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:20",
+          "competicao": "TCR EUROPE",
+          "evento": "Barcelona - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:15",
+          "competicao": "EUROCUP-3",
+          "evento": "Hungaroring - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:45",
+          "competicao": "GB4 WINTER SERIES",
+          "evento": "Snetterton - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Snetterton",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:10",
+          "competicao": "LAMBORGHINI WORLD FINALS",
+          "evento": "Monza - Corrida 2 (PRO)",
+          "canais": "YOUTUBE",
+          "etapa": "Monza",
+          "sessao": "Corrida 2 (PRO)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:15",
+          "competicao": "GB4 WINTER SERIES",
+          "evento": "Snetterton - Corrida 4",
+          "canais": "YOUTUBE",
+          "etapa": "Snetterton",
+          "sessao": "Corrida 4",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:15",
+          "competicao": "INTERNATIONAL GT OPEN",
+          "evento": "Barcelona - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:35",
+          "competicao": "F4 CEZ",
+          "evento": "Hungaroring - Corrida 4",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 4",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:25",
+          "competicao": "MBR",
+          "evento": "Cascavel/PR - Corrida 1 (Concept)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 1 (Concept)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "10:25",
+          "competicao": "TCR EASTERN EUROPE",
+          "evento": "Hungaroring - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:15",
+          "competicao": "GT CUP EUROPE",
+          "evento": "Barcelona - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "11:45",
+          "competicao": "SWIFT CUP EUROPE",
+          "evento": "Hungaroring - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Hungaroring",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:00",
+          "competicao": "MBR",
+          "evento": "Cascavel/PR - Corrida 2 (Concept)",
+          "canais": "YOUTUBE",
+          "etapa": "Cascavel/PR",
+          "sessao": "Corrida 2 (Concept)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:30",
+          "competicao": "PORSCHE CUP NA",
+          "evento": "Austin - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Austin",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:50",
+          "competicao": "EUROFORMULA OPEN",
+          "evento": "Barcelona - Corrida 3",
+          "canais": "YOUTUBE",
+          "etapa": "Barcelona",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "F1 ACADEMY",
+          "evento": "Estados Unidos - Corrida 3",
+          "canais": "YOUTUBE, FITV PRO",
+          "etapa": "Estados Unidos",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "IMSA E-SPORTS GLOBAL",
+          "evento": "Watkins Glen - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Watkins Glen",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "NASCAR CUP SERIES",
+          "evento": "Talladega - Corrida",
+          "canais": "ESPN3, PHIZTV, DISNEY+ PR",
+          "etapa": "Talladega",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 45
+        },
+        {
+          "hora": "17:00",
+          "competicao": "FÓRMULA 1",
+          "evento": "GP dos EUA - Corrida",
+          "canais": "SPORTV3, FITY FRO, GLOBORLAY ER",
+          "etapa": "GP dos EUA",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo",
+          "dura": 120
+        },
+        {
+          "hora": "23:00",
+          "competicao": "NASCAR CUP SERIES",
+          "evento": "Talladega - Corrida (REPRISE)",
+          "canais": "ESPN5",
+          "etapa": "Talladega",
+          "sessao": "Corrida (REPRISE)",
+          "fonte": "tomadadetempo",
+          "dura": 60
         }
       ]
     }
