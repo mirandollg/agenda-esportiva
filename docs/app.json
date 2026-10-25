@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-25T00:58:03-03:00",
+  "gerado_em": "2026-10-25T10:34:40-03:00",
   "primeiro_dia": "2026-10-25",
   "fontes": [
     "Esportes na TV",
@@ -17,8 +17,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Austrália",
           "sessao": "Corrida Principal",
-          "fonte": "tomadadetempo",
-          "dura": 75
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "02:20",
@@ -107,8 +106,7 @@
           "evento": "Rostov x Lokomotiv Moscow",
           "canais": "BANDSPORTS",
           "icone": "0613fffb9ffa4affa98ffb98fffca",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:15",
@@ -125,8 +123,7 @@
           "evento": "Inter x Fiorentina",
           "canais": "ESPN",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:45",
