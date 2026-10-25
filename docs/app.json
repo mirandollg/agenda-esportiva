@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-24T18:44:47-03:00",
+  "gerado_em": "2026-10-24T21:00:44-03:00",
   "primeiro_dia": "2026-10-24",
   "fontes": [
     "Esportes na TV",
@@ -609,8 +609,7 @@
           "evento": "QF - Palmeiras F x Santa Fe F",
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613ffffffedfff99dcfeefffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:30",
@@ -628,8 +627,7 @@
           "canais": "SPORTV3, FITY PRO, CLOBOZLAY ER",
           "etapa": "GP dos FUA",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "18:00",
@@ -661,8 +659,7 @@
           "evento": "Ponte Preta x Fortaleza",
           "canais": "ESPN",
           "icone": "0613fff9cffa3aff9caffc88fffde",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
@@ -686,8 +683,7 @@
           "evento": "Guarulhos x Monte Carmelo",
           "canais": "SPORTV2",
           "icone": "0313ffcbdffdfeffccfffcdfffeab",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:40",
@@ -720,8 +716,7 @@
           "evento": "OF (ida) - Criciúma x Chapecoense",
           "canais": "BANDSPORTS, CBFS TV",
           "icone": "0d030158402605146286663600454",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:00",
