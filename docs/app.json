@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-25T16:51:57-03:00",
+  "gerado_em": "2026-10-25T19:18:53-03:00",
   "primeiro_dia": "2026-10-25",
   "fontes": [
     "Esportes na TV",
@@ -424,8 +424,7 @@
           "evento": "Baltim. Ravens x Cincin. Bengals",
           "canais": "ESPN2",
           "icone": "0a020015000064100062001610005",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -433,8 +432,7 @@
           "evento": "Atlanta Falcons xS Franc. 49ers",
           "canais": "SPORTV2",
           "icone": "0f02810115624a232b04448405545",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -492,8 +490,7 @@
           "evento": "Udinese x Milan",
           "canais": "ESPN",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -510,8 +507,7 @@
           "canais": "SPORTV3, FITY FRO, GLOBORLAY ER",
           "etapa": "GP dos EUA",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 120
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "17:00",
@@ -519,8 +515,7 @@
           "evento": "QF - Dep. Cali F x Olimpia F",
           "canais": "SPORTV, Canal GolBR",
           "icone": "0613ffff8fff78fffabfff6affffa",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -545,8 +540,7 @@
           "evento": "Las Vegas Raiders x LA Rams",
           "canais": "ESPN2",
           "icone": "0d021116020063100260005901106",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:30",
