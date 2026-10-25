@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-25T14:25:27-03:00",
+  "gerado_em": "2026-10-25T16:51:57-03:00",
   "primeiro_dia": "2026-10-25",
   "fontes": [
     "Esportes na TV",
@@ -357,8 +357,7 @@
           "evento": "Zenit x Dynamo Makhachkala",
           "canais": "BANDSPORTS, Gol BR",
           "icone": "0613fffa9ff94aff9cbffc88fffdc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:30",
@@ -400,8 +399,7 @@
           "evento": "Sunderland x Leeds",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffaffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -418,8 +416,7 @@
           "evento": "Canal Redzone",
           "canais": "ESPN4, GLOBOPLAY",
           "icone": "0c020004020054100381001910118",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -479,8 +476,7 @@
           "canais": "ESPN5, PHIZTV, ESPN3, DISNEY+ PR",
           "etapa": "Talladega",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "16:00",
