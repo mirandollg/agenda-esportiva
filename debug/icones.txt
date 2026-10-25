@@ -1,24 +1,23 @@
-0d030115938328084760912603201  Espanhol de Futsal
-0613ffffafffb3fffb9fffc5ffffd  Bundesliga 22 Div
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffaaff857ff9a6ff895fffdd  Camp. Inglês 22 Div
-0613fffe9fff3effc9cfff5cfffea  Camp. Inglês Fem
+0613fffb9ffa4affa98ffb98fffca  Campeonato Russo
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Camp. Escocês
+0613fffe9fff5affcacfff6affffc  Camp. Inglês Fem
+0613ffffbfffb3fffc8fffd5ffffe  Bundesliga 22 Div
 0613fffffffffffffffffffffffff  Liga
-0202b0000b0000800008000080004  EUrocup-3
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
+0613fffbaffb4affaa9ffa88fffec  Campeonato Russo
+02020800520004400044000250000  NFL em Paris
+0613fffffffff8ffffdffff8fffff  Camp. Holandês
+0613fffffffffdffff9ffffefffff  Premier League
 0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffffbffffffffff  Premier League
+0613ffffeffff7fffd9ffff5fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Serie B Italiana
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Liga
+0613fffa9ff94aff9cbffc88fffdc  Campeonato Russo
+0613fffffffff5fffe9ffff5fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Bundesliga
 0613fffffffffeffffaffffffffff  Premier League
-0d030118408203182183b22501176  LNF Silver Futsal
-1713fffffffffffffffffffffffff  UFC 333
-0113fffffffffffffffffffffffff  NBB
-0613fffffffffffffffffffffffff  Liga
-0613ffdbefe2b7fbbd3ff3c3ffecf  Mundial sub-17 Fem
-0613fffffffffcffffbffffbfffff  Serie A Italiana
-0613ffffffffe8fffbbfffe7fffff  Premier League
-0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Serie A Italiana
