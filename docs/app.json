@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-25T19:18:53-03:00",
+  "gerado_em": "2026-10-25T21:33:50-03:00",
   "primeiro_dia": "2026-10-25",
   "fontes": [
     "Esportes na TV",
@@ -531,8 +531,7 @@
           "evento": "Detroit Lions x GB Packers",
           "canais": "SPORTV2, GE TV",
           "icone": "0d020102000161300650002800007",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:25",
@@ -564,8 +563,7 @@
           "evento": "River Plate x Racing",
           "canais": "ESPN",
           "icone": "0613fffffffff8ffff9ffff7fffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:00",
