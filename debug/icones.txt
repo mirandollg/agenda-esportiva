@@ -1,23 +1,22 @@
-0613fffb9ffa4affa98ffb98fffca  Campeonato Russo
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Camp. Escocês
-0613fffe9fff5affcacfff6affffc  Camp. Inglês Fem
-0613ffffbfffb3fffc8fffd5ffffe  Bundesliga 22 Div
+0613fffffffffffffffffffffffff  Camp. Turco
+0613ffffcfffb2fffa9fffd6ffffc  Paulistão sub-20
+0613fffffffffffffffffffffffff  Camp. Turco
+0613ffffafff58fff8cfff78ffffc  Camp. Português
+0e020000030043001600040000203  ATP500 Viena
+0613ffffbfffb7fffabfffa8ffffc  Ligue 1 Francesa
 0613fffffffffffffffffffffffff  Liga
-0613fffbaffb4affaa9ffa88fffec  Campeonato Russo
-02020800520004400044000250000  NFL em Paris
-0613fffffffff8ffffdffff8fffff  Camp. Holandês
-0613fffffffffdffff9ffffefffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffffbffffffffff  Premier League
-0613ffffeffff7fffd9ffff5fffff  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Serie B Italiana
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Liga
-0613fffa9ff94aff9cbffc88fffdc  Campeonato Russo
-0613fffffffff5fffe9ffff5fffff  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffeffffaffffffffff  Premier League
-0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Premiação
+0603ffc6bfb193f7240fe190ffe8c  Kings Cup BR (Fut7)
+0313febebfefeffbddffddfffebac  Superliga Vôlei Fem
+0313ffeadffcefff9ffffbeffffba  Superlisa Vôlei Masc
+0613fffffffffffffffffffffffff  Brasileirão
+0613ffa8efc4d8fc8c8fd3b5ffdbf  Brasileirão - Série B
+0613fffffffffffffffffffffffff  Brasileirão
+0113fffffffffffffffffffffffff  NBB
+0113fffffffffffffffffffffffff  NBB
+0613ffc9efc3c9fa9b8fd2b7ffedf  Brasileirão - Série B
+0113fffffffffffffffffffffffff  NBA
+0313ffebdffcefff9ffffbdffffba  Superlisa Vôlei Masc
+0e12fca18fb688f8521f9442fb86b  MLB - World Series
+0d020004020154100390001a00107  NFL
+0113fffffffffffffffffffffffff  NBA

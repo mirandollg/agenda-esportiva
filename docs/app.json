@@ -1,10 +1,199 @@
 {
-  "gerado_em": "2026-10-26T01:03:01-03:00",
+  "gerado_em": "2026-10-26T12:56:08-03:00",
   "primeiro_dia": "2026-10-26",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 0,
-  "dias": []
+  "total": 22,
+  "dias": [
+    {
+      "data": "2026-10-26",
+      "eventos": [
+        {
+          "hora": "13:00",
+          "competicao": "Camp. Turco",
+          "evento": "Rizesporx Trabzonspor",
+          "canais": "ESPN4",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 130
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Paulistão sub-20",
+          "evento": "QF (ida) - São Paulo x Palmeiras",
+          "canais": "YOUTUBE TNT Sports",
+          "icone": "0613ffffcfffb2fffa9fffd6ffffc",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:30",
+          "competicao": "Camp. Turco",
+          "evento": "Galatasaray x Fenerbahçe",
+          "canais": "ESPN",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:45",
+          "competicao": "Camp. Português",
+          "evento": "Santa Clara x Benfica",
+          "canais": "YOUTUBE ESPN Brasil",
+          "icone": "0613ffffafff58fff8cfff78ffffc",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "ATP500 Viena",
+          "evento": "1R- Van Asschex Tien",
+          "canais": "ESPN2",
+          "icone": "0e020000030043001600040000203",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Ligue 1 Francesa",
+          "evento": "PSG x Lyon",
+          "canais": "XSPORTS, CAZÉTV",
+          "icone": "0613ffffbfffb7fffabfffa8ffffc",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Kings Cup BR (Fut7)",
+          "evento": "2º Rodada",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0603ffc6bfb193f7240fe190ffe8c",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Liga",
+          "evento": "Sevilla x Osasuna",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Premiação",
+          "evento": "Bola de Ouro 2026",
+          "canais": "DAZN.com",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Fem",
+          "evento": "Londrina x SESI-Bauru",
+          "canais": "SPORTV2",
+          "icone": "0313febebfefeffbddffddfffebac",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Superlisa Vôlei Masc",
+          "evento": "Montes Claros x Sada-Cruzeiro",
+          "canais": "YOUTUBE GETV",
+          "icone": "0313ffeadffcefff9ffffbeffffba",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Coritiba x Grêmio",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "América-MG x Cuiabá",
+          "canais": "DISNEY+",
+          "icone": "0613ffa8efc4d8fc8c8fd3b5ffdbf",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Brasileirão",
+          "evento": "Flamengo x Atlético-MG",
+          "canais": "SPORTV-PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "NBB",
+          "evento": "Corinthians x Franca",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "NBB",
+          "evento": "Mogi x Unifacisa",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Juventude x Náutico",
+          "canais": "DISNEY+",
+          "icone": "0613ffc9efc3c9fa9b8fd2b7ffedf",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "NBA",
+          "evento": "CrunchTime - Simulcast",
+          "canais": "YOUTUBE NBA Brasil",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "MLB - World Series",
+          "evento": "Tampa B Rays x Milw. Brewers (0-2)",
+          "canais": "ESPN4",
+          "icone": "0e12fca18fb688f8521f9442fb86b",
+          "fonte": "esportesnatv",
+          "dura": 30
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Superlisa Vôlei Masc",
+          "evento": "Norde x Vôlei Renata",
+          "canais": "SPORTV2",
+          "icone": "0313ffebdffcefff9ffffbdffffba",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:15",
+          "competicao": "NFL",
+          "evento": "Philad. Eagles x Dallas Cowboys",
+          "canais": "ESPN2",
+          "icone": "0d020004020154100390001a00107",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "23:00",
+          "competicao": "NBA",
+          "evento": "Denver Nuggets x GS Warriors",
+          "canais": "DISNEY+",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        }
+      ]
+    }
+  ]
 }
