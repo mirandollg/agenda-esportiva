@@ -1,22 +1,23 @@
-0613fffffffffffffffffffffffff  Camp. Turco
-0613ffffcfffb2fffa9fffd6ffffc  Paulistão sub-20
-0613fffffffffffffffffffffffff  Camp. Turco
-0613ffffafff58fff8cfff78ffffc  Camp. Português
-0e020000030043001600040000203  ATP500 Viena
-0613ffffbfffb7fffabfffa8ffffc  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Liga
-0613fffffffffffffffffffffffff  Premiação
-0603ffc6bfb193f7240fe190ffe8c  Kings Cup BR (Fut7)
-0313febebfefeffbddffddfffebac  Superliga Vôlei Fem
-0313ffeadffcefff9ffffbeffffba  Superlisa Vôlei Masc
-0613fffffffffffffffffffffffff  Brasileirão
-0613ffa8efc4d8fc8c8fd3b5ffdbf  Brasileirão - Série B
-0613fffffffffffffffffffffffff  Brasileirão
+0e127081201624026010800103403  ATP500 Viena
+0e020115010090306101300201001  ATP500 Viena
+0613fffccffd6cffcacffd5bfffca  Copa da Alemanha
+0613fffffffffffffffffffffffff  Serie A Italiana
+0e030208000430109110405102065  ATP500 Viena
+0113fffffffffffffffffffffffff  Euroliga
+0613fffffffffffffffffffffffff  Serie B Italiana
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffcbffc4cff9acffe69fffcc  Copa da Alemanha
+0613ffd9efd4cafaab5fd5b5ffedf  Copa da Liga Inglesa
+0413ffbdbfdffefeecffecefffc9c  Superliga Vôlei Masc
 0113fffffffffffffffffffffffff  NBB
 0113fffffffffffffffffffffffff  NBB
-0613ffc9efc3c9fa9b8fd2b7ffedf  Brasileirão - Série B
+0613ffffffd9ddfa9a7fc9cbfffff  Brasileirão - Série B
+0613ffecffd298fe8b6fc499ffeef  Copa do Brasil sub20
+0113fffffffffffffffffffffffff  NBB
+0313ffbdbfdffefeecffedffffc9c  Superliga Vôlei Masc
 0113fffffffffffffffffffffffff  NBA
-0313ffebdffcefff9ffffbdffffba  Superlisa Vôlei Masc
-0e12fca18fb688f8521f9442fb86b  MLB - World Series
-0d020004020154100390001a00107  NFL
+02020000200025000240001180000  NHL
+0e12fc844ff1a8ff065ff669ca94a  MLB - World Series
+01020002600042000424000060020  NHL
 0113fffffffffffffffffffffffff  NBA
