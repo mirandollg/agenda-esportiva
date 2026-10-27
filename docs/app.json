@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-27T12:13:21-03:00",
+  "gerado_em": "2026-10-27T17:11:20-03:00",
   "primeiro_dia": "2026-10-27",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "1R- Zverevx Landaluce",
           "canais": "ESPN2",
           "icone": "0e020115010090306101300201001",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -41,8 +40,7 @@
           "evento": "Hamburgo x Eintracht Frankfurt",
           "canais": "ESPN4",
           "icone": "0613fffccffd6cffcacffd5bfffca",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
@@ -50,8 +48,7 @@
           "evento": "Sassuolo x Lazio",
           "canais": "ESPN3",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
