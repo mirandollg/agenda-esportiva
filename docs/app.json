@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-28T12:45:12-03:00",
+  "gerado_em": "2026-10-28T17:47:53-03:00",
   "primeiro_dia": "2026-10-28",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "OF - Alemanha s17 F x Venezuela F",
           "canais": "SPORTV3",
           "icone": "0613ffeacfe3b3facd2ff3b5ffdcf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
@@ -41,8 +40,7 @@
           "evento": "1R - Rodionov x Basilashvili",
           "canais": "ESPN2",
           "icone": "0e120010220001012060200126002",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
@@ -66,8 +64,7 @@
           "evento": "Milan x Bologna",
           "canais": "ESPN4",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:45",
@@ -75,8 +72,7 @@
           "evento": "Chelsea F x Roma F",
           "canais": "ESPN3",
           "icone": "0613ffc9ffc3c8fcaa6fd4c6ffcbf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:45",
@@ -92,8 +88,7 @@
           "evento": "OF -Brasils17 F x Polônia s17F",
           "canais": "SPORTV, CAZÉTV",
           "icone": "0613ffe9efe7c5fcbd2ff5c2fffbf",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
