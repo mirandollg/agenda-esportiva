@@ -1,23 +1,19 @@
-0e127081201624026010800103403  ATP500 Viena
-0e020115010090306101300201001  ATP500 Viena
-0613fffccffd6cffcacffd5bfffca  Copa da Alemanha
-0613fffffffffffffffffffffffff  Serie A Italiana
-0e030208000430109110405102065  ATP500 Viena
+0d120007000250306000370111001  ATP500 Basel
+0613ffeacfe3b3facd2ff3b5ffdcf  Mundial sub-17 Fem
+0e120010220001012060200126002  ATP500 Viena
 0113fffffffffffffffffffffffff  Euroliga
-0613fffffffffffffffffffffffff  Serie B Italiana
 0613fffffffffffffffffffffffff  Serie A Italiana
 0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffcbffc4cff9acffe69fffcc  Copa da Alemanha
-0613ffd9efd4cafaab5fd5b5ffedf  Copa da Liga Inglesa
-0413ffbdbfdffefeecffecefffc9c  Superliga Vôlei Masc
+0613ffc9ffc3c8fcaa6fd4c6ffcbf  Champ. League Fem
+0613ffbaffd5a9fcab6fd5a6ffebf  Champ. League Fem
+0613ffe9efe7c5fcbd2ff5c2fffbf  Mundial sub-17 Fem
+0e020000611004480386402120300  ATP500 Viena
+0613ffe9efe1b4fabd0fe5b2fffbf  Copa da Liga Inglesa
+0613fffcaffe3cffcaefff5bfffec  Copa da Alemanha
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613ffffffbaddf8a9dfb9edfffff  Copa da Liga Inglesa
+0613fffffffffffffffffffffffff  Camp. Escocês
+0613fffffffdfffa8dbfeeeffffff  Libertadores Fem
+0613ffecffd68bfa9a8fd5b8ffabf  Champ. League Fem
 0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0613ffffffd9ddfa9a7fc9cbfffff  Brasileirão - Série B
-0613ffecffd298fe8b6fc499ffeef  Copa do Brasil sub20
-0113fffffffffffffffffffffffff  NBB
-0313ffbdbfdffefeecffedffffc9c  Superliga Vôlei Masc
-0113fffffffffffffffffffffffff  NBA
-02020000200025000240001180000  NHL
-0e12fc844ff1a8ff065ff669ca94a  MLB - World Series
-01020002600042000424000060020  NHL
-0113fffffffffffffffffffffffff  NBA
