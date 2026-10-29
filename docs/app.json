@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-29T02:04:42-03:00",
+  "gerado_em": "2026-10-29T12:53:03-03:00",
   "primeiro_dia": "2026-10-29",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "1R - Harimoto x B. Takahashi, seguido por Shinozuka x Hugo Calderano",
           "canais": "SPORTV3, CAZÉTV",
           "icone": "09022000000104304200016200013",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -25,8 +24,7 @@
           "evento": "Grand Slam de Abu Dhabi - finais",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -111,7 +109,7 @@
           "canais": "SPORTV",
           "icone": "0613fffaeff585ffab3ff6b1fffcf",
           "fonte": "esportesnatv",
-          "dura": 15
+          "dura": 115
         },
         {
           "hora": "16:45",
