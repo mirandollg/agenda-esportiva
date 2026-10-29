@@ -1,19 +1,30 @@
-0d120007000250306000370111001  ATP500 Basel
-0613ffeacfe3b3facd2ff3b5ffdcf  Mundial sub-17 Fem
-0e120010220001012060200126002  ATP500 Viena
+09022000000104304200016200013  WIT Champ. Montpellier
+1713fffffffffffffffffffffffff  Judô
+0e030000102100017016730400701  ATP500 Viena
+0613ffe9efe1b3facd1ff5a2fff9f  Mundial sub-17 Fem
+0e120000000001227132430112004  ATP500 Viena
+0e120014001060010110500132100  ATP500 Basel
+0613fffecfff3cffcacfff7cfffec  Champ. League (F)
+0613ffdaefe1c4faad1ff2c2fffbf  Mundial sub-17 Fem
+0613fffffffffafffcbffff9fffff  Camp. Saudita
+0613fffffffffffffffffffffffff  Camp. Saudita
+0613fffaeff585ffab3ff6b1fffcf  Copa do Brasilsub20
+0e030000000000025018452400024  ATP500 Viena
 0113fffffffffffffffffffffffff  Euroliga
+0613ffe9efe3a6fabb2ff5a5fffcf  Copa da Liga Inglesa
 0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613ffc9ffc3c8fcaa6fd4c6ffcbf  Champ. League Fem
-0613ffbaffd5a9fcab6fd5a6ffebf  Champ. League Fem
-0613ffe9efe7c5fcbd2ff5c2fffbf  Mundial sub-17 Fem
-0e020000611004480386402120300  ATP500 Viena
-0613ffe9efe1b4fabd0fe5b2fffbf  Copa da Liga Inglesa
-0613fffcaffe3cffcaefff5bfffec  Copa da Alemanha
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613ffffffbaddf8a9dfb9edfffff  Copa da Liga Inglesa
-0613fffffffffffffffffffffffff  Camp. Escocês
-0613fffffffdfffa8dbfeeeffffff  Libertadores Fem
-0613ffecffd68bfa9a8fd5b8ffabf  Champ. League Fem
+0613fffeafff3cffcacfff6cfffed  Champ. League (F)
 0113fffffffffffffffffffffffff  NBB
+0613fffcfff777ffaa2ff6b7ffecf  Copa do Brasilsub20
+0613fffffffff8ffffbffff7fffff  Paulistão sub-20
+0313ffdbdffdfeffdcfffcefffeab  Superliga Vôlei Masc
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0113fffffffffffffffffffffffff  NBB
+0113fffffffffffffffffffffffff  NBB
+05021016020050400112000051000  NCAA Fut. Americano
+0113fffffffffffffffffffffffff  NBA
+0b020316020066100360003620027  NFL
+0613fffffffffffffffffffffffff  Brasileirão
+01020000100000030003110011111  Moto3/Moto2/MotoGP
+0603fffffffffffffffffffffffff  Golfe
