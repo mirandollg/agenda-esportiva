@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-30T12:34:23-03:00",
+  "gerado_em": "2026-10-30T17:25:52-03:00",
   "primeiro_dia": "2026-10-30",
   "fontes": [
     "Esportes na TV",
@@ -72,8 +72,7 @@
           "evento": "QF- Zverevx Fery",
           "canais": "ESPN2",
           "icone": "0e020000001000112033100201011",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -81,8 +80,7 @@
           "evento": "Konyaspor x Galatasaray",
           "canais": "ESPN4",
           "icone": "0613fffc9ffe4cff9acffe4afffde",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
@@ -130,8 +128,7 @@
           "evento": "OF - Ovtcharov x H. Calderano",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0e020061030400002430000100013",
-          "fonte": "esportesnatv",
-          "dura": 55
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:30",
@@ -139,8 +136,7 @@
           "evento": "GP do México - treino livre 1",
           "canais": "SPORTV3",
           "icone": "00026000660006600063000630006",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
