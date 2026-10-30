@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-30T02:03:30-03:00",
+  "gerado_em": "2026-10-30T12:34:23-03:00",
   "primeiro_dia": "2026-10-30",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "QF - Mannarino x Medvedev",
           "canais": "ESPN2",
           "icone": "0e120010300103236493041250020",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:30",
@@ -41,8 +40,7 @@
           "evento": "Grand Slam de Abu Dhabi - finais",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -50,8 +48,7 @@
           "evento": "QF - Paul x Alcaraz",
           "canais": "ESPN2",
           "icone": "0e120000010304252384103010000",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:50",
