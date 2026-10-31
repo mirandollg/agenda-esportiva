@@ -1,20 +1,29 @@
-0e120010300103236493041250020  ATP500 Viena
-0613fffffffffffffffffffffffff  Camp. Saudita
+0e026000010000000433002130000  MotoGP
+09022054240000080420200000002  WTT Champ. Montpellier
+0613ffffafffb3fffc9fffb5ffffd  Bundesliga 22 Div
+0613ffffafffa3fffc8fffd5ffffd  Bundesliga 22 Div
+0613fffffffffeffffaffffffffff  Premier League
+0613fffacff767ffab7ff986fffce  Camp. Inglês 22 Div
+0613fffeafff4cffd8cfff6effffa  Camp. Inglês Fem
+0613fffffffffffffffffffffffff  Liga
 1713fffffffffffffffffffffffff  Judô
-0e120000010304252384103010000  ATP500 Viena
-0613fffffffffffffffffffffffff  Camp. Saudita
-0113ffffffffffffffcffffffffff  WTA125 Curitiba
-0e020000001000112033100201011  ATP500 Viena
-0613fffc9ffe4cff9acffe4afffde  Campeonato Turco
-0613ffffbfffb2fffc8fffc7ffffd  Bundesliga 22 Div
-0613ffffcfffb3fffa9fffc5ffffd  Bundesliga 22 Div
-0613fffffffff3fffd8ffff5fffff  Ligue 1 Francesa
-0613fffffffff8ffff9ffff7fffff  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Camp. Saudita
-0e020061030400002430000100013  WTT Champ. Montpellier
-00026000660006600063000630006  Fórmula 1
-0e020022540305164043222004010  ATP500 Viena
-0d030118827435085550713607100  Espanholde Futsal
-0613fffcfff673ffac2ff7a6fffcf  Copa do Brasilsub20
+0e120000100004430261701640030  ATP500 Viena
+0d12000090000f0014110a0000630  ATP500 Basel
+0613ffff9fff56fff8bfff89ffffd  Brasileirão sub-17
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Camp. Russo
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffdffff9ffffffffff  Premier League
+0613fffffffffeffffaffffffffff  Premier League
+0613fffffffffffffffffffffffff  Liga
+0e020200122003114020010512000  ATP500 Viena
+0e121070000608350067504450002  ATP500 Basel
+0013fffffffffffffffffffffffff  MMA
+0613ffffffffffffffdffffffffff  Serie A Italiana
+0613fffffffffdffffaffffbfffff  Premier League
 0613fffffffffffffffffffffffff  Bundesliga
 0613fffffffffffffffffffffffff  Liga
