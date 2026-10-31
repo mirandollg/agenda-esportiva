@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-31T12:04:21-03:00",
+  "gerado_em": "2026-10-31T16:27:05-03:00",
   "primeiro_dia": "2026-10-31",
   "fontes": [
     "Esportes na TV",
@@ -203,8 +203,7 @@
           "evento": "Final (ida) - Corinthians x Cruzeiro",
           "canais": "SPORTV",
           "icone": "0613ffff9fff56fff8bfff89ffffd",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:30",
@@ -252,8 +251,7 @@
           "evento": "Dynamo Moscow x Akhmat Grozny",
           "canais": "BANDSPORTS",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -270,8 +268,7 @@
           "evento": "Manchester City x Brighton",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -279,8 +276,7 @@
           "evento": "Bournemouth x Leeds",
           "canais": "ESPN4",
           "icone": "0613fffffffffdffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -313,8 +309,7 @@
           "evento": "SF - Zverev x De Minaur",
           "canais": "ESPN2",
           "icone": "0e020200122003114020010512000",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -322,8 +317,7 @@
           "evento": "SF - Lehecka x Struff",
           "canais": "ESPN3",
           "icone": "0e121070000608350067504450002",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -348,8 +342,7 @@
           "evento": "Udinese x Roma",
           "canais": "ESPN4",
           "icone": "0613ffffffffffffffdffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
@@ -375,8 +368,7 @@
           "canais": "SPORTV3, GLOBOPLAY",
           "etapa": "GP do México",
           "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "14:30",
