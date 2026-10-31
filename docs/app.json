@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-31T01:51:05-03:00",
+  "gerado_em": "2026-10-31T12:04:21-03:00",
   "primeiro_dia": "2026-10-31",
   "fontes": [
     "Esportes na TV",
@@ -43,8 +43,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Malásia",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 50
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "02:40",
@@ -53,8 +52,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Malásia",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 50
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "04:00",
@@ -63,8 +61,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Malásia",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "05:00",
@@ -123,8 +120,7 @@
           "evento": "Stoke City x Preston",
           "canais": "ESPN",
           "icone": "0613fffacff767ffab7ff986fffce",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:30",
@@ -148,8 +144,7 @@
           "evento": "Grand Slam de Abu Dhabi - finais",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -192,8 +187,7 @@
           "evento": "SF - Vacherot x Fritz",
           "canais": "ESPN3",
           "icone": "0d12000090000f0014110a0000630",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -201,8 +195,7 @@
           "evento": "SF - Medvedev x Alcaraz",
           "canais": "ESPN2",
           "icone": "0e120000100004430261701640030",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -588,7 +581,7 @@
           "canais": "SPORTV, YOUTUBE",
           "icone": "0e13ffffcfffffffffffffd7fffeb",
           "fonte": "esportesnatv",
-          "dura": 90
+          "dura": 60
         },
         {
           "hora": "21:00",
@@ -596,7 +589,8 @@
           "evento": "Final - Corinthians F x Cruzeiro F",
           "canais": "XSPORTS, SPORTV, CAZÉTV, NSPORTS, UOL, YOUTUBE Canal Gol BR",
           "icone": "0613ffffffedfffaadcfeefffffff",
-          "fonte": "esportesnatv"
+          "fonte": "esportesnatv",
+          "dura": 120
         },
         {
           "hora": "21:00",
