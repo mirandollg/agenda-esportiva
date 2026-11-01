@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-01T17:14:02-03:00",
+  "gerado_em": "2026-11-01T20:45:48-03:00",
   "primeiro_dia": "2026-11-01",
   "fontes": [
     "Esportes na TV",
@@ -425,8 +425,7 @@
           "evento": "Detroit Lions x Minn. Vikings",
           "canais": "ESPN2",
           "icone": "0d021016040083200480005910206",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -434,8 +433,7 @@
           "evento": "Buffalo Bills x Baltimore Ravens",
           "canais": "SPORTV2",
           "icone": "0d020006040063100380005a01008",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:30",
@@ -467,8 +465,7 @@
           "evento": "SF (ida) - Palmeiras x Vasco",
           "canais": "GLOBO, SPORTV-PFC, GE TV, PRIME VIDEO",
           "icone": "0613fffffffffafffe8ffff8fffff",
-          "fonte": "esportesnatv",
-          "dura": 130
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -519,8 +516,7 @@
           "canais": "SPORTV3, SPORTV, OLOBOPLAY PR",
           "etapa": "GP do México",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "17:00",
@@ -545,8 +541,7 @@
           "evento": "Denver Broncos x KC Chiefs",
           "canais": "ESPN2",
           "icone": "0b021105040055000591000920119",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
@@ -554,8 +549,7 @@
           "evento": "Novorizontino x Operário-PR",
           "canais": "ESPN",
           "icone": "0613fffbaffa7affa8bffb68fffdc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
