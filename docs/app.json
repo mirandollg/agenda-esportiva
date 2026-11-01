@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-10-31T19:43:27-03:00",
+  "gerado_em": "2026-10-31T22:53:19-03:00",
   "primeiro_dia": "2026-10-31",
   "fontes": [
     "Esportes na TV",
@@ -489,8 +489,7 @@
           "evento": "Vila Nova x Juventude",
           "canais": "REDETV!, DISNEY+, YOUTUBE Canal GOAT",
           "icone": "0613ffffffeabefca8bfe8bdfffff",
-          "fonte": "esportesnatv",
-          "dura": 135
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:30",
@@ -523,8 +522,7 @@
           "evento": "SESC-Flamengo x Mackenzie",
           "canais": "SPORTV2",
           "icone": "0313ffebeffefeffbcdffcdfffeba",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -564,8 +562,7 @@
           "evento": "Etapa das Filipinas",
           "canais": "SPORTV, YOUTUBE",
           "icone": "0e13ffffcfffffffffffffd7fffeb",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
