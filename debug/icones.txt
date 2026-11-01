@@ -1,29 +1,30 @@
-0e026000010000000433002130000  MotoGP
-09022054240000080420200000002  WTT Champ. Montpellier
-0613ffffafffb3fffc9fffb5ffffd  Bundesliga 22 Div
-0613ffffafffa3fffc8fffd5ffffd  Bundesliga 22 Div
-0613fffffffffeffffaffffffffff  Premier League
-0613fffacff767ffab7ff986fffce  Camp. Inglês 22 Div
-0613fffeafff4cffd8cfff6effffa  Camp. Inglês Fem
+01020000300004100040000300006  Moto3 e Moto2
+0d020005202020020200150243000  WTA500 Tóquio
+02026000380008300096000060000  MotoGP
+03020033660330600410003600003  WTT Champ. Montpellier
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffebfff3cffcadfff6efffed  Camp. Inglês Fem
+0d020002f51555880508501045000  Nascar Brasil
+0323ffffffedfffefeffeefefffff  Dire. Brasil Vôlei Praia
 0613fffffffffffffffffffffffff  Liga
-1713fffffffffffffffffffffffff  Judô
-0e120000100004430261701640030  ATP500 Viena
-0d12000090000f0014110a0000630  ATP500 Basel
-0613ffff9fff56fff8bfff89ffffd  Brasileirão sub-17
+0613fffc9ffc3cffcacffd5cfffed  Campeonato Turco
+0e020001511003380374204400000  ATP500 Viena
+0e024000000001000020001000144  Atletismo
+0113fffffffffffffffffffffffff  NBB
+0113ffffffffffffffbffffffffff  WTA125 Curitiba
+0613ffffeffff5ffff9ffffafffff  Paulistão sub-20
+0613fffffffffffffffffffffffff  Serie A Italiana
 0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Camp. Russo
+0613fffeafff2effc9dfff4effffc  Camp. Inglês Fem
+0e120001000081005001410202000  ATP500 Basel
+0d026000062000610063302230001  Copa Truck
+0d13ffffffc4eff57e8f5149fdccf  Olimpíadas Juventude
+0613fff9cff697ff8a9ff8b3fffbd  Copa Liga Escocesa
+0613fffffffffffffffffffffffff  Liga
+0613fffffffff4fffdbffff7fffff  Ligue 1 Francesa
+0613fffffffff5fffeaffff4ffffe  Ligue 1 Francesa
 0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffdffff9ffffffffff  Premier League
-0613fffffffffeffffaffffffffff  Premier League
-0613fffffffffffffffffffffffff  Liga
-0e020200122003114020010512000  ATP500 Viena
-0e121070000608350067504450002  ATP500 Basel
-0013fffffffffffffffffffffffff  MMA
-0613ffffffffffffffdffffffffff  Serie A Italiana
-0613fffffffffdffffaffffbfffff  Premier League
 0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Liga
+0d0202054400000700a4500445000  eus Nascar Brasil
+0613fffffffffffffffffffffffff  Camp. Russo
+0613fffffffffffffffffffffffff  Serie A Italiana
