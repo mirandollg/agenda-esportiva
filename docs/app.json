@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-01T12:47:16-03:00",
+  "gerado_em": "2026-11-01T17:14:02-03:00",
   "primeiro_dia": "2026-11-01",
   "fontes": [
     "Esportes na TV",
@@ -236,8 +236,7 @@
           "evento": "Final - Lehecka x Vacherot",
           "canais": "ESPN3",
           "icone": "0e120001000081005001410202000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:30",
@@ -278,8 +277,7 @@
           "canais": "BAND, YOUTUBE",
           "etapa": "Chapecõ/SC",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 80
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:15",
@@ -296,8 +294,7 @@
           "canais": "BAND, YOUTUBE",
           "etapa": "Chapecó/SC",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo",
-          "dura": 47
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:50",
@@ -347,8 +344,7 @@
           "evento": "Liverpool x Arsenal",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:45",
@@ -356,8 +352,7 @@
           "evento": "Lokomotiv x Spartak",
           "canais": "BANDSPORTS, GolBR",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:45",
@@ -365,8 +360,7 @@
           "evento": "Etapa de Chapecó - corrida 2",
           "canais": "ESPN4, YOUTUBE",
           "icone": "0d0202054400000700a4500445000",
-          "fonte": "esportesnatv",
-          "dura": 75
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -399,8 +393,7 @@
           "evento": "Final (H. Calderano?)",
           "canais": "SPORTV, CAZÉTV",
           "icone": "0e020042330413006590031000314",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -408,8 +401,7 @@
           "evento": "Boca Juniors x River Plate",
           "canais": "ESPN3",
           "icone": "0613fffffffff5ffffbffff8fffff",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -417,8 +409,7 @@
           "evento": "QF- China s17FxBrasils17F",
           "canais": "SPORTV, CAZÉTV",
           "icone": "0613ffeacff688ff8a9ff682fffce",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -426,8 +417,7 @@
           "evento": "Canal Redzone",
           "canais": "ESPN4, GLOBOPLAY",
           "icone": "0d02000511006700048000091000a",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -495,8 +485,7 @@
           "canais": "ESPN5, PHIZTV, DISNEY+ PR",
           "etapa": "Martinsville",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "16:00",
