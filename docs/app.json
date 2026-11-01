@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-01T02:16:04-03:00",
+  "gerado_em": "2026-11-01T12:47:16-03:00",
   "primeiro_dia": "2026-11-01",
   "fontes": [
     "Esportes na TV",
@@ -51,8 +51,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Malásia",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 180
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "04:00",
@@ -113,8 +112,7 @@
           "evento": "SF - H. Calderano xJang Woo-jin",
           "canais": "SPORTV3, CAZÉTV",
           "icone": "03020033660330600410003600003",
-          "fonte": "esportesnatv",
-          "dura": 35
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
@@ -130,8 +128,7 @@
           "evento": "Etapa de Maceió - semifinais",
           "canais": "XSPORTS, SPORTV2, YOUTUBE Vôlei Brasil",
           "icone": "0323ffffffedfffefeffeefefffff",
-          "fonte": "esportesnatv",
-          "dura": 50
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
@@ -140,8 +137,7 @@
           "canais": "SBT, YOUTUBE",
           "etapa": "Chapecó/SC",
           "sessao": "Estágio 1",
-          "fonte": "tomadadetempo",
-          "dura": 30
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:00",
@@ -167,8 +163,7 @@
           "evento": "Maratona de Nova York",
           "canais": "ESPN4",
           "icone": "0e024000000001000020001000144",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -176,8 +171,7 @@
           "evento": "Final - De Minaur x Alcaraz",
           "canais": "ESPN2",
           "icone": "0e020001511003380374204400000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -185,8 +179,7 @@
           "evento": "Trabzonsporx Gaziantep",
           "canais": "ESPN",
           "icone": "0613fffc9ffc3cffcacffd5cfffed",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
