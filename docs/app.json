@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-02T02:16:15-03:00",
+  "gerado_em": "2026-11-02T16:12:56-03:00",
   "primeiro_dia": "2026-11-02",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "1R - Musetti x Hurkacz",
           "canais": "ESPN2",
           "icone": "0e125044001327006041710302601",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:30",
@@ -33,8 +32,7 @@
           "evento": "1R- Tabilo xJodar",
           "canais": "ESPN2",
           "icone": "0e030015000062205523222403006",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -50,8 +48,7 @@
           "evento": "1R - Ruud x Juan Cerundolo",
           "canais": "ESPN2",
           "icone": "0e121041240629001050140302001",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:45",
@@ -59,8 +56,7 @@
           "evento": "Pakhtakor-UZB x AlNassr",
           "canais": "ESPN4",
           "icone": "0613ffeaefe3b2fa9d0ff1d3ffede",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -76,8 +72,7 @@
           "evento": "Brasília x Botafogo",
           "canais": "SPORTV2",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 135
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -109,8 +104,7 @@
           "evento": "1R- Shapovalov x Khachanov",
           "canais": "ESPN2",
           "icone": "0e120000000061101430080516004",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
