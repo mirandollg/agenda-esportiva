@@ -1,30 +1,17 @@
-01020000300004100040000300006  Moto3 e Moto2
-0d020005202020020200150243000  WTA500 Tóquio
-02026000380008300096000060000  MotoGP
-03020033660330600410003600003  WTT Champ. Montpellier
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffebfff3cffcadfff6efffed  Camp. Inglês Fem
-0d020002f51555880508501045000  Nascar Brasil
-0323ffffffedfffefeffeefefffff  Dire. Brasil Vôlei Praia
-0613fffffffffffffffffffffffff  Liga
-0613fffc9ffc3cffcacffd5cfffed  Campeonato Turco
-0e020001511003380374204400000  ATP500 Viena
-0e024000000001000020001000144  Atletismo
+0e125044001327006041710302601  Dad Masters1000 Paris
+0e030015000062205523222403006  Dad Masters1000 Paris
+0323ffdeffedfcfeffffdefcffedf  olimpíadas Juventude
+0e121041240629001050140302001  Dad Masters1000 Paris
+0613ffeaefe3b2fa9d0ff1d3ffede  AFC Champ. League
 0113fffffffffffffffffffffffff  NBB
-0113ffffffffffffffbffffffffff  WTA125 Curitiba
-0613ffffeffff5ffff9ffffafffff  Paulistão sub-20
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffeafff2effc9dfff4effffc  Camp. Inglês Fem
-0e120001000081005001410202000  ATP500 Basel
-0d026000062000610063302230001  Copa Truck
-0d13ffffffc4eff57e8f5149fdccf  Olimpíadas Juventude
-0613fff9cff697ff8a9ff8b3fffbd  Copa Liga Escocesa
-0613fffffffffffffffffffffffff  Liga
-0613fffffffff4fffdbffff7fffff  Ligue 1 Francesa
-0613fffffffff5fffeaffff4ffffe  Ligue 1 Francesa
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffffffffffffffffff  Bundesliga
-0d0202054400000700a4500445000  eus Nascar Brasil
+0113fffffffffffffffffffffffff  NBB
 0613fffffffffffffffffffffffff  Camp. Russo
+0d13ffffffc7eff68b9f5158ffeff  Olimpíadas Juventude
 0613fffffffffffffffffffffffff  Serie A Italiana
+0e120000000061101430080516004  Dad Masters1000 Paris
+0313ffebdffdfefffceffcdfffeab  Superliga Vôlei Masc
+0613fffb8ffa6affa7bffb77fffdc  Brasileirão - Série B
+0e120106541043005040300311404  Dad Masters1000 Paris
+0613fffffffff3fffdbffff5fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffffeffff9ffffffffff  Premier League
