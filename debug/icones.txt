@@ -1,17 +1,31 @@
-0e125044001327006041710302601  Dad Masters1000 Paris
-0e030015000062205523222403006  Dad Masters1000 Paris
-0323ffdeffedfcfeffffdefcffedf  olimpíadas Juventude
-0e121041240629001050140302001  Dad Masters1000 Paris
-0613ffeaefe3b2fa9d0ff1d3ffede  AFC Champ. League
+0e020220002450040300204061020  Dad Masters1000 Paris
+0013fffffffeafffccfffccefffff  Olimpíadas Juventude
+0323ffdeffeeeefeffffdffbffedf  olimpíadas Juventude
+0e120005000073201031100737004  Dad Masters1000 Paris
+0e021040000052000000001300060  WTT Champ. Frankfurt
+0613fffc9ffa3cffabbffe5afffc9  Champions League
+0613fffcaffd2cffcacffe5cfffde  Champions League
+0e122320000a20022345914240000  Dad Masters1000 Paris
+0613ffe9efe5c3fbcd3ff3b5fffbf  AFC Champ. League
+0613ffeafff585ffbd4ff7c4fffcf  Copa do Brasilsub20
+0e030026010061106521242404006  Dad Masters1000 Paris
+0613fffc9ffd5cffa8bffd5afffca  Champions League
+0613fffcaffc4cffaacffd6bfffdc  Champions League
+0613fffcaffa3cffabbffe6bfffc9  Champions League
+0613fffc9ffd5cffbacffe6cfffde  Champions League
+0613fffcbffd5dffbacffe4cfffec  Champions League
+0613fffcaffe4dffaccffe4bfffdd  Champions League
+0613fffc9ffc1cffcacffd6afffee  Champions League
+0613fffaaff9a8ff8c8ff895fffbe  Camp. Inglês 22 Div
+0313ffdbdffcfeffbdeffcdfffe9b  Superliga Vôlei Masc
+0313ffebdffefeffccdffcdfffeba  Superliga Vôlei Fem
+0113fffefffa4dfda9fff7ffffeff  Challeng. C. do Sauípe
+0613ffebeff587ff8a8ff695ffede  Copa do BrasilFem
+0613fffffffffffffffffffffffff  Brasileirão
 0113fffffffffffffffffffffffff  NBB
 0113fffffffffffffffffffffffff  NBB
-0613fffffffffffffffffffffffff  Camp. Russo
-0d13ffffffc7eff68b9f5158ffeff  Olimpíadas Juventude
-0613fffffffffffffffffffffffff  Serie A Italiana
-0e120000000061101430080516004  Dad Masters1000 Paris
-0313ffebdffdfefffceffcdfffeab  Superliga Vôlei Masc
-0613fffb8ffa6affa7bffb77fffdc  Brasileirão - Série B
-0e120106541043005040300311404  Dad Masters1000 Paris
-0613fffffffff3fffdbffff5fffff  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffeffff9ffffffffff  Premier League
+0313ffdbdffefeffccfffddfffeab  Superliga Vôlei Masc
+0313ffdbdffcfeffcdeffcdfffe9b  Superliga Vôlei Masc
+0613fffffffffffffffffffffffff  Brasileirão
+0613ffff9fff7afffaafff89ffffb  Brasileirão sub-17
+02020000400025000640000210000  NHL
