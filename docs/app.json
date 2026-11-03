@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-03T02:57:54-03:00",
+  "gerado_em": "2026-11-03T13:50:42-03:00",
   "primeiro_dia": "2026-11-03",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "1R - Rinderknech x Cerundolo 8h30 Fokina x Kouame",
           "canais": "ESPN2",
           "icone": "0e020220002450040300204061020",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",
@@ -33,8 +32,7 @@
           "evento": "1R - Djokovic x Vacherot",
           "canais": "ESPN2",
           "icone": "0e120005000073201031100737004",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
