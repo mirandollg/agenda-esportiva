@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-03T19:12:24-03:00",
+  "gerado_em": "2026-11-03T23:33:50-03:00",
   "primeiro_dia": "2026-11-03",
   "fontes": [
     "Esportes na TV",
@@ -176,8 +176,7 @@
           "evento": "Goiás x Minas",
           "canais": "SPORTV2",
           "icone": "0313ffdbdffcfeffbdeffcdfffe9b",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -185,8 +184,7 @@
           "evento": "1R - Diaz Acosta x M. Pucinelli",
           "canais": "ESPN3",
           "icone": "0113fffefffa4dfda9fff7ffffeff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -194,8 +192,7 @@
           "evento": "SF (ida) - Bahia F x Flamengo F",
           "canais": "SPORTV",
           "icone": "0613ffebeff587ff8a8ff695ffede",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -219,8 +216,7 @@
           "evento": "Franca x Minas",
           "canais": "ESPN4",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
@@ -228,8 +224,7 @@
           "evento": "São José-SP x Vôlei Renata",
           "canais": "SPORTV2",
           "icone": "0313ffdbdffefeffccfffddfffeab",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:00",
@@ -253,8 +248,7 @@
           "evento": "Final - Cruzeiro x Corinthians (0x3)",
           "canais": "SPORTV",
           "icone": "0613ffff9fff7afffaafff89ffffb",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:30",
