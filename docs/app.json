@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-04T13:52:12-03:00",
+  "gerado_em": "2026-11-04T19:26:13-03:00",
   "primeiro_dia": "2026-11-04",
   "fontes": [
     "Esportes na TV",
@@ -48,8 +48,7 @@
           "evento": "SF - Japão F x Coreia do Norte F",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0613ffd9efd2b8fbbc7fd777ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -89,8 +88,7 @@
           "evento": "QF - Atlético-MG x Santa Cruz (1x1)",
           "canais": "SPORTV",
           "icone": "0613ffebffd29afe884fc5aaffecf",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -98,8 +96,7 @@
           "evento": "2R - Michelsen x Alcaraz",
           "canais": "ESPN2",
           "icone": "0e120140000711161218004040030",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -107,8 +104,7 @@
           "evento": "SF - Brasils17 F x Nigéria s17 F",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0613ffdbffd1b8faad4fd5a7ffecf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -116,8 +112,7 @@
           "evento": "2R - Fils x Machac",
           "canais": "ESPN2",
           "icone": "0e120030000440014250800624004",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -133,8 +128,7 @@
           "evento": "Bristol City x Wolverhampton",
           "canais": "ESPN4",
           "icone": "0613ffdaefe1c3fabc1ff3d2fffbf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
