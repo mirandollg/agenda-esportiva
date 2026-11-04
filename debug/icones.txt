@@ -1,31 +1,18 @@
-0e020220002450040300204061020  Dad Masters1000 Paris
-0013fffffffeafffccfffccefffff  Olimpíadas Juventude
-0323ffdeffeeeefeffffdffbffedf  olimpíadas Juventude
-0e120005000073201031100737004  Dad Masters1000 Paris
-0e021040000052000000001300060  WTT Champ. Frankfurt
-0613fffc9ffa3cffabbffe5afffc9  Champions League
-0613fffcaffd2cffcacffe5cfffde  Champions League
-0e122320000a20022345914240000  Dad Masters1000 Paris
-0613ffe9efe5c3fbcd3ff3b5fffbf  AFC Champ. League
-0613ffeafff585ffbd4ff7c4fffcf  Copa do Brasilsub20
-0e030026010061106521242404006  Dad Masters1000 Paris
-0613fffc9ffd5cffa8bffd5afffca  Champions League
-0613fffcaffc4cffaacffd6bfffdc  Champions League
-0613fffcaffa3cffabbffe6bfffc9  Champions League
-0613fffc9ffd5cffbacffe6cfffde  Champions League
-0613fffcbffd5dffbacffe4cfffec  Champions League
-0613fffcaffe4dffaccffe4bfffdd  Champions League
-0613fffc9ffc1cffcacffd6afffee  Champions League
-0613fffaaff9a8ff8c8ff895fffbe  Camp. Inglês 22 Div
-0313ffdbdffcfeffbdeffcdfffe9b  Superliga Vôlei Masc
-0313ffebdffefeffccdffcdfffeba  Superliga Vôlei Fem
-0113fffefffa4dfda9fff7ffffeff  Challeng. C. do Sauípe
-0613ffebeff587ff8a8ff695ffede  Copa do BrasilFem
-0613fffffffffffffffffffffffff  Brasileirão
-0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0313ffdbdffefeffccfffddfffeab  Superliga Vôlei Masc
-0313ffdbdffcfeffcdeffcdfffe9b  Superliga Vôlei Masc
-0613fffffffffffffffffffffffff  Brasileirão
-0613ffff9fff7afffaafff89ffffb  Brasileirão sub-17
-02020000400025000640000210000  NHL
+0e120040020507000040500443000  Dad Masters1000 Paris
+0323ffcfffdfdefeffffdfdeffdef  olimpíadas Juventude
+0e122000000843108050610442004  Masters1000 Paris
+0e120043030605320050300430004  Dad Masters1000 Paris
+0d13ffffff98fff0ba8f035efa9df  Olimpíadas Juventude
+0613ffd9efd2b8fbbc7fd777ffecf  Mundialsub-17 Fem
+0613fffffffffffffffffffffffff  Europa League
+0613fffaaff94affbabffc68fffdc  Champions League
+0613fffaaffa4affb89ffb98fffcb  Champions League
+0e120140000711161218004040030  Dad Masters1000 Paris
+0613ffebffd29afe884fc5aaffecf  Copa do Brasilsub20
+0613ffdbffd1b8faad4fd5a7ffecf  Mundial sub-17 Fem
+0e120030000440014250800624004  Dad Masters1000 Paris
+0113fffffffffffffffffffffffff  Euroliga
+0613fffbaffa5bff9a9ffa58fffcc  Champions League
+0613fffbaffa4affaaaffc88fffdc  Champions League
+0613fffa9ffa49ff999ffc98fffdc  Champions League
+0613fffaaffc5affbabffa69fffdd  Champions League
