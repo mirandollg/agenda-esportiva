@@ -1,18 +1,18 @@
-0e120040020507000040500443000  Dad Masters1000 Paris
-0323ffcfffdfdefeffffdfdeffdef  olimpíadas Juventude
-0e122000000843108050610442004  Masters1000 Paris
-0e120043030605320050300430004  Dad Masters1000 Paris
-0d13ffffff98fff0ba8f035efa9df  Olimpíadas Juventude
-0613ffd9efd2b8fbbc7fd777ffecf  Mundialsub-17 Fem
+0603effffffffffffffffffffffff  Golfe
+0e120002010061316240200600001  Masters1000 Paris
+0e120004102052003032400636001  Dad Masters1000 Paris
+03010000820002400008000040000  Olimpíadas Juventude
+0d025200022000300102056506205  WTT Champ. Frankfurt
+0e12007013090702701070032020b  Dad Masters1000 Paris
 0613fffffffffffffffffffffffff  Europa League
-0613fffaaff94affbabffc68fffdc  Champions League
-0613fffaaffa4affb89ffb98fffcb  Champions League
-0e120140000711161218004040030  Dad Masters1000 Paris
-0613ffebffd29afe884fc5aaffecf  Copa do Brasilsub20
-0613ffdbffd1b8faad4fd5a7ffecf  Mundial sub-17 Fem
-0e120030000440014250800624004  Dad Masters1000 Paris
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613ffffffdffff9abbfeffefffff  Conference League
+0613fffaeff6a4ffcc1ff7c2fffcf  Copa do Brasil sub20
+0613fffffffff8ffffbffff8fffff  Camp. Argentino
+0e028007201073004130520302403  Dad Masters1000 Paris
 0113fffffffffffffffffffffffff  Euroliga
-0613fffbaffa5bff9a9ffa58fffcc  Champions League
-0613fffbaffa4affaaaffc88fffdc  Champions League
-0613fffa9ffa49ff999ffc98fffdc  Champions League
-0613fffaaffc5affbabffa69fffdd  Champions League
+0e120008100062002030400528002  Dad Masters1000 Paris
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
