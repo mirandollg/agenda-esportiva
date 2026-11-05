@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-05T02:54:49-03:00",
+  "gerado_em": "2026-11-05T14:07:28-03:00",
   "primeiro_dia": "2026-11-05",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "Abu Dhabi Championship - 1R",
           "canais": "ESPN3",
           "icone": "0603effffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:00",
@@ -33,8 +32,7 @@
           "evento": "OF - Paul x Halys",
           "canais": "ESPN2",
           "icone": "0e120002010061316240200600001",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:30",
@@ -42,8 +40,7 @@
           "evento": "OF - Shelton x Rinderknech",
           "canais": "ESPN2",
           "icone": "0e120004102052003032400636001",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:45",
@@ -59,8 +56,7 @@
           "evento": "1R - Liangx Hugo Calderano",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0d025200022000300102056506205",
-          "fonte": "esportesnatv",
-          "dura": 85
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
@@ -68,8 +64,7 @@
           "evento": "OF - Musetti xVan Assche",
           "canais": "ESPN2",
           "icone": "0e12007013090702701070032020b",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:45",
@@ -312,7 +307,7 @@
           "canais": "SPORTV2, GE TV",
           "icone": "0c020006220036000380004900109",
           "fonte": "esportesnatv",
-          "dura": 110
+          "dura": 185
         },
         {
           "hora": "22:30",
