@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-06T02:51:23-03:00",
+  "gerado_em": "2026-11-06T13:36:45-03:00",
   "primeiro_dia": "2026-11-06",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "Abu Dhabi Championship - 2R",
           "canais": "ESPN3",
           "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -41,8 +40,7 @@
           "evento": "QF - Shelton x Paul 11h30 Van Assche x Hijikata",
           "canais": "ESPN2",
           "icone": "0e121310004313033240020430312",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -50,8 +48,7 @@
           "evento": "OF - Chen x Bruna Takahashi",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0d020011100011001010020320010",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:15",
@@ -59,8 +56,7 @@
           "evento": "GP do Qatar - treino livre 2",
           "canais": "ESPN4",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:55",
@@ -68,8 +64,7 @@
           "evento": "OF - Verdonschot x H. Calderano",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0d020012100011000010002610013",
-          "fonte": "esportesnatv",
-          "dura": 35
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:30",
@@ -284,7 +279,7 @@
           "canais": "COMBATE",
           "icone": "0013fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
-          "dura": 59
+          "dura": 180
         }
       ]
     }
