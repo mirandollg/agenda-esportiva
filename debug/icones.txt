@@ -1,18 +1,15 @@
-0603effffffffffffffffffffffff  Golfe
-0e120002010061316240200600001  Masters1000 Paris
-0e120004102052003032400636001  Dad Masters1000 Paris
-03010000820002400008000040000  Olimpíadas Juventude
-0d025200022000300102056506205  WTT Champ. Frankfurt
-0e12007013090702701070032020b  Dad Masters1000 Paris
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613ffffffdffff9abbfeffefffff  Conference League
-0613fffaeff6a4ffcc1ff7c2fffcf  Copa do Brasil sub20
-0613fffffffff8ffffbffff8fffff  Camp. Argentino
-0e028007201073004130520302403  Dad Masters1000 Paris
-0113fffffffffffffffffffffffff  Euroliga
-0e120008100062002030400528002  Dad Masters1000 Paris
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
+0603fffffffffffffffffffffffff  Golfe
+0d020011100011001010020320010  WTT Champ. Frankfurt
+0e121310004313033240020430312  Dad Masters1000 Paris
+0d020012100011000010002610013  WTT Champ. Frankfurt
+0502000080000b0000b5002860002  Fórmula 1
+0613ffffffe9bffbb7bfe9befffff  Campeonato Russo
+0613ffffcfffc3fffcbfffd4ffffd  Bundesliga 22 Div
+0613ffffbfffc1fffc9fffd5ffffc  Bundesliga 22 Div
+0e120106410153004240100405002  Dad Masters1000 Paris
+0b020000a0000b000156001280006  Fórmula 1
+0e020016011062106311451502025  Dad Masters1000 Paris
+0613fffffffffffffffffffffffff  Bundesliga
+0613ffffeffff8ffffaffff8fffff  Ligue 1 Francesa
+0613fffffffffffffffffffffffff  Serie À Italiana
+0613fffffffffeffffaffffffffff  Premier League
