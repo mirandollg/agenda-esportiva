@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T12:26:40-03:00",
+  "gerado_em": "2026-11-07T16:33:04-03:00",
   "primeiro_dia": "2026-11-07",
   "fontes": [
     "Esportes na TV",
@@ -220,8 +220,7 @@
           "evento": "Mainz x Bayern",
           "canais": "SPORTV, YOUTUBE, SportyNet, JP Esportes",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:30",
@@ -255,8 +254,7 @@
           "canais": "SPORTV3, GLOBOPLAY",
           "etapa": "GP do Brasil",
           "sessao": "Treino Livre 3",
-          "fonte": "tomadadetempo",
-          "dura": 90
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:45",
@@ -265,8 +263,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:00",
@@ -274,8 +271,7 @@
           "evento": "3ºL - Coreia do Norte x Brasil s17 F",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0613ffdaefe1c5fabd3ff3c2fff9f",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -283,8 +279,7 @@
           "evento": "Arsenalx Hull City",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -292,8 +287,7 @@
           "evento": "Fulham x Newcastle",
           "canais": "ESPN3",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:15",
@@ -318,8 +312,7 @@
           "evento": "SF - Ruud ou Borges x Alcaraz",
           "canais": "ESPN2",
           "icone": "0e13000700007310303060052b002",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -336,8 +329,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "13:15",
@@ -362,8 +354,7 @@
           "evento": "Krasnodar x CSKA Moscow",
           "canais": "BANDSPORTS, Gol BR",
           "icone": "0613fff99ffb69ffa98ffa58fffcc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:20",
@@ -396,8 +387,7 @@
           "evento": "Stein Cascavel x Univ. Chile",
           "canais": "SPORTV, Canal Gol BR",
           "icone": "0d030418006060110910105101350",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:30",
@@ -413,8 +403,7 @@
           "evento": "Nott. Forest x Manchester City",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffaffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -422,8 +411,7 @@
           "evento": "Semifinais",
           "canais": "ESPN3",
           "icone": "0113fffdfffc8dfd7afff6ffffeff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -440,8 +428,7 @@
           "canais": "GLOBO, SPORTV3, GLOBOPLAY",
           "etapa": "GP do Brasil",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "15:00",
