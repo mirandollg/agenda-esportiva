@@ -1,35 +1,15 @@
-https://cdn1.telesco.pe/file/JQvy7u-x7fRZpsEV-cIsDaKQ3A0igTVT_fDI3LYUx3P6zxqfWM3b2mzN12qSxbMdXJ6WW48yqY4nPyN71yDvWjY6CQLJeHHQ6vyxxcxTaDFyjFg2o5oCFmI8v16cwVh3hdNSq6ODbluyYKAO1fKjTJqBR58SD72NvAL-sSvEPuzL4-4x4feuRuQ99qsp9QkrGAU0seXgnV7t-6Dwv-9A4SiTXfRfzqaHftiV-XtOB0_9RIxpiIIp0GLqEfrgPcnFrrFASF5JCvbKSwkZS2vJxB97xqTgdWWlHXEwS9IL0TncTqW-K1SEVpXctC6CM7GkJ5D6A1bzClNzu4ovvxX5Fw.jpg
-data: 2026-10-18
-colunas: [(5, 35), (42, 193), (213, 330), (337, 446), (476, 621)]
+https://cdn1.telesco.pe/file/Te3bupCZ2XhMsIR7cwxcj3PC-tVqF1LOwmaqa9Dtihvpm1HQv_P--28YSbJSoSDdLVWsWbWAdIckEy5E15qPFCrRMf3M9LAQHemuT5pVOuFljEH8Zr6yA34tmwyqEjxW80S7xDT1WUXoCUaaZOuoiM9CiDKBa6K4Wut-2YCQk9NqD4bHYdKJ_U_FGmsGL7ZcfEZaYw7SKWNbwZfuzBnTwV6gmQZ_Hja3_8mNu5tz4N_byKS-jsJrPSikFTV4Wt2pkd-xA70NQsBYPhioJ-jaIPYbtua8n6AsZeoaL-SPnf6rvQwQFjfEl-FxxZd6WnjF49GlD_NWOMennbaCjNt7uA.jpg
+data: 2026-11-06
+colunas: [(5, 35), (43, 176), (213, 330), (337, 436), (476, 621)]
 
-y=118-129 | 2) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=138-149 | 00:45 || WSBK (SSP) || Jerez || Corrida 1 (REPRISE) || BANDSPORTS
-y=156-168 | 01:45 || WSBK || Jerez || Corrida 1 (REPRISE) || BANDSPORTS
-y=175-184 | 02:50 || TCR WORLD TOUR || China || Corrida 3 || YOUTUBE
-y=193-206 | 03:45 || ADAC RACING WEEKEND || Nurburgring || Provas Domingo || YOUTUBE
-y=212-223 | 05:10 || NASCAR EURO SERIES || Zolder || Corrida 2 (OPEN) || YOUTUBE
-y=230-240 | 05:15 || GT2 EUROPEAN SERIES || Portimão || Corrida 1 || YOUTUBE
-y=249-258 | 05:30 || ESPANHOL DE MOTOCROSS || tMoron || Provas || YOUTUBE
-y=267-279 | 06:10 || WSBK || Jerez || Superpole Race || BANDSPORTS | SPORT TV PT
-y=286-296 | 06:50 || ULTIMATE DRIFT || Piracicaba/SP || Classificatórias (Final) || YOUTUBE
-y=304-316 | 07:00 || WSBK (WCR) || Jerez || Corrida 2 || YOUTUBE
-y=323-335 | 07:00 || WEC || Barcelona || Corrida || BANDSPORTS | YOUTUBE
-y=341-350 | 07:30 || GTá4 EUROPEAN SERIES || Portimão || Corrica 2 || YOUTUBE
-y=357-370 | 07:40 || FÓRMULA VEE || Cascavel/PR || Corrida 3 || YOUTUBE
-y=378-390 | 08:00 || WSBK (SPB) || Jerez || Corrida 2 || BANDSPORTS | SPORT TV PT
-y=397-408 | 08:25 || NASCAR EURO SERIES || Zolder || Corrida 2 (V8GP) || YOUTUBE
-y=415-427 | 09:00 || WSBK (SSP) || Jerez || Corrida 2 || BANDSPORTS | SPORT TV PT
-y=434-443 | 09:15 || CLIO CUP SERIES || Navarra || Corrida 2 || YOUTUBE
-y=471-483 | 09:50 || ULTIMATE DRIFT || Piracicaba/SP || Top 32 (Final) || YOUTUBE
-y=489-498 | 10:00 || GT2 EUROPEAN SERIES || Portimão || Corrida 2 || YOUTUBE
-y=508-518 | 10:30 || WSBK || Jerez || Corrida 2 || BANDSPORTS | SPORT Tv PT
-y=526-535 | 11:35 || MCLAREN TROPHY EUROPE || Portimão || Corrida 2 || YOUTUBE
-y=544-557 | 12:15 || STOCK CAR || Cascavel/PR || Corrida Principal || YOUTUBE | BAND | BANDPLAY
-y=563-575 | 13:30 || ULTIMATE DRIFT || Piracicaba/SP || Top 16 (Final) || YOUTUBE
-y=579-592 | 13:45 || FÓRMULA DELTA || Cascavel/PR || Corrida 2 || YOUTUBE
-y=597-609 | 14:30 || FÓRMULA EVO || Cascavel/PR || Corrida 2 || YOUTUBE
-y=616-629 | 15:15 || FÓRMULA VEE || Cascavel/PR || Corrida 4 || YOUTUBE
-y=637-647 | 16:00 || MARCAS E PILOTOS || Cascavel/PR || Corrida 2 || YOUTUBE
-y=655-666 | 16:00 || NASCAR CUP SERIES || Phoenix || Corrida || PHIZTV | DISNEY + PR
-y=674-684 | 19:00 || STOCK CAR || Cascavel/PR || Corrida Principal (REPRISE) || BANDSPORTS
-y=692-704 | 23:59 || NASCAR CUP SERIES || Phoenix || Corrida (REPRISE) || ESPN5
+y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
+y=138-149 | 11:15 || MOTO3 || Catar || Treino Oficial || ESPN4 | DISNEY + PR
+y=156-168 | 12:05 || MOTO2 || Catar || Treino Oficial || ESPN4 | DISNEY + PR
+y=173-187 | 12:30 || FÓRMULA 1 || GP do Brasil || Treino Livre 1 || SPORTV3 | GLOBOPLAY PR
+y=193-205 | 13:00 || MOTO GP || Catar || Treino Oficial || ESPN4 | DISNEY + PR
+y=212-224 | 14:00 || PORSCHE CUP BRASIL || Interlagos || Corrida 1 (Sprint) || YOUTUBE
+y=230-243 | 15:00 || PORSCHE CUP BRASIL || Interlagos || Classificação (Cup) || YOUTUBE
+y=247-261 | 16:00 || FÓRMULA 1 || GP do Brasil || Treino Livre 2 || SPORTV3 | GLOBOPLAY PR
+y=267-280 | 19:45 || F4 JAPONESA || Motegi || Corrida 1 || YOUTUBE
+y=286-296 | 21:30 || NASCAR TRUCK SERIES || Homestead-Miami || Corrida || ESPNS3 | PHIZTV | DISNEY + PR
+y=304-317 | 21:45 || F4 JAPONESA || Motegji || Corrida 2 || YOUTUBE
