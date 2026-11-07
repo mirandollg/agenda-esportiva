@@ -1,15 +1,23 @@
-0603fffffffffffffffffffffffff  Golfe
-0d020011100011001010020320010  WTT Champ. Frankfurt
-0e121310004313033240020430312  Dad Masters1000 Paris
-0d020012100011000010002610013  WTT Champ. Frankfurt
-0502000080000b0000b5002860002  Fórmula 1
-0613ffffffe9bffbb7bfe9befffff  Campeonato Russo
-0613ffffcfffc3fffcbfffd4ffffd  Bundesliga 22 Div
-0613ffffbfffc1fffc9fffd5ffffc  Bundesliga 22 Div
-0e120106410153004240100405002  Dad Masters1000 Paris
-0b020000a0000b000156001280006  Fórmula 1
-0e020016011062106311451502025  Dad Masters1000 Paris
+0c0260040600860044b2022f00086  Ginástica Trampolim
+0603ffffffffffffffffffffeffec  Golfe
+0613fffbaffa6affbaaffa68fffcc  Campeonato Russo
+10026000060001600006000060000  MotoGP
+0d13fffffffffffffffffffffffff  Surfe
+0613fffffffffeffffbffffffffff  Premier League
+0613fffe9fff4cffd8dfff6effffa  Camp. Inglês Fem
+0613fffffffffffffffffffffffff  Liga
+0e020000440008400080000800004  Fórmula 4 Brasil
+0e030015000080004410432424007  Dad Masters1000 Paris
+02026000060008600036000060000  Moto3 e Moto2
+0613fffffffffffffffffffffffff  Serie A Italiana
+0502000080000b000085001860002  Fórmula 1
 0613fffffffffffffffffffffffff  Bundesliga
-0613ffffeffff8ffffaffff8fffff  Ligue 1 Francesa
-0613fffffffffffffffffffffffff  Serie À Italiana
-0613fffffffffeffffaffffffffff  Premier League
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
+0613ffdaefe1c5fabd3ff3c2fff9f  Mundial sub-17 Fem
+0613fffffffffffffffffffffffff  Liga
+0e13000700007310303060052b002  Dad Masters1000 Paris
+0f023000060003600006002060000  MotoGP
+0013fffffffffffffffffffffffff  MMA
