@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T02:22:40-03:00",
+  "gerado_em": "2026-11-07T12:26:40-03:00",
   "primeiro_dia": "2026-11-07",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV3",
           "icone": "0c0260040600860044b2022f00086",
-          "fonte": "esportesnatv",
-          "dura": 300
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:00",
@@ -41,8 +40,7 @@
           "evento": "Abu Dhabi Championship - 3R",
           "canais": "ESPN3",
           "icone": "0603ffffffffffffffffffffeffec",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:25",
@@ -77,8 +75,7 @@
           "evento": "Fakel Voronezh x Dinamo Moscow",
           "canais": "BANDSPORTS",
           "icone": "0613fffbaffa6affbaaffa68fffcc",
-          "fonte": "esportesnatv",
-          "dura": 125
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
@@ -87,8 +84,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Treino Livre 2",
-          "fonte": "tomadadetempo",
-          "dura": 35
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:30",
@@ -106,8 +102,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 50
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:50",
@@ -132,8 +127,7 @@
           "evento": "Leeds x Tottenham",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffbffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:45",
@@ -175,8 +169,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Interlagos",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 35
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:20",
@@ -193,8 +186,7 @@
           "evento": "SF - Van Assche x Shelton",
           "canais": "ESPN2",
           "icone": "0e030015000080004410432424007",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:40",
@@ -212,8 +204,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:00",
@@ -336,8 +327,7 @@
           "evento": "Oktagon 97",
           "canais": "COMBATE",
           "icone": "0013fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 235
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
