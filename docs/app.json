@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-07T20:26:56-03:00",
+  "gerado_em": "2026-11-07T23:38:57-03:00",
   "primeiro_dia": "2026-11-07",
   "fontes": [
     "Esportes na TV",
@@ -617,8 +617,7 @@
           "evento": "Brasília x Praia Clube",
           "canais": "SPORTV2",
           "icone": "0313ffebeffdfeffccfffcdfffeba",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -643,8 +642,7 @@
           "evento": "Indiana Pacers x Denv. Nuggets",
           "canais": "ESPN2",
           "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -693,8 +691,7 @@
           "evento": "SESI-Bauru x Pinheiros",
           "canais": "SPORTV2",
           "icone": "0313fffbeffefeffbcdffcdfffeba",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:30",
@@ -710,8 +707,7 @@
           "evento": "SF - Flamengo F x Bahia F (0x0)",
           "canais": "SPORTV",
           "icone": "0613fffcfff595ff6b8ff5a4ffdee",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "21:30",
