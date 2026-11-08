@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-08T02:20:23-03:00",
+  "gerado_em": "2026-11-08T12:48:29-03:00",
   "primeiro_dia": "2026-11-08",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "Camp. Mundial - finais",
           "canais": "SPORTV2",
           "icone": "0d021000000000240233405701024",
-          "fonte": "esportesnatv",
-          "dura": 300
+          "fonte": "esportesnatv"
         },
         {
           "hora": "03:30",
@@ -25,8 +24,7 @@
           "evento": "Abu Dhabi Championship - Final",
           "canais": "ESPN3",
           "icone": "0603ffffffffffffffffffffeccfd",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:15",
@@ -34,8 +32,7 @@
           "evento": "Maratona de Málaga",
           "canais": "BANDSPORTS",
           "icone": "0e024000000000000120002001222",
-          "fonte": "esportesnatv",
-          "dura": 160
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:35",
@@ -62,8 +59,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Monza",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 180
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "07:00",
@@ -71,8 +67,7 @@
           "evento": "6 horas de Monza",
           "canais": "BANDSPORTS, GPTV",
           "icone": "02022002000020000002000524005",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:15",
@@ -98,8 +93,7 @@
           "evento": "Napoli x Lazio",
           "canais": "ESPN",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:50",
@@ -167,8 +161,7 @@
           "canais": "ESPN5",
           "etapa": "Homestead-Miami",
           "sessao": "Corrida (VT)",
-          "fonte": "tomadadetempo",
-          "dura": 150
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:45",
@@ -202,8 +195,7 @@
           "evento": "GP do Qatar",
           "canais": "ESPN4",
           "icone": "02020300010001300086000460000",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -212,8 +204,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:00",
@@ -351,8 +342,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Catar",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:30",
