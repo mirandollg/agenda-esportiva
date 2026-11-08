@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-08T12:48:29-03:00",
+  "gerado_em": "2026-11-08T17:13:10-03:00",
   "primeiro_dia": "2026-11-08",
   "fontes": [
     "Esportes na TV",
@@ -248,8 +248,7 @@
           "evento": "SF - Red Bull F x Inter F (1x3)",
           "canais": "XSPORTS, SPORTV, NSPORTS, Lance!",
           "icone": "0613ffffffe9def9abcfdbdcfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -257,8 +256,7 @@
           "evento": "Final - Shelton x Alcaraz",
           "canais": "ESPN2",
           "icone": "0e120070010934130542203140010",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -290,8 +288,7 @@
           "evento": "Sunderland x Chelsea",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffbffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -299,8 +296,7 @@
           "evento": "Ipswich x Bournemouth",
           "canais": "ESPN3",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -358,8 +354,7 @@
           "evento": "Atlanta Falcons x Cinc. Bengals",
           "canais": "SPORTV2, GE TV",
           "icone": "00020104030012400105001021110",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:45",
@@ -394,8 +389,7 @@
           "canais": "ESPN4, DISNEY+ PR, YOUTUBE",
           "etapa": "Catar",
           "sessao": "Corrida Principal",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "13:00",
@@ -428,8 +422,7 @@
           "evento": "Freiburg x Union Berlin",
           "canais": "SPORTV, GOAT",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
@@ -437,8 +430,7 @@
           "evento": "Manchester United x Aston Villa",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:30",
@@ -455,8 +447,7 @@
           "canais": "GLOBO, SPORTV3, GLOBOPLAY",
           "etapa": "GP do Brasil",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 135
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "14:00",
@@ -522,8 +513,7 @@
           "evento": "Canal Redzone",
           "canais": "ESPN4, GLOBOPLAY",
           "icone": "0d020115020154100281001910006",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
