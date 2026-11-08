@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-11-08T17:13:10-03:00",
+  "gerado_em": "2026-11-08T20:53:48-03:00",
   "primeiro_dia": "2026-11-08",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 86,
+  "total": 100,
   "dias": [
     {
       "data": "2026-11-08",
@@ -521,8 +521,7 @@
           "evento": "Carol. Panthers x Denv. Broncos",
           "canais": "ESPN2",
           "icone": "0c020005020074100471000910108",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -530,8 +529,7 @@
           "evento": "KC Chiefs x NY Jets",
           "canais": "SPORTV2",
           "icone": "0c020105010063100152004500005",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:30",
@@ -556,8 +554,7 @@
           "evento": "Athletic x Atlético-GO",
           "canais": "ESPN",
           "icone": "0613fffa9ffa4aff9cbffc78fffdd",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:00",
@@ -573,8 +570,7 @@
           "evento": "Final - Thiago Wild x Ugo Carabelli",
           "canais": "ESPN3",
           "icone": "0113fffdfffc6dfd98fff9ffffeff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -598,8 +594,7 @@
           "evento": "SF - Vasco x Palmeiras (0x1)",
           "canais": "GLOBO, SPORTV-PFC, GE TV, PRIME VIDEO",
           "icone": "0613fffffffffafffe8ffff8fffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -624,8 +619,7 @@
           "canais": "ESPN5, PHIZTV, DISNEY+ PR",
           "etapa": "Homestead-lMiami",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "17:30",
@@ -649,8 +643,7 @@
           "evento": "FMS Fight Night 12",
           "canais": "COMBATE",
           "icone": "0013fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
@@ -675,8 +668,7 @@
           "evento": "S Franc. 49ers x L Vegas Raiders",
           "canais": "ESPN2",
           "icone": "0c020005020074100481000910007",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:15",
@@ -735,6 +727,126 @@
           "evento": "Baumpgardner x Turhan",
           "canais": "COMBATE",
           "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 180
+        }
+      ]
+    },
+    {
+      "data": "2026-11-09",
+      "eventos": [
+        {
+          "hora": "09:00",
+          "competicao": "Surfe",
+          "evento": "ISA Games 2026 - eliminatórias",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0d13fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "11:00",
+          "competicao": "Olimpíadas Juventude",
+          "evento": "Atletismo - finais",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:30",
+          "competicao": "Libertadores Futsal Fem",
+          "evento": "La Union-EQU x Stein Cascavel",
+          "canais": "ASFURIO, FURIVZ, YOUTUBE Canal Gol BR",
+          "icone": "0d030100001210022221351201400",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Paulistão sub-20",
+          "evento": "SF (ida) - Palmeiras x Santos s20",
+          "canais": "YOUTUBE TNT Sports",
+          "icone": "0613fffffffff5ffff9ffff9fffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Kings Cup BR (Fut7)",
+          "evento": "4º Rodada",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0603fca31ff82bff36afdd26cceb3",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "WTA Finals",
+          "evento": "Sabalenka x Muchova 18h30 Andreeva x Svitolina",
+          "canais": "DISNEY+",
+          "icone": "0e120041001325040060504231012",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Minas x Monte Carmelo",
+          "canais": "YOUTUBE GETV",
+          "icone": "0313ffebdffefeffeceffcdfffeab",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "NBB",
+          "evento": "Basq. Cearense x Corinthians, Pato x Bauru, União Corinthians x Brasília",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "NBB",
+          "evento": "Pinheiros x Mogi",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Dad WITA Finals",
+          "evento": "Dabrowski/Stefani x Mertens/Zhang",
+          "canais": "DISNEY+",
+          "icone": "0e120003203030212111070100101",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "NBA",
+          "evento": "CrunchTime - Simulcast",
+          "canais": "YOUTUBE NBA Brasil",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "NBA",
+          "evento": "Detr. Pistons x Wash. Wizards",
+          "canais": "ESPN4",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Vôlei Renata x SESI-Bauru",
+          "canais": "SPORTV2",
+          "icone": "0313ffebdffdfeffedeffcdfffe9b",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "22:15",
+          "competicao": "NFL",
+          "evento": "Minn. Vikings x Buffalo Bills",
+          "canais": "ESPN2",
+          "icone": "0e023401037544136833464605633",
           "fonte": "esportesnatv",
           "dura": 180
         }
