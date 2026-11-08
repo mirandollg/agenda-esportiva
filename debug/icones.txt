@@ -1,23 +1,31 @@
-0c0260040600860044b2022f00086  Ginástica Trampolim
-0603ffffffffffffffffffffeffec  Golfe
-0613fffbaffa6affbaaffa68fffcc  Campeonato Russo
-10026000060001600006000060000  MotoGP
-0d13fffffffffffffffffffffffff  Surfe
-0613fffffffffeffffbffffffffff  Premier League
-0613fffe9fff4cffd8dfff6effffa  Camp. Inglês Fem
-0613fffffffffffffffffffffffff  Liga
-0e020000440008400080000800004  Fórmula 4 Brasil
-0e030015000080004410432424007  Dad Masters1000 Paris
-02026000060008600036000060000  Moto3 e Moto2
+0d021000000000240233405701024  Ginástica Trampolim
+0603ffffffffffffffffffffeccfd  Golfe
+0e024000000000000120002001222  Atletismo
+02022002000020000002000524005  WEC Endurance
 0613fffffffffffffffffffffffff  Serie A Italiana
-0502000080000b000085001860002  Fórmula 1
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613ffdaefe1c5fabd3ff3c2fff9f  Mundial sub-17 Fem
+0613fffebfff4cffcacfff6efffed  Camp. Inglês Fem
+0d13fffffffffffffffffffffffff  Surfe
+0613ffffafffc4fffc8fffc5ffffd  Bundesliga 22 Div
+0613ffffcfffb3fffc5fffc7ffffd  Bundesliga 22 Div
 0613fffffffffffffffffffffffff  Liga
-0e13000700007310303060052b002  Dad Masters1000 Paris
-0f023000060003600006002060000  MotoGP
-0013fffffffffffffffffffffffff  MMA
+02020300010001300086000460000  Moto3 e Moto2
+0e120070010934130542203140010  Dad Masters1000 Paris
+0613fffffffffeffffaffffffffff  Premier League
+0613fffffffffeffffbffffffffff  Premier League
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffeffffaffffffffff  Premier League
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613ffffeffff5fffe9ffff7fffff  Ligue 1 Francesa
+0613ffffffe9def9abcfdbdcfffff  Copa do BrasilFem
+0313fffbeffefeffbddffcefffeba  Superliga Vôlei Fem
+0d020500000000100000000110000  Olimpíadas Juventude
+00020104030012400105001021110  NFL em Madrid
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Liga
+02023000300006000030000600004  MotoGP
+0613fffffffff6fffeaffff5ffffe  Ligue 1 Francesa
+0613fffffffff5fffe9ffff6fffff  Ligue 1 Francesa
+02021000000000001030013600061  WTT Champ. Frankfurt
+0613fffffffffeffff9ffffffffff  Premier League
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Serie A Italiana
