@@ -1,31 +1,13 @@
-0d021000000000240233405701024  Ginástica Trampolim
-0603ffffffffffffffffffffeccfd  Golfe
-0e024000000000000120002001222  Atletismo
-02022002000020000002000524005  WEC Endurance
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffebfff4cffcacfff6efffed  Camp. Inglês Fem
 0d13fffffffffffffffffffffffff  Surfe
-0613ffffafffc4fffc8fffc5ffffd  Bundesliga 22 Div
-0613ffffcfffb3fffc5fffc7ffffd  Bundesliga 22 Div
-0613fffffffffffffffffffffffff  Liga
-02020300010001300086000460000  Moto3 e Moto2
-0e120070010934130542203140010  Dad Masters1000 Paris
-0613fffffffffeffffaffffffffff  Premier League
-0613fffffffffeffffbffffffffff  Premier League
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffeffffaffffffffff  Premier League
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613ffffeffff5fffe9ffff7fffff  Ligue 1 Francesa
-0613ffffffe9def9abcfdbdcfffff  Copa do BrasilFem
-0313fffbeffefeffbddffcefffeba  Superliga Vôlei Fem
-0d020500000000100000000110000  Olimpíadas Juventude
-00020104030012400105001021110  NFL em Madrid
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Liga
-02023000300006000030000600004  MotoGP
-0613fffffffff6fffeaffff5ffffe  Ligue 1 Francesa
-0613fffffffff5fffe9ffff6fffff  Ligue 1 Francesa
-02021000000000001030013600061  WTT Champ. Frankfurt
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Serie A Italiana
+0d030100001210022221351201400  Libertadores Futsal Fem
+0613fffffffff5ffff9ffff9fffff  Paulistão sub-20
+0e120041001325040060504231012  WTA Finals
+0603fca31ff82bff36afdd26cceb3  Kings Cup BR (Fut7)
+0313ffebdffefeffeceffcdfffeab  Superliga Vôlei Masc
+0113fffffffffffffffffffffffff  NBB
+0113fffffffffffffffffffffffff  NBB
+0313ffebdffdfeffedeffcdfffe9b  Superliga Vôlei Masc
+0e120003203030212111070100101  Dad WITA Finals
+0113fffffffffffffffffffffffff  NBA
+0113fffffffffffffffffffffffff  NBA
+0e023401037544136833464605633  NFL
