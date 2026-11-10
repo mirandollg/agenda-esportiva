@@ -1,13 +1,17 @@
-0d13fffffffffffffffffffffffff  Surfe
-0d030100001210022221351201400  Libertadores Futsal Fem
-0613fffffffff5ffff9ffff9fffff  Paulistão sub-20
-0e120041001325040060504231012  WTA Finals
-0603fca31ff82bff36afdd26cceb3  Kings Cup BR (Fut7)
-0313ffebdffefeffeceffcdfffeab  Superliga Vôlei Masc
+0323ffecffffcfffedfffecdffeff  Olimpíadas Juventude
+0e13fffffffffffffffffffffffff  Surfe
+02022200001003200030000300305  Olimpíadas Juventude
+0d020260001102001051250500301  Libertadores Futsal Fem
+0613fffecfff3cffcacfff6efffee  Champ. League (F)
+0613fffe8fff5cfff8cfff6effffa  Champ. League (F)
+0613fffffffffffffffffffffffff  Copa do Rei
+0613fffdafff3effcacfff5cffffd  Champ. League (F)
+0613fffebfff5cffcabfff89fffec  Champ. League (F)
+0e120152424166203576044430010  Dad WTA Finals
+0413ffdbdffdfeffcdeffddfffe9b  Superliga Vôlei Masc
 0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0313ffebdffdfeffedeffcdfffe9b  Superliga Vôlei Masc
-0e120003203030212111070100101  Dad WITA Finals
+0113fffffffffffffffffffffffff  NCAA Basquete
+0313ffdbdffdfeffccfffddfffeab  Superliga Vôlei Masc
 0113fffffffffffffffffffffffff  NBA
+0113fffffffffffffffffffffffff  NCAA Basquete
 0113fffffffffffffffffffffffff  NBA
-0e023401037544136833464605633  NFL
