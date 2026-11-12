@@ -1,19 +1,29 @@
-0323ffecffffcfffedfffecdffeff  Olimpíadas Juventude
-0e13fffffffffffffffffffffffff  Surfe
-0013fffffffffeffffffffeffffff  Olimpíadas Juventude
-0013fffffffecfffebfffabdfffff  Olimpíadas Juventude
-0d022000042014360761409505045  Libertadores Futsal Fem
-0613ffebffe2b6febc8fe5bafffbf  Champ. League (Fem)
+0603fffffffffffffffffffffffff  Golfe
+0d13fffffffffffffffffffffffff  Surfe
+0013ffffffffffffffffffeffffff  Olimpíadas Juventude
+0323ffecffffafffedfffecdffeff  Olimpíadas Juventude
+0613fffafff591ff8a1ff6b4fffbf  UEFA Nations League
+0613ffffffd48efe8bcfd75dffedf  UEFA Nations League C
+04025500024154442865055200562  NHL na Finlândia
+0613fffe9fff6dffcaefff6dfffdb  Champ. League (F)
+0613ffffeffff8ffffbffff8fffff  Paulistão sub-20
+0613fffbfff785ffcc2ff7a5fffcf  UEFA Nations League
+0613fff9eff585ff7a1ff5a3ffecf  UEFA Nations League
+0613fffcfff666ffbc3ff7a5fffcf  UEFA Nations League
 0113fffffffffffffffffffffffff  Euroliga
-0613fffbffe378fdbb8fe5cafffdf  Champ. League (Fem)
-0e120030000120022170324322022  Dad WTA Finals
-0413ffdbdffdfeffcceffcdfffeab  Superliga Vôlei Masc
-0613fffb9ffa59ffba8ffb98fffde  Brasileirão - Série B
+0e120011000142100080404204013  WTA Finals
+0413ffebeffefeffcddffcdfffeba  Superliga Vôlei Fem
+0313fffbeffefeffccdffcdfffeb9  Superliga Vôlei Fem
+0613fffbcffa49ffbabffa58fffee  Brasileirão - Série B
 0113fffffffffffffffffffffffff  NBB
-0d020011403132000240000441234  Libertadores Futsal Fem
-0313ffdbdffdfefffceffddfffeab  Superliga Vôlei Masc
+0613fffa8ffa5aff9bbffc78fffdc  Brasileirão - Série B
+0613ffbaffc5bafa7c7fb59affe9f  Supercopa Argentina
+0113fffffffffffffffffffffffff  NBB
+0113fffffffffffffffffffffffff  NBB
+0113fffffffffffffffffffffffff  NBB
+0313ffebeffdfeffcddffcefffeba  Superliga Vôlei Fem
+1713fffffffffffffffffffffffff  Boxe
 0113fffffffffffffffffffffffff  NBA
-00020002600021000040000120000  NHL
-0d020006000022050010000013000  WTA Finals
-0613ffffffd9defbaabfdaddfffff  Copa do BrasilFem
-0113fffffffffffffffffffffffff  NBA
+0613ffffffd69ffd79ffd84effcef  Concacaf Nations Leag
+01023005000040600003001130201  NCAA Fut. Americano
+0b020015000053100262003610007  NFL
