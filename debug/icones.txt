@@ -1,29 +1,16 @@
 0603fffffffffffffffffffffffff  Golfe
-0d13fffffffffffffffffffffffff  Surfe
-0013ffffffffffffffffffeffffff  Olimpíadas Juventude
-0323ffecffffafffedfffecdffeff  Olimpíadas Juventude
-0613fffafff591ff8a1ff6b4fffbf  UEFA Nations League
-0613ffffffd48efe8bcfd75dffedf  UEFA Nations League C
-04025500024154442865055200562  NHL na Finlândia
-0613fffe9fff6dffcaefff6dfffdb  Champ. League (F)
-0613ffffeffff8ffffbffff8fffff  Paulistão sub-20
-0613fffbfff785ffcc2ff7a5fffcf  UEFA Nations League
-0613fff9eff585ff7a1ff5a3ffecf  UEFA Nations League
-0613fffcfff666ffbc3ff7a5fffcf  UEFA Nations League
+0202500008002200000a000050000  Mundial Triatlo
+0e13fffffffffffffffffffffffff  Surfe
+0323ffecffffbfffedfffebdffeff  Olimpíadas Juventude
+1713fffffffffffffffffffffffff  Judô
+02020020000032000000000310004  WTT Istambul
+0613ffffffd27eff4defc76dffedf  UEFA Nations League C
+0613fffffffff7ffffbffff9fffff  Paulistão sub-20
 0113fffffffffffffffffffffffff  Euroliga
-0e120011000142100080404204013  WTA Finals
-0413ffebeffefeffcddffcdfffeba  Superliga Vôlei Fem
-0313fffbeffefeffccdffcdfffeb9  Superliga Vôlei Fem
-0613fffbcffa49ffbabffa58fffee  Brasileirão - Série B
-0113fffffffffffffffffffffffff  NBB
-0613fffa8ffa5aff9bbffc78fffdc  Brasileirão - Série B
-0613ffbaffc5bafa7c7fb59affe9f  Supercopa Argentina
-0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0113fffffffffffffffffffffffff  NBB
-0313ffebeffdfeffcddffcefffeba  Superliga Vôlei Fem
-1713fffffffffffffffffffffffff  Boxe
-0113fffffffffffffffffffffffff  NBA
-0613ffffffd69ffd79ffd84effcef  Concacaf Nations Leag
-01023005000040600003001130201  NCAA Fut. Americano
-0b020015000053100262003610007  NFL
+0613ffffffe76ffca5dfe58efffff  UEFA Nations League
+0613ffffffe68ffdb7bfe6aefffff  UEFA Nations League
+0613fffffff48bff7bbff77affedf  UEFA Nations League B
+0613ffeffff37aff8b6ff898fffdf  UEFA Nations League B
+0613fffffffffffffffffffffffff  Copa do Rei
+0d033600531076070c42604303000  Libertadores Futsal Fem
+01030003110006406038040360403  Rugby Nations
