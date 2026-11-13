@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-11-13T13:57:40-03:00",
+  "gerado_em": "2026-11-13T19:26:27-03:00",
   "primeiro_dia": "2026-11-13",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 33,
+  "total": 91,
   "dias": [
     {
       "data": "2026-11-13",
@@ -56,8 +56,7 @@
           "evento": "Grand Prix de Zagreb - finais",
           "canais": "SPORTV, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:25",
@@ -65,8 +64,7 @@
           "evento": "OF - Matiunina x Bruna Takahashi",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "02020020000032000000000310004",
-          "fonte": "esportesnatv",
-          "dura": 35
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -74,8 +72,7 @@
           "evento": "Moldávia x Cazaquistão",
           "canais": "ESPN4",
           "icone": "0613ffffffd27eff4defc76dffedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
@@ -99,8 +96,7 @@
           "evento": "Sérvia x Alemanha",
           "canais": "SPORTV, GE TV",
           "icone": "0613ffffffe76ffca5dfe58efffff",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -108,8 +104,7 @@
           "evento": "Holanda x Grécia",
           "canais": "ESPN",
           "icone": "0613ffffffe68ffdb7bfe6aefffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -117,8 +112,7 @@
           "evento": "Eslovênia x Suíça",
           "canais": "ESPN4",
           "icone": "0613fffffff48bff7bbff77affedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -134,8 +128,7 @@
           "evento": "Salamanca x Celta",
           "canais": "ESPN3",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -151,8 +144,7 @@
           "evento": "França x África do Sul",
           "canais": "ESPN2",
           "icone": "01030003110006406038040360403",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
@@ -287,6 +279,508 @@
           "canais": "PRIME VIDEO",
           "icone": "0113fffffffffffffffffffffffff",
           "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-14",
+      "eventos": [
+        {
+          "hora": "00:00",
+          "competicao": "Skate Street",
+          "evento": "SLS - Tóquio - semifinais fem",
+          "canais": "SPORTV2",
+          "icone": "02020012001003010310000020001",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "02:00",
+          "competicao": "Skate Street",
+          "evento": "SLS - Tóquio - semifinais masc",
+          "canais": "SPORTV2",
+          "icone": "01020100400013000003000001000",
+          "fonte": "esportesnatv",
+          "dura": 195
+        },
+        {
+          "hora": "04:00",
+          "competicao": "Golfe",
+          "evento": "World Tour Championship - 3R",
+          "canais": "ESPN3",
+          "icone": "0603fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "05:45",
+          "competicao": "Skate Street",
+          "evento": "SLS - Tóquio - finais",
+          "canais": "SPORTV2, GE TV",
+          "icone": "05021001006030040300000000003",
+          "fonte": "esportesnatv",
+          "dura": 75
+        },
+        {
+          "hora": "06:20",
+          "competicao": "wTT Istambul",
+          "evento": "QF - Hashimoto x Bruna Takahashi",
+          "canais": "SPORTV3, CAZÉTV",
+          "icone": "03020001600010000000001110009",
+          "fonte": "esportesnatv",
+          "dura": 95
+        },
+        {
+          "hora": "07:15",
+          "competicao": "Amistoso",
+          "evento": "Japão x Brasil",
+          "canais": "GLOBO, SPORTV, YOUTUBE GETV",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 125
+        },
+        {
+          "hora": "08:30",
+          "competicao": "cus Stock Car",
+          "evento": "Etapa do Velopark - classificação",
+          "canais": "BANDSPORTS, YOUTUBE",
+          "icone": "",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Espanholde Futsal",
+          "evento": "El Pozo Murcia x Barcelona",
+          "canais": "YOUTUBE Canal Gol BR",
+          "icone": "0d03011a2281120921a4252406010",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:00",
+          "competicao": "Surfe",
+          "evento": "ISA Games 2026 - eliminatórias",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0e13fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:45",
+          "competicao": "Camp. Inglês Fem",
+          "evento": "Man. United F x Crystal Palace F",
+          "canais": "XSPORTS",
+          "icone": "0613fffe9fff3cffcaffff5efffec",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "09:50",
+          "competicao": "Turismo Nacional",
+          "evento": "Etapa do Velopark - corrida 1",
+          "canais": "BANDSPORTS, YOUTUBE",
+          "icone": "0c028400088000880088808f8408c",
+          "fonte": "esportesnatv",
+          "dura": 10
+        },
+        {
+          "hora": "10:30",
+          "competicao": "WTT Istambul",
+          "evento": "Semifinais (B. Takahashi?)",
+          "canais": "SPORTV2, CAZÉTV",
+          "icone": "02020003410000100020000810000",
+          "fonte": "esportesnatv",
+          "dura": 35
+        },
+        {
+          "hora": "11:00",
+          "competicao": "UEFA Nations League B",
+          "evento": "Kosovo x Israel",
+          "canais": "ESPN",
+          "icone": "0613fffffff199fdbb8fe57afffdf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "11:10",
+          "competicao": "Rugby Nations",
+          "evento": "País de Gales x Nova Zelândia",
+          "canais": "ESPN2",
+          "icone": "01020004000106200078030760004",
+          "fonte": "esportesnatv",
+          "dura": 110
+        },
+        {
+          "hora": "11:45",
+          "competicao": "LNF Silver Futsal",
+          "evento": "SF - Vasco x São Lourenço (5x2)",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0d030028028216272374935001260",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "12:40",
+          "competicao": "cus Stock Car",
+          "evento": "Etapa do Velopark - sprint race",
+          "canais": "BANDSPORTS, YOUTUBE Stock Car",
+          "icone": "0e021000320003000000130001300",
+          "fonte": "esportesnatv",
+          "dura": 50
+        },
+        {
+          "hora": "13:00",
+          "competicao": "Judô",
+          "evento": "Grand Prix de Zagreb - finais",
+          "canais": "SPORTV, CAZÉTV",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 45
+        },
+        {
+          "hora": "13:40",
+          "competicao": "Rugby Nations",
+          "evento": "Inglaterra x Japão",
+          "canais": "ESPN2",
+          "icone": "01020121100109700079000850004",
+          "fonte": "esportesnatv",
+          "dura": 110
+        },
+        {
+          "hora": "13:45",
+          "competicao": "Turismo Nacional",
+          "evento": "Etapa do Velopark - corrida 2",
+          "canais": "BANDSPORTS, YOUTUBE",
+          "icone": "0302c400088044880c8880c484000",
+          "fonte": "esportesnatv",
+          "dura": 75
+        },
+        {
+          "hora": "14:00",
+          "competicao": "NWSL Fut. Feminino",
+          "evento": "SF - Wash. Spirit x Utah Royals",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0613ffeaefe4b3fabd0ff3d3ffeae",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "Skate",
+          "evento": "Rampa do Gui - finais",
+          "canais": "SPORTV2",
+          "icone": "01020044100100040000100080000",
+          "fonte": "esportesnatv",
+          "dura": 100
+        },
+        {
+          "hora": "14:00",
+          "competicao": "UEFA Nations League",
+          "evento": "Noruega x País de Gales",
+          "canais": "ESPN",
+          "icone": "0613ffeceff583ffcc0ff6b5ffeae",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "14:00",
+          "competicao": "UEFA Nations League B",
+          "evento": "Geórgia x Hungria",
+          "canais": "SPORTV",
+          "icone": "0613fffffff19afdbb8fe76bffedf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "15:00",
+          "competicao": "Copa Santa Catarina",
+          "evento": "SF -Figueirense x Marcílio Dias (0x1)",
+          "canais": "YOUTUBE Metrópoles",
+          "icone": "0613ffdbefd0aafcbb5fd5a7ffecf",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "LNF Futsal",
+          "evento": "SE (ida) - Magnus x Atlântico",
+          "canais": "YOUTUBE LNF TV",
+          "icone": "0d13020281500b810082210d05315",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "NBB",
+          "evento": "Corinthians x Osasco",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Norde x São José-SP",
+          "canais": "YOUTUBE GETV",
+          "icone": "0313ffdbdffefeffddfffcdfffe9b",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Juventude x Botafogo-SP",
+          "canais": "XSPORTS, ESPN2, YOUTUBE Canal GOAT",
+          "icone": "0613ffffffeabdfca9afe9bdfffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Fortaleza x Vila Nova",
+          "canais": "ESPN",
+          "icone": "0613fffffff9befba8afeabdfffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Criciúma x Novorizontino",
+          "canais": "ESPN4",
+          "icone": "0613fffa9ffa59ff998ffc98fffdc",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "CRBx Ceará",
+          "canais": "REDETV!, DISNEY+, SportyNet, YOUTUBE",
+          "icone": "0613fffffff9befbb8bfe9adfffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "América-MG x Avaí",
+          "canais": "YOUTUBE SportyNet, DISNEY+",
+          "icone": "0613fffabffb4affbbbffa69fffdc",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Brasileirão - Série B",
+          "evento": "Sportx Goiás",
+          "canais": "DISNEY+",
+          "icone": "0613fffb9ffb5aff9a9ffd77fffbc",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Portugal x Dinamarca",
+          "canais": "SPORTV",
+          "icone": "0613fffafff573ffbb1ff3c3fffae",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:45",
+          "competicao": "UEFA Nations League B",
+          "evento": "Suécia x Bósnia",
+          "canais": "ESPN3",
+          "icone": "0613ffeffff57bfe8bbff78bffedf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Intercontinental Futsal",
+          "evento": "ACBF x Bintang Timur-IDN",
+          "canais": "BANDSPORTS, Gol BR",
+          "icone": "0d030204512502b35062451400815",
+          "fonte": "esportesnatv",
+          "dura": 90
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Libertadores Futsal Fem",
+          "evento": "Final - Stein Cascavel x (a definir)",
+          "canais": "SPORTV3, Gol BR",
+          "icone": "0e02004170021700455100070023c",
+          "fonte": "esportesnatv",
+          "dura": 75
+        },
+        {
+          "hora": "17:00",
+          "competicao": "WTA Finals",
+          "evento": "SF - Andreeva x Pegula",
+          "canais": "DISNEY+",
+          "icone": "0e120005102040024200180060000",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:30",
+          "competicao": "Boxe",
+          "evento": "Roman Fress x Armend Xhoxhaj",
+          "canais": "COMBATE",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "18:00",
+          "competicao": "NBB",
+          "evento": "Minas x Basquete Cearense União Corinthians-RS x Pato",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:10",
+          "competicao": "Liga Sul-Americana",
+          "evento": "Flamengo x Brasília",
+          "canais": "YOUTUBE Basquete TV",
+          "icone": "0113ffffeffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Brasileirão",
+          "evento": "Mirassolx Atlético-MG",
+          "canais": "PRIME VIDEO",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Concacaf Nations Leag",
+          "evento": "QF (ida) - Haiti x EUA",
+          "canais": "YOUTUBE Canal GOAT",
+          "icone": "0613ffffffd54ffc69efd96effdef",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Montes Claros x SESI-Bauru",
+          "canais": "SPORTV2",
+          "icone": "0313ffdbdffefeffeceffcdfffeab",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Copa Argentina",
+          "evento": "SF - Banfield x Boca Juniors",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "LNF Futsal",
+          "evento": "SE (ida) - Jaraguá x Joinville",
+          "canais": "YOUTUBE LNF TV",
+          "icone": "0e020041a00101265110202010404",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "UFC 334",
+          "evento": "card preliminar",
+          "canais": "PARAMOUNT+",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "WTA Finals",
+          "evento": "SF - Noskova x (a definir)",
+          "canais": "DISNEY+",
+          "icone": "0e120006302062024000430020000",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:30",
+          "competicao": "Brasileirão",
+          "evento": "Chapecoense x Vasco",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Dad WITA Finals",
+          "evento": "SF de Duplas (Dabrowski/Stefani)",
+          "canais": "ESPN3",
+          "icone": "0e020202100021300200040002203",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Intercontinental Futsal",
+          "evento": "Pato x ALUla-ARA",
+          "canais": "XSPORTS, Gol BR",
+          "icone": "0d030050b10604b1605510060090a",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Superliga Vôlei Fem",
+          "evento": "Brusque x Brasília",
+          "canais": "SPORTV2",
+          "icone": "0313fffbdffffeffccdffcdfffeba",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:30",
+          "competicao": "NBA",
+          "evento": "CrunchTime - Simulcast",
+          "canais": "YOUTUBE NBA Brasil",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "22:00",
+          "competicao": "Boxe",
+          "evento": "Diego Pacheco x Darius Fulghum",
+          "canais": "ESPN4",
+          "icone": "0013fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "22:00",
+          "competicao": "Concacaf Nations Leag",
+          "evento": "QF (ida) - Jamaica x México",
+          "canais": "YOUTUBE Canal GOAT",
+          "icone": "0613ffffffc36ffb5aefd85effeef",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "22:00",
+          "competicao": "NBA",
+          "evento": "Miami Heat x Detroit Pistons",
+          "canais": "ESPN2",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "23:00",
+          "competicao": "UFC 334",
+          "evento": "Ciryl Gane x Josh Hokit",
+          "canais": "PARAMOUNT+",
+          "icone": "1713fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "23:30",
+          "competicao": "NCAA Fut. Americano",
+          "evento": "Oklahoma State x Texas Tech",
+          "canais": "ESPN3",
+          "icone": "01020004020050600013002031201",
+          "fonte": "esportesnatv",
+          "dura": 180
         }
       ]
     }
