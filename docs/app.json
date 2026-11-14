@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-14T02:41:37-03:00",
+  "gerado_em": "2026-11-14T12:35:10-03:00",
   "primeiro_dia": "2026-11-14",
   "fontes": [
     "Esportes na TV",
@@ -24,8 +24,7 @@
           "evento": "SLS - Tóquio - semifinais masc",
           "canais": "SPORTV2",
           "icone": "01020100400013000003000001000",
-          "fonte": "esportesnatv",
-          "dura": 195
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:00",
@@ -33,8 +32,7 @@
           "evento": "World Tour Championship - 3R",
           "canais": "ESPN3",
           "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "04:50",
@@ -51,8 +49,7 @@
           "evento": "SLS - Tóquio - finais",
           "canais": "SPORTV2, GE TV",
           "icone": "05021001006030040300000000003",
-          "fonte": "esportesnatv",
-          "dura": 75
+          "fonte": "esportesnatv"
         },
         {
           "hora": "06:20",
@@ -60,8 +57,7 @@
           "evento": "QF - Hashimoto x Bruna Takahashi",
           "canais": "SPORTV3, CAZÉTV",
           "icone": "03020001600010000000001110009",
-          "fonte": "esportesnatv",
-          "dura": 95
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:15",
@@ -78,8 +74,7 @@
           "evento": "Japão x Brasil",
           "canais": "GLOBO, SPORTV, YOUTUBE GETV",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 125
+          "fonte": "esportesnatv"
         },
         {
           "hora": "07:50",
@@ -148,8 +143,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Velopark",
           "sessao": "Corrida 1",
-          "fonte": "tomadadetempo",
-          "dura": 10
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:30",
@@ -157,8 +151,7 @@
           "evento": "Semifinais (B. Takahashi?)",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "02020003410000100020000810000",
-          "fonte": "esportesnatv",
-          "dura": 35
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -370,7 +363,7 @@
           "canais": "REDETV!, DISNEY+, SportyNet, YOUTUBE",
           "icone": "0613fffffff9befbb8bfe9adfffff",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 180
         },
         {
           "hora": "16:30",
