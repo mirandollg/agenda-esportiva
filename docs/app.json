@@ -1,282 +1,12 @@
 {
-  "gerado_em": "2026-11-13T23:37:03-03:00",
-  "primeiro_dia": "2026-11-13",
+  "gerado_em": "2026-11-14T02:41:37-03:00",
+  "primeiro_dia": "2026-11-14",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 91,
+  "total": 80,
   "dias": [
-    {
-      "data": "2026-11-13",
-      "eventos": [
-        {
-          "hora": "00:00",
-          "competicao": "Skate Street",
-          "evento": "SLS - Tóquio - semifinais fem",
-          "canais": "SPORTV2",
-          "icone": "02010001500000020001000040000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "04:00",
-          "competicao": "Golfe",
-          "evento": "World Tour Championship - 2R",
-          "canais": "ESPN3",
-          "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "07:00",
-          "competicao": "Mundial Triatlo",
-          "evento": "WTCS - etapa de Abu Dhabi",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0202500008002200000a000050000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "09:00",
-          "competicao": "Surfe",
-          "evento": "ISA Games 2026 - eliminatórias",
-          "canais": "YOUTUBE CazéTV",
-          "icone": "0e13fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "09:30",
-          "competicao": "Olimpíadas Juventude",
-          "evento": "Hand. Praia-Final - Alemanha x Brasil",
-          "canais": "YOUTUBE CazéTV",
-          "icone": "0323ffecffffbfffedfffebdffeff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:00",
-          "competicao": "Judô",
-          "evento": "Grand Prix de Zagreb - finais",
-          "canais": "SPORTV, CAZÉTV",
-          "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "13:25",
-          "competicao": "WTT Istambul",
-          "evento": "OF - Matiunina x Bruna Takahashi",
-          "canais": "SPORTV2, CAZÉTV",
-          "icone": "02020020000032000000000310004",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "14:00",
-          "competicao": "UEFA Nations League C",
-          "evento": "Moldávia x Cazaquistão",
-          "canais": "ESPN4",
-          "icone": "0613ffffffd27eff4defc76dffedf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "15:00",
-          "competicao": "Paulistão sub-20",
-          "evento": "SF - Santos s20 x Palmeiras (2x1)",
-          "canais": "YOUTUBE TNT Sports",
-          "icone": "0613fffffffff7ffffbffff9fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:15",
-          "competicao": "Euroliga",
-          "evento": "Panathinaikos x Barcelona",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:45",
-          "competicao": "UEFA Nations League",
-          "evento": "Sérvia x Alemanha",
-          "canais": "SPORTV, GE TV",
-          "icone": "0613ffffffe76ffca5dfe58efffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:45",
-          "competicao": "UEFA Nations League",
-          "evento": "Holanda x Grécia",
-          "canais": "ESPN",
-          "icone": "0613ffffffe68ffdb7bfe6aefffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:45",
-          "competicao": "UEFA Nations League B",
-          "evento": "Eslovênia x Suíça",
-          "canais": "ESPN4",
-          "icone": "0613fffffff48bff7bbff77affedf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "16:45",
-          "competicao": "UEFA Nations League B",
-          "evento": "Escócia x Macedônia do Norte",
-          "canais": "YOUTUBE ESPN Brasil",
-          "icone": "0613ffeffff37aff8b6ff898fffdf",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "17:00",
-          "competicao": "Copa do Rei",
-          "evento": "Salamanca x Celta",
-          "canais": "ESPN3",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "17:00",
-          "competicao": "Libertadores Futsal Fem",
-          "evento": "SF - Stein Cascavel x Penarol",
-          "canais": "AVPURIO, VPURIVO, YOUTUBE Canal Gol BR",
-          "icone": "0d033600531076070c42604303000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "17:10",
-          "competicao": "Rugby Nations",
-          "evento": "França x África do Sul",
-          "canais": "ESPN2",
-          "icone": "01030003110006406038040360403",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Dad WTA Finals",
-          "evento": "\"QF\" - Sabalenka x Svitolina",
-          "canais": "DISNEY+",
-          "icone": "",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Superliga Vôlei Fem",
-          "evento": "Praia Clube x Mackenzie",
-          "canais": "YOUTUBE GETV",
-          "icone": "0313ffebeffffeffbdeffddfffeba",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "18:30",
-          "competicao": "Superliga Vôlei Masc",
-          "evento": "Vôlei Renata x Sada-Cruzeiro",
-          "canais": "SPORTV2",
-          "icone": "0313ffdbdffefeffedfffcdfffeab",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:10",
-          "competicao": "Liga Sul-Americana",
-          "evento": "Brasília x Boca Juniors",
-          "canais": "YOUTUBE Basquete TV",
-          "icone": "0113fffeeffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "NBB",
-          "evento": "Cruzeiro x Unifacisa",
-          "canais": "ESPN2",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "19:30",
-          "competicao": "NBB",
-          "evento": "São José-SP x Paulistano",
-          "canais": "XSPORTS, YOUTUBE",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "Amistoso",
-          "evento": "Argentina x Uruguai",
-          "canais": "SPORTV",
-          "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "20:00",
-          "competicao": "Amistoso sub-20",
-          "evento": "Brasil s20 x Peru s20",
-          "canais": "YOUTUBE TNT Sports",
-          "icone": "0613fffffffff7ffff8ffff8fffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Dad WITA Finals",
-          "evento": "Dabrowski/Stefani x Hsieh/Ostapenko",
-          "canais": "DISNEY+",
-          "icone": "0d120306000040000400030163200",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "MMA",
-          "evento": "LFA 246",
-          "canais": "ESPN4",
-          "icone": "0013fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 180
-        },
-        {
-          "hora": "21:00",
-          "competicao": "NBA (Cup)",
-          "evento": "Indiana Pacers x NY Knicks",
-          "canais": "PRIME VIDEO",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "21:00",
-          "competicao": "Superliga Vôlei Fem",
-          "evento": "Osasco x SESI-Bauru",
-          "canais": "SPORTV2",
-          "icone": "0313ffebeffefeffcddffcefffeb9",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "22:00",
-          "competicao": "NHL",
-          "evento": "Vancouv. Canucks x NY Rangers",
-          "canais": "ESPN2",
-          "icone": "02020000200045000440001120000",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "22:40",
-          "competicao": "Liga Sul-Americana",
-          "evento": "Paisas-COL x Flamengo",
-          "canais": "YOUTUBE Basquete TV",
-          "icone": "0113ffffeffefffffffffffffffff",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "23:00",
-          "competicao": "Concacaf Nations Leag",
-          "evento": "QF (ida) - Guatemala x Canadá",
-          "canais": "YOUTUBE Canal GOAT",
-          "icone": "0613ffefffd65efc5adfd94effdef",
-          "fonte": "esportesnatv"
-        },
-        {
-          "hora": "23:30",
-          "competicao": "NBA (Cup)",
-          "evento": "San Antonio Spurs x GS Warriors",
-          "canais": "PRIME VIDEO",
-          "icone": "0113fffffffffffffffffffffffff",
-          "fonte": "esportesnatv"
-        }
-      ]
-    },
     {
       "data": "2026-11-14",
       "eventos": [
@@ -286,8 +16,7 @@
           "evento": "SLS - Tóquio - semifinais fem",
           "canais": "SPORTV2",
           "icone": "02020012001003010310000020001",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "02:00",
@@ -306,6 +35,15 @@
           "icone": "0603fffffffffffffffffffffffff",
           "fonte": "esportesnatv",
           "dura": 60
+        },
+        {
+          "hora": "04:50",
+          "competicao": "ASIAN LE MANS CUP",
+          "evento": "Le Castellet - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Le Castellet",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "05:45",
@@ -327,6 +65,15 @@
         },
         {
           "hora": "07:15",
+          "competicao": "ACADEMIA CAMPEÕES DO FUTURO",
+          "evento": "Trália - Provas Sabado",
+          "canais": "YOUTUBE",
+          "etapa": "Trália",
+          "sessao": "Provas Sabado",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:15",
           "competicao": "Amistoso",
           "evento": "Japão x Brasil",
           "canais": "GLOBO, SPORTV, YOUTUBE GETV",
@@ -335,13 +82,40 @@
           "dura": 125
         },
         {
+          "hora": "07:50",
+          "competicao": "MITSUBISHI CUP",
+          "evento": "Mogi Guaçu/SP - 7º etapa",
+          "canais": "YOUTUBE",
+          "etapa": "Mogi Guaçu/SP",
+          "sessao": "7º etapa",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "08:30",
-          "competicao": "cus Stock Car",
-          "evento": "Etapa do Velopark - classificação",
+          "competicao": "500 MILHAS KART RENTAL KGV",
+          "evento": "Granja Viana - Corrida",
+          "canais": "YOUTUBE",
+          "etapa": "Granja Viana",
+          "sessao": "Corrida",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:30",
+          "competicao": "STOCK CAR",
+          "evento": "Velopark - Classificação",
           "canais": "BANDSPORTS, YOUTUBE",
-          "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "etapa": "Velopark",
+          "sessao": "Classificação",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:50",
+          "competicao": "ASIAN LE MANS SERIES",
+          "evento": "Le Castellet - Corrida 1",
+          "canais": "YOUTUBE",
+          "etapa": "Le Castellet",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "09:00",
@@ -369,11 +143,12 @@
         },
         {
           "hora": "09:50",
-          "competicao": "Turismo Nacional",
-          "evento": "Etapa do Velopark - corrida 1",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Velopark - Corrida 1",
           "canais": "BANDSPORTS, YOUTUBE",
-          "icone": "0c028400088000880088808f8408c",
-          "fonte": "esportesnatv",
+          "etapa": "Velopark",
+          "sessao": "Corrida 1",
+          "fonte": "tomadadetempo",
           "dura": 10
         },
         {
@@ -412,13 +187,32 @@
           "fonte": "esportesnatv"
         },
         {
+          "hora": "12:10",
+          "competicao": "TURISMO CROSS BRASIL",
+          "evento": "Cuiabá/MT - Classificatório 2",
+          "canais": "YOUTUBE",
+          "etapa": "Cuiabá/MT",
+          "sessao": "Classificatório 2",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "12:40",
-          "competicao": "cus Stock Car",
-          "evento": "Etapa do Velopark - sprint race",
-          "canais": "BANDSPORTS, YOUTUBE Stock Car",
-          "icone": "0e021000320003000000130001300",
-          "fonte": "esportesnatv",
-          "dura": 50
+          "competicao": "STOCK CAR",
+          "evento": "Velopark - Corrida Sprint",
+          "canais": "BANDSPORTS, YOUTUBE Stock Car, YOUTUBE, BAND",
+          "etapa": "Velopark",
+          "sessao": "Corrida Sprint",
+          "fonte": "tomadadetempo",
+          "dura": 35
+        },
+        {
+          "hora": "12:55",
+          "competicao": "AUTO CROSS LIGHT BRASIL",
+          "evento": "Cuiabá/MT - Classificatório 2",
+          "canais": "YOUTUBE",
+          "etapa": "Cuiabá/MT",
+          "sessao": "Classificatório 2",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "13:00",
@@ -440,11 +234,21 @@
         },
         {
           "hora": "13:45",
-          "competicao": "Turismo Nacional",
-          "evento": "Etapa do Velopark - corrida 2",
+          "competicao": "TCR EUROPEAN ENDURANCE",
+          "evento": "Misano - Estágio 1",
+          "canais": "YOUTUBE",
+          "etapa": "Misano",
+          "sessao": "Estágio 1",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:45",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Velopark - Corrida 2",
           "canais": "BANDSPORTS, YOUTUBE",
-          "icone": "0302c400088044880c8880c484000",
-          "fonte": "esportesnatv",
+          "etapa": "Velopark",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo",
           "dura": 75
         },
         {
@@ -463,6 +267,15 @@
           "icone": "01020044100100040000100080000",
           "fonte": "esportesnatv",
           "dura": 100
+        },
+        {
+          "hora": "14:00",
+          "competicao": "TURISMO CROSS BRASIL",
+          "evento": "Cuiaba/MT - Prova 2 (Bateria 1)",
+          "canais": "YOUTUBE",
+          "etapa": "Cuiaba/MT",
+          "sessao": "Prova 2 (Bateria 1)",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "14:00",
@@ -489,6 +302,15 @@
           "canais": "YOUTUBE Metrópoles",
           "icone": "0613ffdbefd0aafcbb5fd5a7ffecf",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "15:45",
+          "competicao": "HSR CLASSIC (24 HS)",
+          "evento": "Daytona - Corrida (Parte 1)",
+          "canais": "YOUTUBE",
+          "etapa": "Daytona",
+          "sessao": "Corrida (Parte 1)",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "16:00",
@@ -620,6 +442,15 @@
           "dura": 150
         },
         {
+          "hora": "17:30",
+          "competicao": "TURISMO CROSS BRASIL",
+          "evento": "Cuiabá/MT - Prova 2 (Bateria 2)",
+          "canais": "YOUTUBE",
+          "etapa": "Cuiabá/MT",
+          "sessao": "Prova 2 (Bateria 2)",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "18:00",
           "competicao": "NBB",
           "evento": "Minas x Basquete Cearense União Corinthians-RS x Pato",
@@ -661,6 +492,15 @@
           "dura": 120
         },
         {
+          "hora": "18:45",
+          "competicao": "AUTO CROSS BRASIL",
+          "evento": "Cuiabá/MT - Classificatório 2",
+          "canais": "YOUTUBE",
+          "etapa": "Cuiabá/MT",
+          "sessao": "Classificatório 2",
+          "fonte": "tomadadetempo"
+        },
+        {
           "hora": "19:00",
           "competicao": "Copa Argentina",
           "evento": "SF - Banfield x Boca Juniors",
@@ -699,6 +539,15 @@
           "canais": "PREMIERE",
           "icone": "0613fffffffffffffffffffffffff",
           "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:45",
+          "competicao": "AUTO CROSS BRASIL",
+          "evento": "Cuiabá/MT - Prova 2",
+          "canais": "YOUTUBE",
+          "etapa": "Cuiabá/MT",
+          "sessao": "Prova 2",
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "21:00",
@@ -776,6 +625,95 @@
           "icone": "01020004020050600013002031201",
           "fonte": "esportesnatv",
           "dura": 180
+        }
+      ]
+    },
+    {
+      "data": "2026-11-15",
+      "eventos": [
+        {
+          "hora": "05:00",
+          "competicao": "ASIAN LE MANS CUP",
+          "evento": "Le Castellet - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Le Castellet",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "07:15",
+          "competicao": "ACADEMIA CAMPEÕES DO FUTURO",
+          "evento": "Itália - Provas Domingo",
+          "canais": "YOUTUBE",
+          "etapa": "Itália",
+          "sessao": "Provas Domingo",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "08:15",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Velopark - Corrida 3",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Velopark",
+          "sessao": "Corrida 3",
+          "fonte": "tomadadetempo",
+          "dura": 60
+        },
+        {
+          "hora": "08:50",
+          "competicao": "ASIAN LE MANS SERIES",
+          "evento": "Le Castellet - Corrida 2",
+          "canais": "YOUTUBE",
+          "etapa": "Le Castellet",
+          "sessao": "Corrida 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "09:45",
+          "competicao": "HSR CLASSIC (24 HS)",
+          "evento": "Daytona - Corrida (Parte 2)",
+          "canais": "YOUTUBE",
+          "etapa": "Daytona",
+          "sessao": "Corrida (Parte 2)",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "12:10",
+          "competicao": "STOCK CAR",
+          "evento": "Velopark - Corrida do Milhão",
+          "canais": "YOUTUBE, BAND, BANDSPORTS",
+          "etapa": "Velopark",
+          "sessao": "Corrida do Milhão",
+          "fonte": "tomadadetempo",
+          "dura": 80
+        },
+        {
+          "hora": "12:50",
+          "competicao": "VELOCIDADE NA TERRA (ZANOELLO)",
+          "evento": "Lacerdópolis/SC - Provas",
+          "canais": "YOUTUBE",
+          "etapa": "Lacerdópolis/SC",
+          "sessao": "Provas",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "13:40",
+          "competicao": "TCR EUROPEAN ENDURANCE",
+          "evento": "Elviisano - Estágio 2",
+          "canais": "YOUTUBE",
+          "etapa": "Elviisano",
+          "sessao": "Estágio 2",
+          "fonte": "tomadadetempo"
+        },
+        {
+          "hora": "14:00",
+          "competicao": "TURISMO NACIONAL",
+          "evento": "Velopark - Corrida 4",
+          "canais": "YOUTUBE, BANDSPORTS",
+          "etapa": "Velopark",
+          "sessao": "Corrida 4",
+          "fonte": "tomadadetempo",
+          "dura": 60
         }
       ]
     }

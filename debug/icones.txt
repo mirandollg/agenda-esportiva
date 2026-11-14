@@ -1,16 +1,28 @@
+02020012001003010310000020001  Skate Street
+01020100400013000003000001000  Skate Street
 0603fffffffffffffffffffffffff  Golfe
-0202500008002200000a000050000  Mundial Triatlo
+05021001006030040300000000003  Skate Street
+03020001600010000000001110009  wTT Istambul
+0613fffffffffffffffffffffffff  Amistoso
+0d03011a2281120921a4252406010  Espanholde Futsal
 0e13fffffffffffffffffffffffff  Surfe
-0323ffecffffbfffedfffebdffeff  Olimpíadas Juventude
+0613fffe9fff3cffcaffff5efffec  Camp. Inglês Fem
+0c028400088000880088808f8408c  Turismo Nacional
+02020003410000100020000810000  WTT Istambul
+0613fffffff199fdbb8fe57afffdf  UEFA Nations League B
+01020004000106200078030760004  Rugby Nations
+0d030028028216272374935001260  LNF Silver Futsal
+0e021000320003000000130001300  cus Stock Car
 1713fffffffffffffffffffffffff  Judô
-02020020000032000000000310004  WTT Istambul
-0613ffffffd27eff4defc76dffedf  UEFA Nations League C
-0613fffffffff7ffffbffff9fffff  Paulistão sub-20
-0113fffffffffffffffffffffffff  Euroliga
-0613ffffffe76ffca5dfe58efffff  UEFA Nations League
-0613ffffffe68ffdb7bfe6aefffff  UEFA Nations League
-0613fffffff48bff7bbff77affedf  UEFA Nations League B
-0613ffeffff37aff8b6ff898fffdf  UEFA Nations League B
-0613fffffffffffffffffffffffff  Copa do Rei
-0d033600531076070c42604303000  Libertadores Futsal Fem
-01030003110006406038040360403  Rugby Nations
+01020121100109700079000850004  Rugby Nations
+0302c400088044880c8880c484000  Turismo Nacional
+01020044100100040000100080000  Skate
+0613ffeceff583ffcc0ff6b5ffeae  UEFA Nations League
+0613fffffff19afdbb8fe76bffedf  UEFA Nations League B
+0613ffeaefe4b3fabd0ff3d3ffeae  NWSL Fut. Feminino
+0613ffdbefd0aafcbb5fd5a7ffecf  Copa Santa Catarina
+0313ffdbdffefeffddfffcdfffe9b  Superliga Vôlei Masc
+0113fffffffffffffffffffffffff  NBB
+0d13020281500b810082210d05315  LNF Futsal
+0613ffffffeabdfca9afe9bdfffff  Brasileirão - Série B
+0613fffffff9befba8afeabdfffff  Brasileirão - Série B

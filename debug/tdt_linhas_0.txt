@@ -1,15 +1,14 @@
-https://cdn1.telesco.pe/file/Te3bupCZ2XhMsIR7cwxcj3PC-tVqF1LOwmaqa9Dtihvpm1HQv_P--28YSbJSoSDdLVWsWbWAdIckEy5E15qPFCrRMf3M9LAQHemuT5pVOuFljEH8Zr6yA34tmwyqEjxW80S7xDT1WUXoCUaaZOuoiM9CiDKBa6K4Wut-2YCQk9NqD4bHYdKJ_U_FGmsGL7ZcfEZaYw7SKWNbwZfuzBnTwV6gmQZ_Hja3_8mNu5tz4N_byKS-jsJrPSikFTV4Wt2pkd-xA70NQsBYPhioJ-jaIPYbtua8n6AsZeoaL-SPnf6rvQwQFjfEl-FxxZd6WnjF49GlD_NWOMennbaCjNt7uA.jpg
-data: 2026-11-06
-colunas: [(5, 35), (43, 176), (213, 330), (337, 436), (476, 621)]
+https://cdn1.telesco.pe/file/kmEivCDWIE9B-2BnEECxDwVJLrNYGwJge1EAd0YsRyiwuL5DJWfcL6ietCMmg_uImhssLJ9ptg5RxS8XS8FJRa4UvoMoeBj-ZXBxvBiJc3AyJL1laX9zUvqPzKC8v_n_gBqCrcM7T8u2jzidaLpE2NCv27PNkPSTCy_Ga8MYTZc2HQpz139PK0wgbJi2KIyDHQ01BOXZlOZ_Z9OJi6hheuO0P_pGD5xfa8z3T5W0vOZZkHsWjRtNuIS7d-oUFEeN_weg2hMMf0ASXeQpzQdld4yHg3bK5x5ea7lStPT4UkXAndZTROdwoHRN-vP_Pu0h-6OF_RehDSnRAjfgFlWAzQ.jpg
+data: 2026-11-15
+colunas: [(2, 43), (43, 209), (209, 333), (333, 455), (469, 622)]
 
-y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=138-149 | 11:15 || MOTO3 || Catar || Treino Oficial || ESPN4 | DISNEY + PR
-y=156-168 | 12:05 || MOTO2 || Catar || Treino Oficial || ESPN4 | DISNEY + PR
-y=173-187 | 12:30 || FÓRMULA 1 || GP do Brasil || Treino Livre 1 || SPORTV3 | GLOBOPLAY PR
-y=193-205 | 13:00 || MOTO GP || Catar || Treino Oficial || ESPN4 | DISNEY + PR
-y=212-224 | 14:00 || PORSCHE CUP BRASIL || Interlagos || Corrida 1 (Sprint) || YOUTUBE
-y=230-243 | 15:00 || PORSCHE CUP BRASIL || Interlagos || Classificação (Cup) || YOUTUBE
-y=247-261 | 16:00 || FÓRMULA 1 || GP do Brasil || Treino Livre 2 || SPORTV3 | GLOBOPLAY PR
-y=267-280 | 19:45 || F4 JAPONESA || Motegi || Corrida 1 || YOUTUBE
-y=286-296 | 21:30 || NASCAR TRUCK SERIES || Homestead-Miami || Corrida || ESPNS3 | PHIZTV | DISNEY + PR
-y=304-317 | 21:45 || F4 JAPONESA || Motegji || Corrida 2 || YOUTUBE
+y=118-129 | 2) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
+y=138-147 | 05:00 || ASIAN LE MANS CUP || Le Castellet || Corrida 2 || E YOUTUBE
+y=156-169 | 07:15 || ACADEMIA CAMPEÕES DO FUTURO || Itália || Provas Domingo || YOUTUBE
+y=175-187 | 08:15 * || TURISMO NACIONAL || Velopark || Corrida 3 || YOUTUBE | BANDSPORTS
+y=193-203 | 08:50 || ASIAN LE MANS SERIES || Le Castellet || Corrida 2 || à YOUTUBE
+y=212-224 | 09:45 || HSR CLASSIC (24 HS) || Daytona || Corrida (Parte 2) || YOUTUBE
+y=230-242 | 12:10: || STOCK CAR || Velopark || Corrida do Milhão || YOUTUBE | BAND | BANDSPORTS
+y=249-261 | 12:50 + || VELOCIDADE NA TERRA (ZANOELLO) || Lacerdópolis/SC || Provas || YOUTUBE
+y=267-280 | 13:40 * || TCR EUROPEAN ENDURANCE || Elviisano || Estágio 2 || YOUTUBE
+y=286-298 | 14:00 * || TURISMO NACIONAL || Velopark || Corrida 4 || YOUTUBE | BANDSPORTS
