@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-14T12:35:10-03:00",
+  "gerado_em": "2026-11-14T17:26:33-03:00",
   "primeiro_dia": "2026-11-14",
   "fontes": [
     "Esportes na TV",
@@ -159,8 +159,7 @@
           "evento": "Kosovo x Israel",
           "canais": "ESPN",
           "icone": "0613fffffff199fdbb8fe57afffdf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:10",
@@ -168,8 +167,7 @@
           "evento": "País de Gales x Nova Zelândia",
           "canais": "ESPN2",
           "icone": "01020004000106200078030760004",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:45",
@@ -195,8 +193,7 @@
           "canais": "BANDSPORTS, YOUTUBE Stock Car, YOUTUBE, BAND",
           "etapa": "Velopark",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 35
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:55",
@@ -213,8 +210,7 @@
           "evento": "Grand Prix de Zagreb - finais",
           "canais": "SPORTV, CAZÉTV",
           "icone": "1713fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:40",
@@ -222,8 +218,7 @@
           "evento": "Inglaterra x Japão",
           "canais": "ESPN2",
           "icone": "01020121100109700079000850004",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:45",
@@ -241,8 +236,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Velopark",
           "sessao": "Corrida 2",
-          "fonte": "tomadadetempo",
-          "dura": 75
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "14:00",
@@ -258,8 +252,7 @@
           "evento": "Rampa do Gui - finais",
           "canais": "SPORTV2",
           "icone": "01020044100100040000100080000",
-          "fonte": "esportesnatv",
-          "dura": 100
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -276,8 +269,7 @@
           "evento": "Noruega x País de Gales",
           "canais": "ESPN",
           "icone": "0613ffeceff583ffcc0ff6b5ffeae",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -285,8 +277,7 @@
           "evento": "Geórgia x Hungria",
           "canais": "SPORTV",
           "icone": "0613fffffff19afdbb8fe76bffedf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "15:00",
