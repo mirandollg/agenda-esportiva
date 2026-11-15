@@ -1,28 +1,21 @@
-02020012001003010310000020001  Skate Street
-01020100400013000003000001000  Skate Street
 0603fffffffffffffffffffffffff  Golfe
-05021001006030040300000000003  Skate Street
-03020001600010000000001110009  wTT Istambul
-0613fffffffffffffffffffffffff  Amistoso
-0d03011a2281120921a4252406010  Espanholde Futsal
+02020020001000220201000180000  EsquiAlpino
+0e123000000610007010500105000  ATP Finals
+02020400131036000162130600003  WTT Istambul
+0d02480008804c8808f8808f84044  Turismo Nacional
 0e13fffffffffffffffffffffffff  Surfe
-0613fffe9fff3cffcaffff5efffec  Camp. Inglês Fem
-0c028400088000880088808f8408c  Turismo Nacional
-02020003410000100020000810000  WTT Istambul
-0613fffffff199fdbb8fe57afffdf  UEFA Nations League B
-01020004000106200078030760004  Rugby Nations
-0d030028028216272374935001260  LNF Silver Futsal
-0e021000320003000000130001300  cus Stock Car
-1713fffffffffffffffffffffffff  Judô
-01020121100109700079000850004  Rugby Nations
-0302c400088044880c8880c484000  Turismo Nacional
-01020044100100040000100080000  Skate
-0613ffeceff583ffcc0ff6b5ffeae  UEFA Nations League
-0613fffffff19afdbb8fe76bffedf  UEFA Nations League B
-0613ffeaefe4b3fabd0ff3d3ffeae  NWSL Fut. Feminino
-0613ffdbefd0aafcbb5fd5a7ffecf  Copa Santa Catarina
-0313ffdbdffefeffddfffcdfffe9b  Superliga Vôlei Masc
-0113fffffffffffffffffffffffff  NBB
-0d13020281500b810082210d05315  LNF Futsal
-0613ffffffeabdfca9afe9bdfffff  Brasileirão - Série B
-0613fffffff9befba8afeabdfffff  Brasileirão - Série B
+0e121050010803146042611260000  ATP Finals
+0613ffffffe66efe5dffc78cffdef  UEFA Nations League C
+0313ffebdffefeffedfffcdfffeab  Superliga Vôlei Masc
+0d0303058055761a2584823901174  LNF Silver Futsal
+02020000c000040052000000f0000  Skate
+02020000500011400005000451100  NFL em Munique
+01022000110003000020030000200  Stock Car
+02030005000022200038020360003  Rugby Nations
+0013fffffffffffffffffffffffff  Judô
+0613fffe8fff4cffe9cfff6effffa  Camp. Inglês Fem
+0613ffffffe56efe4defc78cffdef  UEFA Nations League C
+0613ffffffc66ffe8affe88dffeef  UEFA Nations League C
+0c0288000880008804c8808f8408c  Turismo Nacional
+0c020005220038000280001a0010a  NFL
+0d020005040055000591000910118  NFL
