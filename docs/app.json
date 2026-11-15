@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-15T02:40:54-03:00",
+  "gerado_em": "2026-11-15T13:05:50-03:00",
   "primeiro_dia": "2026-11-15",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "World Tour Championship - Final",
           "canais": "ESPN3",
           "icone": "0603fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "05:00",
@@ -68,8 +67,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "etapa": "Velopark",
           "sessao": "Corrida 3",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:50",
@@ -103,8 +101,7 @@
           "evento": "Zverev x Jodar",
           "canais": "ESPN2",
           "icone": "0e121050010803146042611260000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -120,8 +117,7 @@
           "evento": "Rampa do Gui - finais",
           "canais": "GLOBO, SPORTV3",
           "icone": "02020000c000040052000000f0000",
-          "fonte": "esportesnatv",
-          "dura": 15
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -129,8 +125,7 @@
           "evento": "Monte Carmelo x Praia Clube",
           "canais": "SPORTV2",
           "icone": "0313ffebdffefeffedfffcdfffeab",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -138,8 +133,7 @@
           "evento": "Chipre x Montenegro",
           "canais": "ESPN",
           "icone": "0613ffffffe66efe5dffc78cffdef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:30",
@@ -210,7 +204,7 @@
           "etapa": "Velopark",
           "sessao": "Corrida 4",
           "fonte": "tomadadetempo",
-          "dura": 60
+          "dura": 50
         },
         {
           "hora": "14:00",
@@ -237,7 +231,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "icone": "0313ffeefffdffffdefffbffffeee",
           "fonte": "esportesnatv",
-          "dura": 120
+          "dura": 110
         },
         {
           "hora": "15:00",
