@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-16T02:41:08-03:00",
+  "gerado_em": "2026-11-16T16:17:48-03:00",
   "primeiro_dia": "2026-11-16",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "Alcaraz x Tiafoe",
           "canais": "ESPN2",
           "icone": "0e020080110938000044001450000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -25,8 +24,7 @@
           "evento": "Cazaquistão x Eslováquia",
           "canais": "ESPN4",
           "icone": "0613fffeffd36efe9dffc76effdef",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "12:00",
@@ -34,8 +32,7 @@
           "evento": "Ilhas Faroé x Moldávia",
           "canais": "SPORTV2",
           "icone": "0613ffffffe48fff9ccfc77effddf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -43,8 +40,7 @@
           "evento": "Islândia x Luxemburgo",
           "canais": "ESPN4",
           "icone": "0613ffffffd48fff8bdfe54dffeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
@@ -52,8 +48,7 @@
           "evento": "Estônia x Bulgária",
           "canais": "SPORTV2",
           "icone": "0613ffffffc88fff8befc57cffeef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
