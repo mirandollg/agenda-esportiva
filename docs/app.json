@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-11-15T18:09:27-03:00",
+  "gerado_em": "2026-11-15T22:16:59-03:00",
   "primeiro_dia": "2026-11-15",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 47,
+  "total": 68,
   "dias": [
     {
       "data": "2026-11-15",
@@ -281,8 +281,7 @@
           "evento": "Espanha x Inglaterra",
           "canais": "SPORTV",
           "icone": "0613ffffffe68ffdb7cfe6befffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -290,8 +289,7 @@
           "evento": "França x Turquia",
           "canais": "SPORTV3, GE TV",
           "icone": "0613fffffff55ffe99aff49efffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -299,8 +297,7 @@
           "evento": "Bélgica x Itália",
           "canais": "ESPN",
           "icone": "0613ffeefff66dffa8aff47efffef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -316,8 +313,7 @@
           "evento": "Sporting x Bintang Timur-IDN",
           "canais": "BANDSPORTS, Gol BR",
           "icone": "0d030212a02304b08228201400706",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -325,8 +321,7 @@
           "evento": "Final - Svitolina x Andreeva",
           "canais": "ESPN3",
           "icone": "0e022114101020024200050203100",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:05",
@@ -334,8 +329,7 @@
           "evento": "LV Raiders x Seattle Seahawks",
           "canais": "SPORTV2, GE TV",
           "icone": "0c0200150301732003a0004a10304",
-          "fonte": "esportesnatv",
-          "dura": 180
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:10",
@@ -351,8 +345,7 @@
           "evento": "Dallas Cowboys xS Franc. 49ers",
           "canais": "ESPN2",
           "icone": "0d020006020063000370002820002",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -360,8 +353,7 @@
           "evento": "Final Duplas (Dabrowski/Stefani?)",
           "canais": "ESPN3",
           "icone": "0d120044241603110147100730000",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:00",
@@ -403,6 +395,192 @@
           "icone": "0d020015020164000591000920118",
           "fonte": "esportesnatv",
           "dura": 190
+        }
+      ]
+    },
+    {
+      "data": "2026-11-16",
+      "eventos": [
+        {
+          "hora": "10:00",
+          "competicao": "ATP Finals",
+          "evento": "Alcaraz x Tiafoe",
+          "canais": "ESPN2",
+          "icone": "0e020080110938000044001450000",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "12:00",
+          "competicao": "UEFA Nations League C",
+          "evento": "Cazaquistão x Eslováquia",
+          "canais": "ESPN4",
+          "icone": "0613fffeffd36efe9dffc76effdef",
+          "fonte": "esportesnatv",
+          "dura": 110
+        },
+        {
+          "hora": "12:00",
+          "competicao": "UEFA Nations League C",
+          "evento": "Ilhas Faroé x Moldávia",
+          "canais": "SPORTV2",
+          "icone": "0613ffffffe48fff9ccfc77effddf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "14:00",
+          "competicao": "UEFA Nations League C",
+          "evento": "Islândia x Luxemburgo",
+          "canais": "ESPN4",
+          "icone": "0613ffffffd48fff8bdfe54dffeef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "14:00",
+          "competicao": "UEFA Nations League C",
+          "evento": "Estônia x Bulgária",
+          "canais": "SPORTV2",
+          "icone": "0613ffffffc88fff8befc57cffeef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:30",
+          "competicao": "ATP Finals",
+          "evento": "Medvedev x Cobolli",
+          "canais": "ESPN2",
+          "icone": "",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Alemanha x Holanda",
+          "canais": "ESPN",
+          "icone": "0613fffbfff784ffbd1ff7c3fffcf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:45",
+          "competicao": "UEFA Nations League",
+          "evento": "Grécia x Sérvia",
+          "canais": "SPORTV",
+          "icone": "0613fffcfff6a5ff8c4ff7c5ffecf",
+          "fonte": "esportesnatv",
+          "dura": 115
+        },
+        {
+          "hora": "16:45",
+          "competicao": "UEFA Nations League B",
+          "evento": "Suíça x Escócia",
+          "canais": "ESPN4",
+          "icone": "0613fffffff48eff8b9ff398fffdf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Intercontinental Futsal",
+          "evento": "ACBF x Sporting-POR",
+          "canais": "ASFURIO, BANDOFURIO, YOUTUBE Canal Gol BR",
+          "icone": "0d020160002100623023030304402",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Goiás x Vôlei Renata",
+          "canais": "SPORTV2",
+          "icone": "0313ffdbdffdfeffdcfffcdfffeab",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Guarulhos x Minas",
+          "canais": "YOUTUBE GETV",
+          "icone": "0413ffdbdffcfeffdceffcdfffe9b",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "NBB",
+          "evento": "Cruzeiro x Basquete Cearense São José-SP x Mogi",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Amistoso sub20",
+          "evento": "Brasil s20 x Peru s20",
+          "canais": "YOUTUBE TNT Sports",
+          "icone": "0613fffffffffeffff9ffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Copa Paraná",
+          "evento": "Final (ida) - Athletico B x Paraná",
+          "canais": "YOUTUBE FPF TV PR",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Intercontinental Futsal",
+          "evento": "Pato x Palma-ESP",
+          "canais": "XSPORTS, Canal GolBR",
+          "icone": "0d030120901502b02068300600508",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "NBA",
+          "evento": "Boston Celtics x Orlando Magic",
+          "canais": "ESPN4",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "21:00",
+          "competicao": "NBA",
+          "evento": "CrunchTime - Simulcast",
+          "canais": "YOUTUBE NBA Brasil",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "Sada-Cruzeiro x Suzano",
+          "canais": "SPORTV2",
+          "icone": "0313ffdbdffefeffdcfffcdfffeab",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "22:00",
+          "competicao": "Concacaf Nations Leag",
+          "evento": "QF - Canadá x Guatemala (3x2)",
+          "canais": "YOUTUBE Canal GOAT",
+          "icone": "0613ffffffd56ffc88dfd95effcef",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "22:15",
+          "competicao": "NFL",
+          "evento": "Baltim. Ravens x LA Chargers",
+          "canais": "ESPN2",
+          "icone": "0d022005010054100471003910118",
+          "fonte": "esportesnatv",
+          "dura": 180
         }
       ]
     }
