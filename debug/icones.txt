@@ -1,21 +1,20 @@
-0603fffffffffffffffffffffffff  Golfe
-02020020001000220201000180000  EsquiAlpino
-0e123000000610007010500105000  ATP Finals
-02020400131036000162130600003  WTT Istambul
-0d02480008804c8808f8808f84044  Turismo Nacional
-0e13fffffffffffffffffffffffff  Surfe
-0e121050010803146042611260000  ATP Finals
-0613ffffffe66efe5dffc78cffdef  UEFA Nations League C
-0313ffebdffefeffedfffcdfffeab  Superliga Vôlei Masc
-0d0303058055761a2584823901174  LNF Silver Futsal
-02020000c000040052000000f0000  Skate
-02020000500011400005000451100  NFL em Munique
-01022000110003000020030000200  Stock Car
-02030005000022200038020360003  Rugby Nations
-0013fffffffffffffffffffffffff  Judô
-0613fffe8fff4cffe9cfff6effffa  Camp. Inglês Fem
-0613ffffffe56efe4defc78cffdef  UEFA Nations League C
-0613ffffffc66ffe8affe88dffeef  UEFA Nations League C
-0c0288000880008804c8808f8408c  Turismo Nacional
-0c020005220038000280001a0010a  NFL
-0d020005040055000591000910118  NFL
+0e020080110938000044001450000  ATP Finals
+0613fffeffd36efe9dffc76effdef  UEFA Nations League C
+0613ffffffe48fff9ccfc77effddf  UEFA Nations League C
+0613ffffffd48fff8bdfe54dffeef  UEFA Nations League C
+0613ffffffc88fff8befc57cffeef  UEFA Nations League C
+0613fffbfff784ffbd1ff7c3fffcf  UEFA Nations League
+0613fffcfff6a5ff8c4ff7c5ffecf  UEFA Nations League
+0613fffffff48eff8b9ff398fffdf  UEFA Nations League B
+0d020160002100623023030304402  Intercontinental Futsal
+0313ffdbdffdfeffdcfffcdfffeab  Superliga Vôlei Masc
+0413ffdbdffcfeffdceffcdfffe9b  Superliga Vôlei Masc
+0113fffffffffffffffffffffffff  NBB
+0613fffffffffeffff9ffffffffff  Amistoso sub20
+0613fffffffffffffffffffffffff  Copa Paraná
+0d030120901502b02068300600508  Intercontinental Futsal
+0313ffdbdffefeffdcfffcdfffeab  Superliga Vôlei Masc
+0113fffffffffffffffffffffffff  NBA
+0113fffffffffffffffffffffffff  NBA
+0613ffffffd56ffc88dfd95effcef  Concacaf Nations Leag
+0d022005010054100471003910118  NFL
