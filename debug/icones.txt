@@ -1,20 +1,25 @@
-0e020080110938000044001450000  ATP Finals
-0613fffeffd36efe9dffc76effdef  UEFA Nations League C
-0613ffffffe48fff9ccfc77effddf  UEFA Nations League C
-0613ffffffd48fff8bdfe54dffeef  UEFA Nations League C
-0613ffffffc88fff8befc57cffeef  UEFA Nations League C
-0613fffbfff784ffbd1ff7c3fffcf  UEFA Nations League
-0613fffcfff6a5ff8c4ff7c5ffecf  UEFA Nations League
-0613fffffff48eff8b9ff398fffdf  UEFA Nations League B
-0d020160002100623023030304402  Intercontinental Futsal
-0313ffdbdffdfeffdcfffcdfffeab  Superliga Vôlei Masc
-0413ffdbdffcfeffdceffcdfffe9b  Superliga Vôlei Masc
+0613fffffffffffffffffffffffff  Amistoso
+0e020043000663004000800222000  ATP Finals
+0e120230000802182068524540002  ATP Finals
+0113fffffffffffffffffffffffff  Euroliga
+0e023044000904003060300320012  ATP Finals
+0613fffbfff584ffba2ff3b3fffaf  UEFA Nations League
+0613ffecfff577ffbd3ff687ffecf  UEFA Nations League
+0613fffffff38aff8c7ff899ffedf  UEFA Nations League B
+0613fffffff48cff7bbff78affedf  UEFA Nations League B
+0613ffeffff37aff8b6ff79affecf  UEFA Nations League B
+0613fffefff38afc8a6ff49bffeef  UEFA Nations League B
+0313ffebeffefeffbceffcdfffeba  Superliga Vôlei Fem
+0613ffccffd49efe9b9fb89fffcef  Copa do Brasil sub-20
+0613fffffffabefb97bff9befffff  Paulistão Feminino
 0113fffffffffffffffffffffffff  NBB
-0613fffffffffeffff9ffffffffff  Amistoso sub20
-0613fffffffffffffffffffffffff  Copa Paraná
-0d030120901502b02068300600508  Intercontinental Futsal
-0313ffdbdffefeffdcfffcdfffeab  Superliga Vôlei Masc
+0613fffffffffffffffffffffffff  Amistoso
+0113fffffffffffffffffffffffff  NBB
+0313fffbeffefeffcdeffcdfffeba  Superliga Vôlei Fem
+0613fffc9ffc3dffcacffd5bfffdc  Paulistão Feminino
+0613ffefffd66fff94cfd76effdef  Concacaf Nations Leag
+0113fffffffffffffffffffffffff  NCAA Basquete
 0113fffffffffffffffffffffffff  NBA
+0613ffffffd66ffc89dfb75effcdf  Concacaf Nations Leag
+0113fffffffffffffffffffffffff  NCAA Basquete
 0113fffffffffffffffffffffffff  NBA
-0613ffffffd56ffc88dfd95effcef  Concacaf Nations Leag
-0d022005010054100471003910118  NFL
