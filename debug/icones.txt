@@ -1,25 +1,22 @@
-0613fffffffffffffffffffffffff  Amistoso
-0e020043000663004000800222000  ATP Finals
-0e120230000802182068524540002  ATP Finals
 0113fffffffffffffffffffffffff  Euroliga
-0e023044000904003060300320012  ATP Finals
-0613fffbfff584ffba2ff3b3fffaf  UEFA Nations League
-0613ffecfff577ffbd3ff687ffecf  UEFA Nations League
-0613fffffff38aff8c7ff899ffedf  UEFA Nations League B
-0613fffffff48cff7bbff78affedf  UEFA Nations League B
-0613ffeffff37aff8b6ff79affecf  UEFA Nations League B
-0613fffefff38afc8a6ff49bffeef  UEFA Nations League B
-0313ffebeffefeffbceffcdfffeba  Superliga Vôlei Fem
-0613ffccffd49efe9b9fb89fffcef  Copa do Brasil sub-20
-0613fffffffabefb97bff9befffff  Paulistão Feminino
+0613ffecffb37dfeaaafb76cffdcf  Champ. League (Fem.)
+0613ffccffd48eff9b9fc88fffdef  Champ. League (Fem.)
+0613ffddffb28effbb9fc78bffccf  Copa do Brasil sub-20
+0e122076001704202031301350000  ATP Finals
+0d03010651660a065163142102320  Espanhol de Futsal
+0d030002102343094210033600040  Intercontinental Futsal
+0613ffedffd18efe9a8fc76effdef  Champ. League (Fem.)
+0613ffccffc48dfd9abfb76effcdf  Champ. League (Fem.)
+0313fffbeffffeffccdffcdfffeba  Superliga Vôlei Fem
 0113fffffffffffffffffffffffff  NBB
-0613fffffffffffffffffffffffff  Amistoso
-0113fffffffffffffffffffffffff  NBB
-0313fffbeffefeffcdeffcdfffeba  Superliga Vôlei Fem
-0613fffc9ffc3dffcacffd5bfffdc  Paulistão Feminino
-0613ffefffd66fff94cfd76effdef  Concacaf Nations Leag
-0113fffffffffffffffffffffffff  NCAA Basquete
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0d030060004200541022630302300  Intercontinental Futsal
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0413ffebeffefeffbddffcefffeb9  Superliga Vôlei Fem
 0113fffffffffffffffffffffffff  NBA
-0613ffffffd66ffc89dfb75effcdf  Concacaf Nations Leag
-0113fffffffffffffffffffffffff  NCAA Basquete
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+01020000200015000440001140000  NHL
 0113fffffffffffffffffffffffff  NBA
