@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-18T03:42:52-03:00",
+  "gerado_em": "2026-11-18T14:48:09-03:00",
   "primeiro_dia": "2026-11-18",
   "fontes": [
     "Esportes na TV",
@@ -16,8 +16,7 @@
           "evento": "Alcaraz x Medvedev",
           "canais": "ESPN2",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
