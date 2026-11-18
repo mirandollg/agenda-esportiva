@@ -1,11 +1,11 @@
 {
-  "gerado_em": "2026-11-18T14:48:09-03:00",
+  "gerado_em": "2026-11-18T20:55:15-03:00",
   "primeiro_dia": "2026-11-18",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 23,
+  "total": 42,
   "dias": [
     {
       "data": "2026-11-18",
@@ -32,8 +32,7 @@
           "evento": "Real Madrid F x Inter F",
           "canais": "ESPN4",
           "icone": "0613ffecffb37dfeaaafb76cffdcf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:45",
@@ -49,8 +48,7 @@
           "evento": "Cobolli x Tiafoe",
           "canais": "ESPN2",
           "icone": "0e122076001704202031301350000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:30",
@@ -58,8 +56,7 @@
           "evento": "SF (ida) - Operário-PR x Palmeiras",
           "canais": "SPORTV",
           "icone": "0613ffddffb28effbb9fc78bffccf",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "16:45",
@@ -75,8 +72,7 @@
           "evento": "Chelsea F x PSG F",
           "canais": "ESPN",
           "icone": "0613ffedffd18efe9a8fc76effdef",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -84,8 +80,7 @@
           "evento": "Juventus F x Leuven-BEL F",
           "canais": "ESPN4",
           "icone": "0613ffccffc48dfd9abfb76effcdf",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "17:00",
@@ -101,8 +96,7 @@
           "evento": "Barueri x Brasília",
           "canais": "SPORTV2",
           "icone": "0313fffbeffffeffccdffcdfffeba",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -202,6 +196,175 @@
           "canais": "ESPN2",
           "icone": "0113fffffffffffffffffffffffff",
           "fonte": "esportesnatv"
+        }
+      ]
+    },
+    {
+      "data": "2026-11-19",
+      "eventos": [
+        {
+          "hora": "01:00",
+          "competicao": "Fórmula 1",
+          "evento": "GP de Las Vegas - treino livre 2",
+          "canais": "SPORTV3",
+          "icone": "0e023000600006000060000600003",
+          "fonte": "esportesnatv",
+          "dura": 85
+        },
+        {
+          "hora": "10:00",
+          "competicao": "ATP Finals",
+          "evento": "Shelton x Jodar",
+          "canais": "ESPN2",
+          "icone": "0e020053110a38001043101550000",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "14:45",
+          "competicao": "Champ. League (Fem.)",
+          "evento": "Austria Vienna F x Bayern F",
+          "canais": "ESPN4",
+          "icone": "0613ffedffd39ffd9a8fc56effcef",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "16:00",
+          "competicao": "Euroliga",
+          "evento": "Bayern x Baskonia",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "ATP Finals",
+          "evento": "Zverev x Fils",
+          "canais": "ESPN2",
+          "icone": "0e120032010804313050120320021",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Champ. League (Fem.)",
+          "evento": "Arsenal F x Lyon F",
+          "canais": "ESPN, ESPN4",
+          "icone": "0613ffccffc26effbbbfc78bffccf",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Fem",
+          "evento": "Mackenzie x Brusque",
+          "canais": "YOUTUBE GETV",
+          "icone": "0413fffbeffefeffbddffcefffeb9",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "Intercontinental Futsal",
+          "evento": "Final - Palma-ESP x Pato ou Sporting",
+          "canais": "ASFURIOS, BANUSFURIS, YOUTUBE Canal Gol BR",
+          "icone": "0d020160014300632020420304300",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:00",
+          "competicao": "NBB",
+          "evento": "Unifacisa x Flamengo",
+          "canais": "SPORTV3",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Vasco x Internacional",
+          "canais": "SPORTV-PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Vitória x Red Bull Bragantino",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "NBB",
+          "evento": "Pato x Corinthians; 20h00 Pinheiros x Cruzeiro, Osasco x Minas",
+          "canais": "YOUTUBE NBB",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Superliga Vôlei Fem",
+          "evento": "Osasco x Pinheiros",
+          "canais": "SPORTV2",
+          "icone": "0313fffbeffefeffcddffcefffeb9",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Brasileirão",
+          "evento": "São Paulo x Fluminense",
+          "canais": "GLOBO, PREMIERE, YOUTUBE GETV",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:30",
+          "competicao": "Fórmula 1",
+          "evento": "GP de Las Vegas - treino livre 1",
+          "canais": "SPORTV3",
+          "icone": "01020000630006300060000600006",
+          "fonte": "esportesnatv",
+          "dura": 60
+        },
+        {
+          "hora": "21:30",
+          "competicao": "NCAA Fut. Americano",
+          "evento": "Templex Rice",
+          "canais": "ESPN3",
+          "icone": "13022005140031400143001040400",
+          "fonte": "esportesnatv",
+          "dura": 180
+        },
+        {
+          "hora": "21:30",
+          "competicao": "NHL",
+          "evento": "TB Lightining x Edmonton Oilers",
+          "canais": "ESPN2",
+          "icone": "10020000200015000240001250000",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "22:00",
+          "competicao": "NBA",
+          "evento": "San Antonio Spurs x LA Clippers",
+          "canais": "PRIME VIDEO",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "22:15",
+          "competicao": "NFL",
+          "evento": "Houston Texans x Indian. Colts",
+          "canais": "SPORTV2, GE TV",
+          "icone": "09020004000062200052001502002",
+          "fonte": "esportesnatv",
+          "dura": 45
         }
       ]
     }
