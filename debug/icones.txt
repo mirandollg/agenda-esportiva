@@ -1,22 +1,20 @@
+0e020053110a38001043101550000  ATP Finals
+0613ffedffd39ffd9a8fc56effcef  Champ. League (Fem.)
 0113fffffffffffffffffffffffff  Euroliga
-0613ffecffb37dfeaaafb76cffdcf  Champ. League (Fem.)
-0613ffccffd48eff9b9fc88fffdef  Champ. League (Fem.)
-0613ffddffb28effbb9fc78bffccf  Copa do Brasil sub-20
-0e122076001704202031301350000  ATP Finals
-0d03010651660a065163142102320  Espanhol de Futsal
-0d030002102343094210033600040  Intercontinental Futsal
-0613ffedffd18efe9a8fc76effdef  Champ. League (Fem.)
-0613ffccffc48dfd9abfb76effcdf  Champ. League (Fem.)
-0313fffbeffffeffccdffcdfffeba  Superliga Vôlei Fem
+0e120032010804313050120320021  ATP Finals
+0613ffccffc26effbbbfc78bffccf  Champ. League (Fem.)
+0613ffedffc19dfd9a8fa66effdef  Champ. League (Fem.)
+0413fffbeffefeffbddffcefffeb9  Superliga Vôlei Fem
+0113fffffffffffffffffffffffff  NBB
+0d020160014300632020420304300  Intercontinental Futsal
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0313fffbeffefeffcddffcefffeb9  Superliga Vôlei Fem
 0113fffffffffffffffffffffffff  NBB
 0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-0d030060004200541022630302300  Intercontinental Futsal
-0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-0413ffebeffefeffbddffcefffeb9  Superliga Vôlei Fem
+01020000630006300060000600006  Fórmula 1
+10020000200015000240001250000  NHL
+13022005140031400143001040400  NCAA Fut. Americano
 0113fffffffffffffffffffffffff  NBA
-0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-01020000200015000440001140000  NHL
-0113fffffffffffffffffffffffff  NBA
+09020004000062200052001502002  NFL
+0e023000600006000060000600003  Fórmula 1
