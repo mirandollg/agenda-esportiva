@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-20T03:32:17-03:00",
+  "gerado_em": "2026-11-20T14:33:54-03:00",
   "primeiro_dia": "2026-11-20",
   "fontes": [
     "Esportes na TV",
@@ -78,8 +78,7 @@
           "evento": "Alcaraz x Cobolli",
           "canais": "ESPN2",
           "icone": "0e020042000644000000600142000",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:15",
@@ -88,8 +87,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Treino Oficial",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:05",
@@ -98,8 +96,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Treino Oficial",
-          "fonte": "tomadadetempo",
-          "dura": 45
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:10",
@@ -117,8 +114,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Treino Oficial",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "13:30",
@@ -263,7 +259,7 @@
           "etapa": "GP de Las Vegas",
           "sessao": "Treino Livre 3",
           "fonte": "tomadadetempo",
-          "dura": 90
+          "dura": 60
         },
         {
           "hora": "21:30",
