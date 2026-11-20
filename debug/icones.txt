@@ -1,20 +1,23 @@
-0e020053110a38001043101550000  ATP Finals
-0613ffedffd39ffd9a8fc56effcef  Champ. League (Fem.)
-0113fffffffffffffffffffffffff  Euroliga
-0e120032010804313050120320021  ATP Finals
-0613ffccffc26effbbbfc78bffccf  Champ. League (Fem.)
-0613ffedffc19dfd9a8fa66effdef  Champ. League (Fem.)
-0413fffbeffefeffbddffcefffeb9  Superliga Vôlei Fem
+0e020042000644000000600142000  ATP Finals
+0613fffa9ffa7affb9affc67fffdc  Campeonato Russo
+0e121011000120126100630016000  Billie Jean King Cup
+0613fffffffffafffbaffff9fffff  Camp. Saudita
+0613ffff9fffb3fffcafffd5ffffe  Bundesliga 22 Div
+0613ffffbfffc1fffb9fffc4ffffd  Bundesliga 22 Div
+0613ffff9fff87fffa9fff97ffffa  Camp. Norueguês
+0e122010022613007530840043000  ATP Finals
+0613fffffffffffffffffffffffff  Bundesliga
+0613fffffffffffffffffffffffff  Liga
+0613fffffffff8ffffbffffafffff  Taça de Portugal
 0113fffffffffffffffffffffffff  NBB
-0d020160014300632020420304300  Intercontinental Futsal
-0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-0313fffbeffefeffcddffcefffeb9  Superliga Vôlei Fem
 0113fffffffffffffffffffffffff  NBB
-0613fffffffffffffffffffffffff  Brasileirão
-01020000630006300060000600006  Fórmula 1
-10020000200015000240001250000  NHL
-13022005140031400143001040400  NCAA Fut. Americano
-0113fffffffffffffffffffffffff  NBA
-09020004000062200052001502002  NFL
-0e023000600006000060000600003  Fórmula 1
+0313ffdbdffefeffedfffcdfffe9b  Superliga Vôlei Masc
+0313ffcbdffdfeffdcfffcdfffebb  Superliga Vôlei Masc
+0d030000210020070410111100080  LNF Futsal
+0113fffffffffffffffffffffffff  NBB
+0313ffebdffdfeffddfffcdfffeab  Superliga Vôlei Masc
+0113fffffffffffffffffffffffff  NBA (Cup)
+17020000840008600004000641120  NCAA Fut. Americano
+1713fffffffffffffffffffffffff  MMA
+0113fffffffffffffffffffffffff  NBA (Cup)
+0e026000360006300063000600003  Fórmula 1

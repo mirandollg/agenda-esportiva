@@ -1,14 +1,18 @@
-https://cdn1.telesco.pe/file/clytaHb8EHGMtnrTb9cEiNyvgXj2EC7QCBfbkU51tAAgohDtTUcU5a0GbO21NrLpkH0Gij-lqJESlGEFEj0Eck2QUrjEA3KShgxC1eJkj26U0dWd4E28OwOVgcACMxePCsKY_t6ZokRVWbbVWUKee2qdOBmRD2mLT6gp8tRa8K1WE1tLU2CxBbETHgdK591oRZ8i1_LRwRXCI8WLfcEn59OKwDGA9F1ZJBcK9KEmFIM-LkhsIDh1IuLN94sHAmXZajk5RaI19mZNIKIKKNlIGzuR31RzQhOqvlG_6P6QGvkpGBrBoBi7oAJ1vK_km3ycJGdQ3JkeMQEQqq57HHRZag.jpg
-data: 2026-11-15
-colunas: [(2, 43), (43, 209), (209, 333), (333, 455), (469, 622)]
+https://cdn1.telesco.pe/file/vk6aaKxIQP3cd3dJeKGJzBFnMb1HHl69SpEFEQh6YdEIZEnCKFZPURsq6-LhmL_s6M3mg-VDFh-P3KuTiIYji-tAyIybB3Gv6_gJBX8jxqVTinUvrqboBZ099iTtszbAANiBgoQNf2cIcyel7KqHz_rKywmsPZVP5s_YZbK94HyAgyb0yQ2kHh25vJQ8yH8QOiJNNwTukiwy5YqUWH3FREnE8e_HJAc1TbYvWFExMNoSBtsWmYQfZxdCGRyxfUeKUvGoVWBbvu41sMW-Vbx28CWfde_hPhvs7G5sKWKe90FEAzVTJrwnmETzAxI9CpgZ5WzZZdFgLYAva0K96sfIAg.jpg
+data: 2026-11-20
+colunas: [(5, 35), (42, 192), (213, 330), (337, 431), (476, 619)]
 
-y=118-129 | 2) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
-y=138-147 | 05:00 || ASIAN LE MANS CUP || Le Castellet || Corrida 2 || E YOUTUBE
-y=156-169 | 07:15 || ACADEMIA CAMPEÕES DO FUTURO || Itália || Provas Domingo || YOUTUBE
-y=175-187 | 08:15 * || TURISMO NACIONAL || Velopark || Corrida 3 || YOUTUBE | BANDSPORTS
-y=193-203 | 08:50 || ASIAN LE MANS SERIES || Le Castellet || Corrida 2 || à YOUTUBE
-y=212-224 | 09:45 || HSR CLASSIC (24 HS) || Daytona || Corrida (Parte 2) || YOUTUBE
-y=230-242 | 12:10: || STOCK CAR || Velopark || Corrida do Milhão || YOUTUBE | BAND | BANDSPORTS
-y=249-261 | 12:50 + || VELOCIDADE NA TERRA (ZANOELLO) || Lacerdópolis/SC || Provas || YOUTUBE
-y=267-280 | 13:40 * || TCR EUROPEAN ENDURANCE || Elviisano || Estágio 2 || YOUTUBE
-y=286-298 | 14:00 * || TURISMO NACIONAL || Velopark || Corrida 4 || YOUTUBE | BANDSPORTS
+y=118-129 | O) || CATEGORIA || ETAPA / PROGRAMA || SESSÃO || TRANSMISSÃO
+y=138-150 | 00:20 || SRO GT CUP || Macau || Classificação || YOUTUBE
+y=154-169 | 01:00 || FÓRMULA 1 || GP de Las Vegas || Treino Livre 2 || SPORTYS | FITY PRO | GLOBOZAY PR
+y=175-187 | 01:15 || TCR WORLD TOUR || Macau || Classificação || YOUTUBE
+y=193-206 | 02:30 || Fi ACADEMY || Las Vegas || Classificação || YOUTUBE | FITV PRO
+y=212-224 | 06:10 || FERRARI CHL EUROPE || Barcelona || Corrida 2 (Coppa) || YOUTUBE
+y=230-242 | 08:40 || FERRARI CHL EUROPE || Barcelona || Corrida 2 (Trofeo) || YOUTUBE
+y=249-261 | 10:15 || MOTO3 || Portugal || Treino Oficial || ESPN4 | DISNEY + PR
+y=267-280 | 11:05 || MOTO2Z || Portugal || Treino Oficial || ESPN4 | DISNEY + PR
+y=286-295 | 11:10 || FERRARICHL NA || Barcelona || Corrida 2 || YOUTUBE
+y=304-317 | 12:00 || MOTO GP || Portugal || Treino Oficial || ESPN4 | DISNEY + PR
+y=320-335 | 21:30 || FÓRMULA 1 || GP de Las Vegas || Treino Livre 3 || SPORTY3 | FITY PRO | GLOBOXAY ER
+y=341-350 | 22:15 || FIA KARTING WORLD CUP || Malásia || Provas Sábado || YOUTUBE
+y=360-372 | 23:15 || Ff ACADEMY || Las Vegas || Corrida 1 || YOUTUBE | FITV PRO
