@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-21T03:23:30-03:00",
+  "gerado_em": "2026-11-21T13:37:36-03:00",
   "primeiro_dia": "2026-11-21",
   "fontes": [
     "Esportes na TV",
@@ -70,8 +70,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Treino Livre 2",
-          "fonte": "tomadadetempo",
-          "dura": 35
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "07:50",
@@ -80,8 +79,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 40
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:00",
@@ -106,8 +104,7 @@
           "evento": "Sail GP - etapa de Dubai",
           "canais": "SPORTV, BANDSPORTS",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:20",
@@ -159,8 +156,7 @@
           "evento": "Manchester City x Fulham",
           "canais": "ESPN",
           "icone": "0613fffffffffeffff9ffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:45",
@@ -177,8 +173,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 50
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:00",
@@ -194,8 +189,7 @@
           "evento": "SF - Alcaraz x Shelton",
           "canais": "ESPN2",
           "icone": "0e120130000704251057016470023",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
@@ -213,8 +207,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Classificação",
-          "fonte": "tomadadetempo",
-          "dura": 50
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "11:00",
@@ -222,8 +215,7 @@
           "evento": "QF - São Paulo F x Santos F (3x1)",
           "canais": "RECORD NEWS, HBO MAX, YOUTUBE CazéTV",
           "icone": "0613fffffff9befca7bff9aefffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -231,8 +223,7 @@
           "evento": "Lazio x Lecce",
           "canais": "ESPN3",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -298,8 +289,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Corrida Sprint",
-          "fonte": "tomadadetempo",
-          "dura": 55
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:00",
@@ -375,8 +365,7 @@
           "evento": "Etapa de Interlagos - corrida 1",
           "canais": "BANDSPORTS, YOUTUBE Porsche Cup",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "13:00",
@@ -514,7 +503,7 @@
           "canais": "BANDSPORTS, CBFS TV",
           "icone": "0d020014500020611a10064404665",
           "fonte": "esportesnatv",
-          "dura": 135
+          "dura": 90
         },
         {
           "hora": "16:00",
@@ -633,7 +622,7 @@
           "canais": "BANDSPORTS, YOUTUBE",
           "icone": "02024000000000000008003480010",
           "fonte": "esportesnatv",
-          "dura": 210
+          "dura": 105
         },
         {
           "hora": "18:30",
@@ -660,7 +649,7 @@
           "etapa": "Cascavel/PR",
           "sessao": "Corrida",
           "fonte": "tomadadetempo",
-          "dura": 180
+          "dura": 75
         },
         {
           "hora": "19:00",
