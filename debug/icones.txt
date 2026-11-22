@@ -1,20 +1,20 @@
-0a020000800006000146001280006  Fórmula 1
-01120000400003000030000310001  MotoGP
-0e13fffffffffffffffffffffffff  Surf Brasil Pro
-0613fffffffffeffff9ffffffffff  Premier League
-0613ffffcfffc1fffcbfffd4ffffe  Bundesliga 22 Div
-01026000160004300006000060000  Moto3 e Moto2
-0613fffebfff5effdaefff6dfffec  Camp. Inglês Fem
+0a020000600008000166001280002  Fórmula 1
+02020100600043000004000001000  Skate Street
+02022000001000000034200111000  EsquiAlpino
+02023000430009600066000040000  Moto3 e Moto?
+04024000a0000b1501a2001b01006  Vela
+0613fffb8ffa7affa8bffb77fffdc  Campeonato Russo
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffabff777ffba7ff995fffce  Camp. Inglês 22 Div
+0613ffffbfffc2fffc8fffc7ffffd  Bundesliga 22 Div
+0613ffffafffb2fffb4fffc5ffffb  Bundesliga 22 Div
+01021000190004600096000040000  MotoGP
 0613fffffffffffffffffffffffff  Liga
-0e120130000704251057016470023  ATP Finals
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffff9befca7bff9aefffff  Paulistão Feminino
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffffffffffffffffffffffff  Bundesliga
-0613fffbaffa5affac9ffc78fffdc  Campeonato Russo
-0613fffffffffdffffaffffdfffff  Premier League
+0613fffbaffa68ffa8bffc78fffcc  Campeonato Russo
+0613fffffffff7ffff9ffffafffff  Camp. Holandês
 0613fffffffffeffffaffffffffff  Premier League
-0613ffffffffbafff8bfffb9fffff  Premier League
+0613fffffffffffffffffffffffff  Serie A Italiana
+0613fffffffff6ffffbffff5ffffe  Ligue 1 Francesa
+0613fffcbffc5cff9acffe4afffdc  Paulistão Feminino
+0613ffffefffe4fffd7fffe5ffffd  Mineiro Feminino
+0113fffffffffffffffffffffffff  NBB
