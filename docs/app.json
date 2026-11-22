@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T02:54:52-03:00",
+  "gerado_em": "2026-11-22T13:54:37-03:00",
   "primeiro_dia": "2026-11-22",
   "fontes": [
     "Esportes na TV",
@@ -17,8 +17,7 @@
           "canais": "GLOBO, SPORTV3, GLOBOPLAY",
           "etapa": "GP de Las Vegas",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 160
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "01:10",
@@ -35,8 +34,7 @@
           "evento": "Copa do Mundo - Japão - semifinais",
           "canais": "SPORTV2",
           "icone": "02020100600043000004000001000",
-          "fonte": "esportesnatv",
-          "dura": 30
+          "fonte": "esportesnatv"
         },
         {
           "hora": "03:50",
@@ -61,8 +59,7 @@
           "evento": "GP de Portugal",
           "canais": "ESPN4",
           "icone": "02023000430009600066000040000",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:00",
@@ -78,8 +75,7 @@
           "evento": "Sail GP - etapa de Dubai",
           "canais": "SPORTV2, BANDSPORTS",
           "icone": "04024000a0000b1501a2001b01006",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "08:15",
@@ -88,8 +84,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "08:30",
@@ -114,8 +109,7 @@
           "evento": "Burnley x Blackburn",
           "canais": "ESPN",
           "icone": "0613fffabff777ffba7ff995fffce",
-          "fonte": "esportesnatv",
-          "dura": 115
+          "fonte": "esportesnatv"
         },
         {
           "hora": "09:00",
@@ -157,8 +151,7 @@
           "evento": "Etapa de Interlagos - corrida 2",
           "canais": "BANDSPORTS, YOUTUBE",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 55
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:00",
@@ -175,8 +168,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Corrida Principal",
-          "fonte": "tomadadetempo",
-          "dura": 75
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "10:15",
@@ -193,8 +185,7 @@
           "evento": "Ajax x ADO Den Haag",
           "canais": "ESPN3",
           "icone": "0613fffffffff7ffff9ffffafffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
@@ -202,8 +193,7 @@
           "evento": "Dyn. Makhachkala x Spartak",
           "canais": "BANDSPORTS",
           "icone": "0613fffbaffa68ffa8bffc78fffcc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -211,8 +201,7 @@
           "evento": "Final -Arevalo/Pavic x Arribage/Olivetti",
           "canais": "ESPN2",
           "icone": "0e120420000804251078016420020",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -252,8 +241,7 @@
           "evento": "QF - Corinthians F x Red Bull F (0x2)",
           "canais": "SPORTV",
           "icone": "0613fffcbffc5cff9acffe4afffdc",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -261,8 +249,7 @@
           "evento": "Hull City x Brighton",
           "canais": "ESPN",
           "icone": "0613fffffffffeffffaffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -287,8 +274,7 @@
           "canais": "ESPN4, DISNEY+ PR",
           "etapa": "Portugal",
           "sessao": "Corrida",
-          "fonte": "tomadadetempo",
-          "dura": 60
+          "fonte": "tomadadetempo"
         },
         {
           "hora": "12:15",
