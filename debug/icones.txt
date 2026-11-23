@@ -1,20 +1,18 @@
-0a020000600008000166001280002  Fórmula 1
-02020100600043000004000001000  Skate Street
-02022000001000000034200111000  EsquiAlpino
-02023000430009600066000040000  Moto3 e Moto?
-04024000a0000b1501a2001b01006  Vela
-0613fffb8ffa7affa8bffb77fffdc  Campeonato Russo
+01021110002100010000010002002  Skate Street
+0613ffe9efe3d5fcbd2ff5d1ffe9f  AFC Champ. League
+0e13fffffffffffffffffffffffff  Surf Brasil Pro
+0d030244443836126464161600521  Espanhol de Futsal
 0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffabff777ffba7ff995fffce  Camp. Inglês 22 Div
-0613ffffbfffc2fffc8fffc7ffffd  Bundesliga 22 Div
-0613ffffafffb2fffb4fffc5ffffb  Bundesliga 22 Div
-01021000190004600096000040000  MotoGP
+0613fffffffffeffff9ffffffffff  Premier League
 0613fffffffffffffffffffffffff  Liga
-0613fffbaffa68ffa8bffc78fffcc  Campeonato Russo
-0613fffffffff7ffff9ffffafffff  Camp. Holandês
-0613fffffffffeffffaffffffffff  Premier League
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffff6ffffbffff5ffffe  Ligue 1 Francesa
-0613fffcbffc5cff9acffe4afffdc  Paulistão Feminino
-0613ffffefffe4fffd7fffe5ffffd  Mineiro Feminino
-0113fffffffffffffffffffffffff  NBB
+0613fffffffff8ffffbffffafffff  Camp. Argentino
+0413ffebdffdfeffcceffcdfffeab  Superliga Vôlei Masc
+0313fffbeffefeffcdeffcdfffeba  Superliga Vôlei Fem
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0613fffffffffffffffffffffffff  Brasileirão
+0313ffebeffefeffbdeffcdfffeb9  Superliga Vôlei Fem
+0113fffffffffffffffffffffffff  NBA
+0113fffffffffffffffffffffffff  NBA
+0d020115020164100290000810006  NFL
+0113fffffffffffffffffffffffff  NBA

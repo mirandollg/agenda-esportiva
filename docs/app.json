@@ -1,10 +1,166 @@
 {
-  "gerado_em": "2026-11-23T03:44:03-03:00",
+  "gerado_em": "2026-11-23T17:56:12-03:00",
   "primeiro_dia": "2026-11-23",
   "fontes": [
     "Esportes na TV",
     "Tomada de Tempo"
   ],
-  "total": 0,
-  "dias": []
+  "total": 18,
+  "dias": [
+    {
+      "data": "2026-11-23",
+      "eventos": [
+        {
+          "hora": "00:00",
+          "competicao": "NBA",
+          "evento": "Sacramento Kings xS Ant. Spurs",
+          "canais": "ESPN4",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "00:30",
+          "competicao": "Skate Street",
+          "evento": "Copa do Mundo - Japão - finais (Rayssa Leal campeã!)",
+          "canais": "SPORTV2",
+          "icone": "01021110002100010000010002002",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "10:45",
+          "competicao": "AFC Champ. League",
+          "evento": "Neftchi Fargona-UZB x Al Hilal",
+          "canais": "ESPN4",
+          "icone": "0613ffe9efe3d5fcbd2ff5d1ffe9f",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "11:00",
+          "competicao": "Surf Brasil Pro",
+          "evento": "Etapa da Guarda do Embaú",
+          "canais": "XSPORTS, YOUTUBE",
+          "icone": "0e13fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:30",
+          "competicao": "Espanhol de Futsal",
+          "evento": "Palma x Inter",
+          "canais": "YOUTUBE Canal Gol BR",
+          "icone": "0d030244443836126464161600521",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "16:45",
+          "competicao": "Serie A Italiana",
+          "evento": "Monza x Fiorentina",
+          "canais": "SportyNet, YOUTUBE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Camp. Argentino",
+          "evento": "OF - Gimnasia La Plata x Newell's",
+          "canais": "ESPN4",
+          "icone": "0613fffffffff8ffffbffffafffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Liga",
+          "evento": "Levante x Elche",
+          "canais": "YOUTUBE CazéTV",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "17:00",
+          "competicao": "Premier League",
+          "evento": "Brentford x Everton",
+          "canais": "ESPN",
+          "icone": "0613fffffffffeffff9ffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Fem",
+          "evento": "Minas x SESI-Bauru",
+          "canais": "YOUTUBE GETV",
+          "icone": "0313fffbeffefeffcdeffcdfffeba",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "18:30",
+          "competicao": "Superliga Vôlei Masc",
+          "evento": "SESI-Bauru x Norde",
+          "canais": "SPORTV2",
+          "icone": "0413ffebdffdfeffcceffcdfffeab",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "19:30",
+          "competicao": "Brasileirão",
+          "evento": "Internacional x Vitória",
+          "canais": "PREMIERE",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "20:00",
+          "competicao": "Brasileirão",
+          "evento": "Botafogo x São Paulo",
+          "canais": "PRIME VIDEO",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Brasileirão",
+          "evento": "Santos x Grêmio",
+          "canais": "SPORTV-PREMIERE 3",
+          "icone": "0613fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "NBA",
+          "evento": "CrunchTime - Simulcast",
+          "canais": "YOUTUBE NBA Brasil",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv"
+        },
+        {
+          "hora": "21:00",
+          "competicao": "Superliga Vôlei Fem",
+          "evento": "SESC-Flamengo x Osasco",
+          "canais": "SPORTV2",
+          "icone": "0313ffebeffefeffbdeffcdfffeb9",
+          "fonte": "esportesnatv",
+          "dura": 120
+        },
+        {
+          "hora": "21:30",
+          "competicao": "NBA",
+          "evento": "Minn. T'wolves x Brooklyn Nets",
+          "canais": "ESPN4",
+          "icone": "0113fffffffffffffffffffffffff",
+          "fonte": "esportesnatv",
+          "dura": 150
+        },
+        {
+          "hora": "22:15",
+          "competicao": "NFL",
+          "evento": "W. Commanders x Cinc. Bengals",
+          "canais": "ESPN2",
+          "icone": "0d020115020164100290000810006",
+          "fonte": "esportesnatv",
+          "dura": 180
+        }
+      ]
+    }
+  ]
 }
