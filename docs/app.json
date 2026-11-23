@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T19:18:11-03:00",
+  "gerado_em": "2026-11-22T23:57:31-03:00",
   "primeiro_dia": "2026-11-22",
   "fontes": [
     "Esportes na TV",
@@ -484,8 +484,7 @@
           "evento": "Final - Brusque x Pinhalense",
           "canais": "BANDSPORTS, YOUTUBE",
           "icone": "0313feaebfbefff9ffffbefffeafd",
-          "fonte": "esportesnatv",
-          "dura": 110
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:00",
@@ -509,8 +508,7 @@
           "evento": "Denv. Broncos x L Vegas Raiders",
           "canais": "ESPN2",
           "icone": "0b020015010062100044003530006",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "18:30",
@@ -526,8 +524,7 @@
           "evento": "Playoff (ida) - Atlético-GO x Vila Nova",
           "canais": "XSPORTS, ESPN, YOUTUBE Canal GOAT",
           "icone": "0613ffffffe9befcb7afeabdfffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:00",
@@ -535,8 +532,7 @@
           "evento": "OF - River Plate x Lanús",
           "canais": "ESPN3",
           "icone": "0613fffffffff6ffffbffff8fffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "19:30",
@@ -552,8 +548,7 @@
           "evento": "SF (ida) - Fazenda-PR x Traipu-AL",
           "canais": "BANDSPORTS, CBFS TV",
           "icone": "0d030906219515091280532205060",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "20:00",
@@ -577,8 +572,7 @@
           "evento": "Dallas Stars x Pittsb. Penguins",
           "canais": "ESPN3",
           "icone": "02020000400045000240000140000",
-          "fonte": "esportesnatv",
-          "dura": 150
+          "fonte": "esportesnatv"
         },
         {
           "hora": "22:20",
@@ -586,8 +580,7 @@
           "evento": "SF 49ers x Minnesota Vikings",
           "canais": "SPORTV2",
           "icone": "0d021004020054100381000910107",
-          "fonte": "esportesnatv",
-          "dura": 60
+          "fonte": "esportesnatv"
         },
         {
           "hora": "22:30",
