@@ -1,18 +1,25 @@
-01021110002100010000010002002  Skate Street
-0613ffe9efe3d5fcbd2ff5d1ffe9f  AFC Champ. League
 0e13fffffffffffffffffffffffff  Surf Brasil Pro
-0d030244443836126464161600521  Espanhol de Futsal
-0613fffffffffffffffffffffffff  Serie A Italiana
-0613fffffffffeffff9ffffffffff  Premier League
-0613fffffffffffffffffffffffff  Liga
-0613fffffffff8ffffbffffafffff  Camp. Argentino
-0413ffebdffdfeffcceffcdfffeab  Superliga Vôlei Masc
-0313fffbeffefeffcdeffcdfffeba  Superliga Vôlei Fem
+0613fffffffffffffffffffffffff  Mundial sub-17
+0e030450001306000805089022500  Copa Davis
+0613fffcbffd4cffaacffe7bfffdd  Champions League
+0613fffcaffa3cffabbffe6bfffc9  Champions League
+0613ffdaefe5b7fcbd2ff3a5ffedf  AFC Champ. League
+0113fffffffffffffffffffffffff  Euroliga
+0613fffb9ffd5dff9ccffe5afffde  Champions League
+0613fffc9ffd3dffc9cffd4afffde  Champions League
+0613fffbaffc4cff8bcffe6afffdd  Champions League
+0613fffffffabefcb6cff9bdfffff  Champions League
+0613fffaaff787ff9c7ff795fffbc  Camp. Inglês 22 Div
+0613fffffffffffffffffffffffff  Camp. Escocês
 0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffffffffffffffffffff  Brasileirão
-0313ffebeffefeffbdeffcdfffeb9  Superliga Vôlei Fem
-0113fffffffffffffffffffffffff  NBA
-0113fffffffffffffffffffffffff  NBA
-0d020115020164100290000810006  NFL
-0113fffffffffffffffffffffffff  NBA
+0313fffbeffefeffcddffcdfffeb9  Superliga Vôlei Fem
+0613ffffbfffb7fffabfffa8ffffd  Copinha Feminina
+0e030210003204834050331302120  Amistoso Futsal Fem
+0313fffbeffefeffbcdffcefffeb9  Superliga Vôlei Fem
+0613ffddffd57cff9a8fb5aeffcdf  Copa do Brasil sub-20
+0613ffff9fff86fffa9fffa5ffffa  Copinha Feminina
+0113fffffffffffffffffffffffff  NBA (Cup)
+0113fffffffffffffffffffffffff  NCAA Basquete
+03020000400045000240001010020  NHL
+0113fffffffffffffffffffffffff  NBA (Cup)
+0113fffffffffffffffffffffffff  NCAA Basquete
