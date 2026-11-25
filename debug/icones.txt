@@ -1,25 +1,29 @@
 0e13fffffffffffffffffffffffff  Surf Brasil Pro
 0613fffffffffffffffffffffffff  Mundial sub-17
 0e030450001306000805089022500  Copa Davis
-0613fffcbffd4cffaacffe7bfffdd  Champions League
-0613fffcaffa3cffabbffe6bfffc9  Champions League
-0613ffdaefe5b7fcbd2ff3a5ffedf  AFC Champ. League
+0613fffffffffffffffffffffffff  Mundial sub-17
 0113fffffffffffffffffffffffff  Euroliga
-0613fffb9ffd5dff9ccffe5afffde  Champions League
-0613fffc9ffd3dffc9cffd4afffde  Champions League
-0613fffbaffc4cff8bcffe6afffdd  Champions League
-0613fffffffabefcb6cff9bdfffff  Champions League
-0613fffaaff787ff9c7ff795fffbc  Camp. Inglês 22 Div
-0613fffffffffffffffffffffffff  Camp. Escocês
+0613fffccffd3cffaacffe5cfffde  Champions League
+0613fffaaffc5cffbabffe4cfffdc  Champions League
+0613ffc9ffc3b9fc8b5fd5b7ffecf  Copa da Rainha Fem
+0613fffffffffffffffffffffffff  Serie B Italiana
+0313ffdbeffbffffdffffcefffeba  Champions Vôlei Fem
+0613fffc9ffc3dffb8bffe5afffde  Champions League
+0613fffb9ffd4cffaacffe6afffdc  Champions League
+0613fffc9ffa3cffa9bffe5afffc9  Champions League
+0613fffcbffd3cffcbcffe6afffde  Champions League
+0613fffc9ffc5dffabbffd5bfffdc  Champions League
+0613fffcaffd3cff9bcffe49fffde  Champions League
+0613fffcaffd4cffcacffd5bfffcc  Champions League
+0613fffaaff898ff8c8ff985fffce  Camp. Inglês 22 Div
+0413fffbeffefeffbceffcdfffeba  Superliga Vôlei Fem
+0313ffdbdffdfefffceffddfffeab  Superliga Vôlei Masc
+0113fffffffffffffffffffffffff  NBA (Cup)
 0613fffffffffffffffffffffffff  Brasileirão
-0313fffbeffefeffcddffcdfffeb9  Superliga Vôlei Fem
-0613ffffbfffb7fffabfffa8ffffd  Copinha Feminina
-0e030210003204834050331302120  Amistoso Futsal Fem
-0313fffbeffefeffbcdffcefffeb9  Superliga Vôlei Fem
-0613ffddffd57cff9a8fb5aeffcdf  Copa do Brasil sub-20
-0613ffff9fff86fffa9fffa5ffffa  Copinha Feminina
+0613fffffffff8ffffaffffafffff  Camp. Argentino
+0613ffffbfff86fffabfff98ffffc  Copinha Feminina
+02020000400024000240001040000  NHL
 0113fffffffffffffffffffffffff  NBA (Cup)
-0113fffffffffffffffffffffffff  NCAA Basquete
-03020000400045000240001010020  NHL
 0113fffffffffffffffffffffffff  NBA (Cup)
-0113fffffffffffffffffffffffff  NCAA Basquete
+0d020015020064000591000910129  NFL
+0113fffffffffffffffffffffffff  NBA (Cup)
