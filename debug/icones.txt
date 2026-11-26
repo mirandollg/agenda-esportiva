@@ -1,29 +1,23 @@
+0e12002060010400522002a041300  Copa Davis
 0e13fffffffffffffffffffffffff  Surf Brasil Pro
 0613fffffffffffffffffffffffff  Mundial sub-17
-0e030450001306000805089022500  Copa Davis
-0613fffffffffffffffffffffffff  Mundial sub-17
-0113fffffffffffffffffffffffff  Euroliga
-0613fffccffd3cffaacffe5cfffde  Champions League
-0613fffaaffc5cffbabffe4cfffdc  Champions League
-0613ffc9ffc3b9fc8b5fd5b7ffecf  Copa da Rainha Fem
-0613fffffffffffffffffffffffff  Serie B Italiana
-0313ffdbeffbffffdffffcefffeba  Champions Vôlei Fem
-0613fffc9ffc3dffb8bffe5afffde  Champions League
-0613fffb9ffd4cffaacffe6afffdc  Champions League
-0613fffc9ffa3cffa9bffe5afffc9  Champions League
-0613fffcbffd3cffcbcffe6afffde  Champions League
-0613fffc9ffc5dffabbffd5bfffdc  Champions League
-0613fffcaffd3cff9bcffe49fffde  Champions League
-0613fffcaffd4cffcacffd5bfffcc  Champions League
-0613fffaaff898ff8c8ff985fffce  Camp. Inglês 22 Div
-0413fffbeffefeffbceffcdfffeba  Superliga Vôlei Fem
-0313ffdbdffdfefffceffddfffeab  Superliga Vôlei Masc
-0113fffffffffffffffffffffffff  NBA (Cup)
+0e020000600402005145016280410  Copa Davis
+0613fffffffffffffffffffffffff  Camp. Saudita
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffa9ffb3affbabffa69fffdc  Conference League
+0613ffffffe9befca9bfe9adfffff  Conference League
+0d020005000146000460012810005  NFL
+0313ffdbeffaffffdffffbefffeba  Champions Vôlei Fem
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffffffffffffffffff  Europa League
+0613fffffffffafffdaffffafffff  Europa League
+0613ffffffe8befbb9cfeacefffff  Conference League
+0d020005030053100270002900006  NFL
 0613fffffffffffffffffffffffff  Brasileirão
-0613fffffffff8ffffaffffafffff  Camp. Argentino
-0613ffffbfff86fffabfff98ffffc  Copinha Feminina
-02020000400024000240001040000  NHL
-0113fffffffffffffffffffffffff  NBA (Cup)
-0113fffffffffffffffffffffffff  NBA (Cup)
-0d020015020064000591000910129  NFL
-0113fffffffffffffffffffffffff  NBA (Cup)
+0613ffccffb29efeabafb77cffecf  Copa do Brasil sub-20
+0d030155122823014447343300022  LNF Talentos sub-20
+01020005000081500003000143001  NCAA Fut. Americano
+0d020015020064000591000910118  NFL
