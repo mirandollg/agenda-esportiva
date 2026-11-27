@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-27T04:36:05-03:00",
+  "gerado_em": "2026-11-27T15:41:53-03:00",
   "primeiro_dia": "2026-11-27",
   "fontes": [
     "Esportes na TV",
@@ -32,8 +32,7 @@
           "evento": "GP de Valencia - treino livre 2",
           "canais": "ESPN4",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 45
+          "fonte": "esportesnatv"
         },
         {
           "hora": "10:30",
@@ -41,8 +40,7 @@
           "evento": "GP do Qatar - treino livre 1",
           "canais": "SPORTV3",
           "icone": "",
-          "fonte": "esportesnatv",
-          "dura": 10
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:00",
@@ -50,8 +48,7 @@
           "evento": "Costa Rica s17 xBrasils17",
           "canais": "SPORTV2, CAZÉTV",
           "icone": "0613fffffffffffffffffffffffff",
-          "fonte": "esportesnatv",
-          "dura": 120
+          "fonte": "esportesnatv"
         },
         {
           "hora": "11:20",
@@ -75,8 +72,7 @@
           "evento": "GP do Qatar - classificação",
           "canais": "SPORTV3",
           "icone": "0e023000660006000060000600003",
-          "fonte": "esportesnatv",
-          "dura": 90
+          "fonte": "esportesnatv"
         },
         {
           "hora": "14:00",
