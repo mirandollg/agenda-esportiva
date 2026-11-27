@@ -1,23 +1,15 @@
-0e12002060010400522002a041300  Copa Davis
+09020000800006000146001280006  Fórmula 2
 0e13fffffffffffffffffffffffff  Surf Brasil Pro
 0613fffffffffffffffffffffffff  Mundial sub-17
-0e020000600402005145016280410  Copa Davis
 0613fffffffffffffffffffffffff  Camp. Saudita
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffa9ffb3affbabffa69fffdc  Conference League
-0613ffffffe9befca9bfe9adfffff  Conference League
-0d020005000146000460012810005  NFL
-0313ffdbeffaffffdffffbefffeba  Champions Vôlei Fem
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffffffffffffffffff  Europa League
-0613fffffffffafffdaffffafffff  Europa League
-0613ffffffe8befbb9cfeacefffff  Conference League
-0d020005030053100270002900006  NFL
-0613fffffffffffffffffffffffff  Brasileirão
-0613ffccffb29efeabafb77cffecf  Copa do Brasil sub-20
-0d030155122823014447343300022  LNF Talentos sub-20
-01020005000081500003000143001  NCAA Fut. Americano
-0d020015020064000591000910118  NFL
+0e023000660006000060000600003  Fórmula 2
+0e120014341201120117304230003  Copa Davis
+0c020003300053001336011230040  Fórmula 1
+0613fffffffff9fffcaffffafffff  Camp. Saudita
+0613ffffafffa1fffb9fffd5ffffd  Bundesliga 22 Div
+0613ffffbfffb3fffc9fffb5ffffc  Bundesliga 22 Div
+02020000400044000440000210020  NHL
+0613fffffffffffffffffffffffff  Bundesliga
+0613ffffeffff4fffe9ffff6fffff  Ligue 1 Francesa
+0613fffffffffeffffaffffffffff  Premier League
+0613fff9eff787ff9c7ffa76fffcd  Camp. Inglês 22 Div
